@@ -1,0 +1,7 @@
+# Ignore everything
+*
+!mods/**
+!mods
+!config/**
+!config
+!.gitignore
