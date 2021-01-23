@@ -29,3 +29,4 @@ lycanitesmobs:equipmentforge_master
 lycanitesmobs:equipment_infuser
 lycanitesmobs:summoningpedestal
 lycanitesmobs:equipmentforge_lesser
+
