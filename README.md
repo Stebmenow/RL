@@ -1,1 +1,1 @@
-# The Better RLCraft, in development
+# Alternative RLCraft, in development
