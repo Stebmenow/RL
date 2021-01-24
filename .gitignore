@@ -1,27 +1,8 @@
+#
+*
+!config
+!config/**
+!mods
+/mods/**
 config/jei
 config/InvTweaks
-
-patchouli_data.json
-usercache.json
-usernamecache.json
-modlist.html
-logs
-llibrary
-libraries
-downloads
-resources
-saves
-structures
-.curseclient
-manifest.json
-minecraftinstance.json
-options.txt
-optionsof.txt
-optionsshaders.txt
-RLCraft v2.8.2 Changelog.txt
-FOR SERVERS ONLY - SET THESE IN SERVER.PROPERTIES.txt
-crafttweaker.log
-scripts
-crash-reports
-.mixin.out
-bendspacks
