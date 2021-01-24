@@ -7,3 +7,5 @@
 config/jei
 config/InvTweaks
 !README.md
+config/splash.properties
+config/customspawner
