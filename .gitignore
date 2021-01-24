@@ -6,3 +6,4 @@
 /mods/**
 config/jei
 config/InvTweaks
+!README.md
