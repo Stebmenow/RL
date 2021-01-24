@@ -33,4 +33,3 @@ web=true
 piston=false
 barrier=false
 structure_void=false
-
