@@ -125,7 +125,7 @@
         "mojang":
         {
             "text" : "Copyright Mojang AB. Do not distribute!",
-            "hoverText" : "§nCopyright Mojang AB. Do not distribute!",
+            "hoverText" : "ï¿½nCopyright Mojang AB. Do not distribute!",
             "posX" : 5,
             "posY" : 5,
             "color" : -1,
@@ -140,7 +140,7 @@
         "wiki":
         {
             "text" : "RLCraft Wiki",
-            "hoverText" : "§nRLCraft Wiki",
+            "hoverText" : "ï¿½nRLCraft Wiki",
             "posX" : 5,
             "posY" : 16,
             "color" : -1,
@@ -155,7 +155,7 @@
         "reddit":
         {
             "text" : "RLCraft Reddit",
-            "hoverText" : "§nRLCraft Reddit",
+            "hoverText" : "ï¿½nRLCraft Reddit",
             "posX" : 5,
             "posY" : 27,
             "color" : -1,

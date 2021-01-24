@@ -1,8 +1,9 @@
-# Ignore everything
+#
 *
-!mods/**
-!mods
-!config/**
 !config
-!.gitignore
-!readme.md
+!config/**
+!mods
+/mods/**
+config/jei
+config/InvTweaks
+!README.md
