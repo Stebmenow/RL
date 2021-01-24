@@ -3,7 +3,9 @@
 !config
 !config/**
 !mods
-/mods/**
+!scripts
+!scripts/**
+!/mods/**
 config/jei
 config/InvTweaks
 !README.md
