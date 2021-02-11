@@ -32,7 +32,7 @@
   "width": 18.0,
   "height": 24.0,
   "experience": 10000,
-  "health": 4000,
+  "health": 3000,
   "defense": 2,
   "armor": 0,
   "speed": 32,
@@ -98,13 +98,13 @@
       "chance": 1
     },
     {
-      "item": "minecraft:gold_ingot",
+      "item": "minecraft:gold_block",
       "minAmount": 10,
       "maxAmount": 20,
       "chance": 1
     },
     {
-      "item": "minecraft:diamond",
+      "item": "minecraft:diamond_block",
       "minAmount": 10,
       "maxAmount": 20,
       "chance": 1

@@ -100,7 +100,7 @@
   "flags": [
     {
       "name": "lavaDeath",
-      "value": true
+      "value": false
     }
   ]
 }
