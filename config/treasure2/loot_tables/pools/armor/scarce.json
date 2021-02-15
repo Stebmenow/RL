@@ -54,63 +54,19 @@
 					"type": "item",
 					"name": "minecraft:shield",
 					"weight": 10		
-				},				
-				{
-					"entryName": "leather_chestplate",
-					"type": "item",
-					"name": "minecraft:leather_chestplate",
-					"weight": 15,
-					"functions": [
-						{
-							"function": "enchant_randomly"							
-						},
-						{
-							"function": "enchant_randomly"							
-						}						
-					]
 				},
 				{
-					"entryName": "leather_leggings",
+					"entryName": "shield2",
 					"type": "item",
-					"name": "minecraft:leather_leggings",
-					"weight": 15,
-					"functions": [
-						{
-							"function": "enchant_randomly"
-						},
-						{
-							"function": "enchant_randomly"							
-						}		
-					]						
+					"name": "shield_tower_iron",
+					"weight": 10		
 				},
 				{
-					"entryName": "leather_helmet",
+					"entryName": "shield3",
 					"type": "item",
-					"name": "minecraft:leather_helmet",
-					"weight": 15,
-					"functions": [
-						{
-							"function": "enchant_randomly"
-						},
-						{
-							"function": "enchant_randomly"							
-						}		
-					]		
-				},
-				{
-					"entryName": "leather_boots",
-					"type": "item",
-					"name": "minecraft:leather_boots",
-					"weight": 15,
-					"functions": [
-						{
-							"function": "enchant_randomly"
-						},
-						{
-							"function": "enchant_randomly"							
-						}
-					]	
-				}					
+					"name": "shield_tower_silver",
+					"weight": 10		
+				}
 			]
 		}
 	]

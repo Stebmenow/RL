@@ -31,8 +31,8 @@
     "despawnNatural": false,
     "despawnForced": false
   },
-  "width": 10.0,
-  "height": 11,
+  "width": 20,
+  "height": 21,
   "experience": 10000,
   "health": 2000,
   "defense": 2,
@@ -186,6 +186,6 @@
       "chance": 1
     }
   ],
-  "sizeScale": 1,
-  "hitboxScale": 1
+  "sizeScale": 0.5,
+  "hitboxScale": 0.5
 }

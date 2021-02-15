@@ -9,34 +9,7 @@
 					"entryName": "rabbit_foot",
 					"type": "item",
 					"name": "minecraft:rabbit_foot",
-					"weight": 25
-				},
-				{
-					"entryName": "potato",
-					"type": "item",
-					"name": "minecraft:potato",
-					"weight": 35,
-					"functions": [
-						{
-							"function": "set_count",
-							"count": {
-								"min": 1,
-								"max": 3
-							}
-						}
-					]	
-				},
-				{
-					"entryName": "speckled_melon",
-					"type": "item",
-					"name": "minecraft:speckled_melon",
-					"weight": 15
-				},
-				{
-					"entryName": "beetroot",
-					"type": "item",
-					"name": "minecraft:beetroot",
-					"weight": 50,
+					"weight": 1,
 					"functions": [
 						{
 							"function": "set_count",
@@ -48,16 +21,196 @@
 					]	
 				},
 				{
-					"entryName": "beetroot_seed",
+					"entryName": "speckled_melon",
 					"type": "item",
-					"name": "minecraft:beetroot_seeds",
-					"weight": 50,
+					"name": "minecraft:speckled_melon",
+					"weight": 1,
 					"functions": [
 						{
 							"function": "set_count",
 							"count": {
 								"min": 1,
-								"max": 3
+								"max": 5
+							}
+						}
+					]	
+				},
+				{
+					"entryName": "amber_cake",
+					"type": "item",
+					"name": "lycanitesmobs:amber_cake",
+					"weight": 1,
+					"functions": [
+						{
+							"function": "set_count",
+							"count": {
+								"min": 1,
+								"max": 5
+							}
+						}
+					]	
+				},
+				{
+					"entryName": "blood_chili",
+					"type": "item",
+					"name": "lycanitesmobs:bloodchili",
+					"weight": 1,
+					"functions": [
+						{
+							"function": "set_count",
+							"count": {
+								"min": 1,
+								"max": 5
+							}
+						}
+					]	
+				},
+				{
+					"entryName": "bulwark_burger",
+					"type": "item",
+					"name": "lycanitesmobs:bulwarkburger",
+					"weight": 1,
+					"functions": [
+						{
+							"function": "set_count",
+							"count": {
+								"min": 1,
+								"max": 5
+							}
+						}
+					]	
+				},
+				{
+					"entryName": "caecilian_ramen",
+					"type": "item",
+					"name": "lycanitesmobs:caecilian_ramen",
+					"weight": 1,
+					"functions": [
+						{
+							"function": "set_count",
+							"count": {
+								"min": 1,
+								"max": 5
+							}
+						}
+					]	
+				},
+				{
+					"entryName": "devil_lasagna",
+					"type": "item",
+					"name": "lycanitesmobs:devil_lasagna",
+					"weight": 1,
+					"functions": [
+						{
+							"function": "set_count",
+							"count": {
+								"min": 1,
+								"max": 5
+							}
+						}
+					]	
+				},
+				{
+					"entryName": "lapis_fish_and_chips",
+					"type": "item",
+					"name": "lycanitesmobs:lapis_fish_and_chips",
+					"weight": 1,
+					"functions": [
+						{
+							"function": "set_count",
+							"count": {
+								"min": 1,
+								"max": 5
+							}
+						}
+					]	
+				},
+				{
+					"entryName": "moss_pie",
+					"type": "item",
+					"name": "lycanitesmobs:moss_pie",
+					"weight": 1,
+					"functions": [
+						{
+							"function": "set_count",
+							"count": {
+								"min": 1,
+								"max": 5
+							}
+						}
+					]	
+				},
+				{
+					"entryName": "pale_soup",
+					"type": "item",
+					"name": "lycanitesmobs:pale_soup",
+					"weight": 1,
+					"functions": [
+						{
+							"function": "set_count",
+							"count": {
+								"min": 1,
+								"max": 5
+							}
+						}
+					]	
+				},
+				{
+					"entryName": "peaks_kebab",
+					"type": "item",
+					"name": "lycanitesmobs:peaks_kebab",
+					"weight": 1,
+					"functions": [
+						{
+							"function": "set_count",
+							"count": {
+								"min": 1,
+								"max": 5
+							}
+						}
+					]	
+				},
+				{
+					"entryName": "searing_taco",
+					"type": "item",
+					"name": "lycanitesmobs:searing_taco",
+					"weight": 1,
+					"functions": [
+						{
+							"function": "set_count",
+							"count": {
+								"min": 1,
+								"max": 5
+							}
+						}
+					]	
+				},
+				{
+					"entryName": "seashell_maki",
+					"type": "item",
+					"name": "lycanitesmobs:seashell_maki",
+					"weight": 1,
+					"functions": [
+						{
+							"function": "set_count",
+							"count": {
+								"min": 1,
+								"max": 5
+							}
+						}
+					]	
+				},
+				{
+					"entryName": "tropical_curry",
+					"type": "item",
+					"name": "lycanitesmobs:tropical_curry",
+					"weight": 1,
+					"functions": [
+						{
+							"function": "set_count",
+							"count": {
+								"min": 1,
+								"max": 5
 							}
 						}
 					]	

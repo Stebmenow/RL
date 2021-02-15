@@ -36,51 +36,6 @@
 					]	
 				},
 				{
-					"entryName": "wheat_seeds",
-					"type": "item",
-					"name": "minecraft:wheat_seeds",
-					"weight": 80,
-					"functions": [
-						{
-							"function": "set_count",
-							"count": {
-								"min": 3,
-								"max": 5
-							}
-						}
-					]	
-				},
-				{
-					"entryName": "brown_mushroom",
-					"type": "item",
-					"name": "minecraft:brown_mushroom",
-					"weight": 80,
-					"functions": [
-						{
-							"function": "set_count",
-							"count": {
-								"min": 1,
-								"max": 5
-							}
-						}
-					]	
-				},
-				{
-					"entryName": "red_mushroom",
-					"type": "item",
-					"name": "minecraft:red_mushroom",
-					"weight": 80,
-					"functions": [
-						{
-							"function": "set_count",
-							"count": {
-								"min": 1,
-								"max": 5
-							}
-						}
-					]	
-				},
-				{
 					"entryName": "porkchop",
 					"type": "item",
 					"name": "minecraft:porkchop",
@@ -225,7 +180,7 @@
 								"max": 5
 							}
 						}
-					]	
+					]
 				},
 				{
 					"entryName": "mutton",

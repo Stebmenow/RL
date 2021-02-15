@@ -4,72 +4,12 @@
 		{
 			"name": "scarce_items",
 			"rolls": 1,
-			"entries": [
-				{
-					"entryName": "arrow",
-					"type": "item",
-					"name": "minecraft:arrow",
-					"weight": 50,
-					"functions": [
-						{
-							"function": "set_count",
-							"count": {
-								"min": 10,
-								"max": 20
-							}
-						}
-					]						
-				},			
-				{
-					"entryName": "tnt",
-					"type": "item",
-					"name": "minecraft:tnt",
-					"weight": 35,
-					"functions": [
-						{
-							"function": "set_count",
-							"count": {
-								"min": 1,
-								"max": 2
-							}
-						}
-					]						
-				},
-				{
-					"entryName": "blaze_powder",
-					"type": "item",
-					"name": "minecraft:blaze_powder",
-					"weight": 25,
-					"functions": [
-						{
-							"function": "set_count",
-							"count": {
-								"min": 1,
-								"max": 4
-							}
-						}
-					]						
-				},
-				{
-					"entryName": "diamond",
-					"type": "item",
-					"name": "minecraft:diamond",
-					"weight": 15,
-					"functions": [
-						{
-							"function": "set_count",
-							"count": {
-								"min": 1,
-								"max": 2
-							}
-						}
-					]						
-				},				
+			"entries": [	
 				{
 					"entryName": "iron_ingot",
 					"type": "item",
 					"name": "minecraft:iron_ingot",
-					"weight": 20,
+					"weight": 2,
 					"functions": [
 						{
 							"function": "set_count",
@@ -84,7 +24,7 @@
 					"entryName": "iron_block",
 					"type": "item",
 					"name": "minecraft:iron_block",
-					"weight": 15,
+					"weight": 2,
 					"functions": [
 						{
 							"function": "set_count",
@@ -102,11 +42,89 @@
 					"weight": 15				
 				},
 				{
-					"entryName": "gunpowder",
+					"entryName": "spriggan",
 					"type": "item",
-					"name": "minecraft:gunpowder",
-					"weight": 20
-				}				
+					"name": "lycanitesmobs:sprigganroot",
+					"weight": 2,
+					"functions": [
+						{
+							"function": "set_nbt",
+							"tag": "{equipmentLevel:1}"
+						}
+					]
+				},
+				{
+					"entryName": "vespid",
+					"type": "item",
+					"name": "lycanitesmobs:vespidstinger",
+					"weight": 2,
+					"functions": [
+						{
+							"function": "set_nbt",
+							"tag": "{equipmentLevel:1}"
+						}
+					]
+				},
+				{
+					"entryName": "uvaraptor",
+					"type": "item",
+					"name": "lycanitesmobs:uvaraptorskull",
+					"weight": 2,
+					"functions": [
+						{
+							"function": "set_nbt",
+							"tag": "{equipmentLevel:1}"
+						}
+					]
+				},
+				{
+					"entryName": "cinder",
+					"type": "item",
+					"name": "lycanitesmobs:cinderblade",
+					"weight": 2,
+					"functions": [
+						{
+							"function": "set_nbt",
+							"tag": "{equipmentLevel:1}"
+						}
+					]
+				},
+				{
+					"entryName": "vapula",
+					"type": "item",
+					"name": "lycanitesmobs:vapulacrystal",
+					"weight": 2,
+					"functions": [
+						{
+							"function": "set_nbt",
+							"tag": "{equipmentLevel:1}"
+						}
+					]
+				},
+				{
+					"entryName": "astaroth",
+					"type": "item",
+					"name": "lycanitesmobs:astarothclaw",
+					"weight": 2,
+					"functions": [
+						{
+							"function": "set_nbt",
+							"tag": "{equipmentLevel:1}"
+						}
+					]
+				},
+				{
+					"entryName": "vento",
+					"type": "item",
+					"name": "lycanitesmobs:ventoraptorskull",
+					"weight": 2,
+					"functions": [
+						{
+							"function": "set_nbt",
+							"tag": "{equipmentLevel:1}"
+						}
+					]
+				}
 			]
 		}
 	]
