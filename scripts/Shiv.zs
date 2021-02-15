@@ -4,6 +4,7 @@ print("Script starting!");
 <ore:toolAxe>.add(<iceandfire:dragonbone_axe:*>);
 
 recipes.remove(<variedcommodities:diamond_gun>);
+recipes.remove(<mysticalworld:copper_axe>);
 recipes.remove(<variedcommodities:emerald_gun>);
 recipes.remove(<variedcommodities:iron_gun>);
 recipes.remove(<variedcommodities:golden_gun>);
@@ -380,9 +381,21 @@ recipes.addShapeless("lolarecipe10",<firstaid:plaster>,[<ore:string>,<minecraft:
 recipes.addShaped("lolarecipe11",<firstaid:bandage>*2,
  [[<ore:string>,<minecraft:wool:*>,<ore:string>]]);
 
+<<<<<<< HEAD
+recipes.addShaped("lolarecipe22",<qualitytools:emerald_ring>,
+ [[null,<minecraft:emerald>,null],
+  [<minecraft:gold_ingot>,null,<minecraft:gold_ingot>],
+  [null,<minecraft:gold_ingot>,null]]);
+  
+recipes.addShaped("lolarecipe23",<qualitytools:emerald_amulet>,
+ [[<minecraft:gold_ingot>,<minecraft:gold_ingot>,<minecraft:gold_ingot>],
+  [<minecraft:gold_ingot>,null,<minecraft:gold_ingot>],
+  [null,<minecraft:emerald>,null]]);
+=======
 //recipes.addShapeless("lolarecipe21",<minecraft:paper>*3,[<minecraft:log:2>]);
 
 recipes.addShapeless("lolarecipe21test",<minecraft:paper>*4,[<minecraft:log:2>,<minecraft:log:2>]);
+>>>>>>> e652a28ceef2b5001dd7ba42af1e6a957f800589
   
 recipes.addShaped("lolarecipe24",<xat:dragons_eye>,
  [[<xat:glow_ring>,<minecraft:diamond_sword>,<xat:glowing_gem>],
@@ -558,7 +571,6 @@ recipes.addShaped("lolarecipe63",<minecraft:red_sandstone>,
  [[<notreepunching:rock/red_sandstone>,<notreepunching:rock/red_sandstone>],
   [<notreepunching:rock/red_sandstone>,<notreepunching:rock/red_sandstone>]]);
 
-recipes.addShaped("lolarecipe64",<minecraft:paper>*6,
- [[<thaumcraft:log_silverwood>,<thaumcraft:log_silverwood>,<thaumcraft:log_silverwood>]]);
+
 
 print("Script ending!");

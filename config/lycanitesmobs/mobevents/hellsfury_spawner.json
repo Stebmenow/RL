@@ -1,7 +1,7 @@
 {
   "name": "hellsfury_spawner",
   "type": "spawner",
-  "enabled": true,
+  "enabled": false,
   "loadDefault": true,
   "mobCountMin": 5,
   "ignoreDimensions": true,
