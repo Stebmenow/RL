@@ -6,19 +6,14 @@
 			"rolls": 1,
 			"entries": [
 				{
-					"entryName": "iron_sword",
+					"entryName": "diamond_sword",
 					"type": "item",
-					"name": "minecraft:iron_sword",
-					"weight": 35	,
+					"name": "minecraft:diamond_sword",
+					"weight": 1,
 					"functions": [
 						{
 							"function": "enchant_with_levels",
 							"levels": 30,
-							"treasure": true
-						},
-						{
-							"function": "enchant_with_levels",
-							"levels": 20,
 							"treasure": true
 						},
 						{
@@ -27,10 +22,90 @@
 					]
 				},
 				{
-					"entryName": "diamond_sword",
+					"entryName": "warhammer_diamond",
 					"type": "item",
-					"name": "minecraft:diamond_sword",
-					"weight": 50,
+					"name": "spartanweaponry:warhammer_diamond",
+					"weight": 1,
+					"functions": [
+						{
+							"function": "enchant_with_levels",
+							"levels": 30,
+							"treasure": true
+						},
+						{
+							"function": "enchant_randomly"
+						}
+					]
+				},
+				{
+					"entryName": "halberd_diamond",
+					"type": "item",
+					"name": "spartanweaponry:halberd_diamond",
+					"weight": 1,
+					"functions": [
+						{
+							"function": "enchant_with_levels",
+							"levels": 30,
+							"treasure": true
+						},
+						{
+							"function": "enchant_randomly"
+						}
+					]
+				},
+				{
+					"entryName": "pike_diamond",
+					"type": "item",
+					"name": "spartanweaponry:pike_diamond",
+					"weight": 1,
+					"functions": [
+						{
+							"function": "enchant_with_levels",
+							"levels": 30,
+							"treasure": true
+						},
+						{
+							"function": "enchant_randomly"
+						}
+					]
+				},
+				{
+					"entryName": "longbow_diamond",
+					"type": "item",
+					"name": "spartanweaponry:longbow_diamond",
+					"weight": 1,
+					"functions": [
+						{
+							"function": "enchant_with_levels",
+							"levels": 30,
+							"treasure": true
+						},
+						{
+							"function": "enchant_randomly"
+						}					
+					]					
+				},
+				{
+					"entryName": "shield_tower_diamond",
+					"type": "item",
+					"name": "spartanshields:shield_tower_diamond",
+					"weight": 1,
+					"functions": [
+						{
+							"function": "enchant_with_levels",
+							"levels": 30,
+							"treasure": true
+						},
+						{
+							"function": "enchant_randomly"
+						}
+					]
+				},
+				{
+					"entryName": "shield_basic_diamond",
+					"type": "item",
+					"name": "spartanshields:shield_basic_diamond",
+					"weight": 1,
 					"functions": [
 						{
 							"function": "enchant_with_levels",

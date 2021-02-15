@@ -79,7 +79,33 @@
 							"levels": 30,
 							"treasure": true
 						}
-					]	
+					]
+				},
+				{
+					"entryName": "shield",
+					"type": "item",
+					"name": "shield_tower_diamond",
+					"weight": 15,
+					"functions": [
+						{
+							"function": "enchant_with_levels",
+							"levels": 30,
+							"treasure": true
+						}
+					]
+				},
+				{
+					"entryName": "shield2",
+					"type": "item",
+					"name": "shield_basic_diamond",
+					"weight": 15,
+					"functions": [
+						{
+							"function": "enchant_with_levels",
+							"levels": 30,
+							"treasure": true
+						}
+					]
 				}
 			]
 		}

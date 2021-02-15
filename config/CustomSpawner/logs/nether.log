@@ -1,2 +1,6 @@
 INFO - Logger initialized for environment nether
+<<<<<<< HEAD
 INFO - Initializing WorldSettings Config File at C:\Users\johnn\AppData\Roaming\.minecraft\config\CustomSpawner\nether...
+=======
+INFO - Initializing WorldSettings Config File at C:\Users\Alex\Documents\curseforge\minecraft\Instances\RLCraft\config\CustomSpawner\nether...
+>>>>>>> e652a28ceef2b5001dd7ba42af1e6a957f800589

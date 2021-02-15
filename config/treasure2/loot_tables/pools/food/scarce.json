@@ -9,13 +9,217 @@
 					"entryName": "cake",
 					"type": "item",
 					"name": "minecraft:cake",
-					"weight": 50
+					"weight": 1
 				},
 				{
 					"entryName": "pumpkin_pie",
 					"type": "item",
 					"name": "minecraft:pumpkin_pie",
-					"weight": 50
+					"weight": 1,
+					"functions": [
+						{
+							"function": "set_count",
+							"count": {
+								"min": 1,
+								"max": 5
+							}
+						}
+					]	
+				},
+				{
+					"entryName": "raw_maka_meat",
+					"type": "item",
+					"name": "lycanitesmobs:raw_maka_meat",
+					"weight": 1,
+					"functions": [
+						{
+							"function": "set_count",
+							"count": {
+								"min": 5,
+								"max": 15
+							}
+						}
+					]	
+				},
+				{
+					"entryName": "raw_arisaur_meat",
+					"type": "item",
+					"name": "lycanitesmobs:raw_arisaur_meat",
+					"weight": 1,
+					"functions": [
+						{
+							"function": "set_count",
+							"count": {
+								"min": 5,
+								"max": 15
+							}
+						}
+					]	
+				},
+				{
+					"entryName": "raw_joust_meat",
+					"type": "item",
+					"name": "lycanitesmobs:raw_joust_meat",
+					"weight": 1,
+					"functions": [
+						{
+							"function": "set_count",
+							"count": {
+								"min": 5,
+								"max": 15
+							}
+						}
+					]	
+				},
+				{
+					"entryName": "raw_pinky_meat",
+					"type": "item",
+					"name": "lycanitesmobs:raw_pinky_meat",
+					"weight": 1,
+					"functions": [
+						{
+							"function": "set_count",
+							"count": {
+								"min": 5,
+								"max": 15
+							}
+						}
+					]	
+				},
+				{
+					"entryName": "raw_silex_meat",
+					"type": "item",
+					"name": "lycanitesmobs:raw_silex_meat",
+					"weight": 1,
+					"functions": [
+						{
+							"function": "set_count",
+							"count": {
+								"min": 5,
+								"max": 15
+							}
+						}
+					]	
+				},
+				{
+					"entryName": "raw_chupacabra_meat",
+					"type": "item",
+					"name": "lycanitesmobs:raw_chupacabra_meat",
+					"weight": 1,
+					"functions": [
+						{
+							"function": "set_count",
+							"count": {
+								"min": 5,
+								"max": 15
+							}
+						}
+					]	
+				},
+				{
+					"entryName": "raw_yale_meat",
+					"type": "item",
+					"name": "lycanitesmobs:raw_yale_meat",
+					"weight": 1,
+					"functions": [
+						{
+							"function": "set_count",
+							"count": {
+								"min": 5,
+								"max": 15
+							}
+						}
+					]	
+				},
+				{
+					"entryName": "raw_yeti_meat",
+					"type": "item",
+					"name": "lycanitesmobs:raw_yeti_meat",
+					"weight": 1,
+					"functions": [
+						{
+							"function": "set_count",
+							"count": {
+								"min": 5,
+								"max": 15
+							}
+						}
+					]	
+				},
+				{
+					"entryName": "raw_aspid_meat",
+					"type": "item",
+					"name": "lycanitesmobs:raw_joust_meat",
+					"weight": 1,
+					"functions": [
+						{
+							"function": "set_count",
+							"count": {
+								"min": 5,
+								"max": 15
+							}
+						}
+					]	
+				},
+				{
+					"entryName": "raw_concapede_meat",
+					"type": "item",
+					"name": "lycanitesmobs:raw_joust_meat",
+					"weight": 1,
+					"functions": [
+						{
+							"function": "set_count",
+							"count": {
+								"min": 5,
+								"max": 15
+							}
+						}
+					]	
+				},
+				{
+					"entryName": "cooked_cephignis_meat",
+					"type": "item",
+					"name": "lycanitesmobs:raw_joust_meat",
+					"weight": 1,
+					"functions": [
+						{
+							"function": "set_count",
+							"count": {
+								"min": 5,
+								"max": 15
+							}
+						}
+					]	
+				},
+				{
+					"entryName": "raw_ika_meat",
+					"type": "item",
+					"name": "lycanitesmobs:raw_joust_meat",
+					"weight": 1,
+					"functions": [
+						{
+							"function": "set_count",
+							"count": {
+								"min": 5,
+								"max": 15
+							}
+						}
+					]	
+				},
+				{
+					"entryName": "raw_krake_meat",
+					"type": "item",
+					"name": "lycanitesmobs:raw_joust_meat",
+					"weight": 1,
+					"functions": [
+						{
+							"function": "set_count",
+							"count": {
+								"min": 5,
+								"max": 15
+							}
+						}
+					]	
 				}
 			]
 		}

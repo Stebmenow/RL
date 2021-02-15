@@ -34,7 +34,7 @@
   "width": 7.0,
   "height": 25.0,
   "experience": 10000,
-  "health": 4000,
+  "health": 2000,
   "defense": 2,
   "armor": 0,
   "speed": 32,
@@ -92,7 +92,7 @@
       "chance": 1
     },
     {
-      "item": "minecraft:diamond",
+      "item": "minecraft:diamond_block",
       "minAmount": 10,
       "maxAmount": 20,
       "chance": 1
@@ -149,6 +149,24 @@
       "item": "lycanitesmobs:wraithsigil",
       "minAmount": 1,
       "maxAmount": 1,
+      "chance": 1
+    },
+    {
+      "item": "teslacorelib:machine_case",
+      "minAmount": 1,
+      "maxAmount": 5,
+      "chance": 1
+    },
+    {
+      "item": "iceandfire:dragonsteel_fire_ingot",
+      "minAmount": 1,
+      "maxAmount": 5,
+      "chance": 1
+    },
+    {
+      "item": "iceandfire:dragonsteel_ice_ingot",
+      "minAmount": 1,
+      "maxAmount": 5,
       "chance": 1
     }
   ],

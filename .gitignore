@@ -6,8 +6,9 @@
 !scripts
 !scripts/**
 !/mods/**
-config/jei
-config/InvTweaks
+/config/jei
+/config/InvTweaks
 !README.md
 config/splash.properties
-config/customspawner
+/config/CustomSpawner
+/config/CustomSpawner/**

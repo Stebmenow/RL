@@ -9,7 +9,71 @@
 					"entryName": "diamond_chestplate",
 					"type": "item",
 					"name": "minecraft:diamond_chestplate",
-					"weight": 18,
+					"weight": 1,
+					"functions": [
+						{
+							"function": "enchant_with_levels",
+							"levels": 60,
+							"treasure": true
+						},
+						{
+							"function": "enchant_randomly"
+						}
+					]
+				},
+				{
+					"entryName": "diamond_leggings",
+					"type": "item",
+					"name": "minecraft:diamond_leggings",
+					"weight": 1,
+					"functions": [
+						{
+							"function": "enchant_with_levels",
+							"levels": 60,
+							"treasure": true
+						},
+						{
+							"function": "enchant_randomly"
+						}
+					]		
+				},
+				{
+					"entryName": "diamond_helmet",
+					"type": "item",
+					"name": "minecraft:diamond_helmet",
+					"weight": 1,
+					"functions": [
+						{
+							"function": "enchant_with_levels",
+							"levels": 60,
+							"treasure": true
+						},
+						{
+							"function": "enchant_randomly"
+						}
+					]	
+				},
+				{
+					"entryName": "diamond_boots",
+					"type": "item",
+					"name": "minecraft:diamond_boots",
+					"weight": 1,
+					"functions": [
+						{
+							"function": "enchant_with_levels",
+							"levels": 60,
+							"treasure": true
+						},
+						{
+							"function": "enchant_randomly"
+						}
+					]
+				},
+				{
+					"entryName": "diamond_chestplate",
+					"type": "item",
+					"name": "minecraft:diamond_chestplate",
+					"weight": 2,
 					"functions": [
 						{
 							"function": "enchant_with_levels",
@@ -22,7 +86,7 @@
 					"entryName": "diamond_leggings",
 					"type": "item",
 					"name": "minecraft:diamond_leggings",
-					"weight": 22,
+					"weight": 2,
 					"functions": [
 						{
 							"function": "enchant_with_levels",
@@ -35,7 +99,7 @@
 					"entryName": "diamond_helmet",
 					"type": "item",
 					"name": "minecraft:diamond_helmet",
-					"weight": 22,
+					"weight": 2,
 					"functions": [
 						{
 							"function": "enchant_with_levels",
@@ -48,7 +112,7 @@
 					"entryName": "diamond_boots",
 					"type": "item",
 					"name": "minecraft:diamond_boots",
-					"weight": 22,
+					"weight": 2,
 					"functions": [
 						{
 							"function": "enchant_with_levels",
@@ -61,7 +125,7 @@
 					"entryName": "iron_chestplate",
 					"type": "item",
 					"name": "minecraft:iron_chestplate",
-					"weight": 35,
+					"weight": 4,
 					"functions": [
 						{
 							"function": "enchant_with_levels",
@@ -70,14 +134,14 @@
 						},
 						{
 							"function": "enchant_randomly"
-						}						
+						}
 					]
 				},
 				{
 					"entryName": "iron_leggings",
 					"type": "item",
 					"name": "minecraft:iron_leggings",
-					"weight": 35,
+					"weight": 4,
 					"functions": [
 						{
 							"function": "enchant_with_levels",
@@ -86,14 +150,14 @@
 						},
 						{
 							"function": "enchant_randomly"
-						}		
+						}
 					]						
 				},
 				{
 					"entryName": "iron_helmet",
 					"type": "item",
 					"name": "minecraft:iron_helmet",
-					"weight": 35,
+					"weight": 4,
 					"functions": [
 						{
 							"function": "enchant_with_levels",
@@ -102,14 +166,14 @@
 						},
 						{
 							"function": "enchant_randomly"
-						}		
+						}
 					]		
 				},
 				{
 					"entryName": "iron_boots",
 					"type": "item",
 					"name": "minecraft:iron_boots",
-					"weight": 35,
+					"weight": 4,
 					"functions": [
 						{
 							"function": "enchant_with_levels",
@@ -118,14 +182,14 @@
 						},
 						{
 							"function": "enchant_randomly"
-						}		
+						}
 					]	
 				},
 				{
 					"entryName": "diamond_horse_armor",
 					"type": "item",
 					"name": "minecraft:diamond_horse_armor",
-					"weight": 25	
+					"weight": 25
 				}
 			]
 		}

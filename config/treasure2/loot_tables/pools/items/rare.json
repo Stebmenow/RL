@@ -1,30 +1,15 @@
 {
-	"version": "1.0",
+	"version": "1.1",
 	"pools": [
 		{
 			"name": "rare_items",
 			"rolls": 1,
 			"entries": [
 				{
-					"entryName": "tnt",
-					"type": "item",
-					"name": "minecraft:tnt",
-					"weight": 35,
-					"functions": [
-						{
-							"function": "set_count",
-							"count": {
-								"min": 2,
-								"max": 4
-							}
-						}
-					]						
-				},
-				{
 					"entryName": "blaze_powder",
 					"type": "item",
 					"name": "minecraft:blaze_powder",
-					"weight": 25,
+					"weight": 2,
 					"functions": [
 						{
 							"function": "set_count",
@@ -39,7 +24,7 @@
 					"entryName": "magma_cream",
 					"type": "item",
 					"name": "minecraft:magma_cream",
-					"weight": 25,
+					"weight": 2,
 					"functions": [
 						{
 							"function": "set_count",
@@ -51,28 +36,16 @@
 					]						
 				},		
 				{
-					"entryName": "clock",
-					"type": "item",
-					"name": "minecraft:clock",
-					"weight": 25					
-				},
-				{
-					"entryName": "compass",
-					"type": "item",
-					"name": "minecraft:compass",
-					"weight": 25					
-				},				
-				{
 					"entryName": "diamond_block",
 					"type": "item",
 					"name": "minecraft:diamond_block",
-					"weight": 10					
+					"weight": 1					
 				},				
 				{
 					"entryName": "glowstone",
 					"type": "item",
 					"name": "minecraft:glowstone",
-					"weight": 25,
+					"weight": 2,
 					"functions": [
 						{
 							"function": "set_count",
@@ -87,7 +60,7 @@
 					"entryName": "ender_pearl",
 					"type": "item",
 					"name": "minecraft:ender_pearl",
-					"weight": 35,
+					"weight": 2,
 					"functions": [
 						{
 							"function": "set_count",
@@ -102,7 +75,7 @@
 					"entryName": "ender_eye",
 					"type": "item",
 					"name": "minecraft:ender_eye",
-					"weight": 35,
+					"weight": 2,
 					"functions": [
 						{
 							"function": "set_count",
@@ -117,7 +90,7 @@
 					"entryName": "blaze_rod",
 					"type": "item",
 					"name": "minecraft:blaze_rod",
-					"weight": 25,
+					"weight": 2,
 					"functions": [
 						{
 							"function": "set_count",
@@ -132,7 +105,7 @@
 					"entryName": "ghast_tear",
 					"type": "item",
 					"name": "minecraft:ghast_tear",
-					"weight": 25,
+					"weight": 2,
 					"functions": [
 						{
 							"function": "set_count",
@@ -144,92 +117,162 @@
 					]							
 				},
 				{
-					"entryName": "experience_bottle",
+					"entryName": "neptunium",
 					"type": "item",
-					"name": "minecraft:experience_bottle",
-					"weight": 50,
+					"name": "aquaculture:loot",
+					"weight": 2,
 					"functions": [
+						{
+							"function": "set_data",
+							"data": 1
+						},
 						{
 							"function": "set_count",
 							"count": {
-								"min": 1,
-								"max": 3
+								"min": 10,
+								"max": 20
 							}
 						}
 					]							
+				},
+				{
+					"entryName": "spectre",
+					"type": "item",
+					"name": "minecraft:spectretendril",
+					"weight": 2,
+					"functions": [
+						{
+							"function": "set_nbt",
+							"tag": "{equipmentLevel:1}"
+						}
+					]
+				},
+				{
+					"entryName": "remobra",
+					"type": "item",
+					"name": "lycanitesmobs:remobrawing",
+					"weight": 2,
+					"functions": [
+						{
+							"function": "set_nbt",
+							"tag": "{equipmentLevel:1}"
+						}
+					]
+				},
+				{
+					"entryName": "zephyr",
+					"type": "item",
+					"name": "lycanitesmobs:zephyrblade",
+					"weight": 2,
+					"functions": [
+						{
+							"function": "set_nbt",
+							"tag": "{equipmentLevel:1}"
+						}
+					]
+				},
+				{
+					"entryName": "darkling",
+					"type": "item",
+					"name": "lycanitesmobs:darklingskull",
+					"weight": 2,
+					"functions": [
+						{
+							"function": "set_nbt",
+							"tag": "{equipmentLevel:1}"
+						}
+					]
+				},
+				{
+					"entryName": "reiver",
+					"type": "item",
+					"name": "lycanitesmobs:reiverhorns",
+					"weight": 2,
+					"functions": [
+						{
+							"function": "set_nbt",
+							"tag": "{equipmentLevel:1}"
+						}
+					]
+				},
+				{
+					"entryName": "spriggan2",
+					"type": "item",
+					"name": "lycanitesmobs:sprigganheart",
+					"weight": 2,
+					"functions": [
+						{
+							"function": "set_nbt",
+							"tag": "{equipmentLevel:1}"
+						}
+					]
 				},
 				{
 					"entryName": "diamond",
 					"type": "item",
 					"name": "minecraft:diamond",
-					"weight": 25,
+					"weight": 2,
 					"functions": [
 						{
 							"function": "set_count",
 							"count": {
-								"min": 1,
-								"max": 3
+								"min": 3,
+								"max": 6
 							}
 						}
 					]							
 				},
 				{
-					"entryName": "prismarine_crystals",
-					"type": "item",
-					"name": "minecraft:prismarine_crystals",
-					"weight": 20,
-					"functions": [
-						{
-							"function": "set_count",
-							"count": {
-								"min": 1,
-								"max": 3
-							}
-						}
-					]							
-				},		
-				{
-					"entryName": "prismarine_shard",
-					"type": "item",
-					"name": "minecraft:prismarine_shard",
-					"weight": 20,
-					"functions": [
-						{
-							"function": "set_count",
-							"count": {
-								"min": 1,
-								"max": 3
-							}
-						}
-					]							
-				},									
-				{
 					"entryName": "sea_lantern",
 					"type": "item",
 					"name": "minecraft:sea_lantern",
-					"weight": 20
+					"weight": 2,
+					"functions": [
+						{
+							"function": "set_count",
+							"count": {
+								"min": 5,
+								"max": 10
+							}
+						}
+					]
 				},
 				{
 					"entryName": "nether_star",
 					"type": "item",
 					"name": "minecraft:nether_star",
-					"weight": 15
+					"weight": 1
 				},
 				{
-					"entryName": "firework_charge",
+					"entryName": "witherbone",
 					"type": "item",
-					"name": "minecraft:firework_charge",
-					"weight": 35,
+					"name": "iceandfire:witherbone",
+					"weight": 2,
+					"functions": [
+						{
+							"function": "set_count",
+							"count": {
+								"min": 4,
+								"max": 8
+							}
+						}
+					]							
+				},
+				{
+					"entryName": "mob_imprisonment_tool",
+					"type": "item",
+					"name": "industrialforegoing:mob_imprisonment_tool",
+					"weight": 2,
 					"functions": [
 						{
 							"function": "set_count",
 							"count": {
 								"min": 1,
-								"max": 5
+								"max": 1
 							}
 						}
 					]							
-				}			
+				}
 			]
 		}
 	]

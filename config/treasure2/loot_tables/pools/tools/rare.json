@@ -9,7 +9,7 @@
 					"entryName": "iron_sword",
 					"type": "item",
 					"name": "minecraft:iron_sword",
-					"weight": 35	,
+					"weight": 2	,
 					"functions": [
 						{
 							"function": "enchant_with_levels",
@@ -25,20 +25,77 @@
 					"entryName": "diamond_sword",
 					"type": "item",
 					"name": "minecraft:diamond_sword",
-					"weight": 50,
+					"weight": 1,
 					"functions": [
+						{
+							"function": "enchant_with_levels",
+							"levels": 30,
+							"treasure": true
+						},
 						{
 							"function": "enchant_randomly"
 						}					
 					]					
 				},
-
+				{
+					"entryName": "longbow_diamond",
+					"type": "item",
+					"name": "spartanweaponry:longbow_diamond",
+					"weight": 1,
+					"functions": [
+						{
+							"function": "enchant_with_levels",
+							"levels": 30,
+							"treasure": true
+						},
+						{
+							"function": "enchant_randomly"
+						}					
+					]					
+				},
+				{
+					"entryName": "amethyst_sword",
+					"type": "item",
+					"name": "mysticalworld:amethyst_sword",
+					"weight": 1,
+					"functions": [
+						{
+							"function": "enchant_with_levels",
+							"levels": 30,
+							"treasure": true
+						},
+						{
+							"function": "enchant_randomly"
+						}					
+					]					
+				},
+				{
+					"entryName": "amethyst_pickaxe",
+					"type": "item",
+					"name": "mysticalworld:amethyst_pickaxe",
+					"weight": 1,
+					"functions": [
+						{
+							"function": "enchant_with_levels",
+							"levels": 30,
+							"treasure": true
+						},
+						{
+							"function": "enchant_randomly"
+						}					
+					]					
+				},
 				{
 					"entryName": "diamond_pickaxe",
 					"type": "item",
 					"name": "minecraft:diamond_pickaxe",
-					"weight": 50,
+					"weight": 1,
 					"functions": [
+						{
+							"function": "enchant_with_levels",
+							"levels": 30,
+							"treasure": true
+						},
 						{
 							"function": "enchant_randomly"
 						}					
@@ -48,8 +105,13 @@
 					"entryName": "diamond_axe",
 					"type": "item",
 					"name": "minecraft:diamond_axe",
-					"weight": 50,
+					"weight": 1,
 					"functions": [
+						{
+							"function": "enchant_with_levels",
+							"levels": 30,
+							"treasure": true
+						},
 						{
 							"function": "enchant_randomly"
 						}					

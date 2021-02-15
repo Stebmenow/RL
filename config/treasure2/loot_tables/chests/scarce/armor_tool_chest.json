@@ -10,11 +10,11 @@
 				"max": 3
 			},
 			"entries": [
-                {
-                    "type": "loot_table",
-                    "name": "treasure2:pools/treasure/scarce",
-                    "weight": 30
-                }
+				{
+					"type": "loot_table",
+					"name": "treasure2:pools/treasure/scarce",
+					"weight": 30
+				}
 			]
 		},
 		{
@@ -24,11 +24,11 @@
 				"max": 1
 			},
 			"entries": [
-                {
-                    "type": "loot_table",
-                    "name": "treasure2:pools/treasure/scarce_charms",
-                    "weight": 1
-                }
+				{
+					"type": "loot_table",
+					"name": "treasure2:pools/treasure/scarce_charms",
+					"weight": 1
+				}
 			]
 		},
 		{
@@ -38,11 +38,11 @@
 				"max": 3
 			},
 			"entries": [
-                {
-                    "type": "loot_table",
-                    "name": "treasure2:pools/items/scarce",
-                    "weight": 1
-                }
+				{
+					"type": "loot_table",
+					"name": "treasure2:pools/items/scarce",
+					"weight": 1
+				}
 			]
 		},
 		{
@@ -52,11 +52,11 @@
 				"max": 2
 			},
 			"entries": [
-                {
-                    "type": "loot_table",
-                    "name": "treasure2:pools/armor/scarce",
-                    "weight": 1
-                }
+				{
+					"type": "loot_table",
+					"name": "treasure2:pools/armor/scarce",
+					"weight": 1
+				}
 			]
 		},
 		{
@@ -66,11 +66,11 @@
 				"max": 2
 			},
 			"entries": [
-	                {
-                    "type": "loot_table",
-                    "name": "treasure2:pools/food/scarce",
-                    "weight": 1
-                }
+				{
+					"type": "loot_table",
+					"name": "treasure2:pools/food/scarce",
+					"weight": 1
+				}
 			]
 		},
 		{
@@ -80,14 +80,13 @@
 				"max": 2
 			},
 			"entries": [
-		                {
-                    "type": "loot_table",
-                    "name": "treasure2:pools/tools/scarce",
-                    "weight": 1
-                }
+				{
+					"type": "loot_table",
+					"name": "treasure2:pools/tools/scarce",
+					"weight": 1
+				}
 			]
 		},
-
 		{
 			"name": "uncommon_items",
 			"rolls": {
@@ -95,11 +94,11 @@
 				"max": 3
 			},
 			"entries": [
-                {
-                    "type": "loot_table",
-                    "name": "treasure2:pools/items/uncommon",
-                    "weight": 1
-                }
+				{
+					"type": "loot_table",
+					"name": "treasure2:pools/items/uncommon",
+					"weight": 1
+				}
 			]
 		},
 		{
@@ -109,11 +108,11 @@
 				"max": 2
 			},
 			"entries": [
-                {
-                    "type": "loot_table",
-                    "name": "treasure2:pools/armor/uncommon",
-                    "weight": 1
-                }
+				{
+					"type": "loot_table",
+					"name": "treasure2:pools/armor/uncommon",
+					"weight": 1
+				}
 			]
 		},
 		{
@@ -123,11 +122,11 @@
 				"max": 1
 			},
 			"entries": [
-	                {
-                    "type": "loot_table",
-                    "name": "treasure2:pools/food/uncommon",
-                    "weight": 1
-                }
+				{
+					"type": "loot_table",
+					"name": "treasure2:pools/food/uncommon",
+					"weight": 1
+				}
 			]
 		},
 		{
@@ -137,11 +136,11 @@
 				"max": 1
 			},
 			"entries": [
-		                {
-                    "type": "loot_table",
-                    "name": "treasure2:pools/tools/uncommon",
-                    "weight": 1
-                }
+				{
+					"type": "loot_table",
+					"name": "treasure2:pools/tools/uncommon",
+					"weight": 1
+				}
 			]
 		}
 	]

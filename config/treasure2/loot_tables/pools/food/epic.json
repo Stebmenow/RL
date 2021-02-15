@@ -5,7 +5,7 @@
 			"name": "epic_food",
 			"rolls": 1,
 			"entries": [
-					{
+				{
 					"entryName": "golden_apple",
 					"type": "item",
 					"name": "minecraft:golden_apple",
@@ -16,6 +16,66 @@
 					"type": "item",
 					"name": "minecraft:golden_carrot",
 					"weight": 50
+				},
+				{
+					"entryName": "battle",
+					"type": "item",
+					"name": "lycanitesmobs:battle_burrito",
+					"weight": 20,
+					"functions": [
+						{
+							"function": "set_count",
+							"count": {
+								"min": 1,
+								"max": 5
+							}
+						}
+					]	
+				},
+				{
+					"entryName": "devil",
+					"type": "item",
+					"name": "lycanitesmobs:devil_lasagna",
+					"weight": 50,
+					"functions": [
+						{
+							"function": "set_count",
+							"count": {
+								"min": 5,
+								"max": 15
+							}
+						}
+					]	
+				},
+				{
+					"entryName": "paleo",
+					"type": "item",
+					"name": "lycanitesmobs:paleo_salad",
+					"weight": 50,
+					"functions": [
+						{
+							"function": "set_count",
+							"count": {
+								"min": 5,
+								"max": 15
+							}
+						}
+					]
+				},
+				{
+					"entryName": "ris",
+					"type": "item",
+					"name": "lycanitesmobs:explorers_risotto",
+					"weight": 50,
+					"functions": [
+						{
+							"function": "set_count",
+							"count": {
+								"min": 5,
+								"max": 15
+							}
+						}
+					]	
 				}
 			]
 		}
