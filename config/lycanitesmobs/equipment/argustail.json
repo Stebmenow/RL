@@ -1,6 +1,6 @@
 {
   "itemName": "argustail",
-  "loadDefault": true,
+  "loadDefault": false,
   "slotType": "base",
   "dropMobId": "lycanitesmobs:argus",
   "dropChance": 0.1,
@@ -57,6 +57,24 @@
       "projectilePattern": "simple",
       "cooldown": 10,
       "count": 1
+    },
+    {
+      "featureType": "damage",
+      "levelMin": 2,
+      "damageAmount": 1,
+      "damageKnockback": -2,
+      "damageCooldown": 1,
+      "damageRange": 2,
+      "damageSweep": 45
+    },
+    {
+      "featureType": "damage",
+      "levelMin": 3,
+      "damageAmount": 2,
+      "damageKnockback": -2,
+      "damageCooldown": 1,
+      "damageRange": 2,
+      "damageSweep": 45
     }
   ]
 }

@@ -2,10 +2,10 @@
   "name": "roomdiamondpit",
   "type": "room",
   "weight": 4,
-  "loadDefault": true,
+  "loadDefault": false,
   "changeTheme": false,
-  "tileSpawners": false,
-  "tileChests": false,
+  "tileSpawners": true,
+  "tileChests": true,
   "sizeMin": [
     24,
     9,

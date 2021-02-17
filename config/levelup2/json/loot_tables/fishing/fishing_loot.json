@@ -6,92 +6,48 @@
       "entries": [
         {
           "type": "item",
-          "name": "minecraft:bone",
-          "weight": 20
-        },
-        {
-          "type": "item",
-          "name": "minecraft:reeds",
-          "weight": 15
-        },
-        {
-          "type": "item",
-          "name": "minecraft:arrow",
+          "name": "xat:glowing_ingot",
           "weight": 10
         },
         {
           "type": "item",
-          "name": "minecraft:apple",
-          "weight": 10
-        },
-        {
-          "type": "item",
-          "name": "minecraft:bucket",
+          "name": "minecraft:diamond",
           "weight": 5
+        },
+        {
+          "type": "item",
+          "name": "aquaculture:loot",
+          "weight": 10
+        },
+        {
+          "type": "item",
+          "name": "minecraft:blaze_rod",
+          "weight": 10
+        },
+        {
+          "type": "item",
+          "name": "minecraft:gold_ingot",
+          "weight": 10
         },
         {
           "type": "item",
           "name": "minecraft:ender_pearl",
-          "weight": 5
+          "weight": 10
         },
         {
           "type": "item",
           "name": "minecraft:iron_ingot",
-          "weight": 5
+          "weight": 10
         },
         {
           "type": "item",
-          "name": "minecraft:chainmail_chestplate",
+          "name": "minecraft:enchanted_book",
           "weight": 2,
           "functions": [
             {
-              "function": "set_damage",
-              "damage": {
-                "min": 0,
-                "max": 0.90
-              }
-            }
-          ]
-        },
-        {
-          "type": "item",
-          "name": "minecraft:chainmail_leggings",
-          "weight": 2,
-          "functions": [
-            {
-              "function": "set_damage",
-              "damage": {
-                "min": 0,
-                "max": 0.90
-              }
-            }
-          ]
-        },
-        {
-          "type": "item",
-          "name": "minecraft:chainmail_helmet",
-          "weight": 2,
-          "functions": [
-            {
-              "function": "set_damage",
-              "damage": {
-                "min": 0,
-                "max": 0.90
-              }
-            }
-          ]
-        },
-        {
-          "type": "item",
-          "name": "minecraft:chainmail_boots",
-          "weight": 2,
-          "functions": [
-            {
-              "function": "set_damage",
-              "damage": {
-                "min": 0,
-                "max": 0.90
-              }
+              "function": "enchant_with_levels",
+              "levels": 30,
+              "treasure": true
             }
           ]
         }

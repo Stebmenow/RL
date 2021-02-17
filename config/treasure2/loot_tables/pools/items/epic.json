@@ -9,43 +9,49 @@
 					"entryName": "nether_star",
 					"type": "item",
 					"name": "minecraft:nether_star",
+					"weight": 2
+				},
+				{
+					"entryName": "machine_case",
+					"type": "item",
+					"name": "teslacorelib:machine_case",
 					"weight": 1
 				},
 				{
 					"entryName": "shulker_box",
 					"type": "item",
 					"name": "minecraft:black_shulker_box",
-					"weight": 2
+					"weight": 3
 				},
 				{
 					"entryName": "shulker_shell",
 					"type": "item",
 					"name": "minecraft:shulker_shell",
-					"weight": 2
+					"weight": 3
 				},
 				{
 					"entryName": "elytra",
 					"type": "item",
 					"name": "minecraft:elytra",
-					"weight": 2
+					"weight": 3
 				},
 				{
 					"entryName": "totem_of_undying",
 					"type": "item",
 					"name": "minecraft:totem_of_undying",
-					"weight": 2
+					"weight": 3
 				},
 				{
 					"entryName": "xp_book",
 					"type": "item",
 					"name": "xpbook:xp_book",
-					"weight": 2
+					"weight": 3
 				},
 				{
 					"entryName": "neptunium",
 					"type": "item",
 					"name": "aquaculture:loot",
-					"weight": 2,
+					"weight": 3,
 					"functions": [
 						{
 							"function": "set_data",
@@ -64,7 +70,7 @@
 					"entryName": "spectralsilt",
 					"type": "item",
 					"name": "bountifulbaubles:spectralsilt",
-					"weight": 2,
+					"weight": 3,
 					"functions": [
 						{
 							"function": "set_count",
@@ -79,7 +85,7 @@
 					"entryName": "glowing_ingot",
 					"type": "item",
 					"name": "xat:glowing_ingot",
-					"weight": 2,
+					"weight": 3,
 					"functions": [
 						{
 							"function": "set_count",

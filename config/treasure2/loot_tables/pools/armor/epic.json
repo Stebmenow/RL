@@ -6,14 +6,19 @@
 			"rolls": 1,
 			"entries": [
 				{
-					"entryName": "diamond_chestplate",
+					"entryName": "diamond_chestplate1",
 					"type": "item",
 					"name": "minecraft:diamond_chestplate",
 					"weight": 1,
 					"functions": [
 						{
 							"function": "enchant_with_levels",
-							"levels": 60,
+							"levels": 30,
+							"treasure": true
+						},
+						{
+							"function": "enchant_with_levels",
+							"levels": 30,
 							"treasure": true
 						},
 						{
@@ -22,14 +27,19 @@
 					]
 				},
 				{
-					"entryName": "diamond_leggings",
+					"entryName": "diamond_leggings1",
 					"type": "item",
 					"name": "minecraft:diamond_leggings",
 					"weight": 1,
 					"functions": [
 						{
 							"function": "enchant_with_levels",
-							"levels": 60,
+							"levels": 30,
+							"treasure": true
+						},
+						{
+							"function": "enchant_with_levels",
+							"levels": 30,
 							"treasure": true
 						},
 						{
@@ -38,14 +48,19 @@
 					]		
 				},
 				{
-					"entryName": "diamond_helmet",
+					"entryName": "diamond_helmet1",
 					"type": "item",
 					"name": "minecraft:diamond_helmet",
 					"weight": 1,
 					"functions": [
 						{
 							"function": "enchant_with_levels",
-							"levels": 60,
+							"levels": 30,
+							"treasure": true
+						},
+						{
+							"function": "enchant_with_levels",
+							"levels": 30,
 							"treasure": true
 						},
 						{
@@ -54,14 +69,19 @@
 					]	
 				},
 				{
-					"entryName": "diamond_boots",
+					"entryName": "diamond_boots1",
 					"type": "item",
 					"name": "minecraft:diamond_boots",
 					"weight": 1,
 					"functions": [
 						{
 							"function": "enchant_with_levels",
-							"levels": 60,
+							"levels": 30,
+							"treasure": true
+						},
+						{
+							"function": "enchant_with_levels",
+							"levels": 30,
 							"treasure": true
 						},
 						{

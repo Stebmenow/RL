@@ -1,6 +1,6 @@
 {
   "itemName": "sprigganheart",
-  "loadDefault": true,
+  "loadDefault": false,
   "slotType": "jewel",
   "dropMobId": "lycanitesmobs:spriggan",
   "dropChance": 0.1,
@@ -28,7 +28,7 @@
       "projectilePattern": "simple",
       "cooldown": 60,
       "count": 1,
-      "bonusDamage": 2
+      "bonusDamage": 6
     },
     {
       "featureType": "projectile",
@@ -38,7 +38,7 @@
       "projectilePattern": "simple",
       "cooldown": 40,
       "count": 1,
-      "bonusDamage": 4
+      "bonusDamage": 12
     },
     {
       "featureType": "projectile",
@@ -58,7 +58,7 @@
       "projectilePattern": "simple",
       "cooldown": 10,
       "count": 1,
-      "bonusDamage": 1
+      "bonusDamage": 2
     },
     {
       "featureType": "projectile",
@@ -68,7 +68,7 @@
       "projectilePattern": "simple",
       "cooldown": 10,
       "count": 1,
-      "bonusDamage": 2
+      "bonusDamage": 5
     }
   ]
 }

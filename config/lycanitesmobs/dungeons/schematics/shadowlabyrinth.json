@@ -1,6 +1,6 @@
 {
   "name": "shadowlabyrinth",
-  "loadDefault": true,
+  "loadDefault": false,
   "sectorCountMin": 20,
   "sectorCountMax": 30,
   "corridorToCorridorChance": 0.5,
@@ -10,17 +10,11 @@
       "type": "world",
       "dimensionIds": [
         0,
-        1
+        1,
+        -1,
+        111
       ],
-      "dimensionListType": "whitelist",
-      "biomeTags": [
-        "spooky",
-        "mountain",
-        "swamp",
-        "nether",
-        "end"
-      ],
-      "biomeTagListType": "whitelist"
+      "dimensionListType": "whitelist"
     }
   ],
   "themes": [
@@ -117,10 +111,10 @@
       "mobId": "lycanitesmobs:gnekk",
       "weight": 1,
       "variant": 1,
-      "mobNameTag": "Precious",
+      "mobNameTag": "Big Lump",
       "mobSizeScale": 2,
       "naturalDespawn": "false",
-      "mobLevel": 50,
+      "mobLevel": 150,
       "spawnAsBoss": true,
       "dungeonLevelMin": "0",
       "dungeonLevelMax": 2,
@@ -133,6 +127,12 @@
           "amountMultiplier": false
         },
         {
+          "item": "minecraft:golden_apple",
+          "amountMultiplier": false,
+          "minAmount": 10,
+          "maxAmount": 20
+        },
+        {
           "item": "lycanitesmobs:soulstone_imp",
           "amountMultiplier": false
         }
@@ -142,10 +142,10 @@
       "mobId": "lycanitesmobs:shade",
       "weight": 1,
       "variant": 1,
-      "mobNameTag": "Chaos Serpent",
+      "mobNameTag": "Snoop Dogg",
       "mobSizeScale": 2,
       "naturalDespawn": "false",
-      "mobLevel": 20,
+      "mobLevel": 200,
       "spawnAsBoss": true,
       "dungeonLevelMin": 3,
       "dungeonLevelMax": 4,
@@ -156,7 +156,13 @@
           "amountMultiplier": false
         },
         {
-          "item": "minecraft:diamond",
+          "item": "lycanitesmobs:spectralboltcharge",
+          "amountMultiplier": false,
+          "minAmount": 20,
+          "maxAmount": 30
+        },
+        {
+          "item": "bountifulbaubles:spectralsilt",
           "minAmount": 10,
           "amountMultiplier": false
         },
@@ -171,9 +177,9 @@
       "weight": 1,
       "variant": 3,
       "mobSizeScale": 1.5,
-      "mobNameTag": "Night Shade",
+      "mobNameTag": "Slim Shady",
       "naturalDespawn": "false",
-      "mobLevel": 10,
+      "mobLevel": 100,
       "spawnAsBoss": true,
       "dungeonLevelMin": 5,
       "dungeonBoss": true,
@@ -183,8 +189,19 @@
           "amountMultiplier": false
         },
         {
-          "item": "minecraft:diamond",
-          "minAmount": 50,
+          "item": "lycanitesmobs:lobdarklingscharge",
+          "amountMultiplier": false,
+          "minAmount": 20,
+          "maxAmount": 30
+        },
+        {
+          "item": "apotheosis:hellshelf",
+          "amountMultiplier": false,
+          "minAmount": 2
+        },
+        {
+          "item": "minecraft:diamond_block",
+          "minAmount": 15,
           "amountMultiplier": false
         },
         {

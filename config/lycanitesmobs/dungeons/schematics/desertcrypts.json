@@ -1,24 +1,25 @@
 {
   "name": "desertcrypts",
-  "loadDefault": true,
-  "sectorCountMin": 5,
-  "sectorCountMax": 10,
+  "loadDefault": false,
+  "sectorCountMin": 15,
+  "sectorCountMax": 20,
   "corridorToCorridorChance": 0.5,
   "roomToRoomChance": 0.1,
   "conditions": [
     {
       "type": "world",
       "dimensionIds": [
-        0
+        0,
+        1,
+        -1,
+        111
       ],
       "dimensionListType": "whitelist",
       "biomeTags": [
-        "sandy",
-        "wasteland",
-        "mesa",
-        "-cold"
+        "cold",
+        "water"
       ],
-      "biomeTagListType": "whitelist"
+      "biomeTagListType": "blacklist"
     }
   ],
   "themes": [
@@ -120,10 +121,10 @@
       "mobId": "lycanitesmobs:crusk",
       "weight": 1,
       "variant": 1,
-      "mobNameTag": "Graboid",
+      "mobNameTag": "Grabahan",
       "mobSizeScale": 3,
       "naturalDespawn": "false",
-      "mobLevel": 25,
+      "mobLevel": 200,
       "spawnAsBoss": true,
       "dungeonLevelMin": "0",
       "dungeonLevelMax": 2,
@@ -132,6 +133,18 @@
         {
           "item": "lycanitesmobs:scorchfirescepter",
           "amountMultiplier": false
+        },
+        {
+          "item": "lycanitesmobs:scorchfireballcharge",
+          "amountMultiplier": false,
+          "minAmount": 20,
+          "maxAmount": 30
+        },
+        {
+          "item": "immersiveengineering:lead_ingot",
+          "amountMultiplier": false,
+          "minAmount": 20,
+          "maxAmount": 30
         },
         {
           "item": "lycanitesmobs:soulstone_worm",
@@ -157,9 +170,16 @@
           "amountMultiplier": false
         },
         {
-          "item": "minecraft:diamond",
-          "minAmount": 10,
+          "item": "immersiveengineering:storage",
+          "data": 5,
+          "minAmount": 5,
           "amountMultiplier": false
+        },
+        {
+          "item": "lycanitesmobs:throwingscythecharge",
+          "amountMultiplier": false,
+          "minAmount": 20,
+          "maxAmount": 30
         },
         {
           "item": "lycanitesmobs:soulstone_imp",
@@ -172,21 +192,32 @@
       "weight": 1,
       "variant": 1,
       "mobSizeScale": 1.1,
-      "mobNameTag": "The Tyrant Dragon",
+      "mobNameTag": "The Tyrone Dragon",
       "naturalDespawn": "false",
-      "mobLevel": 5,
+      "mobLevel": 50,
       "spawnAsBoss": true,
       "dungeonLevelMin": 5,
       "dungeonBoss": true,
       "mobDrops": [
         {
-          "item": "minecraft:diamond",
-          "minAmount": 50,
+          "item": "minecraft:diamond_block",
+          "minAmount": 15,
           "amountMultiplier": false
+        },
+        {
+          "item": "apotheosis:hellshelf",
+          "amountMultiplier": false,
+          "minAmount": 2
         },
         {
           "item": "lycanitesmobs:magmascepter",
           "amountMultiplier": false
+        },
+        {
+          "item": "lycanitesmobs:magmacharge",
+          "amountMultiplier": false,
+          "minAmount": 20,
+          "maxAmount": 30
         },
         {
           "item": "lycanitesmobs:soulstone_dragon",
