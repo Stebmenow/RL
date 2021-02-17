@@ -1,6 +1,6 @@
 {
   "itemName": "cinderblade",
-  "loadDefault": true,
+  "loadDefault": false,
   "slotType": "blade",
   "dropMobId": "lycanitesmobs:cinder",
   "dropChance": 0.1,
@@ -45,7 +45,7 @@
       "featureType": "damage",
       "levelMin": 2,
       "levelMax": 2,
-      "damageAmount": 4,
+      "damageAmount": 6,
       "damageKnockback": 0,
       "damageCooldown": 1,
       "damageRange": 1,
@@ -54,7 +54,7 @@
     {
       "featureType": "damage",
       "levelMin": 3,
-      "damageAmount": 5,
+      "damageAmount": 9,
       "damageKnockback": 0,
       "damageCooldown": 0.75,
       "damageRange": 1,

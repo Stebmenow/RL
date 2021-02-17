@@ -1,6 +1,6 @@
 {
   "name": "aberrantstation",
-  "loadDefault": true,
+  "loadDefault": false,
   "sectorCountMin": 20,
   "sectorCountMax": 30,
   "corridorToCorridorChance": 0.1,
@@ -136,7 +136,7 @@
         {
           "item": "minecraft:diamond_block",
           "minAmount": 5,
-          "maxAmount": 5,
+          "maxAmount": 6,
           "amountMultiplier": false
         },
         {
@@ -194,7 +194,7 @@
       "mobNameTag": "Anarchical Hound",
       "mobSizeScale": 2,
       "naturalDespawn": "false",
-      "mobLevel": 5,
+      "mobLevel": 100,
       "spawnAsBoss": true,
       "dungeonLevelMin": 4,
       "dungeonLevelMax": 4,

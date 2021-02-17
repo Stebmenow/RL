@@ -1,6 +1,6 @@
 {
   "itemName": "gammasphere",
-  "loadDefault": true,
+  "loadDefault": false,
   "slotType": "jewel",
   "dropMobId": "lycanitesmobs:wisp",
   "dropChance": 0.05,
@@ -29,7 +29,7 @@
       "projectilePattern": "ring",
       "cooldown": 30,
       "count": 9,
-      "bonusDamage": 4,
+      "bonusDamage": 5,
       "ringRange": 180
     },
     {
@@ -61,7 +61,7 @@
       "projectilePattern": "simple",
       "cooldown": 16,
       "count": 1,
-      "bonusDamage": 4
+      "bonusDamage": 7
     },
     {
       "featureType": "projectile",
@@ -71,7 +71,7 @@
       "projectilePattern": "simple",
       "cooldown": 8,
       "count": 1,
-      "bonusDamage": 10
+      "bonusDamage": 14
     }
   ]
 }

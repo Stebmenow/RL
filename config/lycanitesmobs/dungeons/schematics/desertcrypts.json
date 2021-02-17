@@ -1,6 +1,6 @@
 {
   "name": "desertcrypts",
-  "loadDefault": true,
+  "loadDefault": false,
   "sectorCountMin": 15,
   "sectorCountMax": 20,
   "corridorToCorridorChance": 0.5,
@@ -135,7 +135,7 @@
           "amountMultiplier": false
         },
         {
-          "item": "lycanitesmobs:scorchfirecharge",
+          "item": "lycanitesmobs:scorchfireballcharge",
           "amountMultiplier": false,
           "minAmount": 20,
           "maxAmount": 30
@@ -170,7 +170,8 @@
           "amountMultiplier": false
         },
         {
-          "item": "immersiveengineering:uraniumblock",
+          "item": "immersiveengineering:storage",
+          "data": 5,
           "minAmount": 5,
           "amountMultiplier": false
         },

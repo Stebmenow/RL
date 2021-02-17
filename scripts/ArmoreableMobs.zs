@@ -49,7 +49,7 @@ vanillaGroup.addArmor(ArmorHandler.createArmorSlot("legs", <mocreatures:furlegs>
 vanillaGroup.addArmor(ArmorHandler.createArmorSlot("feet", <mocreatures:furboots>, 2, 0.05));
 
 vanillaGroup.addArmor(ArmorHandler.createArmorSlot("head", <mocreatures:reptilehelmet>, 2, 0.05));
-vanillaGroup.addArmor(ArmorHandler.createArmorSlot("chest", <mocreatures:reptilechest>, 2, 0.05));
+vanillaGroup.addArmor(ArmorHandler.createArmorSlot("chest", <mocreatures:reptileplate>, 2, 0.05));
 vanillaGroup.addArmor(ArmorHandler.createArmorSlot("legs", <mocreatures:reptilelegs>, 2, 0.05));
 vanillaGroup.addArmor(ArmorHandler.createArmorSlot("feet", <mocreatures:reptileboots>, 2, 0.05));
 

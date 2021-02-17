@@ -1,6 +1,6 @@
 {
   "itemName": "clinkscythe",
-  "loadDefault": true,
+  "loadDefault": false,
   "slotType": "axe",
   "dropMobId": "lycanitesmobs:clink",
   "dropChance": 0.1,
@@ -87,7 +87,7 @@
     {
       "featureType": "damage",
       "levelMin": 3,
-      "damageAmount": 5,
+      "damageAmount": 6,
       "damageKnockback": 2,
       "damageCooldown": 0.5,
       "damageRange": 1,

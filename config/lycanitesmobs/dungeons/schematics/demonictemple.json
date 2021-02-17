@@ -1,6 +1,6 @@
 {
   "name": "demonictemple",
-  "loadDefault": true,
+  "loadDefault": false,
   "sectorCountMin": 10,
   "sectorCountMax": 20,
   "corridorToCorridorChance": 0.1,
@@ -231,7 +231,8 @@
           "maxAmount": 20
         },
         {
-          "item": "immersiveengineering:steel_block",
+          "item": "immersiveengineering:storage",
+          "data": 8,
           "minAmount": 10,
           "amountMultiplier": false
         },

@@ -1,6 +1,6 @@
 {
   "name": "lushtomb",
-  "loadDefault": true,
+  "loadDefault": false,
   "sectorCountMin": 15,
   "sectorCountMax": 20,
   "corridorToCorridorChance": 0.1,
@@ -169,7 +169,7 @@
       "dungeonBoss": true,
       "mobDrops": [
         {
-          "item": "bountifulbaubles:spectral_silt",
+          "item": "bountifulbaubles:spectralsilt",
           "minAmount": 10,
           "maxAmount": 20,
           "amountMultiplier": false

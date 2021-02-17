@@ -1,6 +1,6 @@
 {
   "name": "shadowlabyrinth",
-  "loadDefault": true,
+  "loadDefault": false,
   "sectorCountMin": 20,
   "sectorCountMax": 30,
   "corridorToCorridorChance": 0.5,
@@ -162,7 +162,7 @@
           "maxAmount": 30
         },
         {
-          "item": "bountifulbaubles:spectral_silt",
+          "item": "bountifulbaubles:spectralsilt",
           "minAmount": 10,
           "amountMultiplier": false
         },
