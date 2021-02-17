@@ -18,6 +18,11 @@ vanillaGroup.addArmor(ArmorHandler.createArmorSlot("chest", <minecraft:leather_c
 vanillaGroup.addArmor(ArmorHandler.createArmorSlot("legs", <minecraft:leather_leggings>, 10, 0.5));
 vanillaGroup.addArmor(ArmorHandler.createArmorSlot("feet", <minecraft:leather_boots>, 10, 0.5));
 
+vanillaGroup.addArmor(ArmorHandler.createArmorSlot("head", <minecraft:chainmail_helmet>, 2, 0.5));
+vanillaGroup.addArmor(ArmorHandler.createArmorSlot("chest", <minecraft:chainmail_chestplate>, 2, 0.5));
+vanillaGroup.addArmor(ArmorHandler.createArmorSlot("legs", <minecraft:chainmail_leggings>,  2, 0.5));
+vanillaGroup.addArmor(ArmorHandler.createArmorSlot("feet", <minecraft:chainmail_boots>, 2, 0.5));
+
 vanillaGroup.addArmor(ArmorHandler.createArmorSlot("head", <minecraft:iron_helmet>, 5, 0.2));
 vanillaGroup.addArmor(ArmorHandler.createArmorSlot("chest", <minecraft:iron_chestplate>, 5, 0.2));
 vanillaGroup.addArmor(ArmorHandler.createArmorSlot("legs", <minecraft:iron_leggings>,  5, 0.2));
@@ -28,15 +33,105 @@ vanillaGroup.addArmor(ArmorHandler.createArmorSlot("chest", <minecraft:golden_ch
 vanillaGroup.addArmor(ArmorHandler.createArmorSlot("legs", <minecraft:golden_leggings>, 5, 0.1));
 vanillaGroup.addArmor(ArmorHandler.createArmorSlot("feet", <minecraft:golden_boots>, 5, 0.1));
 
-vanillaGroup.addArmor(ArmorHandler.createArmorSlot("head", <minecraft:diamond_helmet>, 1, 0.025));
-vanillaGroup.addArmor(ArmorHandler.createArmorSlot("chest", <minecraft:diamond_chestplate>, 1, 0.025));
-vanillaGroup.addArmor(ArmorHandler.createArmorSlot("legs", <minecraft:diamond_leggings>, 1, 0.025));
-vanillaGroup.addArmor(ArmorHandler.createArmorSlot("feet", <minecraft:diamond_boots>, 1, 0.025));
+vanillaGroup.addArmor(ArmorHandler.createArmorSlot("head", <minecraft:diamond_helmet>, 1, 0.05));
+vanillaGroup.addArmor(ArmorHandler.createArmorSlot("chest", <minecraft:diamond_chestplate>, 1, 0.05));
+vanillaGroup.addArmor(ArmorHandler.createArmorSlot("legs", <minecraft:diamond_leggings>, 1, 0.05));
+vanillaGroup.addArmor(ArmorHandler.createArmorSlot("feet", <minecraft:diamond_boots>, 1, 0.05));
 
-vanillaGroup.addArmor(ArmorHandler.createArmorSlot("head", <thaumcraft:thaumium_helm>, 1, 0.025));
-vanillaGroup.addArmor(ArmorHandler.createArmorSlot("chest", <thaumcraft:thaumium_chest>, 1, 0.025));
-vanillaGroup.addArmor(ArmorHandler.createArmorSlot("legs", <thaumcraft:thaumium_legs>, 1, 0.025));
-vanillaGroup.addArmor(ArmorHandler.createArmorSlot("feet", <thaumcraft:thaumium_boots>, 1, 0.025));
+vanillaGroup.addArmor(ArmorHandler.createArmorSlot("head", <mocreatures:hidehelmet>, 2, 0.05));
+vanillaGroup.addArmor(ArmorHandler.createArmorSlot("chest", <mocreatures:hidechest>, 2, 0.05));
+vanillaGroup.addArmor(ArmorHandler.createArmorSlot("legs", <mocreatures:hidelegs>, 2, 0.05));
+vanillaGroup.addArmor(ArmorHandler.createArmorSlot("feet", <mocreatures:hideboots>, 2, 0.05));
+
+vanillaGroup.addArmor(ArmorHandler.createArmorSlot("head", <mocreatures:furhelmet>, 2, 0.05));
+vanillaGroup.addArmor(ArmorHandler.createArmorSlot("chest", <mocreatures:furchest>, 2, 0.05));
+vanillaGroup.addArmor(ArmorHandler.createArmorSlot("legs", <mocreatures:furlegs>, 2, 0.05));
+vanillaGroup.addArmor(ArmorHandler.createArmorSlot("feet", <mocreatures:furboots>, 2, 0.05));
+
+vanillaGroup.addArmor(ArmorHandler.createArmorSlot("head", <mocreatures:reptilehelmet>, 2, 0.05));
+vanillaGroup.addArmor(ArmorHandler.createArmorSlot("chest", <mocreatures:reptilechest>, 2, 0.05));
+vanillaGroup.addArmor(ArmorHandler.createArmorSlot("legs", <mocreatures:reptilelegs>, 2, 0.05));
+vanillaGroup.addArmor(ArmorHandler.createArmorSlot("feet", <mocreatures:reptileboots>, 2, 0.05));
+
+vanillaGroup.addArmor(ArmorHandler.createArmorSlot("head", <iceandfire:armor_silver_metal_helmet>, 2, 0.05));
+vanillaGroup.addArmor(ArmorHandler.createArmorSlot("chest", <iceandfire:armor_silver_metal_chestplate>, 2, 0.05));
+vanillaGroup.addArmor(ArmorHandler.createArmorSlot("legs", <iceandfire:armor_silver_metal_leggings>, 2, 0.05));
+vanillaGroup.addArmor(ArmorHandler.createArmorSlot("feet", <iceandfire:armor_silver_metal_boots>, 2, 0.05));
+
+vanillaGroup.addArmor(ArmorHandler.createArmorSlot("head", <iceandfire:myrmex_jungle_helmet>, 2, 0.05));
+vanillaGroup.addArmor(ArmorHandler.createArmorSlot("chest", <iceandfire:myrmex_jungle_chestplate>, 2, 0.05));
+vanillaGroup.addArmor(ArmorHandler.createArmorSlot("legs", <iceandfire:myrmex_jungle_leggings>, 2, 0.05));
+vanillaGroup.addArmor(ArmorHandler.createArmorSlot("feet", <iceandfire:myrmex_jungle_boots>, 2, 0.05));
+
+vanillaGroup.addArmor(ArmorHandler.createArmorSlot("head", <iceandfire:myrmex_desert_helmet>, 2, 0.05));
+vanillaGroup.addArmor(ArmorHandler.createArmorSlot("chest", <iceandfire:myrmex_desert_chestplate>, 2, 0.05));
+vanillaGroup.addArmor(ArmorHandler.createArmorSlot("legs", <iceandfire:myrmex_desert_leggings>, 2, 0.05));
+vanillaGroup.addArmor(ArmorHandler.createArmorSlot("feet", <iceandfire:myrmex_desert_boots>, 2, 0.05));
+
+vanillaGroup.addArmor(ArmorHandler.createArmorSlot("head", <iceandfire:deathworm_yellow_helmet>, 2, 0.05));
+vanillaGroup.addArmor(ArmorHandler.createArmorSlot("chest", <iceandfire:deathworm_yellow_chestplate>, 2, 0.05));
+vanillaGroup.addArmor(ArmorHandler.createArmorSlot("legs", <iceandfire:deathworm_yellow_leggings>, 2, 0.05));
+vanillaGroup.addArmor(ArmorHandler.createArmorSlot("feet", <iceandfire:deathworm_yellow_boots>, 2, 0.05));
+
+vanillaGroup.addArmor(ArmorHandler.createArmorSlot("head", <iceandfire:deathworm_white_helmet>, 2, 0.05));
+vanillaGroup.addArmor(ArmorHandler.createArmorSlot("chest", <iceandfire:deathworm_white_chestplate>, 2, 0.05));
+vanillaGroup.addArmor(ArmorHandler.createArmorSlot("legs", <iceandfire:deathworm_white_leggings>, 2, 0.05));
+vanillaGroup.addArmor(ArmorHandler.createArmorSlot("feet", <iceandfire:deathworm_white_boots>, 2, 0.05));
+
+vanillaGroup.addArmor(ArmorHandler.createArmorSlot("head", <iceandfire:deathworm_red_helmet>, 2, 0.05));
+vanillaGroup.addArmor(ArmorHandler.createArmorSlot("chest", <iceandfire:deathworm_red_chestplate>, 2, 0.05));
+vanillaGroup.addArmor(ArmorHandler.createArmorSlot("legs", <iceandfire:deathworm_red_leggings>, 2, 0.05));
+vanillaGroup.addArmor(ArmorHandler.createArmorSlot("feet", <iceandfire:deathworm_red_boots>, 2, 0.05));
+
+vanillaGroup.addArmor(ArmorHandler.createArmorSlot("head", <iceandfire:forest_troll_leather_helmet>, 2, 0.05));
+vanillaGroup.addArmor(ArmorHandler.createArmorSlot("chest", <iceandfire:forest_troll_leather_chestplate>, 2, 0.05));
+vanillaGroup.addArmor(ArmorHandler.createArmorSlot("legs", <iceandfire:forest_troll_leather_leggings>, 2, 0.05));
+vanillaGroup.addArmor(ArmorHandler.createArmorSlot("feet", <iceandfire:forest_troll_leather_boots>, 2, 0.05));
+
+vanillaGroup.addArmor(ArmorHandler.createArmorSlot("head", <iceandfire:frost_troll_leather_helmet>, 2, 0.05));
+vanillaGroup.addArmor(ArmorHandler.createArmorSlot("chest", <iceandfire:frost_troll_leather_chestplate>, 2, 0.05));
+vanillaGroup.addArmor(ArmorHandler.createArmorSlot("legs", <iceandfire:frost_troll_leather_leggings>, 2, 0.05));
+vanillaGroup.addArmor(ArmorHandler.createArmorSlot("feet", <iceandfire:frost_troll_leather_boots>, 2, 0.05));
+
+vanillaGroup.addArmor(ArmorHandler.createArmorSlot("head", <iceandfire:mountain_troll_leather_helmet>, 2, 0.05));
+vanillaGroup.addArmor(ArmorHandler.createArmorSlot("chest", <iceandfire:mountain_troll_leather_chestplate>, 2, 0.05));
+vanillaGroup.addArmor(ArmorHandler.createArmorSlot("legs", <iceandfire:mountain_troll_leather_leggings>, 2, 0.05));
+vanillaGroup.addArmor(ArmorHandler.createArmorSlot("feet", <iceandfire:mountain_troll_leather_boots>, 2, 0.05));
+
+vanillaGroup.addArmor(ArmorHandler.createArmorSlot("head", <defiledlands:umbrium_helmet>, 2, 0.05));
+vanillaGroup.addArmor(ArmorHandler.createArmorSlot("chest", <defiledlands:umbrium_chestplate>, 2, 0.05));
+vanillaGroup.addArmor(ArmorHandler.createArmorSlot("legs", <defiledlands:umbrium_leggings>, 2, 0.05));
+vanillaGroup.addArmor(ArmorHandler.createArmorSlot("feet", <defiledlands:umbrium_boots>, 2, 0.05));
+
+vanillaGroup.addArmor(ArmorHandler.createArmorSlot("head", <defiledlands:scale_helmet>, 2, 0.05));
+vanillaGroup.addArmor(ArmorHandler.createArmorSlot("chest", <defiledlands:scale_chestplate>, 2, 0.05));
+vanillaGroup.addArmor(ArmorHandler.createArmorSlot("legs", <defiledlands:scale_leggings>, 2, 0.05));
+vanillaGroup.addArmor(ArmorHandler.createArmorSlot("feet", <defiledlands:scale_boots>, 2, 0.05));
+
+vanillaGroup.addArmor(ArmorHandler.createArmorSlot("head", <defiledlands:scale_golden_helmet>, 1, 0.05));
+vanillaGroup.addArmor(ArmorHandler.createArmorSlot("chest", <defiledlands:scale_golden_chestplate>, 1, 0.05));
+vanillaGroup.addArmor(ArmorHandler.createArmorSlot("legs", <defiledlands:scale_golden_leggings>, 1, 0.05));
+vanillaGroup.addArmor(ArmorHandler.createArmorSlot("feet", <defiledlands:scale_golden_boots>, 1, 0.05));
+
+vanillaGroup.addArmor(ArmorHandler.createArmorSlot("head", <aquaculture:neptunium_helmet>, 1, 0.05));
+vanillaGroup.addArmor(ArmorHandler.createArmorSlot("chest", <aquaculture:neptunium_chestplate>, 1, 0.05));
+vanillaGroup.addArmor(ArmorHandler.createArmorSlot("legs", <aquaculture:neptunium_leggings>, 1, 0.05));
+vanillaGroup.addArmor(ArmorHandler.createArmorSlot("feet", <aquaculture:neptunium_boots>, 1, 0.05));
+
+vanillaGroup.addArmor(ArmorHandler.createArmorSlot("head", <roots:sylvan_helmet>, 2, 0.05));
+vanillaGroup.addArmor(ArmorHandler.createArmorSlot("chest", <roots:sylvan_chestplate>, 2, 0.05));
+vanillaGroup.addArmor(ArmorHandler.createArmorSlot("legs", <roots:sylvan_leggings>, 2, 0.05));
+vanillaGroup.addArmor(ArmorHandler.createArmorSlot("feet", <roots:sylvan_boots>, 2, 0.05));
+
+vanillaGroup.addArmor(ArmorHandler.createArmorSlot("head", <roots:wildwood_helmet>, 2, 0.05));
+vanillaGroup.addArmor(ArmorHandler.createArmorSlot("chest", <roots:wildwood_chestplate>, 2, 0.05));
+vanillaGroup.addArmor(ArmorHandler.createArmorSlot("legs", <roots:wildwood_leggings>, 2, 0.05));
+vanillaGroup.addArmor(ArmorHandler.createArmorSlot("feet", <roots:wildwood_boots>, 2, 0.05));
+
+vanillaGroup.addArmor(ArmorHandler.createArmorSlot("head", <toughasnails:jelled_slime_helmet>, 2, 0.05));
+vanillaGroup.addArmor(ArmorHandler.createArmorSlot("chest", <toughasnails:jelled_slime_chestplate>, 2, 0.05));
+vanillaGroup.addArmor(ArmorHandler.createArmorSlot("legs", <toughasnails:jelled_slime_leggings>, 2, 0.05));
+vanillaGroup.addArmor(ArmorHandler.createArmorSlot("feet", <toughasnails:jelled_slime_boots>, 2, 0.05));
 
 weaponGroup.addArmor(ArmorHandler.createArmorSlot("mainhand", <spartanweaponry:halberd_stone>, 1, 0.05));
 weaponGroup.addArmor(ArmorHandler.createArmorSlot("mainhand", <spartanweaponry:halberd_iron>, 1, 0.05));
