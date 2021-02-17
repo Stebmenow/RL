@@ -4,7 +4,6 @@ print("Script starting!");
 <ore:toolAxe>.add(<iceandfire:dragonbone_axe:*>);
 
 recipes.remove(<variedcommodities:diamond_gun>);
-recipes.remove(<mysticalworld:copper_axe>);
 recipes.remove(<variedcommodities:emerald_gun>);
 recipes.remove(<variedcommodities:iron_gun>);
 recipes.remove(<variedcommodities:golden_gun>);
