@@ -23,35 +23,35 @@
       "mocreatures:furlegs",
       "mocreatures:furboots"
     ],
+    "modifier": 3
+  },
+  {
+    "names": [
+      "mocreatures:reptilehelmet",
+      "mocreatures:reptileplate",
+      "mocreatures:reptilelegs",
+      "mocreatures:reptileboots",
+      "minecraft:leather_helmet",
+      "minecraft:leather_chestplate",
+      "minecraft:leather_leggings",
+      "minecraft:leather_boots"
+    ],
     "modifier": 2
   },
   {
-      "names": [
-        "mocreatures:reptilehelmet",
-        "mocreatures:reptileplate",
-        "mocreatures:reptilelegs",
-        "mocreatures:reptileboots",
-        "minecraft:leather_helmet",
-        "minecraft:leather_chestplate",
-        "minecraft:leather_leggings",
-        "minecraft:leather_boots"
-      ],
-      "modifier": 0.5
-    },
-  {
     "names": [
-    "quark:witch_hat",
-    "quark:pirate_hat",
-    "quark:archaeologist_hat",
-    "ebwizardry:wizard_hat",
-    "ebwizardry:wizard_hat_fire",
-    "ebwizardry:wizard_hat_ice",
-    "ebwizardry:wizard_hat_lightning",
-    "ebwizardry:wizard_hat_necromancy",
-    "ebwizardry:wizard_hat_earth",
-    "ebwizardry:wizard_hat_sorcery",
-    "ebwizardry:wizard_hat_healing"
-  ],
-  "modifier": 1
+      "quark:witch_hat",
+      "quark:pirate_hat",
+      "quark:archaeologist_hat",
+      "ebwizardry:wizard_hat",
+      "ebwizardry:wizard_hat_fire",
+      "ebwizardry:wizard_hat_ice",
+      "ebwizardry:wizard_hat_lightning",
+      "ebwizardry:wizard_hat_necromancy",
+      "ebwizardry:wizard_hat_earth",
+      "ebwizardry:wizard_hat_sorcery",
+      "ebwizardry:wizard_hat_healing"
+    ],
+    "modifier": 1
   }
 ]
