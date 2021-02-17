@@ -54,7 +54,7 @@
     {
       "featureType": "damage",
       "levelMin": 3,
-      "damageAmount": 8,
+      "damageAmount": 5,
       "damageKnockback": 0,
       "damageCooldown": 0.75,
       "damageRange": 1,
