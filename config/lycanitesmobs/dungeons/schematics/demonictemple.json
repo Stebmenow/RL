@@ -9,9 +9,19 @@
     {
       "type": "world",
       "dimensionIds": [
-        -1
+        0,
+        1,
+        -1,
+        111
       ],
-      "dimensionListType": "whitelist"
+      "dimensionListType": "whitelist",
+      "biomeTags": [
+        "cold",
+        "coniferous",
+        "water",
+        "snowy"
+      ],
+      "biomeTagListType": "blacklist"
     }
   ],
   "themes": [
@@ -98,10 +108,10 @@
       "mobId": "lycanitesmobs:behemoth",
       "weight": 1,
       "variant": 0,
-      "mobNameTag": "Baron of Hell",
+      "mobNameTag": "Wide Bwipo of Hell",
       "mobSizeScale": 2,
       "naturalDespawn": "false",
-      "mobLevel": 30,
+      "mobLevel": 100,
       "spawnAsBoss": true,
       "dungeonLevelMin": "0",
       "dungeonLevelMax": 2,
@@ -110,6 +120,18 @@
         {
           "item": "lycanitesmobs:hellfirescepter",
           "amountMultiplier": false
+        },
+        {
+          "item": "xat:glowing_ingot",
+          "amountMultiplier": false,
+          "minAmount": 10,
+          "maxAmount": 20
+        },
+        {
+          "item": "lycanitesmobs:hellfireballcharge",
+          "amountMultiplier": false,
+          "minAmount": 10,
+          "maxAmount": 20
         },
         {
           "item": "lycanitesmobs:soulstone_demon",
@@ -121,7 +143,7 @@
       "mobId": "lycanitesmobs:pinky",
       "weight": 1,
       "variant": 2,
-      "mobNameTag": "Gluttony",
+      "mobNameTag": "Chonk",
       "mobSizeScale": 2,
       "naturalDespawn": "false",
       "mobLevel": 50,
@@ -131,9 +153,15 @@
       "dungeonBoss": true,
       "mobDrops": [
         {
-          "item": "minecraft:diamond",
+          "item": "minecraft:gold_block",
           "minAmount": 10,
           "amountMultiplier": false
+        },
+        {
+          "item": "lycanitesmobs:raw_pinky_meat",
+          "amountMultiplier": false,
+          "minAmount": 20,
+          "maxAmount": 30
         },
         {
           "item": "lycanitesmobs:soulstone_demon",
@@ -158,9 +186,21 @@
           "amountMultiplier": false
         },
         {
-          "item": "minecraft:diamond",
-          "minAmount": 50,
+          "item": "lycanitesmobs:demonicblastcharge",
+          "amountMultiplier": false,
+          "minAmount": 20,
+          "maxAmount": 30
+        },
+        {
+          "item": "minecraft:diamond_block",
+          "minAmount": 10,
+          "maxAmount": 20,
           "amountMultiplier": false
+        },
+        {
+          "item": "apotheosis:hellshelf",
+          "amountMultiplier": false,
+          "minAmount": 3
         },
         {
           "item": "lycanitesmobs:soulstone_demon",
@@ -175,7 +215,7 @@
       "mobSizeScale": 1.25,
       "mobNameTag": "Azazel",
       "naturalDespawn": "false",
-      "mobLevel": 10,
+      "mobLevel": 100,
       "spawnAsBoss": true,
       "dungeonLevelMin": 5,
       "dungeonBoss": true,
@@ -185,8 +225,14 @@
           "amountMultiplier": false
         },
         {
-          "item": "minecraft:diamond",
-          "minAmount": 50,
+          "item": "lycanitesmobs:doomfireballcharge",
+          "amountMultiplier": false,
+          "minAmount": 10,
+          "maxAmount": 20
+        },
+        {
+          "item": "immersiveengineering:steel_block",
+          "minAmount": 10,
           "amountMultiplier": false
         },
         {

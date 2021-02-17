@@ -11,17 +11,17 @@
       "dimensionIds": [
         0,
         1,
-        -1
+        -1,
+        111
       ],
       "dimensionListType": "whitelist",
       "biomeTags": [
-        "spooky",
-        "mountain",
-        "cold",
-        "nether",
-        "end"
+        "dry",
+        "sandy",
+        "beach",
+        "wasteland"
       ],
-      "biomeTagListType": "whitelist"
+      "biomeTagListType": "blacklist"
     }
   ],
   "themes": [
@@ -124,17 +124,28 @@
       "mobId": "lycanitesmobs:wraamon",
       "weight": 1,
       "variant": 1,
-      "mobNameTag": "Experiment 69R",
+      "mobNameTag": "Experiment 69R Nice ;)",
       "mobSizeScale": 6,
       "naturalDespawn": "false",
-      "mobLevel": 100,
+      "mobLevel": 200,
       "spawnAsBoss": true,
       "dungeonLevelMin": "0",
       "dungeonLevelMax": 2,
       "dungeonBoss": true,
       "mobDrops": [
         {
-          "item": "minecraft:diamond",
+          "item": "minecraft:diamond_block",
+          "minAmount": 5,
+          "maxAmount": 5,
+          "amountMultiplier": false
+        },
+        {
+          "item": "lycanitesmobs:chaosorbcharge",
+          "minAmount": 10,
+          "amountMultiplier": false
+        },
+        {
+          "item": "apotheosis:hellshelf",
           "minAmount": 3,
           "amountMultiplier": false
         },
@@ -147,7 +158,7 @@
     {
       "mobId": "lycanitesmobs:astaroth",
       "weight": 1,
-      "mobNameTag": "Arachnotron",
+      "mobNameTag": "Arachnotron Sangod Mk.II",
       "mobSizeScale": 1.8,
       "naturalDespawn": "false",
       "mobLevel": 125,
@@ -161,8 +172,13 @@
           "amountMultiplier": false
         },
         {
-          "item": "minecraft:diamond",
+          "item": "minecraft:emerald_block",
           "minAmount": 10,
+          "amountMultiplier": false
+        },
+        {
+          "item": "lycanitesmobs:devilstarcharge",
+          "minAmount": 20,
           "amountMultiplier": false
         },
         {
@@ -189,6 +205,12 @@
           "amountMultiplier": false
         },
         {
+          "item": "lycanitesmobs:raw_chupacabra_meat",
+          "amountMultiplier": false,
+          "minAmount": 20,
+          "maxAmount": 30
+        },
+        {
           "item": "lycanitesmobs:soulstone_beast",
           "amountMultiplier": false
         },
@@ -204,7 +226,7 @@
       "mobId": "lycanitesmobs:astaroth",
       "weight": 1,
       "subspecies": 1,
-      "mobNameTag": "Asakku",
+      "mobNameTag": "Asakku Primordial",
       "mobSizeScale": 2.5,
       "naturalDespawn": "false",
       "mobLevel": 250,
@@ -217,8 +239,13 @@
           "amountMultiplier": false
         },
         {
-          "item": "minecraft:diamond",
-          "minAmount": 50,
+          "item": "mysticalworld:silver_block",
+          "minAmount": 10,
+          "amountMultiplier": false
+        },
+        {
+          "item": "lycanitesmobs:devilstarcharge",
+          "minAmount": 20,
           "amountMultiplier": false
         },
         {

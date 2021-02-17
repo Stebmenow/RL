@@ -4,8 +4,8 @@
   "weight": 4,
   "loadDefault": true,
   "changeTheme": false,
-  "tileSpawners": false,
-  "tileChests": false,
+  "tileSpawners": true,
+  "tileChests": true,
   "sizeMin": [
     24,
     9,

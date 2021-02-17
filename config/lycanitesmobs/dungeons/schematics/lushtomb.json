@@ -1,23 +1,28 @@
 {
   "name": "lushtomb",
   "loadDefault": true,
-  "sectorCountMin": 5,
-  "sectorCountMax": 10,
+  "sectorCountMin": 15,
+  "sectorCountMax": 20,
   "corridorToCorridorChance": 0.1,
   "roomToRoomChance": 0.5,
   "conditions": [
     {
       "type": "world",
       "dimensionIds": [
-        0
+        0,
+        1,
+        -1,
+        111
       ],
       "dimensionListType": "whitelist",
       "biomeTags": [
-        "forest",
-        "jungle",
-        "swamp"
+        "ocean",
+        "beach",
+        "sandy",
+        "wasteland",
+        "dead"
       ],
-      "biomeTagListType": "whitelist"
+      "biomeTagListType": "blacklist"
     }
   ],
   "themes": [
@@ -119,10 +124,10 @@
       "mobId": "lycanitesmobs:conba",
       "weight": 1,
       "variant": 1,
-      "mobNameTag": "Pong Kong",
+      "mobNameTag": "Monke",
       "mobSizeScale": 2,
       "naturalDespawn": "false",
-      "mobLevel": 100,
+      "mobLevel": 150,
       "spawnAsBoss": true,
       "dungeonLevelMin": "0",
       "dungeonLevelMax": 2,
@@ -131,6 +136,18 @@
         {
           "item": "lycanitesmobs:poopscepter",
           "amountMultiplier": false
+        },
+        {
+          "item": "lycanitesmobs:poopcharge",
+          "amountMultiplier": false,
+          "minAmount": 20,
+          "maxAmount": 30
+        },
+        {
+          "item": "xat:glowing_ingot",
+          "amountMultiplier": false,
+          "minAmount": 20,
+          "maxAmount": 30
         },
         {
           "item": "lycanitesmobs:soulstone_plant",
@@ -142,19 +159,25 @@
       "mobId": "lycanitesmobs:jabberwock",
       "weight": 1,
       "variant": 1,
-      "mobNameTag": "Princess",
+      "mobNameTag": "Prinzessin der Verurteilung",
       "mobSizeScale": 2,
       "naturalDespawn": "false",
-      "mobLevel": 100,
+      "mobLevel": 200,
       "spawnAsBoss": true,
       "dungeonLevelMin": 3,
       "dungeonLevelMax": 4,
       "dungeonBoss": true,
       "mobDrops": [
         {
-          "item": "minecraft:diamond",
+          "item": "bountifulbaubles:spectral_silt",
           "minAmount": 10,
+          "maxAmount": 20,
           "amountMultiplier": false
+        },
+        {
+          "item": "apotheosis:hellshelf",
+          "amountMultiplier": false,
+          "minAmount": 2
         },
         {
           "item": "lycanitesmobs:soulstone_avian",
@@ -179,8 +202,14 @@
           "amountMultiplier": false
         },
         {
-          "item": "minecraft:diamond",
-          "minAmount": 50,
+          "item": "lycanitesmobs:arcanelaserstormcharge",
+          "amountMultiplier": false,
+          "minAmount": 20,
+          "maxAmount": 30
+        },
+        {
+          "item": "minecraft:diamond_block",
+          "minAmount": 15,
           "amountMultiplier": false
         },
         {
