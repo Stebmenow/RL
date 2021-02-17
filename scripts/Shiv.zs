@@ -203,8 +203,6 @@ recipes.removeByRecipeName("notreepunching:tools/fire_starter");
 recipes.remove(<minecraft:sandstone>);
 recipes.remove(<minecraft:red_sandstone>);
 
-furnace.remove(<notreepunching:ceramic_small_vessel>);
-
 furnace.remove(<minecraft:gold_nugget>);
 furnace.remove(<minecraft:iron_nugget>);
 furnace.remove(<defiledlands:umbrium_nugget>);
@@ -530,7 +528,7 @@ recipes.addShaped("lolarecipe55",<variedcommodities:diamond_skirt>,
   
 recipes.addShaped("lolarecipe56",<xat:glowing_ingot>,
  [[<minecraft:glowstone_dust>,<minecraft:blaze_powder>,<minecraft:glowstone_dust>],
-  [<minecraft:blaze_powder>,<iceandfire:silver_ingot>,<minecraft:blaze_powder>],
+  [<minecraft:blaze_powder>,<ore:ingotSilver>,<minecraft:blaze_powder>],
   [<minecraft:glowstone_dust>,<minecraft:blaze_powder>,<minecraft:glowstone_dust>]]);
   
 recipes.addShaped("lolarecipe57",<xat:glowing_ingot>,

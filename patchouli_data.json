@@ -1,1 +1,24 @@
-{"bookGuiScale":0,"clickedVisualize":false,"bookData":{}}
+{
+  "bookGuiScale": 0,
+  "clickedVisualize": false,
+  "bookData": {
+    "roots:roots_guide": {
+      "viewedEntries": [
+        "roots:basics/introduction",
+        "roots:basics/letter",
+        "roots:resources/aubergine",
+        "roots:resources/bark",
+        "roots:basics/groves"
+      ],
+      "bookmarks": [],
+      "history": [
+        "roots:basics/groves",
+        "roots:resources/bark",
+        "roots:resources/aubergine",
+        "roots:basics/introduction",
+        "roots:basics/letter"
+      ],
+      "completedManualQuests": []
+    }
+  }
+}

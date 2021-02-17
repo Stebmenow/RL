@@ -3,7 +3,7 @@
 	"pools": [
 		{
 			"name": "uncommon_armor",
-			"rolls": 1,
+			"rolls": 2,
 			"entries": [
 				{
 					"entryName": "iron_chestplate",
@@ -30,11 +30,57 @@
 					"weight": 20		
 				},
 				{
-					"entryName": "shield",
+					"entryName": "iron_chestplate_ench",
 					"type": "item",
-					"name": "minecraft:shield",
-					"weight": 20		
-				},				
+					"name": "minecraft:iron_chestplate",
+					"weight": 13,
+					"functions": [
+						{
+							"function": "enchant_with_levels",
+							"levels": 5,
+							"treasure": true
+						}
+					]
+				},
+				{
+					"entryName": "iron_leggings_ench",
+					"type": "item",
+					"name": "minecraft:iron_leggings",
+					"weight": 13,
+					"functions": [
+						{
+							"function": "enchant_with_levels",
+							"levels": 5,
+							"treasure": true
+						}
+					]	
+				},
+				{
+					"entryName": "iron_helmet_ench",
+					"type": "item",
+					"name": "minecraft:iron_helmet",
+					"weight": 13,
+					"functions": [
+						{
+							"function": "enchant_with_levels",
+							"levels": 5,
+							"treasure": true
+						}
+					]		
+				},
+				{
+					"entryName": "iron_boots_ench",
+					"type": "item",
+					"name": "minecraft:iron_boots",
+					"weight": 13,
+					"functions": [
+						{
+							"function": "enchant_with_levels",
+							"levels": 5,
+							"treasure": true
+						}
+					]		
+				},
 				{
 					"entryName": "golden_chestplate",
 					"type": "item",
@@ -42,7 +88,9 @@
 					"weight": 10,
 					"functions": [
 						{
-							"function": "enchant_randomly"
+							"function": "enchant_with_levels",
+							"levels": 16,
+							"treasure": true
 						}
 					]
 				},
@@ -53,9 +101,11 @@
 					"weight": 10,
 					"functions": [
 						{
-							"function": "enchant_randomly"
+							"function": "enchant_with_levels",
+							"levels": 16,
+							"treasure": true
 						}
-					]						
+					]					
 				},
 				{
 					"entryName": "golden_helmet",
@@ -64,7 +114,9 @@
 					"weight": 10,
 					"functions": [
 						{
-							"function": "enchant_randomly"
+							"function": "enchant_with_levels",
+							"levels": 16,
+							"treasure": true
 						}
 					]		
 				},
@@ -73,12 +125,130 @@
 					"type": "item",
 					"name": "minecraft:golden_boots",
 					"weight": 10,
+						"functions": [
+							{
+								"function": "enchant_with_levels",
+								"levels": 16,
+								"treasure": true
+							}
+						]			
+				},
+				{	"entryName": "infsilver_helmet",
+					"type": "item",
+					"name": "iceandfire:armor_silver_metal_helmet",
+					"weight": 10,
 					"functions": [
 						{
-							"function": "enchant_randomly"
+							"function": "enchant_with_levels",
+							"levels": 16,
+							"treasure": true
 						}
-					]	
-				}	
+					]
+				},
+				{	"entryName": "infsilver_chestplate",
+					"type": "item",
+					"name": "iceandfire:armor_silver_metal_chestplate",
+					"weight": 10,
+					"functions": [
+						{
+							"function": "enchant_with_levels",
+							"levels": 16,
+							"treasure": true
+						}
+					]
+				},
+				{	"entryName": "infsilver_leggings",
+					"type": "item",
+					"name": "iceandfire:armor_silver_metal_leggings",
+					"weight": 10,
+					"functions": [
+						{
+							"function": "enchant_with_levels",
+							"levels": 16,
+							"treasure": true
+						}
+					]
+				},
+				{	"entryName": "infsilver_boots",
+					"type": "item",
+					"name": "iceandfire:armor_silver_metal_boots",
+					"weight": 10,
+					"functions": [
+						{
+							"function": "enchant_with_levels",
+							"levels": 16,
+							"treasure": true
+						}
+					]
+				},	
+				{	"entryName": "mwsilver_helmet",
+					"type": "item",
+					"name": "mysticalworld:silver_helmet",
+					"weight": 10,
+					"functions": [
+						{
+							"function": "enchant_with_levels",
+							"levels": 10,
+							"treasure": true
+						}
+					]
+				},
+				{	"entryName": "mwsilver_chestplate",
+					"type": "item",
+					"name": "mysticalworld:silver_chestplate",
+					"weight": 10,
+					"functions": [
+						{
+							"function": "enchant_with_levels",
+							"levels": 10,
+							"treasure": true
+						}
+					]
+				},
+				{	"entryName": "mwsilver_leggings",
+					"type": "item",
+					"name": "mysticalworld:silver_leggings",
+					"weight": 10,
+					"functions": [
+						{
+							"function": "enchant_with_levels",
+							"levels": 10,
+							"treasure": true
+						}
+					]
+				},
+				{	"entryName": "mwsilver_boots",
+					"type": "item",
+					"name": "mysticalworld:silver_boots",
+					"weight": 10,
+					"functions": [
+						{
+							"function": "enchant_with_levels",
+							"levels": 10,
+							"treasure": true
+						}
+					]
+				},
+				{	"entryName": "mwcopper_helmet",
+					"type": "item",
+					"name": "mysticalworld:copper_helmet",
+					"weight": 10
+				},
+				{	"entryName": "mwcopper_chestplate",
+					"type": "item",
+					"name": "mysticalworld:copper_chestplate",
+					"weight": 10
+				},
+				{	"entryName": "mwcopper_leggings",
+					"type": "item",
+					"name": "mysticalworld:copper_leggings",
+					"weight": 10
+				},
+				{	"entryName": "mwcopper_boots",
+					"type": "item",
+					"name": "mysticalworld:copper_boots",
+					"weight": 10
+				}
 			]
 		}
 	]
