@@ -1,3 +1,19 @@
+<<<<<<< HEAD
+=======
+furnace.addRecipe(<iceandfire:silver_ingot> * 2, <iceandfire:armor_silver_metal_helmet:*>, 0.2);
+furnace.addRecipe(<iceandfire:silver_ingot> * 4, <iceandfire:armor_silver_metal_chestplate:*>, 0.2);
+furnace.addRecipe(<iceandfire:silver_ingot> * 3, <iceandfire:armor_silver_metal_leggings:*>, 0.2);
+furnace.addRecipe(<iceandfire:silver_ingot> * 2, <iceandfire:armor_silver_metal_boots:*>, 0.2);
+furnace.addRecipe(<iceandfire:silver_ingot> * 1, <iceandfire:silver_sword:*>, 0.2);
+furnace.addRecipe(<iceandfire:silver_ingot> * 1, <iceandfire:silver_axe:*>, 0.2);
+furnace.addRecipe(<iceandfire:silver_ingot> * 1, <iceandfire:silver_pickaxe:*>, 0.2);
+furnace.addRecipe(<iceandfire:silver_ingot> * 1, <iceandfire:silver_hoe:*>, 0.2);
+furnace.addRecipe(<iceandfire:silver_nugget> * 4, <iceandfire:silver_shovel:*>, 0.2);
+furnace.addRecipe(<iceandfire:silver_ingot> * 1, <iceandfire:silver_ore:*>, 0.2);
+furnace.addRecipe(<iceandfire:sapphire_gem> * 1, <iceandfire:sapphire_ore:*>, 0.2);
+
+recipes.remove(<iceandfire:dread_sword>);
+>>>>>>> J
 recipes.addShaped("dread_sword",<iceandfire:dread_sword>,
  [[<defiledlands:remorseful_gem>,<iceandfire:dragon_bone_block>,<defiledlands:remorseful_gem>],
   [<ore:blockUmbrium>,<iceandfire:dragonsteel_fire_sword>|<iceandfire:dragonsteel_ice_sword>,<ore:blockUmbrium>],
