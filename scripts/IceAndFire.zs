@@ -10,6 +10,18 @@ furnace.addRecipe(<iceandfire:silver_nugget> * 4, <iceandfire:silver_shovel:*>, 
 furnace.addRecipe(<iceandfire:silver_ingot> * 1, <iceandfire:silver_ore:*>, 0.2);
 furnace.addRecipe(<iceandfire:sapphire_gem> * 1, <iceandfire:sapphire_ore:*>, 0.2);
 
+recipes.remove(<iceandfire:dragonforge_fire_input>);
+recipes.addShaped("dragonforge_fire_input",<iceandfire:dragonforge_fire_input>,
+ [[<iceandfire:dragonforge_fire_brick>,<ore:gemRemorseful>,<iceandfire:dragonforge_fire_brick>],
+  [<ore:ingotRavaging>,<naturesaura:sky_ingot>,<industrialforegoing:pink_slime_ingot>],
+  [<iceandfire:dragonforge_fire_brick>,<immersiveengineering:material:19>,<iceandfire:dragonforge_fire_brick>]]);
+
+recipes.remove(<iceandfire:dragonforge_ice_input>);
+recipes.addShaped("dragonforge_ice_input",<iceandfire:dragonforge_ice_input>,
+ [[<iceandfire:dragonforge_fire_brick>,<ore:gemRemorseful>,<iceandfire:dragonforge_fire_brick>],
+  [<ore:ingotRavaging>,<naturesaura:sky_ingot>,<industrialforegoing:pink_slime_ingot>],
+  [<iceandfire:dragonforge_ice_brick>,<immersiveengineering:material:19>,<iceandfire:dragonforge_ice_brick>]]);
+
 recipes.remove(<iceandfire:dread_sword>);
 recipes.addShaped("dread_sword",<iceandfire:dread_sword>,
  [[<defiledlands:remorseful_gem>,<iceandfire:dragon_bone_block>,<defiledlands:remorseful_gem>],

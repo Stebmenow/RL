@@ -15,7 +15,4 @@ recipes.addShaped("hv_capacitor",<immersiveengineering:metal_device1:3>,
  [[<ore:ingotSteel>,<ore:blockUranium>,<ore:ingotSteel>],
   [<ore:ingotAluminum>,<ore:blockLead>,<ore:ingotAluminum>],
   [<ore:plankTreatedWood>,<ore:blockRedstone>,<ore:plankTreatedWood>]]);
-
-recipes.addShaped("immersive_torch",<minecraft:torch>*8,
- [[<forge:bucketfilled>.withTag({FluidName: "creosote", Amount: 1000})],
-  [<ore:stickWood>]]);
+  
