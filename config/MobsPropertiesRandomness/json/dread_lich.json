@@ -1,0 +1,23 @@
+{
+	"mob_id": "iceandfire:dread_lich",
+	"attributes": [
+		{
+			"id": "generic.maxHealth",
+			"modifier": {
+				"min": 300,
+				"max": 300
+			},
+			"is_flat": true,
+			"affected_by_difficulty": false
+		},
+		{
+			"id": "generic.attackDamage",
+			"modifier": {
+				"min": 5,
+				"max": 5
+			},
+			"is_flat": true,
+			"affected_by_difficulty": false
+		}
+	]
+}
