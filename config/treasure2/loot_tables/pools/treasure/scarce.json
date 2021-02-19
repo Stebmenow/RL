@@ -3,7 +3,10 @@
 	"pools": [
 		{
 			"name": "scarce_keys",
-			"rolls": 1,
+			"rolls": {
+				"min": 1,
+				"max": 2
+			},
 			"entries": [
 				{
 					"entryName": "iron_key",
@@ -188,13 +191,6 @@
 						}
 					]
 				}
-			]
-		},
-		{
-			"name": "scarce_charms",
-			"rolls": 1,
-			"entries": [
-
 			]
 		}
 	]

@@ -70,12 +70,6 @@
 							"novice"
 						]
 					}]
-				},
-				{
-					"entryName": "eb_id_scroll",
-					"type": "item",
-					"name": "ebwizardry:identification_scroll",
-					"weight": 5
 				}
 			]
 		}

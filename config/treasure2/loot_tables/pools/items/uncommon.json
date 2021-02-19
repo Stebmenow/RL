@@ -3,7 +3,10 @@
 	"pools": [
 		{
 			"name": "uncommon_items",
-			"rolls": 1,
+			"rolls": {
+				"min": 2,
+				"max": 4
+			},
 			"entries": [		
 				{
 					"entryName": "iron_ingot",
@@ -105,6 +108,12 @@
 					]
 				},
 				{
+					"entryName": "amethyst",
+					"type": "item",
+					"name": "mysticalworld:amethyst",
+					"weight": 2
+				},
+				{
 					"entryName": "redstone",
 					"type": "item",
 					"name": "minecraft:redstone",
@@ -120,25 +129,100 @@
 					]						
 				},
 				{
-					"entryName": "coal",
+					"entryName": "bucket",
 					"type": "item",
-					"name": "minecraft:coal",
-					"weight": 2,
+					"name": "minecraft:bucket",
+					"weight": 2					
+				},
+				{
+					"entryName": "bronze",
+					"type": "item",
+					"name": "variedcommodities:ingot_bronze",
+					"weight": 20,
+					"functions": [
+						{
+							"function": "set_count",
+							"count": {
+								"min": 3,
+								"max": 6
+							}
+						}
+					]
+				},
+				{
+					"entryName": "silver",
+					"type": "item",
+					"name": "iceandfire:silver_ingot",
+					"weight": 20,
 					"functions": [
 						{
 							"function": "set_count",
 							"count": {
 								"min": 1,
-								"max": 5
+								"max": 4
 							}
 						}
-					]						
+					]
 				},
 				{
-					"entryName": "bucket",
+					"entryName": "silver",
 					"type": "item",
-					"name": "minecraft:bucket",
-					"weight": 2					
+					"name": "mysticalworld:silver_ingot",
+					"weight": 20,
+					"functions": [
+						{
+							"function": "set_count",
+							"count": {
+								"min": 1,
+								"max": 4
+							}
+						}
+					]
+				},
+				{
+					"entryName": "copper",
+					"type": "item",
+					"name": "mysticalworld:copper_ingot",
+					"weight": 20,
+					"functions": [
+						{
+							"function": "set_count",
+							"count": {
+								"min": 1,
+								"max": 4
+							}
+						}
+					]
+				},
+				{
+					"entryName": "silver",
+					"type": "item",
+					"name": "mysticalworld:ingot_silver",
+					"weight": 20,
+					"functions": [
+						{
+							"function": "set_count",
+							"count": {
+								"min": 1,
+								"max": 4
+							}
+						}
+					]
+				},
+				{
+					"entryName": "copper",
+					"type": "item",
+					"name": "mysticalworld:ingot_copper",
+					"weight": 20,
+					"functions": [
+						{
+							"function": "set_count",
+							"count": {
+								"min": 1,
+								"max": 4
+							}
+						}
+					]
 				},
 				{
 					"entryName": "slime_ball",
@@ -149,8 +233,8 @@
 						{
 							"function": "set_count",
 							"count": {
-								"min": 1,
-								"max": 3
+								"min": 4,
+								"max": 8
 							}
 						}
 					]						

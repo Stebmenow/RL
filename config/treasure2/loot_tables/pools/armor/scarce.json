@@ -3,7 +3,10 @@
 	"pools": [
 		{
 			"name": "scarce_armor",
-			"rolls": 1,
+			"rolls": {
+				"min": 1,
+				"max": 2
+			},
 			"entries": [
 				{
 					"entryName": "iron_chestplate",
@@ -34,9 +37,11 @@
 					"weight": 20,
 					"functions": [
 						{
-							"function": "enchant_randomly"
+							"function": "enchant_with_levels",
+							"levels": 16,
+							"treasure": true
 						}
-					]		
+					]	
 				},
 				{
 					"entryName": "iron_boots",
@@ -45,27 +50,191 @@
 					"weight": 20,
 					"functions": [
 						{
-							"function": "enchant_randomly"
+							"function": "enchant_with_levels",
+							"levels": 16,
+							"treasure": true
 						}
-					]		
+					]	
 				},
 				{
 					"entryName": "shield",
 					"type": "item",
-					"name": "minecraft:shield",
+					"name": "spartanshields:shield_basic_iron",
 					"weight": 10		
 				},
 				{
 					"entryName": "shield2",
 					"type": "item",
-					"name": "shield_tower_iron",
+					"name": "spartanshields:shield_tower_iron",
 					"weight": 10		
 				},
 				{
 					"entryName": "shield3",
 					"type": "item",
-					"name": "shield_tower_silver",
+					"name": "spartanshields:shield_tower_steel",
 					"weight": 10		
+				},
+				{
+					"entryName": "shield4",
+					"type": "item",
+					"name": "spartanshields:shield_basic_steel",
+					"weight": 10		
+				},
+				{
+					"entryName": "infused_chestplate",
+					"type": "item",
+					"name": "naturesaura:infused_iron_chest",
+					"weight": 15,
+					"functions": [
+						{
+							"function": "enchant_with_levels",
+							"levels": 16,
+							"treasure": true
+						}
+					]
+				},
+				{
+					"entryName": "infused_leggings",
+					"type": "item",
+					"name": "naturesaura:infused_iron_pants",
+					"weight": 15,
+					"functions": [
+						{
+							"function": "enchant_with_levels",
+							"levels": 16,
+							"treasure": true
+						}
+					]						
+				},
+				{
+					"entryName": "infused_helmet",
+					"type": "item",
+					"name": "naturesaura:infused_iron_helmet",
+					"weight": 20,
+					"functions": [
+						{
+							"function": "enchant_with_levels",
+							"levels": 16,
+							"treasure": true
+						}
+					]		
+				},
+				{
+					"entryName": "infused_boots",
+					"type": "item",
+					"name": "naturesaura:infused_iron_shoes",
+					"weight": 20,
+					"functions": [
+						{
+							"function": "enchant_with_levels",
+							"levels": 16,
+							"treasure": true
+						}
+					]
+				},
+				{
+					"entryName": "sylvan_helmet",
+					"type": "item",
+					"name": "roots:sylvan_helmet",
+					"weight": 15,
+					"functions": [
+						{
+							"function": "enchant_with_levels",
+							"levels": 16,
+							"treasure": true
+						}
+					]
+				},
+				{
+					"entryName": "sylvan_chestplate",
+					"type": "item",
+					"name": "roots:sylvan_chestplate",
+					"weight": 15,
+					"functions": [
+						{
+							"function": "enchant_with_levels",
+							"levels": 16,
+							"treasure": true
+						}
+					]						
+				},
+				{
+					"entryName": "sylvan_leggings",
+					"type": "item",
+					"name": "roots:sylvan_leggings",
+					"weight": 20,
+					"functions": [
+						{
+							"function": "enchant_with_levels",
+							"levels": 16,
+							"treasure": true
+						}
+					]		
+				},
+				{
+					"entryName": "sylvan_boots",
+					"type": "item",
+					"name": "roots:sylvan_boots",
+					"weight": 20,
+					"functions": [
+						{
+							"function": "enchant_with_levels",
+							"levels": 16,
+							"treasure": true
+						}
+					]
+				},
+				{
+					"entryName": "wildwood_helmet",
+					"type": "item",
+					"name": "roots:wildwood_helmet",
+					"weight": 15,
+					"functions": [
+						{
+							"function": "enchant_with_levels",
+							"levels": 16,
+							"treasure": true
+						}
+					]
+				},
+				{
+					"entryName": "wildwood_chestplate",
+					"type": "item",
+					"name": "roots:wildwood_chestplate",
+					"weight": 15,
+					"functions": [
+						{
+							"function": "enchant_with_levels",
+							"levels": 16,
+							"treasure": true
+						}
+					]						
+				},
+				{
+					"entryName": "wildwood_leggings",
+					"type": "item",
+					"name": "roots:wildwood_leggings",
+					"weight": 20,
+					"functions": [
+						{
+							"function": "enchant_with_levels",
+							"levels": 16,
+							"treasure": true
+						}
+					]		
+				},
+				{
+					"entryName": "wildwood_boots",
+					"type": "item",
+					"name": "roots:wildwood_boots",
+					"weight": 20,
+					"functions": [
+						{
+							"function": "enchant_with_levels",
+							"levels": 16,
+							"treasure": true
+						}
+					]
 				}
 			]
 		}

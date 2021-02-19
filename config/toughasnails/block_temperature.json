@@ -17,6 +17,20 @@
   },
   {
     "state": {
+      "block": "minecraft:torch",
+      "properties": {}
+    },
+    "temperature": 1.5
+  },
+  {
+    "state": {
+      "block": "realistictorches:torch_lit",
+      "properties": {}
+    },
+    "temperature": 1.5
+  },
+  {
+    "state": {
       "block": "minecraft:lava",
       "properties": {}
     },

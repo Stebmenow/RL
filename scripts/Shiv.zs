@@ -6,6 +6,7 @@ recipes.remove(<xat:dwarf_ring>);
 recipes.remove(<xat:inertia_null_stone>);
 recipes.remove(<xat:greater_inertia_stone>);
 recipes.remove(<xat:damage_shield>);
+recipes.remove(<minecraft:shield>);
 
 recipes.removeByRecipeName("bountifulbaubles:spectralsilt_flaregun");
 recipes.removeByRecipeName("bountifulbaubles:flare_red");

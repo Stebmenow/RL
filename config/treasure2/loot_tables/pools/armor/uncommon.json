@@ -3,7 +3,7 @@
 	"pools": [
 		{
 			"name": "uncommon_armor",
-			"rolls": 2,
+			"rolls": 1,
 			"entries": [
 				{
 					"entryName": "iron_chestplate",
@@ -232,22 +232,50 @@
 				{	"entryName": "mwcopper_helmet",
 					"type": "item",
 					"name": "mysticalworld:copper_helmet",
-					"weight": 10
+					"weight": 10,
+					"functions": [
+						{
+							"function": "enchant_with_levels",
+							"levels": 10,
+							"treasure": true
+						}
+					]
 				},
 				{	"entryName": "mwcopper_chestplate",
 					"type": "item",
 					"name": "mysticalworld:copper_chestplate",
-					"weight": 10
+					"weight": 10,
+					"functions": [
+						{
+							"function": "enchant_with_levels",
+							"levels": 10,
+							"treasure": true
+						}
+					]
 				},
 				{	"entryName": "mwcopper_leggings",
 					"type": "item",
 					"name": "mysticalworld:copper_leggings",
-					"weight": 10
+					"weight": 10,
+					"functions": [
+						{
+							"function": "enchant_with_levels",
+							"levels": 10,
+							"treasure": true
+						}
+					]
 				},
 				{	"entryName": "mwcopper_boots",
 					"type": "item",
 					"name": "mysticalworld:copper_boots",
-					"weight": 10
+					"weight": 10,
+					"functions": [
+						{
+							"function": "enchant_with_levels",
+							"levels": 10,
+							"treasure": true
+						}
+					]
 				}
 			]
 		}
