@@ -1,0 +1,23 @@
+{
+	"mob_id": "twilightforest:knight_phantom",
+	"attributes": [
+		{
+			"id": "generic.maxHealth",
+			"modifier": {
+				"min": 1000,
+				"max": 1000
+			},
+			"is_flat": true,
+			"affected_by_difficulty": false
+		},
+		{
+			"id": "generic.attackDamage",
+			"modifier": {
+				"min": 37,
+				"max": 37
+			},
+			"is_flat": true,
+			"affected_by_difficulty": false
+		}
+	]
+}

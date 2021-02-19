@@ -1,0 +1,23 @@
+{
+	"mob_id": "twilightforest:minoshroom",
+	"attributes": [
+		{
+			"id": "generic.maxHealth",
+			"modifier": {
+				"min": 6000,
+				"max": 6000
+			},
+			"is_flat": true,
+			"affected_by_difficulty": false
+		},
+		{
+			"id": "generic.attackDamage",
+			"modifier": {
+				"min": 35,
+				"max": 35
+			},
+			"is_flat": true,
+			"affected_by_difficulty": false
+		}
+	]
+}

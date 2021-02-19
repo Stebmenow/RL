@@ -1,0 +1,23 @@
+{
+	"mob_id": "twilightforest:lich",
+	"attributes": [
+		{
+			"id": "generic.maxHealth",
+			"modifier": {
+				"min": 5000,
+				"max": 5000
+			},
+			"is_flat": true,
+			"affected_by_difficulty": false
+		},
+		{
+			"id": "generic.attackDamage",
+			"modifier": {
+				"min": 32,
+				"max": 32
+			},
+			"is_flat": true,
+			"affected_by_difficulty": false
+		}
+	]
+}

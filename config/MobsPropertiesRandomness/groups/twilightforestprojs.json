@@ -1,0 +1,17 @@
+{
+  "name": "twilightforestprojs",
+  "mobs": [
+    "twilightforest:ice_exploder",
+    "twilightforest:ice_shooter",
+    "twilightforest:ice_snowball",
+    "twilightforest:nature_bolt",
+    "twilightforest:slime_blob",
+    "twilightforest:tome_bolt",
+    "twilightforest:falling_ice",
+    "twilightforest:hydra_mortar",
+    "twilightforest:ice_bomb",
+    "twilightforest:lich_bolt",
+    "twilightforest:lich_bomb",
+    "twilightforest:thrown_wep"
+  ]
+}

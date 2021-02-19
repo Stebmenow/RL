@@ -1,0 +1,23 @@
+{
+	"mob_id": "twilightforest:yeti_alpha",
+	"attributes": [
+		{
+			"id": "generic.maxHealth",
+			"modifier": {
+				"min": 10000,
+				"max": 10000
+			},
+			"is_flat": true,
+			"affected_by_difficulty": false
+		},
+		{
+			"id": "generic.attackDamage",
+			"modifier": {
+				"min": 42,
+				"max": 42
+			},
+			"is_flat": true,
+			"affected_by_difficulty": false
+		}
+	]
+}

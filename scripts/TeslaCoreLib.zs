@@ -33,7 +33,7 @@ recipes.addShaped("gear_stone",<teslacorelib:gear_iron>,
   [<ore:gearWood>,<minecraft:cobblestone>,<ore:gearWood>]]);
 
 recipes.remove(<teslacorelib:machine_case>);
-recipes.addShaped("machine_case",<teslacorelib:gear_diamond>,
+recipes.addShaped("machine_case",<teslacorelib:machine_case>,
  [[<aquaculture:loot:1>,<xat:glowing_ingot>,<ore:plateUranium>],
   [<minecraft:emerald>,<iceandfire:fire_dragon_heart>|<iceandfire:ice_dragon_heart>,<ore:ingotSilver>],
   [<biomesoplenty:terrestrial_artifact>,<ore:ingotSteel>,<naturesaura:sky_ingot>]]);

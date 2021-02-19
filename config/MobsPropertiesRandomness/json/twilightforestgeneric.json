@@ -1,0 +1,23 @@
+{
+  "group": "twilightforestgeneric",
+  "attributes": [
+		{
+			"id": "generic.maxHealth",
+			"modifier": {
+				"min": 1200,
+				"max": 1500
+			},
+			"is_flat": false,
+			"affected_by_difficulty": false
+		},
+		{
+			"id": "generic.attackDamage",
+			"modifier": {
+				"min": 400,
+				"max": 500
+			},
+			"is_flat": false,
+			"affected_by_difficulty": false
+		}
+	]
+}

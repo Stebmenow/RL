@@ -1,0 +1,23 @@
+{
+	"mob_id": "twilightforest:naga",
+	"attributes": [
+		{
+			"id": "generic.maxHealth",
+			"modifier": {
+				"min": 4000,
+				"max": 4000
+			},
+			"is_flat": true,
+			"affected_by_difficulty": false
+		},
+		{
+			"id": "generic.attackDamage",
+			"modifier": {
+				"min": 30,
+				"max": 30
+			},
+			"is_flat": true,
+			"affected_by_difficulty": false
+		}
+	]
+}

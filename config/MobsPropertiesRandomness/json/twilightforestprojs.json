@@ -1,0 +1,14 @@
+{
+  "group": "twilightforestprojs",
+  "attributes": [
+		{
+			"id": "generic.attackDamage",
+			"modifier": {
+				"min": 3000,
+				"max": 4000
+			},
+			"is_flat": false,
+			"affected_by_difficulty": false
+		}
+	]
+}
