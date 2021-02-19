@@ -1,5 +1,12 @@
 print("Script starting!");
 
+recipes.removeShaped(<minecraft:torch>*4,
+ [[<minecraft:coal>],
+  [<ore:stickWood>]]);
+recipes.removeShaped(<minecraft:torch>*4,
+ [[<ore:charcoal>],
+  [<ore:stickWood>]]);
+
 recipes.remove(<xat:weightless_stone>);
 recipes.remove(<xat:fairy_ring>);
 recipes.remove(<xat:dwarf_ring>);

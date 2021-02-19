@@ -2,6 +2,7 @@
 *
 !config
 !config/**
+/config/splash.properties
 /config/CustomSpawner
 /config/CustomSpawner/**
 /config/jei
