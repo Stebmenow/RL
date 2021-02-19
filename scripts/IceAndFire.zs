@@ -18,7 +18,7 @@ recipes.addShaped("dragonforge_fire_input",<iceandfire:dragonforge_fire_input>,
 
 recipes.remove(<iceandfire:dragonforge_ice_input>);
 recipes.addShaped("dragonforge_ice_input",<iceandfire:dragonforge_ice_input>,
- [[<iceandfire:dragonforge_fire_brick>,<ore:gemRemorseful>,<iceandfire:dragonforge_fire_brick>],
+ [[<iceandfire:dragonforge_ice_brick>,<ore:gemRemorseful>,<iceandfire:dragonforge_ice_brick>],
   [<ore:ingotRavaging>,<naturesaura:sky_ingot>,<industrialforegoing:pink_slime_ingot>],
   [<iceandfire:dragonforge_ice_brick>,<immersiveengineering:material:19>,<iceandfire:dragonforge_ice_brick>]]);
 

@@ -2,6 +2,7 @@
 *
 !config
 !config/**
+/config/sphash.properties
 /config/CustomSpawner
 /config/CustomSpawner/**
 /config/jei
