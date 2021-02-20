@@ -1,0 +1,7 @@
+"name" : "demo:loot",
+	"inherit" : [
+	"ebwizardry:subsets/elemental_crystals",
+	"ebwizardry:subsets/uncommon_artefacts",
+    "ebwizardry:subsets/wand_upgrades",
+    "ebwizardry:subsets/wizard_armour",
+	]

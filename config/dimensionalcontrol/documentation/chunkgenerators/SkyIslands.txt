@@ -7,36 +7,6 @@ distance value to create a 'density' value.
 
 
 
-setNoiseOctaves:
-    Arguments:
-        int
-    Usage:
-        octaves
-    Default Values:
-        6
-    Notes:
-        Sets the number of octaves used for the island noise.
-
-setNoiseSize:
-    Arguments:
-        double, double, double
-    Usage:
-        x size, y size, z size
-    Default Values:
-        128, 192, 128
-    Notes:
-        Sets the noise sizes for the island.
-
-setRegionSize:
-    Arguments:
-        int
-    Usage:
-        region size
-    Default Values:
-        512
-    Notes:
-        Sets the island region size.
-
 setDistanceStretch:
     Arguments:
         double, double, double
@@ -57,15 +27,13 @@ setIslandHeightMin:
     Notes:
         Sets the minimum height for the bottom of the island.
 
-setIslandHeightMax:
+generateBiomeBlocks:
     Arguments:
-        int
-    Usage:
-        height
+        boolean
     Default Values:
-        236
+        true
     Notes:
-        Sets the maximum height for the top of the island.
+        Sets if biome blocks should be generated.
 
 populateLavaLakes:
     Arguments:
@@ -74,24 +42,6 @@ populateLavaLakes:
         true
     Notes:
         Sets if lava lakes should be populated.
-
-setMaxIslandRadius:
-    Arguments:
-        int
-    Usage:
-        radius
-    Default Values:
-        100
-    Notes:
-        Sets the max island radius.
-
-generateBiomeBlocks:
-    Arguments:
-        boolean
-    Default Values:
-        true
-    Notes:
-        Sets if biome blocks should be generated.
 
 setNoisePersistence:
     Arguments:
@@ -103,6 +53,26 @@ setNoisePersistence:
     Notes:
         Sets how much each octave of noise is used compared to the one before it.
 
+setMaxIslandRadius:
+    Arguments:
+        int
+    Usage:
+        radius
+    Default Values:
+        100
+    Notes:
+        Sets the max island radius.
+
+setIslandHeightMax:
+    Arguments:
+        int
+    Usage:
+        height
+    Default Values:
+        236
+    Notes:
+        Sets the maximum height for the top of the island.
+
 setMinBlockDensity:
     Arguments:
         double
@@ -113,37 +83,15 @@ setMinBlockDensity:
     Notes:
         Sets the minimum `density` value required for blocks to be placed.
 
-decorateBiomes:
+setRegionSize:
     Arguments:
-        boolean
+        int
+    Usage:
+        region size
     Default Values:
-        true
+        512
     Notes:
-        Sets if biomes should be decorated.
-
-populateAnimals:
-    Arguments:
-        boolean
-    Default Values:
-        true
-    Notes:
-        Sets if animals should be populated.
-
-populateIce:
-    Arguments:
-        boolean
-    Default Values:
-        true
-    Notes:
-        Sets if ice/snow should be populated.
-
-populateLakes:
-    Arguments:
-        boolean
-    Default Values:
-        true
-    Notes:
-        Sets if lakes should be populated.
+        Sets the island region size.
 
 setMainBlock:
     Arguments:
@@ -162,6 +110,58 @@ setMainBlock:
         minecraft:stone
     Notes:
         Sets the main block for the island.
+
+setNoiseSize:
+    Arguments:
+        double, double, double
+    Usage:
+        x size, y size, z size
+    Default Values:
+        128, 192, 128
+    Notes:
+        Sets the noise sizes for the island.
+
+setNoiseOctaves:
+    Arguments:
+        int
+    Usage:
+        octaves
+    Default Values:
+        6
+    Notes:
+        Sets the number of octaves used for the island noise.
+
+populateAnimals:
+    Arguments:
+        boolean
+    Default Values:
+        true
+    Notes:
+        Sets if animals should be populated.
+
+populateLakes:
+    Arguments:
+        boolean
+    Default Values:
+        true
+    Notes:
+        Sets if lakes should be populated.
+
+decorateBiomes:
+    Arguments:
+        boolean
+    Default Values:
+        true
+    Notes:
+        Sets if biomes should be decorated.
+
+populateIce:
+    Arguments:
+        boolean
+    Default Values:
+        true
+    Notes:
+        Sets if ice/snow should be populated.
 
 setGenerationOptions:
     Arguments:
