@@ -3,7 +3,10 @@
 	"pools": [
 		{
 			"name": "epic_armor",
-			"rolls": 1,
+			"rolls": {
+				"min": 2,
+				"max": 3
+			},
 			"entries": [
 				{
 					"entryName": "diamond_chestplate1",
@@ -13,16 +16,13 @@
 					"functions": [
 						{
 							"function": "enchant_with_levels",
-							"levels": 30,
+							"levels": 24,
 							"treasure": true
 						},
 						{
 							"function": "enchant_with_levels",
-							"levels": 30,
+							"levels": 12,
 							"treasure": true
-						},
-						{
-							"function": "enchant_randomly"
 						}
 					]
 				},
@@ -34,16 +34,13 @@
 					"functions": [
 						{
 							"function": "enchant_with_levels",
-							"levels": 30,
+							"levels": 24,
 							"treasure": true
 						},
 						{
 							"function": "enchant_with_levels",
-							"levels": 30,
+							"levels": 12,
 							"treasure": true
-						},
-						{
-							"function": "enchant_randomly"
 						}
 					]		
 				},
@@ -55,16 +52,13 @@
 					"functions": [
 						{
 							"function": "enchant_with_levels",
-							"levels": 30,
+							"levels": 24,
 							"treasure": true
 						},
 						{
 							"function": "enchant_with_levels",
-							"levels": 30,
+							"levels": 12,
 							"treasure": true
-						},
-						{
-							"function": "enchant_randomly"
 						}
 					]	
 				},
@@ -76,16 +70,13 @@
 					"functions": [
 						{
 							"function": "enchant_with_levels",
-							"levels": 30,
+							"levels": 24,
 							"treasure": true
 						},
 						{
 							"function": "enchant_with_levels",
-							"levels": 30,
+							"levels": 12,
 							"treasure": true
-						},
-						{
-							"function": "enchant_randomly"
 						}
 					]
 				},
@@ -93,7 +84,7 @@
 					"entryName": "diamond_chestplate",
 					"type": "item",
 					"name": "minecraft:diamond_chestplate",
-					"weight": 2,
+					"weight": 1,
 					"functions": [
 						{
 							"function": "enchant_with_levels",
@@ -106,7 +97,7 @@
 					"entryName": "diamond_leggings",
 					"type": "item",
 					"name": "minecraft:diamond_leggings",
-					"weight": 2,
+					"weight": 1,
 					"functions": [
 						{
 							"function": "enchant_with_levels",
@@ -119,7 +110,7 @@
 					"entryName": "diamond_helmet",
 					"type": "item",
 					"name": "minecraft:diamond_helmet",
-					"weight": 2,
+					"weight": 1,
 					"functions": [
 						{
 							"function": "enchant_with_levels",
@@ -132,7 +123,7 @@
 					"entryName": "diamond_boots",
 					"type": "item",
 					"name": "minecraft:diamond_boots",
-					"weight": 2,
+					"weight": 1,
 					"functions": [
 						{
 							"function": "enchant_with_levels",
@@ -140,76 +131,162 @@
 							"treasure": true
 						}
 					]
-				},
+				},	
 				{
-					"entryName": "iron_chestplate",
+					"entryName": "trollchest",
 					"type": "item",
-					"name": "minecraft:iron_chestplate",
-					"weight": 4,
+					"name": "iceandfire:frost_troll_leather_chestplate",
+					"weight": 1,
 					"functions": [
 						{
 							"function": "enchant_with_levels",
-							"levels": 30,
+							"levels": 20,
 							"treasure": true
-						},
-						{
-							"function": "enchant_randomly"
 						}
 					]
 				},
 				{
-					"entryName": "iron_leggings",
+					"entryName": "trollleg",
 					"type": "item",
-					"name": "minecraft:iron_leggings",
-					"weight": 4,
+					"name": "iceandfire:frost_troll_leather_leggings",
+					"weight": 1,
 					"functions": [
 						{
 							"function": "enchant_with_levels",
-							"levels": 30,
+							"levels": 20,
 							"treasure": true
-						},
-						{
-							"function": "enchant_randomly"
 						}
 					]						
 				},
 				{
-					"entryName": "iron_helmet",
+					"entryName": "trollhelm",
 					"type": "item",
-					"name": "minecraft:iron_helmet",
-					"weight": 4,
+					"name": "iceandfire:frost_troll_leather_helmet",
+					"weight": 1,
 					"functions": [
 						{
 							"function": "enchant_with_levels",
-							"levels": 30,
+							"levels": 20,
 							"treasure": true
-						},
-						{
-							"function": "enchant_randomly"
 						}
 					]		
 				},
 				{
-					"entryName": "iron_boots",
+					"entryName": "trollboots",
 					"type": "item",
-					"name": "minecraft:iron_boots",
-					"weight": 4,
+					"name": "iceandfire:frost_troll_leather_boots",
+					"weight": 1,
 					"functions": [
 						{
 							"function": "enchant_with_levels",
-							"levels": 30,
+							"levels": 20,
 							"treasure": true
-						},
-						{
-							"function": "enchant_randomly"
 						}
 					]	
 				},
 				{
-					"entryName": "diamond_horse_armor",
+					"entryName": "serpentchest",
 					"type": "item",
-					"name": "minecraft:diamond_horse_armor",
-					"weight": 25
+					"name": "iceandfire:tide_blue_chestplate",
+					"weight": 1,
+					"functions": [
+						{
+							"function": "enchant_with_levels",
+							"levels": 18,
+							"treasure": true
+						}
+					]
+				},
+				{
+					"entryName": "serpentleg",
+					"type": "item",
+					"name": "iceandfire:tide_blue_leggings",
+					"weight": 1,
+					"functions": [
+						{
+							"function": "enchant_with_levels",
+							"levels": 18,
+							"treasure": true
+						}
+					]						
+				},
+				{
+					"entryName": "serpenthelm",
+					"type": "item",
+					"name": "iceandfire:tide_blue_helmet",
+					"weight": 1,
+					"functions": [
+						{
+							"function": "enchant_with_levels",
+							"levels": 18,
+							"treasure": true
+						}
+					]		
+				},
+				{
+					"entryName": "serpentboots",
+					"type": "item",
+					"name": "iceandfire:tide_blue_boots",
+					"weight": 1,
+					"functions": [
+						{
+							"function": "enchant_with_levels",
+							"levels": 18,
+							"treasure": true
+						}
+					]	
+				},
+				{
+					"entryName": "dragonchest",
+					"type": "item",
+					"name": "iceandfire:armor_silver_chestplate",
+					"weight": 1,
+					"functions": [
+						{
+							"function": "enchant_with_levels",
+							"levels": 18,
+							"treasure": true
+						}
+					]
+				},
+				{
+					"entryName": "dragonleg",
+					"type": "item",
+					"name": "iceandfire:armor_silver_leggings",
+					"weight": 1,
+					"functions": [
+						{
+							"function": "enchant_with_levels",
+							"levels": 18,
+							"treasure": true
+						}
+					]						
+				},
+				{
+					"entryName": "dragonhelm",
+					"type": "item",
+					"name": "iceandfire:armor_silver_helmet",
+					"weight": 1,
+					"functions": [
+						{
+							"function": "enchant_with_levels",
+							"levels": 18,
+							"treasure": true
+						}
+					]		
+				},
+				{
+					"entryName": "dragonboots",
+					"type": "item",
+					"name": "iceandfire:armor_silver_boots",
+					"weight": 1,
+					"functions": [
+						{
+							"function": "enchant_with_levels",
+							"levels": 18,
+							"treasure": true
+						}
+					]	
 				}
 			]
 		}

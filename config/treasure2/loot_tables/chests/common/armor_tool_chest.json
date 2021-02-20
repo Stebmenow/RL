@@ -16,8 +16,8 @@
 		{
 			"name": "items",
 			"rolls": {
-				"min": 0,
-				"max": 5
+				"min": 2,
+				"max": 7
 			},
 			"entries": [
                 {
@@ -30,8 +30,8 @@
 		{
 			"name": "armor",
 			"rolls": {
-				"min": 2,
-				"max": 4
+				"min": 1,
+				"max": 2
 			},
 			"entries": [
                 {

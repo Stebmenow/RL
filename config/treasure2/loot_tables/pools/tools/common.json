@@ -3,43 +3,90 @@
 	"pools": [
 		{
 			"name": "common_tools",
-			"rolls": 1,
+			"rolls": {
+				"min": 0,
+				"max": 1
+			},
 			"entries": [
 				{
 					"entryName": "stone_sword",
 					"type": "item",
 					"name": "minecraft:stone_sword",
-					"weight": 25	
+					"weight": 25,	
+					"functions": [
+						{
+							"function": "enchant_with_levels",
+							"levels": 3,
+							"treasure": false
+						}
+					]
 				},
 				{
 					"entryName": "stone_pickaxe",
 					"type": "item",
 					"name": "minecraft:stone_pickaxe",
-					"weight": 25
+					"weight": 25,
+					"functions": [
+						{
+							"function": "enchant_with_levels",
+							"levels": 3,
+							"treasure": false
+						}
+					]
 				},
+
 				{
 					"entryName": "stone_axe",
 					"type": "item",
 					"name": "minecraft:stone_axe",
-					"weight": 25
+					"weight": 25,
+					"functions": [
+						{
+							"function": "enchant_with_levels",
+							"levels": 3,
+							"treasure": false
+						}
+					]
 				},
 				{
 					"entryName": "golden_sword",
 					"type": "item",
 					"name": "minecraft:golden_sword",
-					"weight": 15
+					"weight": 15,
+					"functions": [
+						{
+							"function": "enchant_with_levels",
+							"levels": 3,
+							"treasure": false
+						}
+					]
 				},
 				{
 					"entryName": "golden_pickaxe",
 					"type": "item",
 					"name": "minecraft:golden_pickaxe",
-					"weight": 15
+					"weight": 15,
+					"functions": [
+						{
+							"function": "enchant_with_levels",
+							"levels": 3,
+							"treasure": false
+						}
+					]
 				},
 				{
 					"entryName": "golden_axe",
 					"type": "item",
 					"name": "minecraft:golden_axe",
-					"weight": 15
+					"weight": 15,
+					"functions": [
+						{
+							"function": "enchant_with_levels",
+							"levels": 3,
+							"treasure": false
+						}
+					]
+				},
 				}
 			]
 		}

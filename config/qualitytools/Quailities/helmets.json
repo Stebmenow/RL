@@ -1,0 +1,331 @@
+{
+    "comment": "These qualities will apply for all helmets! For more info about how to edit this file and add more files, visit https://bitbucket.org/Tmtravlr/qualitytools/wiki/Home",
+    
+    "slot": "head",
+    "whitelist": [
+      {
+        "slot": "head"
+      }
+    ],
+    "blacklist": [
+      {
+        "item": "toughasnails:wool_helmet"
+      },
+      {
+        "item": "toughasnails:jelled_slime_helmet"
+      },
+      {
+        "item": "quark:pirate_hat"
+      },
+      {
+        "item": "quark:archaeologist_hat"
+      },
+      {
+        "item": "quark:witch_hat"
+      },
+      {
+        "item": "ebwizardry:spectral_helmet"
+      },
+      {
+        "item": "mysticalworld:beetle_mask"
+      },
+      {
+        "item": "mysticalworld:antler_hat"
+      }
+    ],
+    "qualities": [
+      {
+        "name": "Crumbling",
+        "color": "dark_red",
+        "weight": 13,
+        "attributes": [
+          {
+            "name": "generic.armor",
+            "amount": -2,
+            "operation": 0
+          },
+          {
+            "name": "generic.armorToughness",
+            "amount": -1,
+            "operation": 0
+          },
+          {
+            "name": "potioncore.magicShielding",
+            "amount": -2,
+            "operation": 0
+          }
+        ]
+      },
+      {
+        "name": "Cursed",
+        "color": "dark_red",
+        "weight": 13,
+        "attributes": [
+          {
+            "name": "generic.armor",
+            "amount": -1,
+            "operation": 0
+          },
+          {
+            "name": "potioncore.magicShielding",
+            "amount": -2,
+            "operation": 0
+          },
+          {
+            "name": "generic.attackDamage",
+            "amount": -0.1,
+            "operation": 2
+          }
+        ]
+      },
+      {
+        "name": "Cushioned",
+        "color": "aqua",
+        "weight": 10,
+        "attributes": [
+          {
+            "name": "generic.knockbackResistance",
+            "amount": 0.15,
+            "operation": 0
+          }
+        ]
+      },
+      {
+        "name": "Broken",
+        "color": "dark_red",
+        "weight": 13,
+        "attributes": [
+          {
+            "name": "generic.armor",
+            "amount": -3,
+            "operation": 0
+          },
+          {
+            "name": "generic.armorToughness",
+            "amount": -0.5,
+            "operation": 0
+          }
+        ]
+      },
+      {
+        "name": "Dented",
+        "color": "dark_gray",
+        "weight": 13,
+        "attributes": [
+          {
+            "name": "generic.armor",
+            "amount": -1.2,
+            "operation": 0
+          }
+        ]
+      },
+      {
+        "name": "Heavy",
+        "color": "red",
+        "weight": 13,
+        "attributes": [
+          {
+            "name": "generic.movementSpeed",
+            "amount": -0.1,
+            "operation": 2
+          }
+        ]
+      },
+      {
+        "name": "Corrupted",
+        "color": "yellow",
+        "weight": 10,
+        "attributes": [
+          {
+            "name": "generic.maxHealth",
+            "amount": -2,
+            "operation": 0
+          },
+          {
+            "name": "generic.knockbackResistance",
+            "amount": -0.1,
+            "operation": 0
+          },
+          {
+            "name": "generic.armor",
+            "amount": 2,
+            "operation": 0
+          },
+          {
+            "name": "generic.movementSpeed",
+            "amount": 0.12,
+            "operation": 2
+          }
+        ]
+      },
+      {
+        "name": "normal",
+        "weight": 100
+      },
+      {
+        "name": "Thicc",
+        "color": "yellow",
+        "weight": 10,
+        "attributes": [
+          {
+            "name": "generic.armor",
+            "amount": 1.2,
+            "operation": 0
+          },
+          {
+            "name": "generic.movementSpeed",
+            "amount": -0.05,
+            "operation": 2
+          }
+        ]
+      },
+      {
+        "name": "Choncc",
+        "color": "yellow",
+        "weight": 10,
+        "attributes": [
+          {
+            "name": "generic.maxHealth",
+            "amount": 5,
+            "operation": 0
+          },
+          {
+            "name": "generic.movementSpeed",
+            "amount": -0.2,
+            "operation": 2
+          },
+          {
+            "name": "generic.knockbackResistance",
+            "amount": 0.20,
+            "operation": 0
+          }
+        ]
+      },
+      {
+        "name": "Tough",
+        "color": "aqua",
+        "weight": 10,
+        "attributes": [
+          {
+            "name": "generic.armorToughness",
+            "amount": 2,
+            "operation": 0
+          }
+        ]
+      },
+      {
+        "name": "Plated",
+        "color": "yellow",
+        "weight": 10,
+        "attributes": [
+          {
+            "name": "generic.armorToughness",
+            "amount": 2,
+            "operation": 0
+          },
+          {
+            "name": "generic.armor",
+            "amount": 1.5,
+            "operation": 0
+          },
+          {
+            "name": "generic.movementSpeed",
+            "amount": -0.07,
+            "operation": 2
+          }
+        ]
+      },
+      {
+        "name": "Hard",
+        "color": "aqua",
+        "weight": 10,
+        "attributes": [
+          {
+            "name": "generic.armor",
+            "amount": 1.2,
+            "operation": 0
+          }
+        ]
+      },
+      {
+        "name": "Protective",
+        "color": "blue",
+        "weight": 6,
+        "attributes": [
+          {
+            "name": "generic.armor",
+            "amount": 1.2,
+            "operation": 0
+          },
+          {
+            "name": "generic.armorToughness",
+            "amount": 2,
+            "operation": 0
+          }
+        ]
+      },
+      {
+        "name": "Arcane",
+        "color": "blue",
+        "weight": 10,
+        "attributes": [
+          {
+            "name": "potioncore.magicShielding",
+            "amount": 2,
+            "operation": 0
+          }
+        ]
+      },
+      {
+        "name": "Light",
+        "color": "aqua",
+        "weight": 10,
+        "attributes": [
+          {
+            "name": "generic.movementSpeed",
+            "amount": 0.07,
+			   "operation": 2
+          }
+        ]
+      },
+      {
+        "name": "Lucky",
+        "color": "aqua",
+        "weight": 10,
+        "attributes": [
+          {
+            "name": "generic.luck",
+            "amount": 2.5,
+			   "operation": 0
+          }
+        ]
+      },
+      {
+        "name": "Masterful",
+        "color": "light_purple",
+        "weight": 5,
+        "attributes": [
+          {
+            "name": "generic.armor",
+            "amount": 2,
+            "operation": 0
+          },
+          {
+            "name": "generic.armorToughness",
+            "amount": 2,
+            "operation": 0
+          },
+          {
+            "name": "potioncore.stepHeight",
+            "amount": 1,
+            "operation": 0
+          },
+          {
+            "name": "generic.movementSpeed",
+            "amount": 0.15,
+            "operation": 2
+          }
+        ]
+      },
+    ]
+}

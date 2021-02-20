@@ -1,0 +1,507 @@
+{
+    "comment": "These qualities will apply for all basic weapons and tools, including swords, pickaxes, axes, shovels, hoes, and shears! For more info about how to edit this file and add more files, visit https://bitbucket.org/Tmtravlr/qualitytools/wiki/Home",
+    
+    "slot": "mainhand",
+    "whitelist": [
+      {
+        "class": "ItemTool"
+      },
+      {
+        "class": "ItemHoe"
+      },
+      {
+        "class": "ItemShears"
+      },
+      {
+        "class": "ItemSword"
+      }
+    ],
+    "blacklist": [
+    
+    ],
+    "qualities": [
+      {
+        "name": "Worthless",
+        "color": "dark_red",
+        "weight": 13,
+        "attributes": [
+          {
+            "name": "generic.attackDamage",
+            "amount": -0.1,
+            "operation": 2
+          },
+          {
+            "name": "generic.attackSpeed",
+            "amount": -0.1,
+            "operation": 2
+          },
+          {
+            "name": "potioncore.digSpeed",
+            "amount": -0.1,
+            "operation": 2
+          },
+          {
+            "name": "generic.reachDistance",
+            "amount": -1,
+            "operation": 0
+          }
+        ]
+      },
+      {
+        "name": "Broken",
+        "color": "dark_gray",
+        "weight": 13,
+        "attributes": [
+          {
+            "name": "generic.attackDamage",
+            "amount": -0.15,
+            "operation": 2
+          }
+        ]
+      },
+      {
+        "name": "Bulky",
+        "color": "dark_gray",
+        "weight": 10,
+        "attributes": [
+          {
+            "name": "generic.attackSpeed",
+            "amount": -0.15,
+            "operation": 2
+          },
+          {
+            "name": "potioncore.digSpeed",
+            "amount": -0.15,
+            "operation": 2
+          }
+        ]
+      },
+      {
+        "name": "Rusted",
+        "color": "red",
+        "weight": 13,
+        "attributes": [
+          {
+            "name": "generic.attackDamage",
+            "amount": -0.1,
+            "operation": 2
+          },
+          {
+            "name": "potioncore.digSpeed",
+            "amount": -0.1,
+            "operation": 2
+          }
+        ]
+      },
+      {
+        "name": "Possessed",
+        "color": "red",
+        "weight": 13,
+        "attributes": [
+          {
+            "name": "generic.attackDamage",
+            "amount": -0.1,
+            "operation": 2
+          },
+          {
+            "name": "potioncore.digSpeed",
+            "amount": -0.1,
+            "operation": 2
+          },
+          {
+            "name": "generic.movementSpeed",
+            "amount": -0.05,
+            "operation": 2
+          }
+        ]
+      },
+      {
+        "name": "Corroded",
+        "color": "red",
+        "weight": 13,
+        "attributes": [
+          {
+            "name": "potioncore.digSpeed",
+            "amount": -0.15,
+            "operation": 2
+          },
+          {
+            "name": "generic.attackSpeed",
+            "amount": -0.05,
+            "operation": 2
+          }
+        ]
+      },
+      {
+        "name": "Clumsy",
+        "color": "red",
+        "weight": 10,
+        "attributes": [
+          {
+            "name": "generic.attackSpeed",
+            "amount": -0.05,
+            "operation": 2
+          },
+          {
+            "name": "potioncore.digSpeed",
+            "amount": -0.05,
+            "operation": 2
+          }
+        ]
+      },
+      {
+        "name": "Chipped",
+        "color": "red",
+        "weight": 10,
+        "attributes": [
+          {
+            "name": "generic.attackSpeed",
+            "amount": -0.05,
+            "operation": 2
+          },
+          {
+            "name": "generic.attackDamage",
+            "amount": -0.05,
+            "operation": 2
+          }
+        ]
+      },
+      {
+        "name": "Short",
+        "color": "red",
+        "weight": 10,
+        "attributes": [
+          {
+            "name": "generic.reachDistance",
+            "amount": -1,
+            "operation": 0
+          }
+        ]
+      },
+      {
+        "name": "normal",
+        "weight": 100
+      },
+      {
+        "name": "Broad",
+        "color": "yellow",
+        "weight": 10,
+        "attributes": [
+          {
+            "name": "generic.attackDamage",
+            "amount": 0.1,
+            "operation": 2
+          },
+          {
+            "name": "generic.attackSpeed",
+            "amount": -0.05,
+            "operation": 2
+          },
+          {
+            "name": "potioncore.digSpeed",
+            "amount": -0.05,
+            "operation": 2
+          }
+        ]
+      },
+      {
+        "name": "Thin",
+        "color": "yellow",
+        "weight": 10,
+        "attributes": [
+          {
+            "name": "generic.attackDamage",
+            "amount": -0.05,
+            "operation": 2
+          },
+          {
+            "name": "generic.attackSpeed",
+            "amount": 0.1,
+            "operation": 2
+          }
+        ]
+      },
+      {
+        "name": "Pokey",
+        "color": "yellow",
+        "weight": 10,
+        "attributes": [
+          {
+            "name": "generic.attackDamage",
+            "amount": 0.05,
+            "operation": 2
+          },
+          {
+            "name": "potioncore.digSpeed",
+            "amount": -0.1,
+            "operation": 2
+          }
+        ]
+      },
+      {
+        "name": "Vicious",
+        "color": "yellow",
+        "weight": 10,
+        "attributes": [
+          {
+            "name": "generic.attackDamage",
+            "amount": 0.15,
+            "operation": 2
+          },
+          {
+            "name": "generic.reachDistance",
+            "amount": -0.5,
+            "operation": 0
+          }
+        ]
+      },
+      {
+        "name": "Long",
+        "color": "blue",
+        "weight": 10,
+        "attributes": [
+          {
+            "name": "generic.reachDistance",
+            "amount": 0.5,
+            "operation": 0
+          }
+        ]
+      },
+      {
+        "name": "Sturdy",
+        "color": "aqua",
+        "weight": 10,
+        "attributes": [
+          {
+            "name": "generic.armorToughness",
+            "amount": 0.5,
+            "operation": 0
+          }
+        ]
+      },
+      {
+        "name": "Sharp",
+        "color": "blue",
+        "weight": 10,
+        "attributes": [
+          {
+            "name": "generic.attackDamage",
+            "amount": 0.1,
+            "operation": 2
+          }
+        ]
+      },
+      {
+        "name": "Keen",
+        "color": "aqua",
+        "weight": 10,
+        "attributes": [
+          {
+            "name": "generic.attackDamage",
+            "amount": 0.08,
+            "operation": 2
+          },
+          {
+            "name": "generic.attackSpeed",
+            "amount": 0.1,
+            "operation": 2
+          }
+        ]
+      },
+      {
+        "name": "Graceful",
+        "color": "blue",
+        "weight": 7,
+        "attributes": [
+          {
+            "name": "potioncore.digSpeed",
+            "amount": 0.15,
+            "operation": 2
+          },
+          {
+            "name": "generic.attackSpeed",
+            "amount": 0.20,
+            "operation": 2
+          }
+        ]
+      },
+      {
+        "name": "Wild",
+        "color": "yellow",
+        "weight": 7,
+        "attributes": [
+          {
+            "name": "generic.attackSpeed",
+            "amount": 0.25,
+            "operation": 2
+          },
+          {
+            "name": "generic.attackDamage",
+            "amount": -0.08,
+            "operation": 2
+          }
+        ]
+      },
+      {
+        "name": "Laborious",
+        "color": "blue",
+        "weight": 7,
+        "attributes": [
+          {
+            "name": "potioncore.digSpeed",
+            "amount": 0.2,
+            "operation": 2
+          },
+          {
+            "name": "generic.attackSpeed",
+            "amount": 0.15,
+            "operation": 2
+          }
+        ]
+      },
+      {
+        "name": "Sweeping",
+        "color": "aqua",
+        "weight": 10,
+        "attributes": [
+          {
+            "name": "generic.reachDistance",
+            "amount": 0.5,
+            "operation": 0
+          },
+          {
+            "name": "generic.attackSpeed",
+            "amount": 0.2,
+            "operation": 2
+          }
+        ]
+      },
+      {
+        "name": "Blessed",
+        "color": "aqua",
+        "weight": 7,
+        "attributes": [
+          {
+            "name": "generic.reachDistance",
+            "amount": 0.5,
+            "operation": 0
+          },
+          {
+            "name": "generic.armor",
+            "amount": 1.2,
+            "operation": 0
+          },
+          {
+            "name": "generic.knockbackResistance",
+            "amount": 0.2,
+            "operation": 2
+          }
+        ]
+      },
+      {
+        "name": "Ferocious",
+        "color": "aqua",
+        "weight": 8,
+        "attributes": [
+          {
+            "name": "generic.attackDamage",
+            "amount": 0.14,
+            "operation": 2
+          },
+          {
+            "name": "generic.reachDistance",
+            "amount": 0.25,
+            "operation": 2
+          }
+        ]
+      },
+      {
+        "name": "Lucky",
+        "color": "aqua",
+        "weight": 10,
+        "attributes": [
+          {
+            "name": "generic.luck",
+            "amount": 2.5,
+            "operation": 0
+          }
+        ]
+      },
+      {
+        "name": "Legendary",
+        "color": "light_purple",
+        "weight": 5,
+        "attributes": [
+          {
+            "name": "generic.attackDamage",
+            "amount": 0.18,
+            "operation": 2
+          },
+          {
+            "name": "potioncore.digSpeed",
+            "amount": 0.1,
+            "operation": 2
+          },
+          {
+            "name": "generic.reachDistance",
+            "amount": 0.5,
+            "operation": 0
+          },
+          {
+            "name": "generic.attackSpeed",
+            "amount": 0.2,
+            "operation": 2
+          }
+        ]
+      },
+      {
+        "name": "Vis-Infused",
+        "color": "light_purple",
+        "weight": 5,
+        "attributes": [
+          {
+            "name": "generic.attackDamage",
+            "amount": 0.1,
+            "operation": 2
+          },
+          {
+            "name": "potioncore.digSpeed",
+            "amount": 0.1,
+            "operation": 2
+          },
+          {
+            "name": "generic.reachDistance",
+            "amount": 1,
+            "operation": 0
+          },
+          {
+            "name": "generic.maxHealth",
+            "amount": 3,
+            "operation": 0
+          },
+          {
+            "name": "generic.movementSpeed",
+            "amount": 0.1,
+            "operation": 2
+          }
+        ]
+      },
+      {
+        "name": "Mastercrafted",
+        "color": "light_purple",
+        "weight": 5,
+        "attributes": [
+          {
+            "name": "generic.attackDamage",
+            "amount": 0.24,
+            "operation": 2
+          },
+          {
+            "name": "generic.attackSpeed",
+            "amount": 0.2,
+            "operation": 2
+          }
+        ]
+      }
+    ]
+}

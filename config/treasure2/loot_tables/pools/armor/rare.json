@@ -3,31 +3,166 @@
 	"pools": [
 		{
 			"name": "rare_armor",
-			"rolls": 1,
+			"rolls": {
+				"min": 2,
+				"max": 3
+			},
 			"entries": [
 				{
 					"entryName": "diamond_chestplate",
 					"type": "item",
 					"name": "minecraft:diamond_chestplate",
-					"weight": 10		
+					"weight": 10,
+					"functions": [
+						{
+							"function": "enchant_with_levels",
+							"levels": 10,
+							"treasure": true
+						}
+					]
 				},
 				{
 					"entryName": "diamond_leggings",
 					"type": "item",
 					"name": "minecraft:diamond_leggings",
-					"weight": 10		
+					"weight": 10,		
+					"functions": [
+						{
+							"function": "enchant_with_levels",
+							"levels": 10,
+							"treasure": true
+						}
+					]
 				},
 				{
 					"entryName": "diamond_helmet",
 					"type": "item",
 					"name": "minecraft:diamond_helmet",
-					"weight": 10	
-				},
+					"weight": 10,
+					"functions": [
+						{
+							"function": "enchant_with_levels",
+							"levels": 10,
+							"treasure": true
+						}
+					]
+				},	
 				{
 					"entryName": "diamond_boots",
 					"type": "item",
 					"name": "minecraft:diamond_boots",
-					"weight": 10
+					"weight": 10,
+					"functions": [
+						{
+							"function": "enchant_with_levels",
+							"levels": 10,
+							"treasure": true
+						}
+					]
+				},
+				{
+					"entryName": "steel_chestplate",
+					"type": "item",
+					"name": "immersiveengineering:steel_armor_chest",
+					"weight": 15,
+					"functions": [
+						{
+							"function": "enchant_with_levels",
+							"levels": 16,
+							"treasure": true
+						}
+					]
+				},
+				{
+					"entryName": "steel_leggings",
+					"type": "item",
+					"name": "immersiveengineering:steel_armor_legs",
+					"weight": 15,
+					"functions": [
+						{
+							"function": "enchant_with_levels",
+							"levels": 16,
+							"treasure": true
+						}
+					]						
+				},
+				{
+					"entryName": "steel_helmet",
+					"type": "item",
+					"name": "immersiveengineering:steel_armor_head",
+					"weight": 20,
+					"functions": [
+						{
+							"function": "enchant_with_levels",
+							"levels": 16,
+							"treasure": true
+						}
+					]		
+				},
+				{
+					"entryName": "steel_boots",
+					"type": "item",
+					"name": "immersiveengineering:steel_armor_feet",
+					"weight": 20,
+					"functions": [
+						{
+							"function": "enchant_with_levels",
+							"levels": 16,
+							"treasure": true
+						}
+					]
+				},
+				{
+					"entryName": "farad_chestplate",
+					"type": "item",
+					"name": "immersiveengineering:faraday_suit_chest",
+					"weight": 15,
+					"functions": [
+						{
+							"function": "enchant_with_levels",
+							"levels": 12,
+							"treasure": true
+						}
+					]
+				},
+				{
+					"entryName": "farad_leggings",
+					"type": "item",
+					"name": "immersiveengineering:faraday_suit_legs",
+					"weight": 15,
+					"functions": [
+						{
+							"function": "enchant_with_levels",
+							"levels": 12,
+							"treasure": true
+						}
+					]						
+				},
+				{
+					"entryName": "farad_helmet",
+					"type": "item",
+					"name": "immersiveengineering:faraday_suit_head",
+					"weight": 20,
+					"functions": [
+						{
+							"function": "enchant_with_levels",
+							"levels": 12,
+							"treasure": true
+						}
+					]		
+				},
+				{
+					"entryName": "farad_boots",
+					"type": "item",
+					"name": "immersiveengineering:faraday_suit_feet",
+					"weight": 20,
+					"functions": [
+						{
+							"function": "enchant_with_levels",
+							"levels": 12,
+							"treasure": true
+						}
+					]
 				},
 				{
 					"entryName": "iron_chestplate",
@@ -37,7 +172,7 @@
 					"functions": [
 						{
 							"function": "enchant_with_levels",
-							"levels": 30,
+							"levels": 16,
 							"treasure": true
 						}
 					]
@@ -50,7 +185,7 @@
 					"functions": [
 						{
 							"function": "enchant_with_levels",
-							"levels": 30,
+							"levels": 16,
 							"treasure": true
 						}
 					]						
@@ -63,7 +198,7 @@
 					"functions": [
 						{
 							"function": "enchant_with_levels",
-							"levels": 30,
+							"levels": 16,
 							"treasure": true
 						}
 					]		
@@ -76,7 +211,7 @@
 					"functions": [
 						{
 							"function": "enchant_with_levels",
-							"levels": 30,
+							"levels": 16,
 							"treasure": true
 						}
 					]
@@ -84,12 +219,12 @@
 				{
 					"entryName": "shield",
 					"type": "item",
-					"name": "shield_tower_diamond",
+					"name": "spartanshields:shield_tower_diamond",
 					"weight": 15,
 					"functions": [
 						{
 							"function": "enchant_with_levels",
-							"levels": 30,
+							"levels": 8,
 							"treasure": true
 						}
 					]
@@ -97,12 +232,38 @@
 				{
 					"entryName": "shield2",
 					"type": "item",
-					"name": "shield_basic_diamond",
+					"name": "spartanshields:shield_basic_diamond",
 					"weight": 15,
 					"functions": [
 						{
 							"function": "enchant_with_levels",
-							"levels": 30,
+							"levels": 8,
+							"treasure": true
+						}
+					]
+				},
+				{
+					"entryName": "shieldob1",
+					"type": "item",
+					"name": "spartanshields:shield_tower_obsidian",
+					"weight": 15,
+					"functions": [
+						{
+							"function": "enchant_with_levels",
+							"levels": 12,
+							"treasure": true
+						}
+					]
+				},
+				{
+					"entryName": "shieldob2",
+					"type": "item",
+					"name": "spartanshields:shield_basic_obsidian",
+					"weight": 15,
+					"functions": [
+						{
+							"function": "enchant_with_levels",
+							"levels": 12,
 							"treasure": true
 						}
 					]

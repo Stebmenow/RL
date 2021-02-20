@@ -3,25 +3,49 @@
 	"pools": [
 		{
 			"name": "uncommon_tools",
-			"rolls": 1,
+			"rolls": {
+				"min": 0,
+				"max": 2
+			},
 			"entries": [
 				{
 					"entryName": "iron_sword",
 					"type": "item",
 					"name": "minecraft:iron_sword",
-					"weight": 35	
+					"weight": 35,
+					"functions": [
+						{
+							"function": "enchant_with_levels",
+							"levels": 1,
+							"treasure": false
+						}
+					]
 				},
 				{
 					"entryName": "iron_pickaxe",
 					"type": "item",
 					"name": "minecraft:iron_pickaxe",
-					"weight": 25
+					"weight": 25,
+					"functions": [
+						{
+							"function": "enchant_with_levels",
+							"levels": 1,
+							"treasure": false
+						}
+					]
 				},
 				{
 					"entryName": "iron_axe",
 					"type": "item",
 					"name": "minecraft:iron_axe",
-					"weight": 25
+					"weight": 25,
+					"functions": [
+						{
+							"function": "enchant_with_levels",
+							"levels": 1,
+							"treasure": false
+						}
+					]
 				},
 				{
 					"entryName": "golden_sword",
@@ -30,7 +54,9 @@
 					"weight": 25,
 					"functions": [
 						{
-							"function": "enchant_randomly"
+							"function": "enchant_with_levels",
+							"levels": 6,
+							"treasure": false
 						}
 					]
 				},
@@ -41,7 +67,9 @@
 					"weight": 15,
 					"functions": [
 						{
-							"function": "enchant_randomly"
+							"function": "enchant_with_levels",
+							"levels": 6,
+							"treasure": false
 						}
 					]
 				},
@@ -52,7 +80,9 @@
 					"weight": 15,
 					"functions": [
 						{
-							"function": "enchant_randomly"
+							"function": "enchant_with_levels",
+							"levels": 6,
+							"treasure": false
 						}
 					]
 				}

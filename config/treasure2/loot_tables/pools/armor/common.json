@@ -3,7 +3,10 @@
 	"pools": [
 		{
 			"name": "common_armor",
-			"rolls": 2,
+			"rolls": {
+				"min": 1,
+				"max": 3
+			},
 			"entries": [
 				{
 					"entryName": "backpack",
@@ -15,7 +18,46 @@
 					"entryName": "leather",
 					"type": "item",
 					"name": "minecraft:leather",
-					"weight": 150
+					"weight": 150,
+					"functions": [
+						{
+							"function": "set_count",
+							"count": {
+								"min": 2,
+								"max": 5
+							}
+						}
+					]
+				},
+				{
+					"entryName": "fur",
+					"type": "item",
+					"name": "mocreatures:fur",
+					"weight": 60,
+					"functions": [
+						{
+							"function": "set_count",
+							"count": {
+								"min": 2,
+								"max": 4
+							}
+						}
+					]
+				},
+				{
+					"entryName": "hide",
+					"type": "item",
+					"name": "mocreatures:hide",
+					"weight": 60,
+					"functions": [
+						{
+							"function": "set_count",
+							"count": {
+								"min": 2,
+								"max": 4
+							}
+						}
+					]
 				},
 				{
 					"entryName": "toolbelt",

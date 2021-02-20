@@ -1,0 +1,47 @@
+{  "slot":"head",
+    
+  "whitelist": [
+      {
+        "item": "Quark:witch_hat"
+      }
+    ],
+
+    "blacklist": [
+    ],
+    
+    "qualities": [
+      {
+        "name": "Occultist's Obfuscation",
+        "color": "green",
+        "weight": 1,
+        "attributes": [
+          
+          
+          {
+            "name": "potioncore.magicDamage",
+            "amount": 0.22,
+            "operation": 2
+          },
+
+          {
+            "name": "potioncore.projectileDamage",
+            "amount": 0.1,
+            "operation": 2
+          },
+          
+          {
+            "name": "generic.maxHealth",
+            "amount": 0.12,
+            "operation": 2
+          }
+
+      
+
+
+
+
+	
+        ]
+      }
+    ]
+}
