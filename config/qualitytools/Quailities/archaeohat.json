@@ -1,0 +1,43 @@
+{
+    "slot": "head",
+    "whitelist": [
+
+        {
+            "item": "Quark:archaeologist_hat"
+          }
+    ],
+
+    "blacklist": [
+    
+    ],
+
+    "qualities":[
+        {
+            "name":"Tomb Raider's Tenacity",
+            "color": "green",
+            "weight": 1,
+            "attributes": [
+                {
+                    "name": "generic.knockbackResistance",
+                    "amount": 0.25,
+                    "operation": 0
+                  },
+
+                  {
+                    "name": "potioncore.digSpeed",
+                    "amount": 0.25,
+                    "operation": 2
+                  },
+
+                  {
+                    "name": "generic.luck",
+                    "amount": 10,
+                    "operation": 0
+                  }
+            ]
+        }
+
+
+    ]
+
+}

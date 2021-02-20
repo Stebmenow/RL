@@ -1,0 +1,47 @@
+{"slot":"head",
+  "whitelist": [
+      {
+        "item": "Quark:pirate_hat"
+      }
+    ],
+
+    "blacklist": [
+    ],
+
+    "qualities": [
+      {
+        "name": "Swashbuckler's Swagger",
+        "color": "green",
+        "weight": 1,
+        "attributes": [
+          
+          {
+            "name": "generic.attackDamage",
+            "amount": 0.15,
+            "operation": 2
+          },
+          
+          {
+            "name": "generic.reachDistance",
+            "amount": 0.4,
+            "operation": 0
+          },
+
+          {
+            "name": "generic.movementSpeed",
+            "amount": 0.22,
+            "operation": 2
+          }
+
+      
+
+      
+
+
+
+
+	
+        ]
+      }    
+    ]
+}
