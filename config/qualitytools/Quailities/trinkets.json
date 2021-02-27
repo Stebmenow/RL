@@ -78,7 +78,7 @@
         "attributes": [
           {
             "name": "generic.luck",
-            "amount": -0.2,
+            "amount": -0.5,
             "operation": 0
           }
         ]
@@ -94,7 +94,7 @@
         "attributes": [
           {
             "name": "generic.luck",
-            "amount": 0.2,
+            "amount": 0.5,
             "operation": 0
           }
         ]

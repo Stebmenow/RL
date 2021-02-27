@@ -101,7 +101,10 @@
 	},
 	{
 	"item":"ebwizardry:master_healing_wand"
-	}
+	},
+  {
+    "item":"roots:staff"
+  }
     ],
 
     "blacklist": [
@@ -345,7 +348,7 @@
           },
 	{
             "name": "generic.luck",
-            "amount": 5,
+            "amount": 2,
             "operation": 0
           }
         ]

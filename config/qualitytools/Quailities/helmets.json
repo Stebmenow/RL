@@ -295,7 +295,7 @@
         "attributes": [
           {
             "name": "generic.luck",
-            "amount": 2.5,
+            "amount": 1,
 			   "operation": 0
           }
         ]
@@ -326,6 +326,6 @@
             "operation": 2
           }
         ]
-      },
+      }
     ]
 }

@@ -1,0 +1,92 @@
+{
+    "rules": [
+      {
+        "debug": true,
+        "match": {
+          "blocks": {
+            "blocks": [
+              "minecraft:sand:0",
+              "minecraft:sand:1",
+              "biomesoplenty:white_sand:0",
+              "biomesoplenty:dried_sand:0",
+              "defiledlands:sand_defiled:0",
+              "treasure2:falling_sand:0",
+              "treasure2:falling_red_sand:0"
+                ]
+           }    
+        },
+        "replaceStrategy": "ADD",
+      "drops": [
+        {
+          "selector": {
+            "weight": {
+              "value": 84
+            }
+          }
+        },
+        {
+            "selector": {
+              "weight": {
+                "value": 4
+              }
+            },
+            "item": {
+              "items" : [
+                "minecraft:flint"
+              ]
+            }
+          },
+        {
+            "selector": {
+              "weight": {
+                "value": 4
+              }
+            },
+            "item": {
+              "items" : [
+                "notreepunching:grass_fiber"
+              ]
+            }
+          },
+        {
+            "selector": {
+              "weight": {
+                "value": 7
+              }
+            },
+            "item": {
+              "items" : [
+                "notreepunching:flint_shard"
+              ]
+            }
+          },
+        {
+            "selector": {
+              "weight": {
+                "value": 2
+              }
+            },
+            "item": {
+              "items" : [
+                "minecraft:bone:0"
+              ]
+            }
+          },
+        {
+            "selector": {
+              "weight": {
+                "value": 2
+              }
+            },
+            "item": {
+              "items" : [
+                "minecraft:coal"
+              ]
+            }
+          }    
+        
+      ]
+    } 
+  ] 
+} 
+

@@ -1,9 +1,4 @@
 {
-    "comment": "These qualities will apply for bows, and possibly for guns from
-                other mods if they extend the vanilla bow class. For more info
-                about how to edit this file and add more files, visit
-                https://bitbucket.org/Tmtravlr/qualitytools/wiki/Home",
-
     "slot": [
         "mainhand",
         "offhand"
@@ -14,7 +9,7 @@
 	 },
 	 {
 	   "class": "ItemCrossbow"
-	 },
+	 }
     ],
 	
     "blacklist": [
@@ -42,7 +37,7 @@
            {
             "name": "generic.movementSpeed",
             "amount": 0.07,
-            "operation": 0
+            "operation": 2
           }
         ]
       },
@@ -61,7 +56,7 @@
 	{
             "name": "generic.movementSpeed",
             "amount": -0.08,
-            "operation": 0
+            "operation": 2
           }
         ]
       },
@@ -94,7 +89,7 @@
            {
             "name": "generic.movementSpeed",
             "amount": -0.07,
-            "operation": 0
+            "operation": 2
           }
         ]
       },
@@ -152,13 +147,13 @@
 	{
             "name": "generic.movementSpeed",
             "amount": 0.1,
-            "operation": 0
+            "operation": 2
           },
 	{
 	"name": "generic.knockbackResistance",
             "amount": 0.15,
             "operation": 0
-          },
+          }
 
         ]
 	  }
