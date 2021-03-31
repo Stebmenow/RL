@@ -12,13 +12,13 @@ setUpdateTime:
     Notes:
         Sets how often to update the texture, in frames.
 
-setRelRenderHeight:
+setAbsRender:
     Arguments:
-        int
+        int, int
     Usage:
-        height
+        width, height
     Notes:
-        Sets the height to render the texture relative to the screen size.
+        Sets the width and height to render the texture in pixels.
 
 setRelRender:
     Arguments:
@@ -28,13 +28,21 @@ setRelRender:
     Notes:
         Sets the width and height to render the texture relative to the screen size.
 
-setRelRenderWidth:
+setAbsRenderWidth:
     Arguments:
         int
     Usage:
         width
     Notes:
-        Sets the width to render the texture relative to the screen size.
+        Sets the width to render the texture in pixels.
+
+setRelRenderHeight:
+    Arguments:
+        int
+    Usage:
+        height
+    Notes:
+        Sets the height to render the texture relative to the screen size.
 
 setAbsRenderHeight:
     Arguments:
@@ -51,20 +59,4 @@ setRelRenderWidth:
         width
     Notes:
         Sets the width to render the texture relative to the screen size.
-
-setAbsRender:
-    Arguments:
-        int, int
-    Usage:
-        width, height
-    Notes:
-        Sets the width and height to render the texture in pixels.
-
-setRelRender:
-    Arguments:
-        int
-    Usage:
-        height
-    Notes:
-        Sets the width and height to render the texture relative to the screen size.
 
