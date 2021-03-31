@@ -32,11 +32,6 @@
             "name": "generic.maxHealth",
             "amount": 0.12,
             "operation": 2
-          },
-          {
-            "name": "apoth.colddmg",
-            "amount": 2,
-            "operation": 0
           }
         ]
       }

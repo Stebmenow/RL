@@ -7,5 +7,5 @@
 	"detect": "average",
 	"cumulative_modifier": 0,      
 	"particles": "transparent",  
-	"enabled": true
+	"enabled": false
 }

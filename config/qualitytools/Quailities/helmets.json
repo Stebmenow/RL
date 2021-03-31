@@ -186,12 +186,12 @@
         "attributes": [
           {
             "name": "generic.maxHealth",
-            "amount": 5,
+            "amount": 3,
             "operation": 0
           },
           {
             "name": "generic.movementSpeed",
-            "amount": -0.2,
+            "amount": -0.16,
             "operation": 2
           },
           {
@@ -208,7 +208,7 @@
         "attributes": [
           {
             "name": "generic.armorToughness",
-            "amount": 2,
+            "amount": 1,
             "operation": 0
           }
         ]
@@ -220,17 +220,17 @@
         "attributes": [
           {
             "name": "generic.armorToughness",
-            "amount": 2,
+            "amount": 1,
             "operation": 0
           },
           {
             "name": "generic.armor",
-            "amount": 1.5,
+            "amount": 1.25,
             "operation": 0
           },
           {
             "name": "generic.movementSpeed",
-            "amount": -0.07,
+            "amount": -0.08,
             "operation": 2
           }
         ]
@@ -254,7 +254,7 @@
         "attributes": [
           {
             "name": "generic.armor",
-            "amount": 1.2,
+            "amount": 1.25,
             "operation": 0
           },
           {
@@ -267,7 +267,7 @@
       {
         "name": "Arcane",
         "color": "blue",
-        "weight": 10,
+        "weight": 7,
         "attributes": [
           {
             "name": "potioncore.magicShielding",
@@ -307,7 +307,7 @@
         "attributes": [
           {
             "name": "generic.armor",
-            "amount": 2,
+            "amount": 1.5,
             "operation": 0
           },
           {
@@ -316,13 +316,8 @@
             "operation": 0
           },
           {
-            "name": "potioncore.stepHeight",
-            "amount": 1,
-            "operation": 0
-          },
-          {
             "name": "generic.movementSpeed",
-            "amount": 0.15,
+            "amount": 0.1,
             "operation": 2
           }
         ]
