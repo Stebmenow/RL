@@ -27,7 +27,7 @@ More details will be listed below in the changelog:
 7. Rebirth of the Mobs added. Some mobs (notably Twilight Forest) are immune to bows, and they can also inflict various potion effects on you.
 8. Other creature mods like Mo' Creatures and Mowzie's Mobs added. Some of their equipments are buffed.
 9. Hardcore Darkness added. You can't see anymore lol.
-10. Nutrition mod added. We thought food was very much neglected, so keeping high nutrition can provide you with various buffs. Any nutrient dropping below 35% nutrition gives you weakness and mining fatigue. Cooking with Blockheads added to make cooking easier. Make those farms!
+10. Nutrition mod added. We thought food was very much neglected, so keeping high nutrition can provide you with various buffs. There is no punishment for having low nutrition, though maintaining a balanced diet is recommended. Cooking with Blockheads added to make cooking easier. Make those farms!
 11. Mystical World, Roots, and Nature's Aura added. Gives players some options for early game loot.
 12. Treasure2 added, with custom loot tables. Incentivizes exploring.
 13. Electroblob's Wizardry added. Lycanite's wands were lackluster, so now you can use these ones! Reskillable/Compatskills is kind of bugged with the newest Electroblob's Wizardry, don't worry about it too much.
