@@ -53,6 +53,30 @@
   },
   {
     "tool": {
+        "item": "mowziesmobs:wrought_helmet"
+    },
+    "material": {
+        "ore_dict": "ingotSteel"
+    }
+  },
+  {
+    "tool": {
+        "item": "mowziesmobs:wrought_axe"
+    },
+    "material": {
+        "ore_dict": "ingotSteel"
+    }
+  },
+  {
+    "tool": {
+        "item": "mowziesmobs:barako_mask"
+    },
+    "material": {
+        "ore_dict": "ingotGold"
+    }
+  },
+  {
+    "tool": {
         "item": "minecraft:shears"
     },
     "material": {

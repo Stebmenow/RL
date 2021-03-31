@@ -7,6 +7,14 @@ distance value to create a 'density' value.
 
 
 
+decorateBiomes:
+    Arguments:
+        boolean
+    Default Values:
+        true
+    Notes:
+        Sets if biomes should be decorated.
+
 populateAnimals:
     Arguments:
         boolean
@@ -14,6 +22,42 @@ populateAnimals:
         true
     Notes:
         Sets if animals should be populated.
+
+populateLakes:
+    Arguments:
+        int
+    Usage:
+        octaves
+    Default Values:
+        6
+    Notes:
+        Sets if lakes should be populated.
+
+populateIce:
+    Arguments:
+        boolean
+    Default Values:
+        true
+    Notes:
+        Sets if ice/snow should be populated.
+
+setMainBlock:
+    Arguments:
+        String
+    Usage:
+        block id
+    Default Values:
+        minecraft:stone
+    Notes:
+        Sets the main block for the island.
+
+setMainBlock:
+    Arguments:
+        String, Integer
+    Usage:
+        block id, meta
+    Notes:
+        Sets the main block for the island.
 
 setRegionSize:
     Arguments:
@@ -35,40 +79,6 @@ setNoiseOctaves:
     Notes:
         Sets the number of octaves used for the island noise.
 
-decorateBiomes:
-    Arguments:
-        boolean
-    Default Values:
-        true
-    Notes:
-        Sets if biomes should be decorated.
-
-setMainBlock:
-    Arguments:
-        String
-    Usage:
-        block id
-    Default Values:
-        minecraft:stone
-    Notes:
-        Sets the main block for the island.
-
-setMainBlock:
-    Arguments:
-        String, Integer
-    Usage:
-        block id, meta
-    Notes:
-        Sets the main block for the island.
-
-populateIce:
-    Arguments:
-        boolean
-    Default Values:
-        true
-    Notes:
-        Sets if ice/snow should be populated.
-
 setNoiseSize:
     Arguments:
         double, double, double
@@ -79,22 +89,6 @@ setNoiseSize:
     Notes:
         Sets the noise sizes for the island.
 
-populateLakes:
-    Arguments:
-        boolean
-    Default Values:
-        true
-    Notes:
-        Sets if lakes should be populated.
-
-generateBiomeBlocks:
-    Arguments:
-        boolean
-    Default Values:
-        true
-    Notes:
-        Sets if biome blocks should be generated.
-
 populateLavaLakes:
     Arguments:
         boolean
@@ -102,26 +96,6 @@ populateLavaLakes:
         true
     Notes:
         Sets if lava lakes should be populated.
-
-setIslandHeightMin:
-    Arguments:
-        int
-    Usage:
-        height
-    Default Values:
-        0
-    Notes:
-        Sets the minimum height for the bottom of the island.
-
-setMaxIslandRadius:
-    Arguments:
-        int
-    Usage:
-        radius
-    Default Values:
-        100
-    Notes:
-        Sets the max island radius.
 
 setIslandHeightMax:
     Arguments:
@@ -133,15 +107,45 @@ setIslandHeightMax:
     Notes:
         Sets the maximum height for the top of the island.
 
-setDistanceStretch:
+setMaxIslandRadius:
     Arguments:
-        double, double, double
+        int
     Usage:
-        x stretch, y bottom stretch, z stretch
+        radius
     Default Values:
-        1, 2, 1
+        100
     Notes:
-        Sets the distance stretch values for the island.
+        Sets the max island radius.
+
+setMinBlockDensity:
+    Arguments:
+        double
+    Usage:
+        density
+    Default Values:
+        0.3
+    Notes:
+        Sets the minimum `density` value required for blocks to be placed.
+
+generateBiomeBlocks:
+    Arguments:
+        int
+    Usage:
+        height
+    Default Values:
+        236
+    Notes:
+        Sets if biome blocks should be generated.
+
+setIslandHeightMin:
+    Arguments:
+        int
+    Usage:
+        height
+    Default Values:
+        0
+    Notes:
+        Sets the minimum height for the bottom of the island.
 
 setNoisePersistence:
     Arguments:
@@ -153,15 +157,15 @@ setNoisePersistence:
     Notes:
         Sets how much each octave of noise is used compared to the one before it.
 
-setMinBlockDensity:
+setDistanceStretch:
     Arguments:
-        double
+        double, double, double
     Usage:
-        density
+        x stretch, y bottom stretch, z stretch
     Default Values:
-        0.3
+        1, 2, 1
     Notes:
-        Sets the minimum `density` value required for blocks to be placed.
+        Sets the distance stretch values for the island.
 
 disableMapGen:
     Arguments:

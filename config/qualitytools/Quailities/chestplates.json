@@ -89,7 +89,7 @@
         "attributes": [
           {
             "name": "generic.luck",
-            "amount": 2.5,
+            "amount": 1,
 			   "operation": 0
           }
         ]
@@ -208,7 +208,7 @@
           },
           {
           "name": "generic.luck",
-          "amount": 2.5,
+          "amount": 1.5,
           "operation": 0
           }
         ]
@@ -253,12 +253,12 @@
         "attributes": [
           {
             "name": "generic.maxHealth",
-            "amount": 5,
+            "amount": 3,
             "operation": 0
           },
           {
             "name": "generic.movementSpeed",
-            "amount": -0.2,
+            "amount": -0.16,
             "operation": 2
           },
           {
@@ -275,7 +275,7 @@
         "attributes": [
           {
             "name": "generic.armorToughness",
-            "amount": 2,
+            "amount": 1,
             "operation": 0
           }
         ]
@@ -304,17 +304,17 @@
         "attributes": [
           {
             "name": "generic.armorToughness",
-            "amount": 2,
+            "amount": 1,
             "operation": 0
           },
           {
             "name": "generic.armor",
-            "amount": 1.5,
+            "amount": 1.25,
             "operation": 0
           },
           {
             "name": "generic.movementSpeed",
-            "amount": -0.07,
+            "amount": -0.08,
             "operation": 2
           }
         ]
@@ -361,7 +361,7 @@
 	        {
             "name": "generic.movementSpeed",
             "amount": 0.07,
-            "operation": 0
+            "operation": 2
           }
         ]
       },

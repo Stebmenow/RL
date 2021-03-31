@@ -10,6 +10,14 @@ setFeature:
     Notes:
         Sets the feature id. Used for things like structures.
 
+setYMax:
+    Arguments:
+        float
+    Usage:
+        max
+    Notes:
+        Sets the max Y coordinate.
+
 setZMin:
     Arguments:
         float
@@ -17,22 +25,6 @@ setZMin:
         min
     Notes:
         Sets the min Z coordinate.
-
-setZMinMax:
-    Arguments:
-        float, float
-    Usage:
-        min, max
-    Notes:
-        Sets the min and max Z coordinates.
-
-setYMin:
-    Arguments:
-        float
-    Usage:
-        min
-    Notes:
-        Sets the min Y coordinate.
 
 setZMax:
     Arguments:
@@ -58,13 +50,13 @@ setYMinMax:
     Notes:
         Sets the min and max Y coordinates.
 
-setXMinMax:
+setYMin:
     Arguments:
         float, float
     Usage:
-        min, max
+        min
     Notes:
-        Sets the min and max X coordinates.
+        Sets the min Y coordinate.
 
 setXMax:
     Arguments:
@@ -73,6 +65,14 @@ setXMax:
         max
     Notes:
         Sets the max X coordinate.
+
+setZMinMax:
+    Arguments:
+        float, float
+    Usage:
+        min, max
+    Notes:
+        Sets the min and max Z coordinates.
 
 setYMax:
     Arguments:

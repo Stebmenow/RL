@@ -400,8 +400,8 @@
       },
       {
         "name": "Ferocious",
-        "color": "aqua",
-        "weight": 8,
+        "color": "blue",
+        "weight": 7,
         "attributes": [
           {
             "name": "generic.attackDamage",
@@ -410,7 +410,7 @@
           },
           {
             "name": "generic.reachDistance",
-            "amount": 0.25,
+            "amount": 0.1,
             "operation": 2
           }
         ]
@@ -422,8 +422,20 @@
         "attributes": [
           {
             "name": "generic.luck",
-            "amount": 2.5,
+            "amount": 1,
             "operation": 0
+          }
+        ]
+      },
+      {
+        "name": "light",
+        "color": "aqua",
+        "weight": 10,
+        "attributes": [
+          {
+            "name": "potioncore.digSpeed",
+            "amount": 0.1,
+            "operation": 2
           }
         ]
       },

@@ -4,6 +4,8 @@
 	"amplifier": 0,
 	"minimum": 0,
 	"maximum": 35,
-	"detect": "any",
-	"enabled": true
+	"detect": "average",
+	"cumulative_modifier": 0,      
+	"particles": "transparent",  
+	"enabled": false
 }

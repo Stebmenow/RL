@@ -4,7 +4,7 @@
       "name": "minecraft:milk_bucket",
       "metadata": 0
     },
-    "thirst": 6,
+    "thirst": 8,
     "hydration": 0.7,
     "poisonChance": 0.0
   }

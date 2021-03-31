@@ -1,0 +1,162 @@
+{
+    "rules": [
+      {
+        "debug": true,
+        "match": {
+          "blocks": {
+            "blocks": [
+              "biomesoplenty:plant_0:0",
+              "biomesoplenty:plant_0:1",
+              "biomesoplenty:plant_0:3",
+              "biomesoplenty:plant_0:4",
+              "biomesoplenty:plant_0:6",
+              "biomesoplenty:plant_0:7",
+              "biomesoplenty:plant_0:8",
+              "biomesoplenty:ivy:0",
+              "biomesoplenty:plant_0:12",
+              "biomesoplenty:plant_0:10",
+              "biomesoplenty:willow_vine:0",
+              "biomesoplenty:plant_0:9",
+              "biomesoplenty:plant_0:15",
+              "biomesoplenty:plant_0:11",
+              "biomesoplenty:plant_0:14",
+              "biomesoplenty:plant_0:13",
+              "biomesoplenty:plant_1:0",
+              "biomesoplenty:plant_1:7",
+              "biomesoplenty:plant_1:11",
+              "minecraft:tallgrass:2",
+              "minecraft:double_plant:3",
+              "minecraft:tallgrass:1",
+              "minecraft:double_plant:2",
+              "minecraft:vine",
+              "twilightforest:twilight_plant:5"
+                ]
+            },
+            "harvester": {
+                "type": "PLAYER",
+                "heldItemMainHand": {
+                "items":[
+                    "notreepunching:knife/flint:*",
+                    "notreepunching:knife/iron:*",
+                    "notreepunching:knife/gold:*",
+                    "notreepunching:knife/diamond:*",
+                    "notreepunching:knife/copper:*",
+                    "notreepunching:knife/bronze:*",
+                    "notreepunching:knife/steel:*",
+                    "mysticalworld:amethyst_knife:*",
+                    "mysticalworld:copper_knife:*",
+                    "mysticalworld:gold_knife:*",
+                    "mysticalworld:diamond_knife:*",
+                    "mysticalworld:silver_knife:*",
+                    "mysticalworld:wood_knife:*",
+                    "mysticalworld:stone_knife:*",
+                    "mysticalworld:iron_knife:*"
+                    ]  
+                }
+              }
+        },
+            "drops": [
+                {
+                "force": true,
+                "item": {
+                    "items":[
+                        "notreepunching:grass_fiber"
+                    ]
+                }
+            },
+            {
+                    "selector": {
+                     "weight": {
+                     "value":50
+                    }
+                }
+            },
+            {
+                    "selector": {
+                    "weight": {
+                    "value":6
+                }
+            },
+            "item": {
+                "items" : [
+                  "minecraft:seeds"
+                        ]
+                    }
+            },
+            {
+                    "selector": {
+                    "weight": {
+                    "value":6
+                }
+            },
+            "item": {
+                "items" : [
+                  "mysticalworld:aubergine_seed"
+                        ]
+                    }
+            },
+            {
+                    "selector": {
+                    "weight": {
+                    "value":2
+                }
+            },
+            "item": {
+                "items" : [
+                "minecraft:pumpkin_seeds:0"
+                        ]
+                    }
+            },
+            {
+                    "selector": {
+                    "weight": {
+                    "value":2
+                }
+            },
+            "item": {
+              "items" : [
+                "minecraft:melon_seeds:0"
+                        ]
+                    }
+            },
+            {
+                    "selector": {
+                    "weight": {
+                    "value":4
+                }
+            },
+            "item": {
+              "items" : [
+                "minecraft:beetroot_seeds:0"
+                        ]
+                    }
+            },
+            {
+                    "selector": {
+                    "weight": {
+                    "value":15
+                }
+            },
+            "item": {
+              "items" : [
+                "roots:wildroot:0"
+                        ]
+                    }
+            },
+            {
+                    "selector": {
+                    "weight": {
+                    "value":15
+                }
+            },
+            "item": {
+              "items" : [
+                "roots:terra_spores:0"
+                    ]
+                }
+            }
+        ]
+    } 
+  ] 
+} 
+

@@ -12,6 +12,14 @@ setFeature:
     Notes:
         Sets the feature id. Used for things like structures.
 
+setYMax:
+    Arguments:
+        float
+    Usage:
+        max
+    Notes:
+        Sets the max Y coordinate.
+
 setZMin:
     Arguments:
         float
@@ -19,22 +27,6 @@ setZMin:
         min
     Notes:
         Sets the min Z coordinate.
-
-setZMinMax:
-    Arguments:
-        float, float
-    Usage:
-        min, max
-    Notes:
-        Sets the min and max Z coordinates.
-
-setYMin:
-    Arguments:
-        float
-    Usage:
-        min
-    Notes:
-        Sets the min Y coordinate.
 
 setZMax:
     Arguments:
@@ -60,17 +52,13 @@ setYMinMax:
     Notes:
         Sets the min and max Y coordinates.
 
-getLocationData:
-    Notes:
-        Returns the LocationData object so functions can be called on it.
-
-setXMinMax:
+setYMin:
     Arguments:
-        float, float
+        float
     Usage:
-        min, max
+        min
     Notes:
-        Sets the min and max X coordinates.
+        Sets the min Y coordinate.
 
 setXMax:
     Arguments:
@@ -80,29 +68,13 @@ setXMax:
     Notes:
         Sets the max X coordinate.
 
-setYMax:
+setZMinMax:
     Arguments:
-        float
+        float, float
     Usage:
-        max
+        min, max
     Notes:
-        Sets the max Y coordinate.
-
-setXMin:
-    Arguments:
-        float
-    Usage:
-        min
-    Notes:
-        Sets the min X coordinate.
-
-setBlockToReplace:
-    Arguments:
-        String, Integer
-    Usage:
-        block id, meta
-    Notes:
-        Sets the block to be replaced with the provided meta.
+        Sets the min and max Z coordinates.
 
 setBlockToReplace:
     Arguments:
@@ -112,9 +84,13 @@ setBlockToReplace:
     Notes:
         Sets the block to be replaced. This counts for any meta.
 
-getBlockToReplace:
+setXMin:
+    Arguments:
+        float
+    Usage:
+        min
     Notes:
-        Returns the BlockData object for the block to be replaced so functions can be called on it.
+        Sets the min X coordinate.
 
 setBlockToReplaceOreDict:
     Arguments:
@@ -139,6 +115,34 @@ setReplacement:
         block ID, meta
     Notes:
         Sets the block replacement and meta.
+
+setBlockToReplace:
+    Arguments:
+        String
+    Usage:
+        block id
+    Notes:
+        Sets the block to be replaced. This counts for any meta.
+
+setBlockToReplace:
+    Arguments:
+        String, Integer
+    Usage:
+        block id, meta
+    Notes:
+        Sets the block to be replaced with the provided meta.
+
+setBlockToReplaceOreDict:
+    Arguments:
+        String
+    Usage:
+        ore dict name
+    Notes:
+        Sets the ore dictionary for the block to be replaced.
+
+getBlockToReplace:
+    Notes:
+        Returns the BlockData object for the block to be replaced so functions can be called on it.
 
 setBiome:
     Arguments:
