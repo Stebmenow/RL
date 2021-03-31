@@ -9,7 +9,7 @@ More details will be listed below in the changelog:
 
 ## Intended Progression:
 1. Standard overworld stuff. Build a base, farm some crops and animals, mine ores.
-2. Go to Lost Cities. We found Lost Cities to be in a weird place, where mobs were too difficult until you could get some good diamond/Lycanites gear. However, by then the loot you can obtain there is obsolete. A global 25% health and damage reduction is applied to all mobs in Lost Cities, however they receive a 30% speed bonus. (Pro tip: the cursed buildings prevent you from opening the chests but you can just bring them outside and open them there using CarryOn mod)
+2. Go to Lost Cities. We found Lost Cities to be in a weird place, where mobs were too difficult until you could get some good diamond/Lycanites gear. However, by then the loot you can obtain there is obsolete. A global 25% health and damage reduction is applied to all mobs in Lost Cities, however they receive a speed potion effect. (Pro tip: the cursed buildings prevent you from opening the chests but you can just bring them outside and open them there using CarryOn mod)
 3. Explore Defiled Lands, and get some book wyrms. Kill the bosses, as the drops are used in later recipes!
 4. Kill dragons, as per usual.
 5. Kill Lycanites bosses. Loot tables are updated and are slightly nerfed because they lag out computers with all the particles. If you are feeling bold, change the healths back in the config.
