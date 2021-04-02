@@ -1,0 +1,38 @@
+{  "slot":"head",
+    
+    "whitelist": [
+        {
+          "item": "mysticalworld:beetle_mask"
+        }
+      ],
+  
+      "blacklist": [
+      ],
+      
+      "qualities": [
+        {
+          "name": "Renewed Resolve",
+          "color": "green",
+          "weight": 1,
+          "attributes": [
+            
+            
+            {
+              "name": "generic.knockbackResistance",
+              "amount": 0.5,
+              "operation": 0
+            },
+            {
+              "name": "generic.movementSpeed",
+              "amount": -0.1,
+              "operation": 2
+            },
+            {
+              "name": "generic.maxHealth",
+              "amount": 0.2,
+              "operation": 2
+            }
+          ]
+        }
+      ]
+  }

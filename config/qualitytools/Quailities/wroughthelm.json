@@ -1,0 +1,48 @@
+{  "slot":"head",
+    
+    "whitelist": [
+        {
+          "item": "mowziesmobs:wrought_helmet"
+        }
+      ],
+  
+      "blacklist": [
+      ],
+      
+      "qualities": [
+        {
+          "name": "Machination's Momentum",
+          "color": "green",
+          "weight": 1,
+          "attributes": [
+            
+            
+            {
+              "name": "potioncore.reach",
+              "amount": 0.5,
+              "operation": 0
+            },
+            {
+              "name": "generic.movementSpeed",
+              "amount": 0.2,
+              "operation": 2
+            },
+            {
+                "name": "generic.attackDamage",
+                "amount": 0.25,
+                "operation": 2
+              },
+            {
+              "name": "generic.maxHealth",
+              "amount": -0.2,
+              "operation": 2
+            },
+            {
+                "name": "generic.armorToughness",
+                "amount": -1.5,
+                "operation": 0
+              }
+          ]
+        }
+      ]
+  }
