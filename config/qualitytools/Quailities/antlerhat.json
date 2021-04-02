@@ -1,38 +1,38 @@
-{"slot":"head",
+{  "slot":"head",
+    
   "whitelist": [
       {
-        "item": "Quark:pirate_hat"
+        "item": "mysticalworld:antler_hat"
       }
     ],
 
     "blacklist": [
     ],
-
+    
     "qualities": [
       {
-        "name": "Swashbuckler's Swagger",
+        "name": "Wildspeaker's Wisdom",
         "color": "green",
         "weight": 1,
         "attributes": [
           
-          {
-            "name": "generic.attackDamage",
-            "amount": 0.15,
-            "operation": 2
-          },
           
           {
-            "name": "generic.reachDistance",
-            "amount": 0.4,
+            "name": "potioncore.reach",
+            "amount": 1,
             "operation": 0
           },
-
           {
             "name": "generic.movementSpeed",
-            "amount": 0.22,
+            "amount": 0.35,
+            "operation": 2
+          },
+          {
+            "name": "generic.maxHealth",
+            "amount": 0.1,
             "operation": 2
           }
         ]
-      }    
+      }
     ]
 }

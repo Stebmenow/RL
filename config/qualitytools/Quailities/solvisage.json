@@ -1,0 +1,37 @@
+{  "slot":"head",
+    
+    "whitelist": [
+        {
+          "item": "mowziesmobs:barako_mask"
+        }
+      ],
+  
+      "blacklist": [
+      ],
+      
+      "qualities": [
+        {
+          "name": "Sun God's Solidarity",
+          "color": "green",
+          "weight": 1,
+          "attributes": [
+            
+            {
+              "name": "potioncore.magicDamage",
+              "amount": 0.15,
+              "operation": 2
+            },
+            {
+                "name": "potioncore.projectileDamage",
+                "amount": 0.15,
+                "operation": 2
+            },
+            {
+              "name": "potioncore.magicShielding",
+              "amount": 2,
+              "operation": 0
+            }
+          ]
+        }
+      ]
+  }
