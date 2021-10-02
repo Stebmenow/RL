@@ -36,3 +36,12 @@
 
 recipes.addShaped("barleytobread",<minecraft:bread>,
 [[<biomesoplenty:plant_1:11>,<biomesoplenty:plant_1:11>,<biomesoplenty:plant_1:11>]]);
+
+recipes.addShapeless("BoPalgaetoACalgae",<aquaculture:food:1>,
+[<biomesoplenty:coral:4>]);
+
+recipes.addShapeless("BoPseaweedtoACalgae",<aquaculture:food:1>,
+[<biomesoplenty:seaweed:0>,<biomesoplenty:seaweed:0>]);
+
+recipes.addShapeless("BoProotsconversion",<roots:wildroot:0>,
+[<biomesoplenty:plant_1:9>]);

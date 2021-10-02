@@ -1,0 +1,287 @@
+{
+  "priority": 0,
+  "rules": [
+    {
+      "debug": true,
+      "match": {
+        "blocks": {
+          "type": "WHITELIST",
+          "blocks": [
+            "minecraft:sand:0",
+            "minecraft:sand:1",
+            "biomesoplenty:white_sand:0",
+            "biomesoplenty:dried_sand:0",
+            "defiledlands:sand_defiled:0",
+            "treasure2:falling_sand:0",
+            "treasure2:falling_red_sand:0"
+          ]
+        },
+        "drops": {
+          "type": "WHITELIST",
+          "drops": []
+        },
+        "harvester": {
+          "type": "ANY",
+          "gamestages": {
+            "type": "WHITELIST",
+            "require": "ANY",
+            "stages": []
+          },
+          "heldItemMainHand": {
+            "type": "WHITELIST",
+            "items": []
+          },
+          "heldItemOffHand": {
+            "type": "WHITELIST",
+            "items": []
+          },
+          "playerName": {
+            "type": "WHITELIST",
+            "names": []
+          }
+        },
+        "biomes": {
+          "type": "WHITELIST",
+          "ids": []
+        },
+        "dimensions": {
+          "type": "WHITELIST",
+          "ids": []
+        },
+        "verticalRange": {
+          "min": 0,
+          "max": 255
+        },
+        "spawnDistance": {
+          "type": "WHITELIST",
+          "min": 0,
+          "max": 2147483647
+        }
+      },
+      "replaceStrategy": "ADD",
+      "dropStrategy": "REPEAT",
+      "dropCount": {
+        "fixed": 1,
+        "min": 0,
+        "max": 0,
+        "fortuneModifier": 0
+      },
+      "drops": [
+        {
+          "force": false,
+          "selector": {
+            "weight": {
+              "value": 84,
+              "fortuneModifier": 0
+            },
+            "silktouch": "ANY",
+            "fortuneLevelRequired": 0
+          },
+          "item": {
+            "drop": "ONE",
+            "items": [],
+            "quantity": {
+              "fixed": 1,
+              "min": 0,
+              "max": 0,
+              "fortuneModifier": 0
+            },
+            "matchQuantity": {
+              "drops": []
+            }
+          },
+          "xp": {
+            "fixed": 0,
+            "min": 0,
+            "max": 0,
+            "fortuneModifier": 0
+          },
+          "xpReplaceStrategy": "ADD",
+          "replaceBlock": {
+            "properties": {}
+          }
+        },
+        {
+          "force": false,
+          "selector": {
+            "weight": {
+              "value": 4,
+              "fortuneModifier": 0
+            },
+            "silktouch": "ANY",
+            "fortuneLevelRequired": 0
+          },
+          "item": {
+            "drop": "ONE",
+            "items": [
+              "minecraft:flint"
+            ],
+            "quantity": {
+              "fixed": 1,
+              "min": 0,
+              "max": 0,
+              "fortuneModifier": 0
+            },
+            "matchQuantity": {
+              "drops": []
+            }
+          },
+          "xp": {
+            "fixed": 0,
+            "min": 0,
+            "max": 0,
+            "fortuneModifier": 0
+          },
+          "xpReplaceStrategy": "ADD",
+          "replaceBlock": {
+            "properties": {}
+          }
+        },
+        {
+          "force": false,
+          "selector": {
+            "weight": {
+              "value": 4,
+              "fortuneModifier": 0
+            },
+            "silktouch": "ANY",
+            "fortuneLevelRequired": 0
+          },
+          "item": {
+            "drop": "ONE",
+            "items": [
+              "notreepunching:grass_fiber"
+            ],
+            "quantity": {
+              "fixed": 1,
+              "min": 0,
+              "max": 0,
+              "fortuneModifier": 0
+            },
+            "matchQuantity": {
+              "drops": []
+            }
+          },
+          "xp": {
+            "fixed": 0,
+            "min": 0,
+            "max": 0,
+            "fortuneModifier": 0
+          },
+          "xpReplaceStrategy": "ADD",
+          "replaceBlock": {
+            "properties": {}
+          }
+        },
+        {
+          "force": false,
+          "selector": {
+            "weight": {
+              "value": 7,
+              "fortuneModifier": 0
+            },
+            "silktouch": "ANY",
+            "fortuneLevelRequired": 0
+          },
+          "item": {
+            "drop": "ONE",
+            "items": [
+              "notreepunching:flint_shard"
+            ],
+            "quantity": {
+              "fixed": 1,
+              "min": 0,
+              "max": 0,
+              "fortuneModifier": 0
+            },
+            "matchQuantity": {
+              "drops": []
+            }
+          },
+          "xp": {
+            "fixed": 0,
+            "min": 0,
+            "max": 0,
+            "fortuneModifier": 0
+          },
+          "xpReplaceStrategy": "ADD",
+          "replaceBlock": {
+            "properties": {}
+          }
+        },
+        {
+          "force": false,
+          "selector": {
+            "weight": {
+              "value": 2,
+              "fortuneModifier": 0
+            },
+            "silktouch": "ANY",
+            "fortuneLevelRequired": 0
+          },
+          "item": {
+            "drop": "ONE",
+            "items": [
+              "minecraft:bone:0"
+            ],
+            "quantity": {
+              "fixed": 1,
+              "min": 0,
+              "max": 0,
+              "fortuneModifier": 0
+            },
+            "matchQuantity": {
+              "drops": []
+            }
+          },
+          "xp": {
+            "fixed": 0,
+            "min": 0,
+            "max": 0,
+            "fortuneModifier": 0
+          },
+          "xpReplaceStrategy": "ADD",
+          "replaceBlock": {
+            "properties": {}
+          }
+        },
+        {
+          "force": false,
+          "selector": {
+            "weight": {
+              "value": 2,
+              "fortuneModifier": 0
+            },
+            "silktouch": "ANY",
+            "fortuneLevelRequired": 0
+          },
+          "item": {
+            "drop": "ONE",
+            "items": [
+              "minecraft:coal"
+            ],
+            "quantity": {
+              "fixed": 1,
+              "min": 0,
+              "max": 0,
+              "fortuneModifier": 0
+            },
+            "matchQuantity": {
+              "drops": []
+            }
+          },
+          "xp": {
+            "fixed": 0,
+            "min": 0,
+            "max": 0,
+            "fortuneModifier": 0
+          },
+          "xpReplaceStrategy": "ADD",
+          "replaceBlock": {
+            "properties": {}
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -8,3 +8,5 @@ recipes.addShaped("dart",<mowziesmobs:dart>*24,
  [[null,<mowziesmobs:naga_fang>,null],
   [null,<ore:stickWood>,null],
   [null,<ore:sugarcane>,null]]);
+
+recipes.addShaped(<mowziesmobs:dart>*4, [[null, <minecraft:fermented_spider_eye>, null],[null, <ore:stickWood>, null], [null, <ore:sugarcane>, null]]);

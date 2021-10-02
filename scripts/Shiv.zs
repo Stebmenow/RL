@@ -1,11 +1,6 @@
-print("Script starting!");
+("Script starting!");
 
-recipes.removeShaped(<minecraft:torch>*4,
- [[<minecraft:coal>],
-  [<ore:stickWood>]]);
-recipes.removeShaped(<minecraft:torch>*4,
- [[<ore:charcoal>],
-  [<ore:stickWood>]]);
+
 
 recipes.remove(<xat:weightless_stone>);
 recipes.remove(<xat:fairy_ring>);
@@ -13,7 +8,6 @@ recipes.remove(<xat:dwarf_ring>);
 recipes.remove(<xat:inertia_null_stone>);
 recipes.remove(<xat:greater_inertia_stone>);
 recipes.remove(<xat:damage_shield>);
-recipes.remove(<minecraft:shield>);
 
 recipes.removeByRecipeName("bountifulbaubles:spectralsilt_flaregun");
 recipes.removeByRecipeName("bountifulbaubles:flare_red");
@@ -137,9 +131,6 @@ recipes.addShaped("lolarecipe9",<minecraft:packed_ice>,
   [<toughasnails:ice_cube>,<toughasnails:ice_cube>,<toughasnails:ice_cube>],
   [<toughasnails:ice_cube>,<toughasnails:ice_cube>,<toughasnails:ice_cube>]]);
 
-//recipes.addShapeless("lolarecipe21",<minecraft:paper>*3,[<minecraft:log:2>]);
-recipes.addShapeless("lolarecipe21test",<minecraft:paper>*4,[<minecraft:log:2>,<minecraft:log:2>]);
-  
 recipes.addShaped("lolarecipe24",<xat:dragons_eye>,
  [[<xat:glow_ring>,<minecraft:diamond_sword>,<xat:glowing_gem>],
   [<minecraft:diamond_sword>,<iceandfire:dragon_skull>,<minecraft:diamond_sword>],
@@ -149,11 +140,6 @@ recipes.addShaped("lolarecipe25",<xat:wither_ring>,
  [[<xat:glowing_ingot>,<minecraft:iron_ingot>,<xat:glowing_ingot>],
   [<minecraft:iron_ingot>,<minecraft:skull:1>|<iceandfire:dragon_skull:1>,<minecraft:iron_ingot>],
   [<xat:glowing_ingot>,<minecraft:iron_ingot>,<xat:glowing_ingot>]]);
-  
-recipes.addShaped("lolarecipe26",<campfire:campfire>,
- [[null,<realistictorches:matchbox>.anyDamage().transformDamage(),null],
-  [null,<ore:plankWood>,null],
-  [<ore:plankWood>,<ore:plankWood>,<ore:plankWood>]]);
   
 recipes.addShaped("lolarecipe27",<bountifulbaubles:crowngold>,
  [[null,<defiledlands:scarlite>,null],
@@ -174,7 +160,7 @@ recipes.addShaped("lolarecipe29",<scalinghealth:crystalshard>,
 
 recipes.addShaped("lolarecipe30",<bountifulbaubles:amuletsinempty>,
  [[<bountifulbaubles:spectralsilt>,<ore:string>,<bountifulbaubles:spectralsilt>],
-  [<bountifulbaubles:spectralsilt>,<iceandfire:silver_ingot>,<bountifulbaubles:spectralsilt>],
+  [<bountifulbaubles:spectralsilt>,<ore:ingotSilver>,<bountifulbaubles:spectralsilt>],
   [<bountifulbaubles:spectralsilt>,<bountifulbaubles:spectralsilt>,<bountifulbaubles:spectralsilt>]]);
   
 recipes.addShapeless("lolarecipe31",<bountifulbaubles:spectralsilt>,[<bountifulbaubles:disintegrationtablet>,<minecraft:diamond_block>]);
@@ -202,7 +188,7 @@ recipes.addShaped("lolarecipe38",<sereneseasons:greenhouse_glass>*4,
   [<ore:blockGlass>,<ore:plankWood>,<ore:blockGlass>],
   [<ore:dyeCyan>,<ore:blockGlass>,<ore:dyeCyan>]]);
   
-recipes.addShapeless("lolarecipe39",<realistictorches:torch_lit>,[<realistictorches:torch_unlit>,<minecraft:flint_and_steel>.anyDamage().transformDamage()]);
+
 
 recipes.addShapeless("lolarecipe40",<armorunder:flipflop_liner_material>,[<armorunder:warm_liner_material>,<armorunder:cool_liner_material>]);
 

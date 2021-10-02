@@ -1,0 +1,189 @@
+{
+    "priority": 0,
+    "rules": [
+      {
+        "debug": true,
+        "match": {
+          "blocks": {
+            "type": "WHITELIST",
+            "blocks": [
+              "biomesoplenty:double_plant:0",
+              "biomesoplenty:double_plant:8"
+            ]
+          },
+          "drops": {
+            "type": "WHITELIST",
+            "drops": []
+          },
+          "harvester": {
+            "type": "PLAYER",
+            "gamestages": {
+              "type": "WHITELIST",
+              "require": "ANY",
+              "stages": []
+            },
+            "heldItemMainHand": {
+              "type": "WHITELIST",
+              "items": [
+                "notreepunching:knife/flint:*",
+                "notreepunching:knife/iron:*",
+                "notreepunching:knife/gold:*",
+                "notreepunching:knife/diamond:*",
+                "notreepunching:knife/copper:*",
+                "notreepunching:knife/bronze:*",
+                "notreepunching:knife/steel:*",
+                "mysticalworld:amethyst_knife:*",
+                "mysticalworld:copper_knife:*",
+                "mysticalworld:gold_knife:*",
+                "mysticalworld:diamond_knife:*",
+                "mysticalworld:silver_knife:*",
+                "mysticalworld:wood_knife:*",
+                "mysticalworld:stone_knife:*",
+                "mysticalworld:iron_knife:*"
+              ]
+            },
+            "heldItemOffHand": {
+              "type": "WHITELIST",
+              "items": []
+            },
+            "playerName": {
+              "type": "WHITELIST",
+              "names": []
+            }
+          },
+          "biomes": {
+            "type": "WHITELIST",
+            "ids": []
+          },
+          "dimensions": {
+            "type": "WHITELIST",
+            "ids": []
+          },
+          "verticalRange": {
+            "min": 0,
+            "max": 255
+          },
+          "spawnDistance": {
+            "type": "WHITELIST",
+            "min": 0,
+            "max": 2147483647
+          }
+        },
+        "replaceStrategy": "REPLACE_ALL",
+        "dropStrategy": "REPEAT",
+        "dropCount": {
+          "fixed": 1,
+          "min": 0,
+          "max": 0,
+          "fortuneModifier": 0
+        },
+        "drops": [
+          {
+            "force": true,
+            "selector": {
+              "weight": {
+                "value": 1,
+                "fortuneModifier": 0
+              },
+              "silktouch": "ANY",
+              "fortuneLevelRequired": 0
+            },
+            "item": {
+              "drop": "ONE",
+              "items": [
+                "minecraft:string"
+              ],
+              "quantity": {
+                "fixed": 1,
+                "min": 1,
+                "max": 3,
+                "fortuneModifier": 0
+              },
+              "matchQuantity": {
+                "drops": []
+              }
+            },
+            "xp": {
+              "fixed": 0,
+              "min": 0,
+              "max": 0,
+              "fortuneModifier": 0
+            },
+            "xpReplaceStrategy": "ADD",
+            "replaceBlock": {
+              "properties": {}
+            }
+            
+          },
+          {
+            "force": false,
+            "selector": {
+              "weight": {
+                "value": 50,
+                "fortuneModifier": 0
+              },
+              "silktouch": "ANY",
+              "fortuneLevelRequired": 0
+            },
+            "item": {
+              "drop": "ONE",
+              "items": ["notreepunching:grass_fiber"],
+              "quantity": {
+                "fixed": 0,
+                "min": 1,
+                "max": 3,
+                "fortuneModifier": 0
+              },
+              "matchQuantity": {
+                "drops": []
+              }
+            },
+            "xp": {
+              "fixed": 0,
+              "min": 0,
+              "max": 0,
+              "fortuneModifier": 0
+            },
+            "xpReplaceStrategy": "ADD",
+            "replaceBlock": {
+              "properties": {}
+            }
+          },
+          {
+            "force": false,
+            "selector": {
+              "weight": {
+                "value": 50,
+                "fortuneModifier": 0
+              },
+              "silktouch": "ANY",
+              "fortuneLevelRequired": 0
+            },
+            "item": {
+              "drop": "ONE",
+              "items": [],
+              "quantity": {
+                "fixed": 0,
+                "min": 1,
+                "max": 3,
+                "fortuneModifier": 0
+              },
+              "matchQuantity": {
+                "drops": []
+              }
+            },
+            "xp": {
+              "fixed": 0,
+              "min": 0,
+              "max": 0,
+              "fortuneModifier": 0
+            },
+            "xpReplaceStrategy": "ADD",
+            "replaceBlock": {
+              "properties": {}
+            }
+          }
+        ]
+      }
+    ]
+}

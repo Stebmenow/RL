@@ -84,7 +84,7 @@
     {
       "item": "minecraft:iron_ore",
       "minAmount": 1,
-      "maxAmount": 2,
+      "maxAmount": 4,
       "chance": 0.75
     },
     {

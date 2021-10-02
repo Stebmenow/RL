@@ -1,0 +1,264 @@
+{
+  "priority": 0,
+  "rules": [
+    {
+      "debug": true,
+      "match": {
+        "blocks": {
+          "type": "WHITELIST",
+          "blocks": [
+            "minecraft:dirt",
+            "mocreatures:mocdirt:0",
+            "biomesoplenty:dirt:1",
+            "biomesoplenty:dirt:2",
+            "defiledlands:dirt_defiled:0",
+            "mocreatures:mocdirt:1",
+            "mocreatures:mocgrass:0",
+            "mocreatures:mocgrass:1",
+            "minecraft:grass:0",
+            "treasure2:falling_grass:0",
+            "biomesoplenty:grass:3",
+            "biomesoplenty:grass:2",
+            "biomesoplenty:grass:4",
+            "biomesoplenty:grass:7",
+            "minecraft:dirt:2",
+            "biomesoplenty:farmland_1:0",
+            "biomesoplenty:farmland_0:0",
+            "biomesoplenty:grass_path:0",
+            "minecraft:grass_path:0",
+            "defiledlands:grass_defiled:0"
+          ]
+        },
+        "drops": {
+          "type": "WHITELIST",
+          "drops": []
+        },
+        "harvester": {
+          "type": "ANY",
+          "gamestages": {
+            "type": "WHITELIST",
+            "require": "ANY",
+            "stages": []
+          },
+          "heldItemMainHand": {
+            "type": "WHITELIST",
+            "items": []
+          },
+          "heldItemOffHand": {
+            "type": "WHITELIST",
+            "items": []
+          },
+          "playerName": {
+            "type": "WHITELIST",
+            "names": []
+          }
+        },
+        "biomes": {
+          "type": "WHITELIST",
+          "ids": []
+        },
+        "dimensions": {
+          "type": "WHITELIST",
+          "ids": []
+        },
+        "verticalRange": {
+          "min": 0,
+          "max": 255
+        },
+        "spawnDistance": {
+          "type": "WHITELIST",
+          "min": 0,
+          "max": 2147483647
+        }
+      },
+      "replaceStrategy": "ADD",
+      "dropStrategy": "REPEAT",
+      "dropCount": {
+        "fixed": 1,
+        "min": 0,
+        "max": 0,
+        "fortuneModifier": 0
+      },
+      "drops": [
+        {
+          "force": false,
+          "selector": {
+            "weight": {
+              "value": 75,
+              "fortuneModifier": 0
+            },
+            "silktouch": "ANY",
+            "fortuneLevelRequired": 0
+          },
+          "item": {
+            "drop": "ONE",
+            "items": [],
+            "quantity": {
+              "fixed": 1,
+              "min": 0,
+              "max": 0,
+              "fortuneModifier": 0
+            },
+            "matchQuantity": {
+              "drops": []
+            }
+          },
+          "xp": {
+            "fixed": 0,
+            "min": 0,
+            "max": 0,
+            "fortuneModifier": 0
+          },
+          "xpReplaceStrategy": "ADD",
+          "replaceBlock": {
+            "properties": {}
+          }
+        },
+        {
+          "force": false,
+          "selector": {
+            "weight": {
+              "value": 10,
+              "fortuneModifier": 0
+            },
+            "silktouch": "ANY",
+            "fortuneLevelRequired": 0
+          },
+          "item": {
+            "drop": "ONE",
+            "items": [
+              "notreepunching:grass_fiber"
+            ],
+            "quantity": {
+              "fixed": 1,
+              "min": 0,
+              "max": 0,
+              "fortuneModifier": 0
+            },
+            "matchQuantity": {
+              "drops": []
+            }
+          },
+          "xp": {
+            "fixed": 0,
+            "min": 0,
+            "max": 0,
+            "fortuneModifier": 0
+          },
+          "xpReplaceStrategy": "ADD",
+          "replaceBlock": {
+            "properties": {}
+          }
+        },
+        {
+          "force": false,
+          "selector": {
+            "weight": {
+              "value": 3,
+              "fortuneModifier": 0
+            },
+            "silktouch": "ANY",
+            "fortuneLevelRequired": 0
+          },
+          "item": {
+            "drop": "ONE",
+            "items": [
+              "minecraft:flint"
+            ],
+            "quantity": {
+              "fixed": 1,
+              "min": 0,
+              "max": 0,
+              "fortuneModifier": 0
+            },
+            "matchQuantity": {
+              "drops": []
+            }
+          },
+          "xp": {
+            "fixed": 0,
+            "min": 0,
+            "max": 0,
+            "fortuneModifier": 0
+          },
+          "xpReplaceStrategy": "ADD",
+          "replaceBlock": {
+            "properties": {}
+          }
+        },
+        {
+          "force": false,
+          "selector": {
+            "weight": {
+              "value": 7,
+              "fortuneModifier": 0
+            },
+            "silktouch": "ANY",
+            "fortuneLevelRequired": 0
+          },
+          "item": {
+            "drop": "ONE",
+            "items": [
+              "notreepunching:flint_shard"
+            ],
+            "quantity": {
+              "fixed": 1,
+              "min": 0,
+              "max": 0,
+              "fortuneModifier": 0
+            },
+            "matchQuantity": {
+              "drops": []
+            }
+          },
+          "xp": {
+            "fixed": 0,
+            "min": 0,
+            "max": 0,
+            "fortuneModifier": 0
+          },
+          "xpReplaceStrategy": "ADD",
+          "replaceBlock": {
+            "properties": {}
+          }
+        },
+        {
+          "force": false,
+          "selector": {
+            "weight": {
+              "value": 7,
+              "fortuneModifier": 0
+            },
+            "silktouch": "ANY",
+            "fortuneLevelRequired": 0
+          },
+          "item": {
+            "drop": "ONE",
+            "items": [
+              "roots:wildroot"
+            ],
+            "quantity": {
+              "fixed": 1,
+              "min": 0,
+              "max": 0,
+              "fortuneModifier": 0
+            },
+            "matchQuantity": {
+              "drops": []
+            }
+          },
+          "xp": {
+            "fixed": 0,
+            "min": 0,
+            "max": 0,
+            "fortuneModifier": 0
+          },
+          "xpReplaceStrategy": "ADD",
+          "replaceBlock": {
+            "properties": {}
+          }
+        }
+      ]
+    }
+  ]
+}
