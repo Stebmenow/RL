@@ -2,14 +2,6 @@ Extends guiElements/Texture. All functions of it can be run on this.
 
 
 
-setAbsRender:
-    Arguments:
-        int, int
-    Usage:
-        width, height
-    Notes:
-        Sets the width and height to render the texture in pixels.
-
 setRelRender:
     Arguments:
         int
@@ -17,6 +9,14 @@ setRelRender:
         height
     Notes:
         Sets the width and height to render the texture relative to the screen size.
+
+setAbsRender:
+    Arguments:
+        int, int
+    Usage:
+        width, height
+    Notes:
+        Sets the width and height to render the texture in pixels.
 
 setAbsRenderWidth:
     Arguments:
@@ -26,13 +26,13 @@ setAbsRenderWidth:
     Notes:
         Sets the width to render the texture in pixels.
 
-setRelRenderHeight:
+setRelRenderWidth:
     Arguments:
         int
     Usage:
-        height
+        width
     Notes:
-        Sets the height to render the texture relative to the screen size.
+        Sets the width to render the texture relative to the screen size.
 
 setAbsRenderHeight:
     Arguments:
@@ -42,11 +42,11 @@ setAbsRenderHeight:
     Notes:
         Sets the height to render the texture in pixels.
 
-setRelRenderWidth:
+setRelRenderHeight:
     Arguments:
         int
     Usage:
-        width
+        height
     Notes:
-        Sets the width to render the texture relative to the screen size.
+        Sets the height to render the texture relative to the screen size.
 
