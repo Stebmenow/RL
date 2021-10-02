@@ -12,13 +12,21 @@ setFeature:
     Notes:
         Sets the feature id. Used for things like structures.
 
-setYMax:
+setReplacement:
     Arguments:
-        float
+        String
     Usage:
-        max
+        block ID
     Notes:
-        Sets the max Y coordinate.
+        Sets the block replacement with a meta of 0.
+
+setReplacement:
+    Arguments:
+        String, int
+    Usage:
+        block ID, meta
+    Notes:
+        Sets the block replacement and meta.
 
 setZMin:
     Arguments:
@@ -28,13 +36,13 @@ setZMin:
     Notes:
         Sets the min Z coordinate.
 
-setZMax:
+setYMax:
     Arguments:
         float
     Usage:
         max
     Notes:
-        Sets the max Z coordinate.
+        Sets the max Y coordinate.
 
 setDimensionType:
     Arguments:
@@ -52,21 +60,13 @@ setYMinMax:
     Notes:
         Sets the min and max Y coordinates.
 
-setYMin:
+setXMinMax:
     Arguments:
-        float
+        float, float
     Usage:
-        min
+        min, max
     Notes:
-        Sets the min Y coordinate.
-
-setXMax:
-    Arguments:
-        float
-    Usage:
-        max
-    Notes:
-        Sets the max X coordinate.
+        Sets the min and max X coordinates.
 
 setZMinMax:
     Arguments:
@@ -76,13 +76,13 @@ setZMinMax:
     Notes:
         Sets the min and max Z coordinates.
 
-setXMinMax:
+setZMax:
     Arguments:
-        float, float
+        float
     Usage:
-        min, max
+        max
     Notes:
-        Sets the min and max X coordinates.
+        Sets the max Z coordinate.
 
 setXMin:
     Arguments:
@@ -92,33 +92,37 @@ setXMin:
     Notes:
         Sets the min X coordinate.
 
+setXMax:
+    Arguments:
+        float
+    Usage:
+        max
+    Notes:
+        Sets the max X coordinate.
+
+setYMin:
+    Arguments:
+        float
+    Usage:
+        min
+    Notes:
+        Sets the min Y coordinate.
+
 getLocationData:
     Notes:
         Returns the LocationData object so functions can be called on it.
 
-setReplacement:
+setBiome:
     Arguments:
-        String
+        Non_Null_Biome_ID
     Usage:
-        block ID
+        biome id
     Notes:
-        Sets the block replacement with a meta of 0.
+        Sets the biome id. Can be an int or String.
 
-setReplacement:
-    Arguments:
-        String, int
-    Usage:
-        block ID, meta
+getBlockToReplace:
     Notes:
-        Sets the block replacement and meta.
-
-setBlockToReplace:
-    Arguments:
-        String
-    Usage:
-        block id
-    Notes:
-        Sets the block to be replaced. This counts for any meta.
+        Returns the BlockData object for the block to be replaced so functions can be called on it.
 
 setBlockToReplace:
     Arguments:
@@ -128,6 +132,14 @@ setBlockToReplace:
     Notes:
         Sets the block to be replaced with the provided meta.
 
+setBlockToReplace:
+    Arguments:
+        String
+    Usage:
+        block id
+    Notes:
+        Sets the block to be replaced. This counts for any meta.
+
 setBlockToReplaceOreDict:
     Arguments:
         String
@@ -135,18 +147,6 @@ setBlockToReplaceOreDict:
         ore dict name
     Notes:
         Sets the ore dictionary for the block to be replaced.
-
-getBlockToReplace:
-    Notes:
-        Returns the BlockData object for the block to be replaced so functions can be called on it.
-
-setBiome:
-    Arguments:
-        Non_Null_Biome_ID
-    Usage:
-        biome id
-    Notes:
-        Sets the biome id. Can be an int or String.
 
 addGenerationPoint:
     Arguments:

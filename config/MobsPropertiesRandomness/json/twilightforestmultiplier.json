@@ -1,0 +1,44 @@
+{
+  "group": "twilightforestmultiplier",
+  "attributes": [
+		{
+			"id": "generic.maxHealth",
+			"modifier": {
+				"min": 100,
+				"max": 100
+			},
+			"is_flat": false,
+			"affected_by_difficulty": false,
+			"dimensions": [
+				7
+			]
+		},
+		{
+			"id": "generic.attackDamage",
+			"modifier": {
+				"min": 100,
+				"max": 100
+			},
+			"is_flat": false,
+			"affected_by_difficulty": false,
+			"dimensions": [
+				7
+			]
+		}
+	],
+	"potion_effects": [
+		{
+			"id": "minecraft:speed",
+			"amplifier": {
+				"min": 0,
+				"max": 0
+			},
+			"chance": {
+				"amount": 100
+			},
+			"dimensions": [
+				7
+			]
+		}
+	]
+}

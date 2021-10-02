@@ -1,0 +1,8 @@
+{
+  "name": "twilightforestmultiplier",
+  "mobs": [
+    "minecraft:*",
+    "lycanitesmobs:*",
+    "mocreatures:*"
+  ]
+}

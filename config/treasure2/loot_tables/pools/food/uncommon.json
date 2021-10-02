@@ -3,7 +3,10 @@
 	"pools": [
 		{
 			"name": "uncommon_food",
-			"rolls": 1,
+			"rolls": {
+				"min": 1,
+				"max": 2
+			},
 			"entries": [
 				{
 					"entryName": "beetroot_seed",

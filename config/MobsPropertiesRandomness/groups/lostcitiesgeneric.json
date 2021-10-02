@@ -1,0 +1,11 @@
+{
+  "name": "lostcitiesgeneric",
+  "mobs": [
+    "minecraft:zombie",
+    "minecraft:skeleton",
+    "minecraft:spider",
+    "minecraft:zombie_villager",
+    "minecraft:creeper",
+    "minecraft:enderman"
+  ]
+}

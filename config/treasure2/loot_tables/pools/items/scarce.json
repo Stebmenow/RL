@@ -36,21 +36,6 @@
 					]							
 				},
 				{
-					"entryName": "iron_block",
-					"type": "item",
-					"name": "minecraft:iron_block",
-					"weight": 2,
-					"functions": [
-						{
-							"function": "set_count",
-							"count": {
-								"min": 1,
-								"max": 2
-							}
-						}
-					]							
-				},
-				{
 					"entryName": "bronze",
 					"type": "item",
 					"name": "variedcommodities:ingot_bronze",
@@ -61,21 +46,6 @@
 							"count": {
 								"min": 5,
 								"max": 12
-							}
-						}
-					]
-				},
-				{
-					"entryName": "silver",
-					"type": "item",
-					"name": "iceandfire:silver_ingot",
-					"weight": 2,
-					"functions": [
-						{
-							"function": "set_count",
-							"count": {
-								"min": 4,
-								"max": 8
 							}
 						}
 					]
@@ -99,36 +69,6 @@
 					"entryName": "copper",
 					"type": "item",
 					"name": "mysticalworld:copper_ingot",
-					"weight": 2,
-					"functions": [
-						{
-							"function": "set_count",
-							"count": {
-								"min": 4,
-								"max": 8
-							}
-						}
-					]
-				},
-				{
-					"entryName": "silver",
-					"type": "item",
-					"name": "mysticalworld:ingot_silver",
-					"weight": 2,
-					"functions": [
-						{
-							"function": "set_count",
-							"count": {
-								"min": 4,
-								"max": 8
-							}
-						}
-					]
-				},
-				{
-					"entryName": "copper",
-					"type": "item",
-					"name": "mysticalworld:ingot_copper",
 					"weight": 2,
 					"functions": [
 						{

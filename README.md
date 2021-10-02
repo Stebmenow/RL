@@ -9,7 +9,7 @@ More details will be listed below in the changelog:
 
 ## Intended Progression:
 1. Standard overworld stuff. Build a base, farm some crops and animals, mine ores.
-2. Go to Lost Cities. We found Lost Cities to be in a weird place, where mobs were too difficult until you could get some good diamond/Lycanites gear. However, by then the loot you can obtain there is obsolete. A global 25% health and damage reduction is applied to all mobs in Lost Cities, however they receive a 30% speed bonus. (Pro tip: the cursed buildings prevent you from opening the chests but you can just bring them outside and open them there using CarryOn mod)
+2. Go to Lost Cities. We found Lost Cities to be in a weird place, where mobs were too difficult until you could get some good diamond/Lycanites gear. However, by then the loot you can obtain there is obsolete. A global 25% health and damage reduction is applied to all mobs in Lost Cities, however they receive a speed potion effect. (Pro tip: the cursed buildings prevent you from opening the chests but you can just bring them outside and open them there using CarryOn mod)
 3. Explore Defiled Lands, and get some book wyrms. Kill the bosses, as the drops are used in later recipes!
 4. Kill dragons, as per usual.
 5. Kill Lycanites bosses. Loot tables are updated and are slightly nerfed because they lag out computers with all the particles. If you are feeling bold, change the healths back in the config.
@@ -27,7 +27,7 @@ More details will be listed below in the changelog:
 7. Rebirth of the Mobs added. Some mobs (notably Twilight Forest) are immune to bows, and they can also inflict various potion effects on you.
 8. Other creature mods like Mo' Creatures and Mowzie's Mobs added. Some of their equipments are buffed.
 9. Hardcore Darkness added. You can't see anymore lol.
-10. Nutrition mod added. We thought food was very much neglected, so keeping high nutrition can provide you with various buffs. Any nutrient dropping below 35% nutrition gives you weakness and mining fatigue. Cooking with Blockheads added to make cooking easier. Make those farms!
+10. Nutrition mod added. We thought food was very much neglected, so keeping high nutrition can provide you with various buffs. There is no punishment for having low nutrition, though maintaining a balanced diet is recommended. Cooking with Blockheads added to make cooking easier. Make those farms!
 11. Mystical World, Roots, and Nature's Aura added. Gives players some options for early game loot.
 12. Treasure2 added, with custom loot tables. Incentivizes exploring.
 13. Electroblob's Wizardry added. Lycanite's wands were lackluster, so now you can use these ones! Reskillable/Compatskills is kind of bugged with the newest Electroblob's Wizardry, don't worry about it too much.

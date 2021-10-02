@@ -1,12 +1,9 @@
 {
-	"version": "1.0",
+	"version": "1.1",
 	"pools": [
 		{
 			"name": "common_items",
-			"rolls": {
-				"min": 2,
-				"max": 4
-			},
+			"rolls": 1,
 			"entries": [
 				{
 					"entryName": "bread",
@@ -26,7 +23,7 @@
 				{
 					"entryName": "apple",
 					"type": "item",
-					"name": "minecraft:bread",
+					"name": "minecraft:apple",
 					"weight": 60,
 					"functions": [
 						{
@@ -54,6 +51,21 @@
 					]
 				},
 				{
+					"entryName": "torch",
+					"type": "item",
+					"name": "minecraft:torch",
+					"weight": 50,
+					"functions": [
+						{
+							"function": "set_count",
+							"count": {
+								"min": 1,
+								"max": 5
+							}
+						}
+					]
+				},
+				{
 					"entryName": "leather",
 					"type": "item",
 					"name": "minecraft:leather",
@@ -69,16 +81,16 @@
 					]
 				},
 				{
-					"entryName": "rabbit_foot",
+					"entryName": "rabbit_hide",
 					"type": "item",
-					"name": "minecraft:rabbit_foot",
+					"name": "minecraft:rabbit_hide",
 					"weight": 20,
 					"functions": [
 						{
 							"function": "set_count",
 							"count": {
-								"min": 3,
-								"max": 6
+								"min": 1,
+								"max": 3
 							}
 						}
 					]
@@ -102,13 +114,13 @@
 					"entryName": "iron_ingot",
 					"type": "item",
 					"name": "minecraft:iron_ingot",
-					"weight": 10,
+					"weight": 30,
 					"functions": [
 						{
 							"function": "set_count",
 							"count": {
 								"min": 1,
-								"max": 5
+								"max": 2
 							}
 						}
 					]
@@ -174,52 +186,37 @@
 							"function": "set_count",
 							"count": {
 								"min": 1,
-								"max": 6
+								"max": 3
 							}
 						}
 					]
 				},
 				{
-					"entryName": "bronze",
+					"entryName": "clay_ball",
 					"type": "item",
-					"name": "variedcommodities:ingot_bronze",
-					"weight": 20,
+					"name": "minecraft:iron_ingot",
+					"weight": 10,
 					"functions": [
 						{
 							"function": "set_count",
 							"count": {
 								"min": 1,
-								"max": 4
+								"max": 2
 							}
 						}
 					]
 				},
 				{
-					"entryName": "silver",
+					"entryName": "brick",
 					"type": "item",
-					"name": "iceandfire:silver_ingot",
-					"weight": 20,
+					"name": "minecraft:iron_ingot",
+					"weight": 10,
 					"functions": [
 						{
 							"function": "set_count",
 							"count": {
 								"min": 1,
-								"max": 4
-							}
-						}
-					]
-				},
-				{
-					"entryName": "copper",
-					"type": "item",
-					"name": "mysticalworld:copper_ingot",
-					"weight": 20,
-					"functions": [
-						{
-							"function": "set_count",
-							"count": {
-								"min": 1,
-								"max": 4
+								"max": 2
 							}
 						}
 					]
