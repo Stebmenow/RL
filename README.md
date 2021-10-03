@@ -34,7 +34,7 @@ More details will be listed below in the changelog:
 14. Colytra added, cause elytras were literally useless in RLCraft.
 15. First Aid healing items buffed, also we enabled friendly damage distribution to make DOTs like poison/wither less stupid. 
 16. Unnecessary graphics (like explosion ringing and blindness, Better Foliage, Dynamic trees) removed. Better for potato PCs.
-17. Apotheosis added to get better enchantments. Trust me, you WILL need good enchantments. Xaphan farms can't be patched out so we might as well embrace it.
+17. Apotheosis added to get better enchantments. Trust me, you WILL need good enchantments. Xaphan farms are dead.
 18. Fishing loot buffed. Neptunium is used in some new recipes as well.
 19. Combat has been tweaked significantly. There are now dedicated "agility" class weapons, notably the throwing ones and those that swing at faster speeds (ie. dagger, throwing axe, etc.)
 20. Featuring 3 dedicated classes - wizard, druid, and engineer - each with their own progressions and unlockables. Wizard is supported by Electroblob's Wizardry and its addons, Druid is supported by Nature's Aura and Roots, while engineer leans toward Immersive Engineering, TeslaCore and Industrial Foregoing. Note that some classes excel at more defensive roles than others. Alternatively, feel free to multiclass like before.
