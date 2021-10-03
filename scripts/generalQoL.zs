@@ -16,3 +16,4 @@ recipes.addShapeless(<iceandfire:sapphire_gem>, [<biomesoplenty:gem:6>]);
 recipes.addShapeless(<minecraft:diamond_horse_armor>, [<iceandfire:diamond_hippogryph_armor>]);
 recipes.addShapeless(<minecraft:golden_horse_armor>, [<iceandfire:gold_hippogryph_armor>]);
 recipes.addShapeless(<minecraft:iron_horse_armor>, [<iceandfire:iron_hippogryph_armor>]);
+recipes.addShaped(<minecraft:skull>, [[null, <scalinghealth:crystalshard>, null],[<minecraft:bone_block>, <ore:ingotIron>, <minecraft:bone_block>], [null, <scalinghealth:crystalshard>, null]]);
