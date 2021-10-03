@@ -1,0 +1,24 @@
+{
+  "name": "levelup:ranger",
+  "bonus": "levelup:combat_bonus",
+  "localized_name": "Ranger",
+  "description": "Ranged proficiency",
+  "skills": [
+    {
+      "name": "levelup:bowdraw",
+      "level": 2
+    },
+    {
+      "name": "levelup:arrowspeed",
+      "level": 1
+    },
+    {
+      "name": "levelup:stealth",
+      "level": 2
+    },
+    {
+      "name": "levelup:fallprotect",
+      "level": 1
+    }
+  ]
+}
