@@ -18,3 +18,6 @@ recipes.addShapeless(<minecraft:golden_horse_armor>, [<iceandfire:gold_hippogryp
 recipes.addShapeless(<minecraft:iron_horse_armor>, [<iceandfire:iron_hippogryph_armor>]);
 recipes.addShaped(<minecraft:skull>, [[null, <scalinghealth:crystalshard>, null],[<minecraft:bone_block>, <ore:ingotIron>, <minecraft:bone_block>], [null, <scalinghealth:crystalshard>, null]]);
 recipes.addShaped(<aquaculture:loot:1> * 2, [[<minecraft:prismarine_shard>, <minecraft:prismarine_crystals>, <minecraft:prismarine_shard>],[<minecraft:prismarine_crystals>, <ore:gemDiamond>, <minecraft:prismarine_crystals>], [<minecraft:prismarine_shard>, <minecraft:prismarine_crystals>, <minecraft:prismarine_shard>]]);
+recipes.remove(<antiqueatlas:empty_antique_atlas>);
+recipes.addShaped(<antiqueatlas:empty_antique_atlas>, [[<ore:tallow>, <ore:paper>, <ore:paper>],[<ore:feather>, <ore:paper>, <ore:paper>], [<ore:dyeBlack>, <ore:paper>, <ore:paper>]]);
+recipes.addShaped(<antiqueatlas:empty_antique_atlas>, [[<ore:paper>, <ore:paper>, <ore:tallow>],[<ore:paper>, <ore:paper>, <ore:feather>], [<ore:paper>, <ore:paper>, <ore:dyeBlack>]]);
