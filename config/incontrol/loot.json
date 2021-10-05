@@ -1,1 +1,69 @@
-[]
+[
+  {
+    "mob": "twilightforest:naga",
+    "remove": "twilightforest:naga_scale"
+  },
+  {
+    "mob": "twilightforest:naga",
+    "item": "twilightforest:naga_scale",
+    "itemcount": "10-14/11-15/12-16"
+  },
+  {
+    "mob": "twilightforest:lich",
+    "item": "minecraft:nether_star",
+    "nbt": {"display": {"Name": "Primogem"}},
+    "itemcount": "2-3/3-4/4-5/5-6/5-6/5-6/5-6/5-6/5-6/5-6/108"
+  },
+  {
+    "mob": "twilightforest:minoshroom",
+    "item": "twilightforest:ironwood_ingot",
+    "itemcount": "4-6/5-7/6-8/7-9"
+  },
+  {
+    "mob": "twilightforest:minoshroom",
+    "item": "twilightforest:steeleaf_ingot",
+    "itemcount": "4-6/5-7/6-8/7-9"
+  },
+  {
+    "mob": "twilightforest:hydra",
+    "remove": "twilightforest:fiery_blood"
+  },
+  {
+    "mob": "twilightforest:hydra",
+    "item": "twilightforest:fiery_blood",
+    "itemcount": "8-10/9-11/10-12/11-13"
+  },
+  {
+    "mob": "twilightforest:knight_phantom",
+    "item": "twilightforest:knightmetal_ingot",
+    "itemcount": "4-5/5-6/6-7/7-8"
+  },
+  {
+    "mob": "twilightforest:ur_ghast",
+    "item": "twilightforest:fiery_tears",
+    "itemcount": "8-10/9-11/10-12/11-13"
+  },
+  {
+    "mob": "twilightforest:yeti_alpha",
+    "remove": "twilightforest:alpha_fur"
+  },
+  {
+    "mob": "twilightforest:yeti_alpha",
+    "item": "twilightforest:alpha_fur",
+    "itemcount": "10-14/11-15/12-16/13-17"
+  },
+  {
+    "mob": "twilightforest:snow_queen",
+    "item": "twilightforest:glass_sword",
+    "itemcount": "0-1"
+  },
+  {
+    "mob": "twilightforest:snow_queen",
+    "remove": "minecraft:snowball"
+  },
+  {
+    "mob": "twilightforest:snow_queen",
+    "item": "twilightforest:ice_sword",
+    "itemcount": "0-1"
+  }
+]
