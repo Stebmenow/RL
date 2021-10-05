@@ -20,6 +20,14 @@
     "setxp": 4000
   },
   {
+    "mob": "twilightforest:giant_miner",
+    "setxp": 4000
+  },
+  {
+    "mob": "twilightforest:armored_giant",
+    "setxp": 4000
+  },
+  {
     "mob": "twilightforest:ur_ghast",
     "setxp": 18000
   },

@@ -1,0 +1,32 @@
+{
+	"mob_id": "twilightforest:armored_giant",
+	"attributes": [
+		{
+			"id": "generic.maxHealth",
+			"modifier": {
+				"min": 3000,
+				"max": 3000
+			},
+			"is_flat": true,
+			"affected_by_difficulty": false
+		},
+		{
+			"id": "generic.armor",
+			"modifier": {
+				"min": 50,
+				"max": 50
+			},
+			"is_flat": true,
+			"affected_by_difficulty": false
+		},
+		{
+			"id": "generic.attackDamage",
+			"modifier": {
+				"min": 50,
+				"max": 50
+			},
+			"is_flat": true,
+			"affected_by_difficulty": false
+		}
+	]
+}
