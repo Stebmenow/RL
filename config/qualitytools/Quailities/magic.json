@@ -326,7 +326,7 @@
 	{
             "name": "potioncore.magicShielding",
             "amount": 1.5,
-            "operation": 2
+            "operation": 0
           }
         ]
       },

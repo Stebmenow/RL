@@ -8,6 +8,8 @@
 <ore:toolAxe>.add(<spartanweaponry:battleaxe_bronze:*>);
 <ore:toolAxe>.add(<spartanweaponry:battleaxe_stone:*>);
 <ore:toolAxe>.add(<spartanweaponry:battleaxe_silver:*>);
+<ore:toolAxe>.add(<spartanweaponry:battleaxe_wood:*>);
+<ore:toolAxe>.add(<spartanweaponry:battleaxe_copper:*>);
 <ore:toolAxe>.add(<spartanweaponry:battleaxe_gold:*>);
 <ore:toolAxe>.add(<spartanweaponry:battleaxe_diamond:*>);
 <ore:toolAxe>.add(<spartanfire:battleaxe_dragonbone:*>);

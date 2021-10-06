@@ -16,7 +16,7 @@ recipes.addShapeless("salve3",<roughtweaks:salve>,[<minecraft:bowl>,<ore:blockCa
 recipes.addShapeless("plaster1",<roughtweaks:plaster>,[<roughtweaks:salve>,<ore:string>,<minecraft:paper>]);
 recipes.addShapeless("salve4",<roughtweaks:salve>,[<minecraft:bowl>,<rustic:aloe_vera>|<rustic:ginseng>|<rustic:core_root>|<rustic:blood_orchid>|<rustic:marsh_mallow>]);
 
-recipes.addShapeless("lolarecipe10",<firstaid:plaster>,[<ore:string>,<minecraft:paper>]);
+recipes.addShapeless(<firstaid:plaster>,[<ore:string>,<minecraft:paper>]);
 
 recipes.addShaped(<roughtweaks:bandage> * 1, [[null, <roughtweaks:salve>, null],[<ore:blockWool>, <ore:string>, <ore:blockWool>], [null, null, null]]);
 
