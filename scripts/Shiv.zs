@@ -42,7 +42,6 @@ recipes.remove(<campfire:campfire>);
 recipes.remove(<potionfingers:ring:1>);
 recipes.remove(<xat:glowing_ingot>);
 recipes.remove(<minecraft:snow_layer>);
-recipes.remove(<switchbow:arrowdiamond>);
 
 recipes.removeByRecipeName("grapplemod:block_grapple_modifier");
 recipes.removeByRecipeName("grapplemod:launcheritem");
