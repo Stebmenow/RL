@@ -41,7 +41,7 @@ More details will be listed below in the changelog:
 21. Equipment modifiers from QualityTools are reworked so that they are more punishing if bad, and more rewarding if good. This is inspired from blacksmithing in Skyrim - A lower tier item with a good modifier EASILY outdamages a higher tier item without a modifier at all.
 
 
-=========================================================================================================================================================================
+============================================================================================
 
 ## MY GAME IS BROKEN! What do?
 If game gives a black screen randomly (or when going into water):
