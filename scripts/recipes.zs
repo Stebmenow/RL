@@ -3,4 +3,6 @@
 //#Remove
 //Don't touch me!
 //#Add
+recipes.addShaped(<minecraft:leather> * 3, [[<minecraft:saddle>, null],[null, null]]);
+recipes.addShaped(<ebwizardry:ruined_spell_book>, [[<quark:ancient_tome:*>, null],[null, null]]);
 //File End

@@ -11,6 +11,7 @@
 /config/InvTweaks/**
 !scripts
 !scripts/**
+!structures
 !mods
 !/mods/**
 !README.md
