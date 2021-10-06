@@ -39,3 +39,8 @@ More details will be listed below in the changelog:
 19. Combat has been tweaked significantly. There are now dedicated "agility" class weapons, notably the throwing ones and those that swing at faster speeds (ie. dagger, throwing axe, etc.)
 20. Featuring 3 dedicated classes - wizard, druid, and engineer - each with their own progressions and unlockables. Wizard is supported by Electroblob's Wizardry and its addons, Druid is supported by Nature's Aura and Roots, while engineer leans toward Immersive Engineering, TeslaCore and Industrial Foregoing. Note that some classes excel at more defensive roles than others. Alternatively, feel free to multiclass like before.
 21. Equipment modifiers from QualityTools are reworked so that they are more punishing if bad, and more rewarding if good. This is inspired from blacksmithing in Skyrim - A lower tier item with a good modifier EASILY outdamages a higher tier item without a modifier at all.
+
+
+MY GAME IS BROKEN! What do?
+If game gives a black screen randomly (or when going into water), check out this link:
+https://github.com/CreativeMD/EnhancedVisuals/issues/61
