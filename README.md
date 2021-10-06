@@ -18,24 +18,31 @@ More details will be listed below in the changelog:
 8. FUTURE IDEAS: Content for post Twilight Forest (thinking about Tinker's Construct and some more tech), and AbyssalCraft as the final dimension.
 
 ## Changelog (in no order of importance)
-1. New world generation! We didn't like the randomness of normal worldgen, so we created our custom world generation using BoP and Dimension Control with a custom heatmap (WIP, but mostly makes sense). To use this option, when selecting a world type, change to "Preset: unchartedTerritories". Travelling in the z-direction changes temperature, and travelling in the x-direction changes wetness. Also, spawning is reverted to normal, so you don't get put in a random location when you die and don't have a spawnpoint. However, mobs get stronger the further from spawnchunks you go.
+1. New world generation! We didn't like the randomness of normal worldgen, so we created our custom world generation using BoP and Dimension Control with a custom heatmap. Just leaving the preset at default will work. Travelling in the z-direction changes temperature, and travelling in the x-direction changes wetness. Also, spawning is reverted to within 75 blocks of a spawnpoint, so you don't get spawned randomly. Makes it easier for multiplayer without using teleport cheats.
 2. Ice and Fire updated to 1.9.1! Players now have access to dragonsteel, however the dragonforge is gated by completion of Defiled Lands. Additionally, dread mobs exist in this version. They have been buffed a lot too. Custom recipes are added for the new Ice and Fire weapons. 
 3. Gave a little bit of stuff for the engineers to do. Immersive Engineering and Industrial Foregoing added. Teslacorelib machine cases (core component for any IF machines) are gated by killing dragons, but you can occasionally find them in dungeons too. Make good food with automated farms and defend your base with Immersive Engineering turrets!
-4. Combat system has been tweaked (see following bullets as well). Better combat mod (RIP dual wielding) was removed because of balance issues and incompatibilities with Spartan Weaponry (normal weapons that extend the vanilla classes can't jump-crit, but spartan weapons can, causing a big disparity in damage output). Some mobs (especially Lycanites) now have base armor to nerf rapiers.
+4. Combat system has been tweaked (see following bullets as well). Two-handers hit like a truck, but you can't block with them. One-handers don't do much damage, but the options of a shield in the off-hand or dual-wielding are opened up. Jump-crits are allowed.
 5. Armoreable mobs added to give vanilla mobs a bit more punch. 
-6. Zombie Awareness added to give them brains of their own.
+6. Zombie Awareness added to give them brains of their own. Zombies have more advanced AI and will tend to clump. They are also significantly healthier than before.
 7. Rebirth of the Mobs added. Some mobs (notably Twilight Forest) are immune to bows, and they can also inflict various potion effects on you.
 8. Other creature mods like Mo' Creatures and Mowzie's Mobs added. Some of their equipments are buffed.
-9. Hardcore Darkness added. You can't see anymore lol.
-10. Nutrition mod added. We thought food was very much neglected, so keeping high nutrition can provide you with various buffs. There is no punishment for having low nutrition, though maintaining a balanced diet is recommended. Cooking with Blockheads added to make cooking easier. Make those farms!
+9. Hardcore Darkness added, where nighttime visibility is directly correlated with moon phases. Expect to see nothing during new moon.
+10. Nutrition mod added. We thought food was very much neglected, so keeping high nutrition can provide you with various buffs. Can still eat even when hunger bar is full. There is no punishment for having low nutrition, though maintaining a balanced diet is recommended. Cooking with Blockheads added to make cooking easier. Make those farms!
 11. Mystical World, Roots, and Nature's Aura added. Gives players some options for early game loot.
 12. Treasure2 added, with custom loot tables. Incentivizes exploring.
 13. Electroblob's Wizardry added. Lycanite's wands were lackluster, so now you can use these ones! Reskillable/Compatskills is kind of bugged with the newest Electroblob's Wizardry, don't worry about it too much.
-14. Colytra added, cause elytras were literally useless in RLCraft.
-15. First Aid healing items buffed, also we enabled friendly damage distribution to make DOTs like poison/wither less stupid. 
+14. Colytra added, cause elytras were literally useless in RLCraft. Backpacks are nerfed in capacity but don't occupy the chest slot.
+15. First Aid healing items buffed, but things can still easily one-hit you when hitting the head or the chest. This means prioritize chest and head armor over legs and feet.
 16. Unnecessary graphics (like explosion ringing and blindness, Better Foliage, Dynamic trees) removed. Better for potato PCs.
 17. Apotheosis added to get better enchantments. Trust me, you WILL need good enchantments. Xaphan farms are dead.
 18. Fishing loot buffed. Neptunium is used in some new recipes as well.
 19. Combat has been tweaked significantly. There are now dedicated "agility" class weapons, notably the throwing ones and those that swing at faster speeds (ie. dagger, throwing axe, etc.)
 20. Featuring 3 dedicated classes - wizard, druid, and engineer - each with their own progressions and unlockables. Wizard is supported by Electroblob's Wizardry and its addons, Druid is supported by Nature's Aura and Roots, while engineer leans toward Immersive Engineering, TeslaCore and Industrial Foregoing. Note that some classes excel at more defensive roles than others. Alternatively, feel free to multiclass like before.
 21. Equipment modifiers from QualityTools are reworked so that they are more punishing if bad, and more rewarding if good. This is inspired from blacksmithing in Skyrim - A lower tier item with a good modifier EASILY outdamages a higher tier item without a modifier at all.
+
+
+============================================================================================
+
+## MY GAME IS BROKEN! What do?
+If game gives a black screen randomly (or when going into water):
+https://github.com/CreativeMD/EnhancedVisuals/issues/61
