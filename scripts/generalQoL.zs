@@ -21,3 +21,6 @@ recipes.addShaped(<aquaculture:loot:1> * 2, [[<minecraft:prismarine_shard>, <min
 recipes.remove(<antiqueatlas:empty_antique_atlas>);
 recipes.addShaped(<antiqueatlas:empty_antique_atlas>, [[<ore:tallow>, <ore:paper>, <ore:paper>],[<ore:feather>, <ore:paper>, <ore:paper>], [<ore:dyeBlack>, <ore:paper>, <ore:paper>]]);
 recipes.addShaped(<antiqueatlas:empty_antique_atlas>, [[<ore:paper>, <ore:paper>, <ore:tallow>],[<ore:paper>, <ore:paper>, <ore:feather>], [<ore:paper>, <ore:paper>, <ore:dyeBlack>]]);
+recipes.addShaped(<realistictorches:torch_unlit> * 3, [[null, <ore:tallow>, null],[null, <ore:stickWood>, null],[null, null, null]]);
+recipes.addShaped(<minecraft:leather> * 3, [[null, null, null],[null, <minecraft:saddle>, null],[null, null, null]]);
+recipes.addShaped(<ebwizardry:ruined_spell_book>, [[null, null, null],[null, <quark:ancient_tome:*>, null],[null, null, null]]);
