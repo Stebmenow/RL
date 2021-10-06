@@ -12,6 +12,7 @@
 !scripts
 !scripts/**
 !structures
+!structures/**
 !mods
 !/mods/**
 !README.md
