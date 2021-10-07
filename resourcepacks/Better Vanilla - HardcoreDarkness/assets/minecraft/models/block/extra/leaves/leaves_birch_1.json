@@ -1,0 +1,8 @@
+{
+    "parent": "block/extra/leaves/leaves_1",
+    "textures": {
+        "particle": "blocks/leaves_birch",
+        "leaves": "blocks/leaves_birch",
+        "leaves_extra": "blocks/leaves_birch_extra"
+    }
+}

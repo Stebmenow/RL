@@ -750,7 +750,14 @@
 			"xlfoodmod:strawberry_pie",
 			"xlfoodmod:taco",
 			"xlfoodmod:taco_salad",
-			"xlfoodmod:vegetable_soup"
+			"xlfoodmod:vegetable_soup",
+			"mocreatures:sugarlump",
+			"foodexpansion:itemjelly",
+			"foodexpansion:itemchocolatebar:0",
+			"foodexpansion:itemblazecream:0",
+			"foodexpansion:itemlollipop:0",
+			"mowziesmobs:glowing_jelly:0",
+			"defiledlands:foul_candy:0"
 		]
 	}
 }

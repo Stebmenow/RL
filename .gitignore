@@ -13,6 +13,8 @@
 !scripts/**
 !structures
 !structures/**
+!resourcepacks
+!resourcepacks/**
 !mods
 !/mods/**
 !README.md

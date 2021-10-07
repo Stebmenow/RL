@@ -1111,7 +1111,10 @@
 			"xlfoodmod:tomato",
 			"xlfoodmod:tomato_soup",
 			"xlfoodmod:tortilla",
-			"xlfoodmod:vegetable_soup"
+			"xlfoodmod:vegetable_soup",
+			"foodexpansion:itemnetherwartsoup:0",
+			"foodexpansion:itemblazecream:0",
+			"defiledlands:foul_candy:0"
 		]
 	}
 }
