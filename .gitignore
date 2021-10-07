@@ -13,8 +13,8 @@
 !scripts/**
 !structures
 !structures/**
-!resourcepacks
-!resourcepacks/**
+resourcepacks
+!resourcepacks/AntiqueAtlasExtra-v1.2
 !mods
 !/mods/**
 !README.md
