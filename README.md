@@ -46,4 +46,5 @@ More details will be listed below in the changelog:
 ## MY GAME IS BROKEN! What do?
 Game gives a black screen randomly (or when going into water):
 https://github.com/CreativeMD/EnhancedVisuals/issues/61
+
 Logs are spamming "Unexpected packet during modded negotiation": Make sure that Golrith's Antique Atlas resource pack is NOT A FOLDER. Keep it as a zipped file.
