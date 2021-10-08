@@ -48,3 +48,9 @@ Game gives a black screen randomly (or when going into water):
 https://github.com/CreativeMD/EnhancedVisuals/issues/61
 
 Logs are spamming "Unexpected packet during modded negotiation": Make sure that Golrith's Antique Atlas resource pack is NOT A FOLDER. Keep it as a zipped file.
+
+==================================================
+
+## MY GAME IS UGLY AF! What do?
+Mo'Bends doesn't render non-vanilla armors perfectly. If you are bothered by some missing/awkward textures, find the Mo'Bends configuration button in keybinds, access Mo'Bends in this way, and turn animations for player OFF.
+
