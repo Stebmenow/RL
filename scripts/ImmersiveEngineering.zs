@@ -16,3 +16,10 @@ recipes.addShaped("hv_capacitor",<immersiveengineering:metal_device1:3>,
   [<ore:ingotAluminum>,<ore:blockLead>,<ore:ingotAluminum>],
   [<ore:plankTreatedWood>,<ore:blockRedstone>,<ore:plankTreatedWood>]]);
   
+recipes.addShaped("sandstone",<minecraft:sandstone>,
+  [[<minecraft:sand>,<minecraft:sand>],
+   [<minecraft:sand>,<minecraft:sand>,]]);
+
+recipes.addShaped("red_sandstone",<minecraft:red_sandstone>,
+  [[<minecraft:red_sand>,<minecraft:red_sand>],
+   [<minecraft:red_sand>,<minecraft:red_sand>,]]);

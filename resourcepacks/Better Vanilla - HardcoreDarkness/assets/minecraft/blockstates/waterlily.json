@@ -1,0 +1,10 @@
+{
+    "variants": {
+        "normal": [
+            { "model": "extra/waterly/waterlily_1" },
+            { "model": "extra/waterly/waterlily_2" },
+            { "model": "extra/waterly/waterlily_3" },
+            { "model": "extra/waterly/waterlily_4" }
+        ]
+    }
+}
