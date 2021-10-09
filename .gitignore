@@ -11,8 +11,6 @@
 /config/InvTweaks/**
 !scripts
 !scripts/**
-!structures
-!structures/**
 !resourcepacks
 !resourcepacks/**
 !mods
