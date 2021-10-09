@@ -1,8 +1,0 @@
-{
-    "parent": "block/extra/leaves/leaves_2",
-    "textures": {
-        "particle": "blocks/leaves_jungle",
-        "leaves": "blocks/leaves_jungle",
-        "leaves_extra": "blocks/leaves_jungle_extra"
-    }
-}
