@@ -54,3 +54,6 @@ recipes.addShapeless("sea_serpent_fang_dupe", <iceandfire:sea_serpent_fang>*4, [
 recipes.addShapeless("stymphalian_dupe", <iceandfire:stymphalian_bird_feather>*4, [
   <biomesoplenty:gem:*>, <iceandfire:stymphalian_bird_feather>
 ]);
+
+<spartanweaponry:caestus>.maxDamage = 131;
+<spartanweaponry:caestus_studded>.maxDamage = 250;
