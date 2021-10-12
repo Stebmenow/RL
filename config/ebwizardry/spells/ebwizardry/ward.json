@@ -13,9 +13,9 @@
   "tier": "novice",
   "element": "healing",
   "type": "buff",
-  "cost": 5,
-  "chargeup": 0,
-  "cooldown": 30,
+  "cost": 20,
+  "chargeup": 60,
+  "cooldown": 100,
   "base_properties": {
     "ward_duration": 600,
     "ward_strength": 0

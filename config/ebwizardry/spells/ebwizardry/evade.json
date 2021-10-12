@@ -13,10 +13,10 @@
   "tier": "novice",
   "element": "healing",
   "type": "utility",
-  "cost": 5,
+  "cost": 12,
   "chargeup": 0,
-  "cooldown": 5,
+  "cooldown": 40,
   "base_properties": {
-    "evade_velocity": 1
+    "evade_velocity": 0.85
   }
 }

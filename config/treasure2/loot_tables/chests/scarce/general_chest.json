@@ -43,6 +43,20 @@
 			]
 		},
 		{
+			"name": "wiz",
+			"rolls": {
+				"min": 2,
+				"max": 3
+			},
+			"entries": [
+                {
+                    "type": "loot_table",
+                    "name": "treasure2:pools/items/ebscarce",
+                    "weight": 1
+                }
+			]
+		},
+		{
 			"name": "armor",
 			"rolls": {
 				"min": 0,

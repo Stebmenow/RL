@@ -43,6 +43,20 @@
 			]
 		},
 		{
+			"name": "wiz",
+			"rolls": {
+				"min": 2,
+				"max": 4
+			},
+			"entries": [
+                {
+                    "type": "loot_table",
+                    "name": "treasure2:pools/items/ebrare",
+                    "weight": 1
+                }
+			]
+		},
+		{
 			"name": "armor",
 			"rolls": {
 				"min": 0,

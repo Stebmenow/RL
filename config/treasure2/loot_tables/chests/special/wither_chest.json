@@ -71,6 +71,20 @@
 			]
 		},
 		{
+			"name": "wiz",
+			"rolls": {
+				"min": 2,
+				"max": 5
+			},
+			"entries": [
+                {
+                    "type": "loot_table",
+                    "name": "treasure2:pools/items/ebuncommon",
+                    "weight": 1
+                }
+			]
+		},
+		{
 			"name": "common_potions",
 			"rolls": {
 				"min": 0,

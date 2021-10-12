@@ -14,8 +14,8 @@
   "element": "sorcery",
   "type": "utility",
   "cost": 10,
-  "chargeup": 0,
-  "cooldown": 10,
+  "chargeup": 30,
+  "cooldown": 30,
   "base_properties": {
     "range": 10,
     "block_lifetime": 900

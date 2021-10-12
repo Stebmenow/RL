@@ -13,3 +13,8 @@
 <ore:listAllseed>.add(<rustic:apple_seeds>);
 <ore:listAllseed>.add(<rustic:tomato_seeds>);
 <ore:listAllseed>.add(<rustic:chili_pepper_seeds>);
+
+<ore:listAllchickencooked>.add(<mocreatures:ratcooked>);
+<ore:listAllchickencooked>.add(<mocreatures:ostrichcooked>);
+<ore:listAllchickencooked>.add(<mocreatures:turkeycooked>);
+<ore:listAllchickencooked>.add(<familiarfauna:turkey_leg_cooked>);

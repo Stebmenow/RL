@@ -13,13 +13,13 @@
   "tier": "novice",
   "element": "earth",
   "type": "projectile",
-  "cost": 5,
+  "cost": 7,
   "chargeup": 0,
   "cooldown": 10,
   "base_properties": {
-    "range": 15,
-    "damage": 4,
-    "effect_duration": 200,
+    "range": 13,
+    "damage": 6,
+    "effect_duration": 60,
     "effect_strength": 1
   }
 }

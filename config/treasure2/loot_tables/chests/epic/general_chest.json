@@ -46,6 +46,20 @@
 			]
 		},
 		{
+			"name": "items",
+			"rolls": {
+				"min": 3,
+				"max": 3
+			},
+			"entries": [
+				{
+					"type": "loot_table",
+					"name": "treasure2:pools/items/ebepic",
+					"weight": 1
+				}
+			]
+		},
+		{
 			"name": "armor",
 			"rolls": {
 				"min": 1,

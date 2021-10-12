@@ -15,8 +15,8 @@
   "type": "projectile",
   "cost": 1,
   "chargeup": 0,
-  "cooldown": 1,
+  "cooldown": 3,
   "base_properties": {
-    "range": 15
+    "range": 20
   }
 }

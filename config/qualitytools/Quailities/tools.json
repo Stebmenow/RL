@@ -17,7 +17,12 @@
       }
     ],
     "blacklist": [
-    
+        {
+          "item": "spartanweaponry:caestus"
+        },
+        {
+          "item": "spartanweaponry:caestus_studded"
+        }
     ],
     "qualities": [
       {

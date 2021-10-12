@@ -13,9 +13,9 @@
   "tier": "novice",
   "element": "healing",
   "type": "defence",
-  "cost": 5,
-  "chargeup": 0,
-  "cooldown": 20,
+  "cost": 25,
+  "chargeup": 20,
+  "cooldown": 80,
   "base_properties": {
     "health": 4
   }

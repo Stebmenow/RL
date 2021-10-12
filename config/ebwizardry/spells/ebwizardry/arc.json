@@ -13,11 +13,11 @@
   "tier": "novice",
   "element": "lightning",
   "type": "attack",
-  "cost": 5,
+  "cost": 7,
   "chargeup": 0,
-  "cooldown": 15,
+  "cooldown": 5,
   "base_properties": {
-    "damage": 3,
-    "range": 8
+    "damage": 10,
+    "range": 2.5
   }
 }
