@@ -24,13 +24,8 @@
   {
       "names": [
         "mocreatures:reptilehelmet",
-        "mocreatures:reptileplate",
         "minecraft:leather_helmet",
-        "minecraft:leather_chestplate",
         "mocreatures:hidehelmet",
-        "mocreatures:hidechest",
-        "mocreatures:hidelegs",
-        "mocreatures:hideboots",
         "quark:witch_hat",
         "quark:pirate_hat",
         "quark:archaeologist_hat",
