@@ -65,5 +65,19 @@
     "mob": "twilightforest:snow_queen",
     "item": "twilightforest:ice_sword",
     "itemcount": "0-1"
+  },
+  {
+    "mob": "mocreatures:duck",
+    "item": "minecraft:chicken",
+    "itemcount": "1"
+  },
+  {
+    "mob": "mocreatures:duck",
+    "remove": "minecraft:feather"
+  },
+  {
+    "mob": "mocreatures:duck",
+    "item": "minecraft:feather",
+    "itemcount": "0-2"
   }
 ]

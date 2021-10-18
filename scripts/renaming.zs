@@ -2,6 +2,8 @@ import mods.compatskills.Requirement.addRequirement;
 
 
 <minecraft:chicken>.displayName = "Raw Poultry";
+<minecraft:fish>.displayName = "Raw Fish";
+<minecraft:cooked_fish>.displayName = "Cooked Fish";
 <minecraft:cooked_chicken>.displayName = "Cooked Poultry";
 <mocreatures:bigcatclaw>.displayName = "Sharp Claw";
 <mocreatures:staffteleport>.displayName = "Staff of Teleportation";

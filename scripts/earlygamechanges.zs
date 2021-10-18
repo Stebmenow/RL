@@ -64,3 +64,7 @@ recipes.addShaped("goopaktundraash", <armorunder:goopak_heat>,
  [<minecraft:paper>,< quark:black_ash:0>,<minecraft:paper>],
  [null,<minecraft:paper>,null]]);
 
+recipes.addShaped(<minecraft:arrow>*2, 
+[[<notreepunching:flint_shard:0>],
+ [<ore:stickWood>],
+ [<ore:feather>]]);

@@ -42,8 +42,8 @@
   "width": 0.9,
   "height": 2.2,
   "experience": 5,
-  "health": 10,
-  "defense": 0,
+  "health": 15,
+  "defense": 1,
   "armor": 0,
   "speed": 38,
   "damage": 2,
@@ -87,9 +87,9 @@
   "peaceful": true,
   "farmable": true,
   "summonable": false,
-  "tameable": false,
+  "tameable": true,
   "mountable": false,
-  "summonCost": 2,
+  "summonCost": 4,
   "dungeonLevel": 1,
   "drops": [
     {
@@ -101,11 +101,11 @@
     },
     {
       "item": "minecraft:clay_ball",
-      "minAmount": 1,
-      "maxAmount": 2,
+      "minAmount": 2,
+      "maxAmount": 6,
       "chance": 1
     }
   ],
-  "sizeScale": 1,
-  "hitboxScale": 1
+  "sizeScale": 0.95,
+  "hitboxScale": 0.95
 }

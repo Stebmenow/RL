@@ -115,7 +115,7 @@ recipes.addShaped("lolarecipe27",<bountifulbaubles:crowngold>,
   
 recipes.addShaped("lolarecipe28",<wolfarmor:chainmail_wolf_armor>,
  [[null,<minecraft:chainmail_helmet>,null],
-  [<craftablechainmail:chainmail_plate>,<minecraft:chainmail_boots>,<craftablechainmail:chainmail_plate>],
+  [<quark:chain>,<minecraft:chainmail_boots>,<quark:chain>],
   [null,<minecraft:chainmail_boots>,null]]);
   
 recipes.addShapeless("lolarecipe28wolfleatherrrr",<minecraft:leather>*7,[<wolfarmor:leather_wolf_armor>]);

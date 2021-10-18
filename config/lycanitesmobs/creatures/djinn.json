@@ -40,11 +40,11 @@
   "damage": 1,
   "attackSpeed": 1,
   "rangedSpeed": 0.25,
-  "effectDuration": 5,
+  "effectDuration": 3,
   "effectAmplifier": 0,
   "pierce": 1,
   "sight": 24,
-  "knockbackResistance": 0,
+  "knockbackResistance": 0.25,
   "eggBackColor": "#b6bbc2",
   "eggForeColor": "#f0f1f1",
   "subspecies": [
@@ -67,9 +67,9 @@
   "element": "air",
   "peaceful": false,
   "summonable": true,
-  "tameable": false,
+  "tameable": true,
   "mountable": false,
-  "summonCost": 2,
+  "summonCost": 2.4,
   "dungeonLevel": 1,
   "drops": [
     {

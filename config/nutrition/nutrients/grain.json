@@ -1,6 +1,6 @@
 {
 	"name": "grain",
-	"icon": "minecraft:wheat",
+	"icon": "forestry:honeyed_slice",
 	"color": "f4d92e",
 	"enabled": true,
 	"food": {

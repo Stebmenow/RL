@@ -34,8 +34,8 @@
   },
   "width": 0.5,
   "height": 0.5,
-  "experience": 5,
-  "health": 10,
+  "experience": 10,
+  "health": 7,
   "defense": 0,
   "armor": 0,
   "speed": 36,
@@ -72,10 +72,10 @@
   ],
   "peaceful": false,
   "summonable": true,
-  "tameable": false,
+  "tameable": true,
   "mountable": false,
   "perchable": true,
-  "summonCost": 2,
+  "summonCost": 3,
   "dungeonLevel": 1,
   "drops": [
     {

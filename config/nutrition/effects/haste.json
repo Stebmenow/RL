@@ -1,0 +1,11 @@
+{
+	"name": "haste",
+	"potion": "minecraft:haste",
+	"amplifier": 0,
+	"minimum": 75,
+	"maximum": 100,
+	"detect": "all",
+	"cumulative_modifier": 0, 
+	"particles": "transparent",  
+	"enabled": true
+}

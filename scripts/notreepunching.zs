@@ -12,7 +12,6 @@ recipes.addShaped("claybrickfrommudball",<notreepunching:clay_brick>,
   [null,<ore:ballMud>,<ore:ballMud>]]);
 
 
-
 recipes.remove(<notreepunching:clay_tool>);
 recipes.addShaped("claytool",<notreepunching:clay_tool>,
 [[null,<ore:string>,<ore:stickWood>],
@@ -27,11 +26,6 @@ recipes.addShaped("claybrickfrommudblock",<notreepunching:clay_brick>,
 
  recipes.addShaped("unfiredsmallvessel",<notreepunching:pottery/small_vessel>,
 [[null,<notreepunching:clay_brick>,null],
-[<notreepunching:clay_brick>,null,<notreepunching:clay_brick>],
-[<notreepunching:clay_brick>,<notreepunching:clay_brick>,<notreepunching:clay_brick>]]);
-
- recipes.addShaped("unfiredlargevessel",<notreepunching:pottery/large_vessel>,
-[[<notreepunching:clay_brick>,null,<notreepunching:clay_brick>],
 [<notreepunching:clay_brick>,null,<notreepunching:clay_brick>],
 [<notreepunching:clay_brick>,<notreepunching:clay_brick>,<notreepunching:clay_brick>]]);
 
