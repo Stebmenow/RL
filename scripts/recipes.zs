@@ -1,6 +1,7 @@
 //This file was created via CT-GUI! Editing it is not advised!
 //Don't touch me!
 //#Remove
+recipes.remove(<naturescompass:naturescompass>);
 recipes.remove(<twilightforest:sort_door>);
 recipes.remove(<twilightforest:mine_door>);
 recipes.remove(<twilightforest:trans_door>);
@@ -19,6 +20,13 @@ recipes.remove(<aquaculture:fishing_rod>);
 recipes.remove(<mocreatures:horsesaddle>);
 //Don't touch me!
 //#Add
+recipes.addShaped(<naturescompass:naturescompass>, [[<ore:treeSapling>, <ore:logWood>, <ore:treeSapling>],[<ore:logWood>, <minecraft:bone_block>, <ore:logWood>], [<ore:treeSapling>, <ore:logWood>, <ore:treeSapling>]]);
+furnace.addRecipe(<minecraft:iron_nugget> * 4, <iceandfire:chain_link>, 0.2);
+recipes.addShaped(<iceandfire:chain>, [[null, null, <iceandfire:chain_link>],[null, <iceandfire:chain_link>, null], [<iceandfire:chain_link>, null, null]]);
+recipes.addShaped(<mowziesmobs:glowing_jelly>, [[<biomesoplenty:mushroom:3>]]);
+recipes.addShaped(<mowziesmobs:glowing_jelly>, [[<biomesoplenty:flower_1:3>]]);
+recipes.addShaped(<mowziesmobs:glowing_jelly>, [[<quark:glowshroom>]]);
+recipes.addShaped(<minecraft:gravel>, [[<ore:rockStone>, <ore:clayball>|<biomesoplenty:mudball>],[<ore:clayball>|<biomesoplenty:mudball>, <ore:rockStone>]]);
 recipes.addShaped(<iceandfire:chain>, [[null, null, <quark:chain>],[null, <quark:chain>, null], [<quark:chain>, null, null]]);
 recipes.addShapedMirrored(<minecraft:chainmail_helmet>, [[<quark:chain>|<mocreatures:sharkteeth:0>, <quark:chain>|<mocreatures:sharkteeth:0>, <quark:chain>|<mocreatures:sharkteeth:0>],[<quark:chain>|<mocreatures:sharkteeth:0>, null, <quark:chain>|<mocreatures:sharkteeth:0>]]);
 recipes.addShapedMirrored(<minecraft:chainmail_boots>, [[<quark:chain>|<mocreatures:sharkteeth:0>, null, <quark:chain>|<mocreatures:sharkteeth:0>], [<quark:chain>|<mocreatures:sharkteeth:0>, null, <quark:chain>|<mocreatures:sharkteeth:0>]]);

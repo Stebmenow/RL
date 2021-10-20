@@ -1,0 +1,11 @@
+{
+	"name": "weakness",
+	"potion": "minecraft:weakness",
+	"amplifier": 0,
+	"minimum": 0,
+	"maximum": 35,
+	"detect": "average",
+	"cumulative_modifier": 0,      
+	"particles": "transparent",  
+	"enabled": false
+}
