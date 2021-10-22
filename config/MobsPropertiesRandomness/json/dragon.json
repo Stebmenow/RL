@@ -2,7 +2,7 @@
 	"mob_id": "iceandfire:firedragon",
 	"attributes": [
 		{
-			"id": "generic.knockback_resistance",
+			"id": "generic.knockbackResistance",
 			"modifier": {
 				"min": 1.0,
 				"max": 1.0
