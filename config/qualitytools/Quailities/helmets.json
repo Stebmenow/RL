@@ -37,6 +37,21 @@
       },
       {
         "item": "mowziesmobs:barako_mask"
+      },
+      {
+        "item": "mowziesmobs:barakoa_mask_fury"
+      },
+      {
+        "item": "mowziesmobs:barakoa_mask_fear"
+      },
+      {
+        "item": "mowziesmobs:barakoa_mask_rage"
+      },
+      {
+        "item": "mowziesmobs:barakoa_mask_bliss"
+      },
+      {
+        "item": "mowziesmobs:barakoa_mask_misery"
       }
     ],
     "qualities": [

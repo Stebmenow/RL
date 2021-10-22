@@ -11,14 +11,14 @@
       
       "qualities": [
         {
-          "name": "Splendor of the Sun God",
+          "name": "Splendor of the Sun Sovereign",
           "color": "green",
           "weight": 1,
           "attributes": [
             
             {
               "name": "potioncore.magicDamage",
-              "amount": 0.15,
+              "amount": 0.4,
               "operation": 2
             },
             {
@@ -28,7 +28,7 @@
             },
             {
               "name": "potioncore.magicShielding",
-              "amount": 2,
+              "amount": 4,
               "operation": 0
             }
           ]

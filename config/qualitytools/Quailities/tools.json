@@ -22,13 +22,19 @@
         },
         {
           "item": "spartanweaponry:caestus_studded"
+        },
+        {
+          "item": "mowziesmobs:naga_fang_dagger"
+        },
+        {
+          "item": "mowziesmobs:spear"
         }
     ],
     "qualities": [
       {
         "name": "Worthless",
         "color": "dark_red",
-        "weight": 13,
+        "weight": 10,
         "attributes": [
           {
             "name": "generic.attackDamage",
@@ -55,7 +61,7 @@
       {
         "name": "Broken",
         "color": "dark_gray",
-        "weight": 13,
+        "weight": 10,
         "attributes": [
           {
             "name": "generic.attackDamage",
@@ -84,7 +90,7 @@
       {
         "name": "Rusted",
         "color": "red",
-        "weight": 13,
+        "weight": 10,
         "attributes": [
           {
             "name": "generic.attackDamage",
@@ -101,7 +107,7 @@
       {
         "name": "Possessed",
         "color": "red",
-        "weight": 13,
+        "weight": 10,
         "attributes": [
           {
             "name": "generic.attackDamage",
@@ -185,7 +191,7 @@
       },
       {
         "name": "normal",
-        "weight": 100
+        "weight": 130
       },
       {
         "name": "Broad",
@@ -342,7 +348,7 @@
           },
           {
             "name": "generic.attackDamage",
-            "amount": -0.08,
+            "amount": -0.12,
             "operation": 2
           }
         ]
@@ -410,13 +416,13 @@
         "attributes": [
           {
             "name": "generic.attackDamage",
-            "amount": 0.14,
+            "amount": 0.13,
             "operation": 2
           },
           {
             "name": "generic.reachDistance",
             "amount": 0.1,
-            "operation": 2
+            "operation": 0
           }
         ]
       },

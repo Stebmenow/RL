@@ -43,3 +43,4 @@ recipes.addShaped(<minecraft:book>, [[<minecraft:written_book:*>]]);
 <aquaculture:diamond_fishing_rod>.maxDamage = 360;
 <aquaculture:iron_fishing_rod>.maxDamage = 75;
 //File End
+<mowziesmobs:barako_mask>.clearTooltip();
