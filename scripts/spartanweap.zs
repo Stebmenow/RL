@@ -50,6 +50,3 @@ furnace.addRecipe(<iceandfire:silver_ingot> * 2, <spartanweaponry:battleaxe_silv
 furnace.addRecipe(<iceandfire:silver_ingot> * 1, <spartanweaponry:mace_silver:*>, 0.2);
 furnace.addRecipe(<iceandfire:silver_ingot> * 1, <spartanweaponry:glaive_silver:*>, 0.2);
 furnace.addRecipe(<iceandfire:silver_ingot> * 1, <spartanweaponry:staff_silver:*>, 0.2);
-
-<spartanweaponry:caestus>.maxDamage = 131;
-<spartanweaponry:caestus_studded>.maxDamage = 250;

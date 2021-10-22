@@ -46,15 +46,15 @@
   "health": 40,
   "defense": 3,
   "armor": 0,
-  "speed": 26,
-  "damage": 1,
+  "speed": 30,
+  "damage": 3,
   "attackSpeed": 1,
   "rangedSpeed": 1,
   "effectDuration": 5,
   "effectAmplifier": 0,
   "pierce": 2,
   "sight": 24,
-  "knockbackResistance": 1,
+  "knockbackResistance": 0.75,
   "eggBackColor": "#CCEEFF",
   "eggForeColor": "#0000BB",
   "subspecies": [
@@ -112,6 +112,6 @@
       "chance": 1
     }
   ],
-  "sizeScale": 1,
-  "hitboxScale": 1
+  "sizeScale": 1.3,
+  "hitboxScale": 1.3
 }

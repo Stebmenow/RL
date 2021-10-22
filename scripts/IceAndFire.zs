@@ -42,15 +42,3 @@ recipes.addShaped("dread_queen_sword",<iceandfire:dread_queen_sword>,
  [[<ore:blockEmerald>,<iceandfire:dread_knight_sword>,<ore:blockDiamond>],
   [<iceandfire:dread_shard>,<iceandfire:dread_queen_staff>,<iceandfire:dread_shard>],
   [<iceandfire:dragon_bone_block>,<iceandfire:dragonbone>,<iceandfire:dragon_bone_block>]]);
-
-recipes.addShapeless("hydra_fang_dupe", <iceandfire:hydra_fang>*4, [
-  <ore:gemDiamond>|<ore:gemEmerald>, <iceandfire:hydra_fang>
-]);
-
-recipes.addShapeless("sea_serpent_fang_dupe", <iceandfire:sea_serpent_fang>*4, [
-  <ore:gemDiamond>|<ore:gemEmerald>, <iceandfire:sea_serpent_fang>
-]);
-
-recipes.addShapeless("stymphalian_dupe", <iceandfire:stymphalian_bird_feather>*4, [
-  <biomesoplenty:gem:*>, <iceandfire:stymphalian_bird_feather>
-]);

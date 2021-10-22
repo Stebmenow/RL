@@ -15,7 +15,7 @@
   "type": "attack",
   "cost": 12,
   "chargeup": 0,
-  "cooldown": 80,
+  "cooldown": 50,
   "base_properties": {
     "range": 10,
     "damage": 0,

@@ -20,44 +20,12 @@ recipes.removeByRecipeName("bountifulbaubles:ringflywheeladvanced");
 recipes.removeByRecipeName("bountifulbaubles:ringiron");
 recipes.removeByRecipeName("bountifulbaubles:spectralsilt_sinpendantempty");
 
-recipes.remove(<grapplemod:block_grapple_modifier>);
-recipes.remove(<grapplemod:launcheritem>);
-recipes.remove(<grapplemod:repeller>);
-recipes.remove(<grapplemod:baseupgradeitem>);
-recipes.remove(<grapplemod:doubleupgradeitem>);
-recipes.remove(<grapplemod:doubleupgradeitem>);
-recipes.remove(<grapplemod:forcefieldupgradeitem>);
-recipes.remove(<grapplemod:magnetupgradeitem>);
-recipes.remove(<grapplemod:motorupgradeitem>);
-recipes.remove(<grapplemod:ropeupgradeitem>);
-recipes.remove(<grapplemod:staffupgradeitem>);
-recipes.remove(<grapplemod:swingupgradeitem>);
-recipes.remove(<grapplemod:throwupgradeitem>);
-recipes.remove(<grapplemod:limitsupgradeitem>);
-recipes.remove(<grapplemod:longfallboots>);
-
 recipes.remove(<minecraft:web>);
 recipes.remove(<sereneseasons:greenhouse_glass>);
 recipes.remove(<campfire:campfire>);
 recipes.remove(<potionfingers:ring:1>);
 recipes.remove(<xat:glowing_ingot>);
 recipes.remove(<minecraft:snow_layer>);
-
-recipes.removeByRecipeName("grapplemod:block_grapple_modifier");
-recipes.removeByRecipeName("grapplemod:launcheritem");
-recipes.removeByRecipeName("grapplemod:repeller");
-recipes.removeByRecipeName("grapplemod:baseupgradeitem");
-recipes.removeByRecipeName("grapplemod:doubleupgradeitem");
-recipes.removeByRecipeName("grapplemod:doubleupgradeitem");
-recipes.removeByRecipeName("grapplemod:forcefieldupgradeitem");
-recipes.removeByRecipeName("grapplemod:magnetupgradeitem");
-recipes.removeByRecipeName("grapplemod:motorupgradeitem");
-recipes.removeByRecipeName("grapplemod:ropeupgradeitem");
-recipes.removeByRecipeName("grapplemod:staffupgradeitem");
-recipes.removeByRecipeName("grapplemod:swingupgradeitem");
-recipes.removeByRecipeName("grapplemod:throwupgradeitem");
-recipes.removeByRecipeName("grapplemod:limitsupgradeitem");
-recipes.removeByRecipeName("grapplemod:longfallboots");
 
 recipes.removeByRecipeName("notreepunching:tools/fire_starter");
 recipes.remove(<minecraft:sandstone>);
@@ -147,7 +115,7 @@ recipes.addShaped("lolarecipe27",<bountifulbaubles:crowngold>,
   
 recipes.addShaped("lolarecipe28",<wolfarmor:chainmail_wolf_armor>,
  [[null,<minecraft:chainmail_helmet>,null],
-  [<craftablechainmail:chainmail_plate>,<minecraft:chainmail_boots>,<craftablechainmail:chainmail_plate>],
+  [<quark:chain>,<minecraft:chainmail_boots>,<quark:chain>],
   [null,<minecraft:chainmail_boots>,null]]);
   
 recipes.addShapeless("lolarecipe28wolfleatherrrr",<minecraft:leather>*7,[<wolfarmor:leather_wolf_armor>]);

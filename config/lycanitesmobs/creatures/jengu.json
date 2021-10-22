@@ -37,8 +37,8 @@
   "armor": 0,
   "speed": 22,
   "damage": 2,
-  "attackSpeed": 1,
-  "rangedSpeed": 0.25,
+  "attackSpeed": 2,
+  "rangedSpeed": 0.5,
   "effectDuration": 5,
   "effectAmplifier": 0,
   "pierce": 1,
@@ -66,7 +66,7 @@
   "element": "water",
   "peaceful": false,
   "summonable": true,
-  "tameable": false,
+  "tameable": true,
   "mountable": false,
   "summonCost": 2,
   "dungeonLevel": 1,
@@ -78,6 +78,6 @@
       "chance": 1
     }
   ],
-  "sizeScale": 1,
-  "hitboxScale": 1
+  "sizeScale": 0.9,
+  "hitboxScale": 0.9
 }

@@ -38,10 +38,10 @@
   },
   "width": 0.9,
   "height": 2.2,
-  "experience": 5,
-  "health": 20,
+  "experience": 10,
+  "health": 30,
   "defense": 1,
-  "armor": 0,
+  "armor": 2,
   "speed": 32,
   "damage": 3,
   "attackSpeed": 2,
@@ -74,9 +74,9 @@
   "diets": [
     "exudativore"
   ],
-  "peaceful": true,
+  "peaceful": false,
   "summonable": false,
-  "tameable": false,
+  "tameable": true,
   "mountable": false,
   "summonCost": 2,
   "dungeonLevel": 1,
@@ -84,11 +84,11 @@
     {
       "item": "lycanitesmobs:raw_joust_meat",
       "burningItem": "lycanitesmobs:cooked_joust_meat",
-      "minAmount": 1,
-      "maxAmount": 3,
+      "minAmount": 5,
+      "maxAmount": 8,
       "chance": 1
     }
   ],
-  "sizeScale": 1,
-  "hitboxScale": 1
+  "sizeScale": 1.4,
+  "hitboxScale": 1.4
 }

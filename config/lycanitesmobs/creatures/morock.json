@@ -39,14 +39,14 @@
   "width": 2.8,
   "height": 1.8,
   "experience": 20,
-  "health": 120,
+  "health": 110,
   "defense": 2,
-  "armor": 0,
+  "armor": 2,
   "speed": 42,
-  "damage": 2,
-  "attackSpeed": 1,
+  "damage": 6,
+  "attackSpeed": 0.8,
   "rangedSpeed": 1,
-  "effectDuration": 5,
+  "effectDuration": 2,
   "effectAmplifier": 0,
   "pierce": 2,
   "sight": 24,
@@ -105,15 +105,15 @@
       "item": "minecraft:emerald",
       "minAmount": 1,
       "maxAmount": 3,
-      "chance": 0.25
+      "chance": 0.5
     },
     {
       "item": "minecraft:diamond",
       "minAmount": 1,
-      "maxAmount": 1,
-      "chance": 0.1
+      "maxAmount": 2,
+      "chance": 0.5
     }
   ],
-  "sizeScale": 1,
-  "hitboxScale": 1
+  "sizeScale": 1.2,
+  "hitboxScale": 1.2
 }

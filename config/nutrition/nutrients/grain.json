@@ -1,6 +1,6 @@
 {
 	"name": "grain",
-	"icon": "minecraft:wheat",
+	"icon": "minecraft:bread",
 	"color": "f4d92e",
 	"enabled": true,
 	"food": {

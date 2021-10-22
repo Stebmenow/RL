@@ -13,6 +13,38 @@
   },
   {
     "tool": {
+        "item": "minecraft:chainmail_chestplate"
+              },
+    "material": {
+        "item": "quark:chain"
+    }
+  },
+  {
+    "tool": {
+        "item": "minecraft:chainmail_leggings"
+              },
+    "material": {
+        "item": "quark:chain"
+    }
+  },
+  {
+    "tool": {
+        "item": "minecraft:chainmail_helmet"
+              },
+    "material": {
+        "item": "quark:chain"
+    }
+  },
+  {
+    "tool": {
+        "item": "minecraft:chainmail_boots"
+              },
+    "material": {
+        "item": "quark:chain"
+    }
+  },
+  {
+    "tool": {
         "item": "minecraft:bow"
     },
     "material": {

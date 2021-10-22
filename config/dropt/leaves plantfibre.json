@@ -22,7 +22,10 @@
             "naturesaura:decayed_leaves:0",
             "naturesaura:ancient_leaves:0",
             "twilightforest:twilight_leaves:*",
-            "quark:variant_leaves:*"
+            "quark:variant_leaves:*",
+            "forestry:leaves.decorative.0:*",
+            "forestry:leaves.decorative.1:*",
+            "forestry:leaves.decorative.2:*"
             ]
           },
           "drops": {

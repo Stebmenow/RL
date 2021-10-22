@@ -1,1 +1,1 @@
-tools.json: java.lang.IllegalStateException: Not a JSON Object: "spartanweaponry:caestus"
+reforging materials.json: com.google.gson.stream.MalformedJsonException: Expected name at line 17 column 16 path $[1].tool.item

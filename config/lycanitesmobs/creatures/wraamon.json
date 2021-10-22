@@ -39,10 +39,10 @@
   "defense": 0,
   "armor": 0,
   "speed": 32,
-  "damage": 2,
+  "damage": 2.5,
   "attackSpeed": 1,
   "rangedSpeed": 1,
-  "effectDuration": 3,
+  "effectDuration": 2,
   "effectAmplifier": 0,
   "pierce": 1,
   "sight": 24,
@@ -77,10 +77,10 @@
   ],
   "peaceful": false,
   "summonable": true,
-  "tameable": false,
+  "tameable": true,
   "mountable": false,
   "perchable": true,
-  "summonCost": 2,
+  "summonCost": 3,
   "dungeonLevel": 1,
   "drops": [
     {
@@ -109,5 +109,5 @@
     }
   ],
   "sizeScale": 1,
-  "hitboxScale": 1
+  "hitboxScale": 1.2
 }

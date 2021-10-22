@@ -1,6 +1,6 @@
 {
 	"name": "protein",
-	"icon": "minecraft:cooked_beef",
+	"icon": "mocreatures:turkeycooked",
 	"color": "db6c23",
 	"enabled": true,
 	"food": {

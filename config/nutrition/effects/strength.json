@@ -2,7 +2,7 @@
 	"name": "strength",
 	"potion": "minecraft:strength",
 	"amplifier": 0,
-	"minimum": 90,
+	"minimum": 92,
 	"maximum": 100,
 	"detect": "all",
 	"cumulative_modifier": 0,   

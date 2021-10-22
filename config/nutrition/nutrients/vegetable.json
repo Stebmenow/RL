@@ -1,6 +1,6 @@
 {
 	"name": "vegetable",
-	"icon": "minecraft:carrot",
+	"icon": "aquaculture:food",
 	"color": "72dd5a",
 	"enabled": true,
 	"food": {
