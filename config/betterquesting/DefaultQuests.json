@@ -820,6 +820,44 @@
       "rewards:9": {}
     },
     "17:10": {
+      "questID:3": 17,
+      "preRequisites:11": [
+        21
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "visibility:8": "NORMAL",
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "iceandfire:armor_silver_chestplate",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 0,
+          "repeat_relative:1": 1,
+          "ismain:1": 0,
+          "name:8": "Reskillable: Defense",
+          "desc:8": "\n§fDefense:§7 Anything that keeps you alive will require this stat. §9Shields§7, §eBandages§7, and the vast majority of §eArmours §7need a good enough defense to be worn at all. \n"
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "index:3": 0,
+          "taskID:8": "bq_standard:checkbox"
+        }
+      },
+      "rewards:9": {}
+    },
+    "18:10": {
       "questID:3": 18,
       "preRequisites:11": [
         4
@@ -857,7 +895,7 @@
       },
       "rewards:9": {}
     },
-    "18:10": {
+    "19:10": {
       "questID:3": 19,
       "preRequisites:11": [
         28
@@ -908,7 +946,7 @@
       },
       "rewards:9": {}
     },
-    "19:10": {
+    "20:10": {
       "questID:3": 21,
       "preRequisites:11": [
         23
@@ -959,7 +997,7 @@
       },
       "rewards:9": {}
     },
-    "20:10": {
+    "21:10": {
       "questID:3": 22,
       "preRequisites:11": [
         19,
@@ -1011,7 +1049,7 @@
       },
       "rewards:9": {}
     },
-    "21:10": {
+    "22:10": {
       "questID:3": 23,
       "preRequisites:11": [
         14
@@ -1068,7 +1106,7 @@
       },
       "rewards:9": {}
     },
-    "22:10": {
+    "23:10": {
       "questID:3": 24,
       "preRequisites:11": [
         26
@@ -1119,7 +1157,7 @@
         }
       }
     },
-    "23:10": {
+    "24:10": {
       "questID:3": 25,
       "preRequisites:11": [
         24
@@ -1188,7 +1226,7 @@
         }
       }
     },
-    "24:10": {
+    "25:10": {
       "questID:3": 26,
       "preRequisites:11": [
         2
@@ -1237,7 +1275,7 @@
         }
       }
     },
-    "25:10": {
+    "26:10": {
       "questID:3": 27,
       "preRequisites:11": [
         19
@@ -1288,7 +1326,7 @@
       },
       "rewards:9": {}
     },
-    "26:10": {
+    "27:10": {
       "questID:3": 28,
       "preRequisites:11": [
         13
@@ -1339,7 +1377,7 @@
       },
       "rewards:9": {}
     },
-    "27:10": {
+    "28:10": {
       "questID:3": 29,
       "preRequisites:11": [
         25
@@ -1377,7 +1415,7 @@
       },
       "rewards:9": {}
     },
-    "28:10": {
+    "29:10": {
       "questID:3": 30,
       "preRequisites:11": [
         11,
@@ -1446,7 +1484,7 @@
       },
       "rewards:9": {}
     },
-    "29:10": {
+    "30:10": {
       "questID:3": 31,
       "preRequisites:11": [
         30
@@ -1497,7 +1535,7 @@
       },
       "rewards:9": {}
     },
-    "30:10": {
+    "31:10": {
       "questID:3": 32,
       "preRequisites:11": [
         26
@@ -1541,7 +1579,7 @@
         }
       }
     },
-    "31:10": {
+    "32:10": {
       "questID:3": 33,
       "preRequisites:11": [
         21
@@ -1579,7 +1617,7 @@
       },
       "rewards:9": {}
     },
-    "32:10": {
+    "33:10": {
       "questID:3": 34,
       "preRequisites:11": [
         21
@@ -1617,7 +1655,7 @@
       },
       "rewards:9": {}
     },
-    "33:10": {
+    "34:10": {
       "questID:3": 35,
       "preRequisites:11": [
         21
@@ -1632,7 +1670,7 @@
           "visibility:8": "NORMAL",
           "simultaneous:1": 0,
           "icon:10": {
-            "id:8": "mocreatures:furboots",
+            "id:8": "spartanweaponry:throwing_knife_platinum",
             "Count:3": 1,
             "Damage:2": 0,
             "OreDict:8": ""
@@ -1644,7 +1682,7 @@
           "repeat_relative:1": 1,
           "ismain:1": 0,
           "name:8": "Reskillable: Agility",
-          "desc:8": "\n§fAgility:§7 Weapons that swing fast; typical \"rogue\" weapons such as rapiers, daggers, and ranged weapons such as bows and boomerangs.\n\nThose favouring agility are no less cunning than the fox and no less agile than a cheetah. It makes no difference how strong an opponent is as long as the combatant is nigh untouchable. If the rogue does not make a fool of their enemies in a melee waltz of death, then a well-placed arrow from the dark would certainly finish the job.\n\nRepresentative mods: §9Spartan Weaponry§7, §9Spartan Fire§7, §9Ice and Fire§7"
+          "desc:8": "\n§fAgility:§7 Weapons that swing fast; typical \"rogue\" weapons such as §e§eRapiers§7§7, §eDaggers§7, and ranged weapons such as §eBows§7 and §eBoomerangs. §7§7Throwable weapons such as §eJavelins §7also rely exclusively on this stat. Some armours also lean more toward §fAgility §7than §fDefense§7, keep this in mind!\n\nThose favouring agility are no less cunning than the fox and no less agile than a cheetah. It makes no difference how strong an opponent is so long as the combatant is nigh untouchable. If the rogue does not make a fool of their enemies in a melee waltz of death, then a well-placed arrow from the dark would certainly finish the job.\n\nRepresentative mods: §9Spartan Weaponry§7, §9Spartan Fire§7, §9Ice and Fire§7"
         }
       },
       "tasks:9": {
@@ -1655,7 +1693,7 @@
       },
       "rewards:9": {}
     },
-    "34:10": {
+    "35:10": {
       "questID:3": 36,
       "preRequisites:11": [
         21
@@ -1693,7 +1731,7 @@
       },
       "rewards:9": {}
     },
-    "35:10": {
+    "36:10": {
       "questID:3": 37,
       "preRequisites:11": [
         21
@@ -1720,7 +1758,7 @@
           "repeat_relative:1": 1,
           "ismain:1": 0,
           "name:8": "Reskillable: Gathering",
-          "desc:8": "\n§fGathering:§7 Dictates all domains involving the collection and manipulation of earthly resources on the surface. Although primitive at first glance, those who master this art are self-sustaining and able to meet every challenge with an answer. Need healing? Drink an §eElixir§7. Need new tools and armor? The earth provides from the §9Roots§7 of the ancestor trees. §f§7Master §f§7gatherers are one with §9Nature §7and will fight with a varied arsenal from heavy armor to spells."
+          "desc:8": "\n§fGathering:§7 Dictates all domains involving the collection and manipulation of earthly resources on the surface. Although primitive at first glance, those who master this art are self-sustaining and able to meet every challenge with an answer. Need healing? Drink an §eElixir§7. Need new §eTools§7 and§e Armour§7? The earth provides from the §9Roots§7 of the ancestor trees. §f§7Master §f§7gatherers are one with §9Nature §7and will fight with a varied arsenal from §eHeavy Armour§7 to §eSpells§7."
         }
       },
       "tasks:9": {
@@ -1731,7 +1769,7 @@
       },
       "rewards:9": {}
     },
-    "36:10": {
+    "37:10": {
       "questID:3": 38,
       "preRequisites:11": [
         21
@@ -1758,7 +1796,7 @@
           "repeat_relative:1": 1,
           "ismain:1": 0,
           "name:8": "Reskillable: Attack",
-          "desc:8": "\n§fAttack:§7 Weapons that swing slow but hit hard; typical \"fighter\" weapons such as swords, pikes, and hammers. Crossbows use this stat heavily as well.\n\nThose favouring attack tend to be fearsome warriors that relentlessly battle until it is won, rests for the evening, then goes to fight again come the morning. The best defense is a good offense when everyone the warrior meets falls over easily as snapping a twig in half.\n\nRepresentative mods: §9Spartan Weaponry§7, §9Spartan Fire§7, §9Ice and Fire§7"
+          "desc:8": "\n§fAttack:§7 Weapons that swing slow but hit hard; typical \"fighter\" weapons such as §eSwords§7, §ePikes§7, and §eHammers. Crossbows§7 use this stat heavily as well.\n\nThose favouring attack tend to be fearsome warriors that relentlessly battle until it is won, rests for the evening, then goes to fight again come the morning. The best defense is a good offense when everyone the warrior meets falls over easily as snapping a twig in half.\n\nRepresentative mods: §9Spartan Weaponry§7, §9Spartan Fire§7, §9Ice and Fire§7"
         }
       },
       "tasks:9": {
@@ -1769,7 +1807,7 @@
       },
       "rewards:9": {}
     },
-    "37:10": {
+    "38:10": {
       "questID:3": 39,
       "preRequisites:11": [
         21
@@ -1796,7 +1834,7 @@
           "repeat_relative:1": 1,
           "ismain:1": 0,
           "name:8": "Reskillable: Farming",
-          "desc:8": "\nFarming: §7Anything related to raising livestock, and growing crops. Crops, when harvested, have a chance of dropping §aexperience§7. Those who lie close to the §9Roots§7§7 of the earth and those who can feel the pulse of §9Nature\u0027s Aura§7 have vast knowledge reserves are masters of this craft. As the backbone of any community, farmers and their allies are never hungry."
+          "desc:8": "\nFarming: §7Anything related to raising livestock, and growing crops. Crops, when harvested, have a chance of dropping §aexperience§7.\n\nThose who lie close to the §9Roots§7§7 of the earth and those who can feel the pulse of §9Nature\u0027s Aura§7 have vast knowledge reserves and are masters of this craft. As the backbone of any community, farmers and their allies are never hungry."
         }
       },
       "tasks:9": {
@@ -1807,7 +1845,7 @@
       },
       "rewards:9": {}
     },
-    "38:10": {
+    "39:10": {
       "questID:3": 40,
       "preRequisites:11": [],
       "properties:10": {
@@ -1838,7 +1876,7 @@
       "tasks:9": {},
       "rewards:9": {}
     },
-    "39:10": {
+    "40:10": {
       "questID:3": 41,
       "preRequisites:11": [
         21
@@ -1853,7 +1891,7 @@
           "visibility:8": "NORMAL",
           "simultaneous:1": 0,
           "icon:10": {
-            "id:8": "ebwizardry:advanced_sorcery_wand",
+            "id:8": "ebwizardry:master_ice_wand",
             "Count:3": 1,
             "Damage:2": 0,
             "OreDict:8": ""
@@ -1865,7 +1903,7 @@
           "repeat_relative:1": 1,
           "ismain:1": 0,
           "name:8": "Reskillable: Magic",
-          "desc:8": "\n§fMagic:§7 Anything that involves the enigmatic arcane energies, whether it be to harness the elements of §eSilver§7 and §eGold§7, or to devote oneself to studying the forbidden §9Wizardry§7 arts. §e§7Powerful scholars of magic§f§7 can §9§eEnchant§7 and §9Disenchant§7 items at will with §9Apotheotic§7 efficiency.\n\nMagical elements are pervasive throughout the world. Don\u0027t make the mistake of discarding something unfamiliar just because you think it is \"weak\"!"
+          "desc:8": "\n§fMagic:§7 Anything that involves the enigmatic arcane energies, whether it be to harness the elements of §eSilver§7 and §eGold§7, or to devote oneself to studying the forbidden §9Wizardry§7 arts. §e§7Powerful scholars of §fMagic§f§7 can §9§eEnchant§7 and §9Disenchant§7 items at will with §9Apotheotic§7 efficiency.\n\nMagical elements are pervasive throughout the world. Don\u0027t make the mistake of discarding something unfamiliar just because you think it is \"weak\"!"
         }
       },
       "tasks:9": {
@@ -1994,145 +2032,152 @@
         },
         "16:10": {
           "sizeX:3": 24,
+          "x:3": 240,
+          "y:3": -192,
+          "id:3": 17,
+          "sizeY:3": 24
+        },
+        "17:10": {
+          "sizeX:3": 24,
           "x:3": -180,
           "y:3": -240,
           "id:3": 18,
           "sizeY:3": 24
         },
-        "17:10": {
+        "18:10": {
           "sizeX:3": 24,
           "x:3": 96,
           "y:3": -244,
           "id:3": 19,
           "sizeY:3": 24
         },
-        "18:10": {
+        "19:10": {
           "sizeX:3": 24,
           "x:3": 164,
           "y:3": -180,
           "id:3": 21,
           "sizeY:3": 24
         },
-        "19:10": {
+        "20:10": {
           "sizeX:3": 24,
           "x:3": 88,
           "y:3": -296,
           "id:3": 22,
           "sizeY:3": 24
         },
-        "20:10": {
+        "21:10": {
           "sizeX:3": 24,
           "x:3": 136,
           "y:3": -284,
           "id:3": 23,
           "sizeY:3": 24
         },
-        "21:10": {
+        "22:10": {
           "sizeX:3": 24,
           "x:3": -292,
           "y:3": -140,
           "id:3": 24,
           "sizeY:3": 24
         },
-        "22:10": {
+        "23:10": {
           "sizeX:3": 24,
           "x:3": -252,
           "y:3": -136,
           "id:3": 25,
           "sizeY:3": 24
         },
-        "23:10": {
+        "24:10": {
           "sizeX:3": 24,
           "x:3": -280,
           "y:3": -176,
           "id:3": 26,
           "sizeY:3": 24
         },
-        "24:10": {
+        "25:10": {
           "sizeX:3": 24,
           "x:3": 60,
           "y:3": -268,
           "id:3": 27,
           "sizeY:3": 24
         },
-        "25:10": {
+        "26:10": {
           "sizeX:3": 24,
           "x:3": 52,
           "y:3": -224,
           "id:3": 28,
           "sizeY:3": 24
         },
-        "26:10": {
+        "27:10": {
           "sizeX:3": 24,
           "x:3": -236,
           "y:3": -176,
           "id:3": 29,
           "sizeY:3": 24
         },
-        "27:10": {
+        "28:10": {
           "sizeX:3": 24,
           "x:3": 32,
           "y:3": -300,
           "id:3": 30,
           "sizeY:3": 24
         },
-        "28:10": {
+        "29:10": {
           "sizeX:3": 48,
           "x:3": 44,
           "y:3": -368,
           "id:3": 31,
           "sizeY:3": 48
         },
-        "29:10": {
+        "30:10": {
           "sizeX:3": 24,
           "x:3": 156,
           "y:3": -108,
           "id:3": 33,
           "sizeY:3": 24
         },
-        "30:10": {
+        "31:10": {
           "sizeX:3": 24,
           "x:3": 72,
           "y:3": -144,
           "id:3": 34,
           "sizeY:3": 24
         },
-        "31:10": {
+        "32:10": {
           "sizeX:3": 24,
           "x:3": 192,
           "y:3": -132,
           "id:3": 35,
           "sizeY:3": 24
         },
-        "32:10": {
+        "33:10": {
           "sizeX:3": 24,
           "x:3": 120,
           "y:3": -132,
           "id:3": 36,
           "sizeY:3": 24
         },
-        "33:10": {
-          "sizeX:3": 24,
-          "x:3": 216,
-          "y:3": -180,
-          "id:3": 37,
-          "sizeY:3": 24
-        },
         "34:10": {
           "sizeX:3": 24,
-          "x:3": 180,
-          "y:3": -252,
-          "id:3": 38,
+          "x:3": 228,
+          "y:3": -156,
+          "id:3": 37,
           "sizeY:3": 24
         },
         "35:10": {
           "sizeX:3": 24,
-          "x:3": 240,
-          "y:3": -276,
-          "id:3": 39,
+          "x:3": 168,
+          "y:3": -252,
+          "id:3": 38,
           "sizeY:3": 24
         },
         "36:10": {
+          "sizeX:3": 24,
+          "x:3": 204,
+          "y:3": -264,
+          "id:3": 39,
+          "sizeY:3": 24
+        },
+        "37:10": {
           "sizeX:3": 24,
           "x:3": 228,
           "y:3": -228,
