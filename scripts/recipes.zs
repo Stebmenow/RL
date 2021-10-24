@@ -20,6 +20,7 @@ recipes.remove(<aquaculture:fishing_rod>);
 recipes.remove(<mocreatures:horsesaddle>);
 //Don't touch me!
 //#Add
+recipes.addShapeless(<quark:arrow_torch>, [<realistictorches:torch_lit>,<minecraft:arrow>]);
 recipes.addShaped(<naturescompass:naturescompass>, [[<ore:treeSapling>, <ore:logWood>, <ore:treeSapling>],[<ore:logWood>, <minecraft:bone_block>, <ore:logWood>], [<ore:treeSapling>, <ore:logWood>, <ore:treeSapling>]]);
 furnace.addRecipe(<minecraft:iron_nugget> * 4, <iceandfire:chain_link>, 0.2);
 recipes.addShaped(<iceandfire:chain>, [[null, null, <iceandfire:chain_link>],[null, <iceandfire:chain_link>, null], [<iceandfire:chain_link>, null, null]]);
@@ -42,5 +43,6 @@ recipes.addShaped(<minecraft:book>, [[<minecraft:written_book:*>]]);
 <aquaculture:gold_fishing_rod>.maxDamage = 120;
 <aquaculture:diamond_fishing_rod>.maxDamage = 360;
 <aquaculture:iron_fishing_rod>.maxDamage = 75;
+<mowziesmobs:barako_mask>.maxDamage = -1;
 //File End
-<mowziesmobs:barako_mask>.clearTooltip();
+
