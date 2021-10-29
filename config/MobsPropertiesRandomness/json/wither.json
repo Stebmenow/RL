@@ -1,0 +1,47 @@
+{
+	"mob_id": "minecraft:wither",
+	"attributes": [
+		{
+			"id": "generic.maxHealth",
+			"modifier": {
+				"min": 500,
+				"max": 500
+			},
+			"is_flat": true,
+			"affected_by_difficulty": false
+		},
+		{
+			"id": "generic.attackDamage",
+			"modifier": {
+				"min": 15,
+				"max": 15
+			},
+			"is_flat": true,
+			"affected_by_difficulty": false
+		},
+		{
+			"id": "generic.armor",
+			"modifier": {
+				"min": 8,
+				"max": 8
+			},
+			"is_flat": true,
+			"affected_by_difficulty": false
+		}
+	],
+	"potion_effects": [
+		{
+			"id": "minecraft:speed",
+			"amplifier": {
+				"min": 0,
+				"max": 0
+			},
+			"chance": {
+				"amount": 100
+			},
+			"dimensions": [
+				7
+			]
+		}
+	]
+}
