@@ -18,7 +18,10 @@
         "item": "ebwizardry:spectral_chestplate"
       },
       {
-        "item": "minecraft:elytra"
+        "item": "improvedbackpacks:backpack"
+      },
+      {
+        "item": "improvedbackpacks:ender_backpack"
       }
     ],
     "qualities": [

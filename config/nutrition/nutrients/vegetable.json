@@ -1114,7 +1114,23 @@
 			"xlfoodmod:vegetable_soup",
 			"foodexpansion:itemnetherwartsoup:0",
 			"foodexpansion:itemblazecream:0",
-			"defiledlands:foul_candy:0"
+			"defiledlands:foul_candy:0",
+			"charm:suspicious_soup:1",
+			"charm:suspicious_soup:0",
+			"charm:suspicious_soup:2",
+			"charm:suspicious_soup:3",
+			"charm:suspicious_soup:4",
+			"charm:suspicious_soup:5",
+			"charm:suspicious_soup:6",
+			"charm:suspicious_soup:7",
+			"charm:suspicious_soup:8",
+			"charm:suspicious_soup:9",
+			"charm:suspicious_soup:10",
+			"charm:suspicious_soup:11",
+			"charm:suspicious_soup:12",
+			"charm:suspicious_soup:13",
+			"charm:suspicious_soup:14",
+			"charm:suspicious_soup:15"
 		]
 	}
 }

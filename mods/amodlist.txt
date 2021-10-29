@@ -1,0 +1,65 @@
+Utility
+
+libloader
+treecapitator (bspkrscore) https://www.curseforge.com/minecraft/mc-mods/treecapitator-updated
+bspkrescore https://www.curseforge.com/minecraft/mc-mods/bspkrscore-updated
+ai reducer https://www.curseforge.com/minecraft/mc-mods/ai-reducer
+anvilpatch https://www.curseforge.com/minecraft/mc-mods/anvil-patch-lawful
+applecore https://www.curseforge.com/minecraft/mc-mods/applecore
+appleskin (applecore) https://www.curseforge.com/minecraft/mc-mods/appleskin
+armorablemobs https://www.curseforge.com/minecraft/mc-mods/armoreablemobs
+aromabackup (aromacore) https://www.curseforge.com/minecraft/mc-mods/aromabackup
+aromacore https://www.curseforge.com/minecraft/mc-mods/aroma1997core
+dropt (athenaeum) https://www.curseforge.com/minecraft/mc-mods/dropt
+athenaeum https://www.curseforge.com/minecraft/mc-mods/athenaeum 
+attributefix https://www.curseforge.com/minecraft/mc-mods/attributefix
+bacodifficulty https://www.curseforge.com/minecraft/mc-mods/bacodifficulty
+baubles https://www.curseforge.com/minecraft/mc-mods/baubles
+baubleshud https://www.curseforge.com/minecraft/mc-mods/baubleshud
+better combat rebirth https://www.curseforge.com/minecraft/mc-mods/better-combat-rebirth
+better fps https://www.curseforge.com/minecraft/mc-mods/betterfps
+better questing https://www.curseforge.com/minecraft/mc-mods/better-questing
+better questing tweaker https://www.curseforge.com/minecraft/mc-mods/bqtweaker
+bloodmoon https://www.curseforge.com/minecraft/mc-mods/bloodmoon
+triumph (bnbgamingcore, bnbgaminglib) https://www.curseforge.com/minecraft/mc-mods/triumph
+hardcore darkness (bnbgamingcore, bnbgaminglib) https://www.curseforge.com/minecraft/mc-mods/hardcore-darkness
+dimensional control (bnbgamingcore, bnbgaminglib) https://www.curseforge.com/minecraft/mc-mods/dimensional-control
+bnbgamingcore https://www.curseforge.com/minecraft/mc-mods/bnbgamingcore
+bnbgaminglib https://www.curseforge.com/minecraft/mc-mods/bnbgaminglib
+born in a barn https://www.curseforge.com/minecraft/mc-mods/born-in-a-barn
+simple campfire https://www.curseforge.com/minecraft/mc-mods/simple-camp-fire
+carry on https://www.curseforge.com/minecraft/mc-mods/carry-on
+codechickenlib (???) https://www.curseforge.com/minecraft/mc-mods/codechicken-lib-1-8
+colytra https://www.curseforge.com/minecraft/mc-mods/colytra
+compatskills (reskillable) https://www.curseforge.com/minecraft/mc-mods/compatskills
+reskillable https://www.curseforge.com/minecraft/mc-mods/reskillable
+controlling https://www.curseforge.com/minecraft/mc-mods/controlling
+zombie awareness (coroutil) https://www.curseforge.com/minecraft/mc-mods/zombie-awareness
+coroutil https://www.curseforge.com/minecraft/mc-mods/coroutil
+corpse complex https://www.curseforge.com/minecraft/mc-mods/corpse-complex
+craftable horse armor + saddle https://www.curseforge.com/minecraft/mc-mods/cha-s
+crafttweaker2 https://www.curseforge.com/minecraft/mc-mods/crafttweaker
+itemphysic (creativecore) https://www.curseforge.com/minecraft/mc-mods/itemphysic
+creativecore https://www.curseforge.com/minecraft/mc-mods/creativecore
+
+Content
+adhooks https://www.curseforge.com/minecraft/mc-mods/advanced-hook-launchers
+notreepunching (alcatrazcore) https://www.curseforge.com/minecraft/mc-mods/no-tree-punching
+alcatrazcore https://www.curseforge.com/minecraft/mc-mods/alcatrazcore
+apotheosis (placebo) https://www.curseforge.com/minecraft/mc-mods/apotheosis#:~:text=Apotheosis%20is%20a%20mod%20about,which%20has%20a%20specific%20focus.
+placebo https://www.curseforge.com/minecraft/mc-mods/placebo
+antiqueatlas https://www.curseforge.com/minecraft/mc-mods/antique-atlas
+armorunderwear (carrotslib) https://www.curseforge.com/minecraft/mc-mods/armor-underwear-mod
+carrotslib https://www.curseforge.com/minecraft/mc-mods/carrots-lib
+aquaculture 2 https://www.curseforge.com/minecraft/mc-mods/aquaculture
+quark (autoreglib) https://www.curseforge.com/minecraft/mc-mods/quark
+potionfingers (autoreglib) https://www.curseforge.com/minecraft/mc-mods/potion-fingers
+autoreglib https://www.curseforge.com/minecraft/mc-mods/autoreglib
+battle towers https://www.curseforge.com/minecraft/mc-mods/atomicstrykers-battle-towers
+biomes o'plenty https://www.curseforge.com/minecraft/mc-mods/biomes-o-plenty
+bountiful baubles (baubles) https://www.curseforge.com/minecraft/mc-mods/bountifulbaubles
+bountiful https://www.curseforge.com/minecraft/mc-mods/bountiful
+charm https://www.curseforge.com/minecraft/mc-mods/charm
+comforts https://www.curseforge.com/minecraft/mc-mods/comforts
+cooking for blockheads https://www.curseforge.com/minecraft/mc-mods/cooking-for-blockheads
+

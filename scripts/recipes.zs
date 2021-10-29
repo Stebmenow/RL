@@ -1,6 +1,7 @@
 //This file was created via CT-GUI! Editing it is not advised!
 //Don't touch me!
 //#Remove
+recipes.remove(<improvedbackpacks:bound_leather>);
 recipes.remove(<naturescompass:naturescompass>);
 recipes.remove(<twilightforest:sort_door>);
 recipes.remove(<twilightforest:mine_door>);
@@ -20,6 +21,9 @@ recipes.remove(<aquaculture:fishing_rod>);
 recipes.remove(<mocreatures:horsesaddle>);
 //Don't touch me!
 //#Add
+recipes.addShaped(<mocreatures:staffteleport>, [[null, <ore:ingotSilver>, <charm:ender_pearl_block>],[<ore:ingotSilver>, <ore:ingotDragonbone>, <ore:ingotSilver>], [<ore:netherStar>, <ore:ingotSilver>, null]]);
+recipes.addShaped(<improvedbackpacks:bound_leather>, [[<mysticalworld:tannins>.transformReplace(<minecraft:glass_bottle>), <ore:string>, null],[<ore:string>, <ore:leather>, null]]);
+recipes.addShapeless(<minecraft:book>, [<minecraft:written_book:*>]);
 recipes.addShapeless(<quark:arrow_torch>, [<realistictorches:torch_lit>,<minecraft:arrow>]);
 recipes.addShaped(<naturescompass:naturescompass>, [[<ore:treeSapling>, <ore:logWood>, <ore:treeSapling>],[<ore:logWood>, <minecraft:bone_block>, <ore:logWood>], [<ore:treeSapling>, <ore:logWood>, <ore:treeSapling>]]);
 furnace.addRecipe(<minecraft:iron_nugget> * 4, <iceandfire:chain_link>, 0.2);
@@ -38,11 +42,18 @@ recipes.addShaped(<naturesaura:bottle_two_the_rebottling>, [[<aquaculture:loot:3
 recipes.addShaped(<mocreatures:horsesaddle>, [[<minecraft:saddle>], [<ore:ingotIron>]]);
 recipes.addShaped(<minecraft:wool>, [[<minecraft:carpet:*>, <minecraft:carpet:*>],[<minecraft:carpet:*>, <minecraft:carpet:*>]]);
 recipes.addShaped(<minecraft:book>, [[<levelup2:skillbook>]]);
-recipes.addShaped(<minecraft:book>, [[<minecraft:written_book:*>]]);
 <minecraft:fishing_rod>.maxDamage = 20;
 <aquaculture:gold_fishing_rod>.maxDamage = 120;
 <aquaculture:diamond_fishing_rod>.maxDamage = 360;
 <aquaculture:iron_fishing_rod>.maxDamage = 75;
-<mowziesmobs:barako_mask>.maxDamage = -1;
+<mowziesmobs:barako_mask>.maxDamage = 9999;
+<mowziesmobs:wrought_helmet>.maxDamage = 9999;
+<mowziesmobs:ice_crystal>.maxDamage = 9999;
+<improvedbackpacks:ender_backpack>.maxDamage = 9999;
+<mysticalworld:silver_pickaxe>.maxDamage = 300;
+<mysticalworld:silver_knife>.maxDamage = 300;
+<mysticalworld:silver_axe>.maxDamage = 300;
+<mysticalworld:silver_shovel>.maxDamage = 300;
+<mysticalworld:silver_hoe>.maxDamage = 300;
+<mysticalworld:silver_sword>.maxDamage = 300;
 //File End
-

@@ -18,7 +18,12 @@
       }
     ],
     "blacklist": [
-    
+      {
+        "item": "improvedbackpacks:backpack"
+      },
+      {
+        "item": "improvedbackpacks:ender_backpack"
+      }
     ],
     "qualities": [
       {

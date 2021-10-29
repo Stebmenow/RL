@@ -17,9 +17,9 @@
       "min": 5,
       "max": 15,
       "item": {
-        "id": "harvestcraft:seaweeditem",
+        "id": "minecraft:air",
         "damage": 0,
-        "count": 1
+        "count": 0
       }
     },
     {
@@ -37,9 +37,9 @@
       "min": 5,
       "max": 15,
       "item": {
-        "id": "harvestcraft:riceitem",
+        "id": "minecraft:air",
         "damage": 0,
-        "count": 1
+        "count": 0
       }
     },
     {
@@ -47,9 +47,9 @@
       "min": 5,
       "max": 15,
       "item": {
-        "id": "harvestcraft:bambooshootitem",
+        "id": "minecraft:air",
         "damage": 0,
-        "count": 1
+        "count": 0
       }
     },
     {
@@ -57,9 +57,9 @@
       "min": 5,
       "max": 15,
       "item": {
-        "id": "harvestcraft:curryleafitem",
+        "id": "minecraft:air",
         "damage": 0,
-        "count": 1
+        "count": 0
       }
     },
     {
@@ -87,9 +87,9 @@
       "min": 5,
       "max": 15,
       "item": {
-        "id": "harvestcraft:tealeafitem",
+        "id": "minecraft:air",
         "damage": 0,
-        "count": 1
+        "count": 0
       }
     },
     {
@@ -97,9 +97,9 @@
       "min": 5,
       "max": 15,
       "item": {
-        "id": "harvestcraft:soybeanitem",
+        "id": "minecraft:air",
         "damage": 0,
-        "count": 1
+        "count": 0
       }
     },
     {
@@ -107,9 +107,9 @@
       "min": 5,
       "max": 15,
       "item": {
-        "id": "harvestcraft:chilipepperitem",
+        "id": "minecraft:air",
         "damage": 0,
-        "count": 1
+        "count": 0
       }
     },
     {
@@ -117,9 +117,9 @@
       "min": 5,
       "max": 15,
       "item": {
-        "id": "harvestcraft:gingeritem",
+        "id": "minecraft:air",
         "damage": 0,
-        "count": 1
+        "count": 0
       }
     }
   ],

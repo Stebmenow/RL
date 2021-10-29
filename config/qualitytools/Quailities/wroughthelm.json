@@ -18,7 +18,7 @@
             
             
             {
-              "name": "potioncore.reach",
+              "name": "generic.reachDistance",
               "amount": 0.5,
               "operation": 0
             },
@@ -29,17 +29,17 @@
             },
             {
                 "name": "generic.attackDamage",
-                "amount": 0.25,
+                "amount": 0.3,
                 "operation": 2
               },
             {
               "name": "generic.maxHealth",
-              "amount": -0.2,
+              "amount": -0.25,
               "operation": 2
             },
             {
                 "name": "generic.armorToughness",
-                "amount": -1.5,
+                "amount": -2,
                 "operation": 0
               }
           ]
