@@ -1,6 +1,15 @@
 //This file was created via CT-GUI! Editing it is not advised!
 //Don't touch me!
 //#Remove
+recipes.remove(<betteranimalsplus:bear_cape_kermode>);
+recipes.remove(<betteranimalsplus:bear_cape_black>);
+recipes.remove(<betteranimalsplus:bear_cape_brown>);
+recipes.remove(<betteranimalsplus:wolf_cape_red>);
+recipes.remove(<betteranimalsplus:wolf_cape_brown>);
+recipes.remove(<betteranimalsplus:wolf_cape_arctic>);
+recipes.remove(<betteranimalsplus:wolf_cape_black>);
+recipes.remove(<betteranimalsplus:wolf_cape_timber>);
+recipes.remove(<betteranimalsplus:wolf_cape_classic>);
 recipes.remove(<improvedbackpacks:bound_leather>);
 recipes.remove(<naturescompass:naturescompass>);
 recipes.remove(<twilightforest:sort_door>);
@@ -19,8 +28,22 @@ recipes.remove(<minecraft:chainmail_chestplate>);
 recipes.remove(<quark:chain>);
 recipes.remove(<aquaculture:fishing_rod>);
 recipes.remove(<mocreatures:horsesaddle>);
+recipes.removeByRecipeName("betteranimalsplus:bear_skin_brown_leather");
+recipes.removeByRecipeName("betteranimalsplus:bear_skin_kermode_leather");
+recipes.removeByRecipeName("betteranimalsplus:bear_skin_black_leather");
 //Don't touch me!
 //#Add
+recipes.addShaped(<betteranimalsplus:wolf_cape_black>, [[<ore:string>, null, <ore:string>],[<ore:leather>, <betteranimalsplus:wolf_pelt_black>, <ore:leather>], [null, <betteranimalsplus:wolf_pelt_black>, null]]);
+recipes.addShaped(<betteranimalsplus:wolf_cape_red>, [[<ore:string>, null, <ore:string>],[<ore:leather>, <betteranimalsplus:wolf_pelt_red>, <ore:leather>], [null, <betteranimalsplus:wolf_pelt_red>, null]]);
+recipes.addShaped(<betteranimalsplus:wolf_cape_brown>, [[<ore:string>, null, <ore:string>],[<ore:leather>, <betteranimalsplus:wolf_pelt_brown>, <ore:leather>], [null, <betteranimalsplus:wolf_pelt_brown>, null]]);
+recipes.addShaped(<betteranimalsplus:wolf_cape_arctic>, [[<ore:string>, null, <ore:string>],[<ore:leather>, <betteranimalsplus:wolf_pelt_arctic>, <ore:leather>], [null, <betteranimalsplus:wolf_pelt_arctic>, null]]);
+recipes.addShaped(<betteranimalsplus:wolf_cape_timber>, [[<ore:string>, null, <ore:string>],[<ore:leather>, <betteranimalsplus:wolf_pelt_timber>, <ore:leather>], [null, <betteranimalsplus:wolf_pelt_timber>, null]]);
+recipes.addShaped(<betteranimalsplus:wolf_cape_classic>, [[<ore:string>, null, <ore:string>],[<ore:leather>, <betteranimalsplus:wolf_pelt_snowy>, <ore:leather>], [null, <betteranimalsplus:wolf_pelt_snowy>, null]]);
+recipes.addShaped(<betteranimalsplus:bear_cape_brown>, [[<ore:string>, null, <ore:string>],[<ore:leather>, <betteranimalsplus:bear_skin_brown>, <ore:leather>]]);
+recipes.addShaped(<betteranimalsplus:bear_cape_black>, [[<ore:string>, null, <ore:string>],[<ore:leather>, <betteranimalsplus:bear_skin_black>, <ore:leather>]]);
+recipes.addShaped(<betteranimalsplus:bear_cape_kermode>, [[<ore:string>, null, <ore:string>],[<ore:leather>, <betteranimalsplus:bear_skin_kermode>, <ore:leather>]]);
+recipes.addShapeless(<mocreatures:fur> * 4, [<ore:peltBear>]);
+recipes.addShapeless(<mocreatures:hide> * 4, [<ore:peltBear>]);
 recipes.addShaped(<mocreatures:staffteleport>, [[null, <ore:ingotSilver>, <charm:ender_pearl_block>],[<ore:ingotSilver>, <ore:ingotDragonbone>, <ore:ingotSilver>], [<ore:netherStar>, <ore:ingotSilver>, null]]);
 recipes.addShaped(<improvedbackpacks:bound_leather>, [[<mysticalworld:tannins>.transformReplace(<minecraft:glass_bottle>), <ore:string>, null],[<ore:string>, <ore:leather>, null]]);
 recipes.addShapeless(<minecraft:book>, [<minecraft:written_book:*>]);
@@ -56,4 +79,13 @@ recipes.addShaped(<minecraft:book>, [[<levelup2:skillbook>]]);
 <mysticalworld:silver_shovel>.maxDamage = 300;
 <mysticalworld:silver_hoe>.maxDamage = 300;
 <mysticalworld:silver_sword>.maxDamage = 300;
+<betteranimalsplus:wolf_cape_red>.maxDamage = 185;
+<betteranimalsplus:wolf_cape_black>.maxDamage = 185;
+<betteranimalsplus:wolf_cape_brown>.maxDamage = 185;
+<betteranimalsplus:wolf_cape_arctic>.maxDamage = 185;
+<betteranimalsplus:wolf_cape_timber>.maxDamage = 185;
+<betteranimalsplus:wolf_cape_classic>.maxDamage = 185;
+<betteranimalsplus:bear_cape_brown>.maxDamage = 300;
+<betteranimalsplus:bear_cape_black>.maxDamage = 300;
+<betteranimalsplus:bear_cape_kermode>.maxDamage = 300;
 //File End

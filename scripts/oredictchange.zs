@@ -17,4 +17,4 @@
 <ore:listAllchickencooked>.add(<mocreatures:ratcooked>);
 <ore:listAllchickencooked>.add(<mocreatures:ostrichcooked>);
 <ore:listAllchickencooked>.add(<mocreatures:turkeycooked>);
-<ore:listAllchickencooked>.add(<familiarfauna:turkey_leg_cooked>);
+<ore:listAllchickencooked>.add(<betteranimalsplus:pheasantcooked>);

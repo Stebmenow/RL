@@ -1471,7 +1471,9 @@
 			"foodexpansion:itemcompressedflesh:0",
 			"foodexpansion:itemspidersoup:0",
 			"foodexpansion:itemchocolatebar:0",
-			"defiledlands:foul_candy:0"
+			"defiledlands:foul_candy:0",
+			"betteranimalsplus:eel_meat_raw:0",
+			"betteranimalsplus:eel_meat_cooked:0"
 		]
 	}
 }
