@@ -12,6 +12,8 @@ import mods.compatskills.Requirement.addRequirement;
 <mocreatures:silversword:0>.displayName = "Ancient Skeleton Blade";
 
 game.setLocalization("entity." + <entity:quark:pirate>.name + ".name", "Undead Pirate");
+game.setLocalization("entity." + <entity:mocreatures:pandabear>.name + ".name", "Panda");
+game.setLocalization("entity." + <entity:mocreatures:horsemob>.name + ".name", "Dire Horse");
 game.setLocalization("entity." + <entity:mocreatures:fireogre>.name + ".name", "Fire Ogre");
 game.setLocalization("entity." + <entity:mysticalworld:entity_spirit_deer>.name + ".name", "Deer Spirit");
 game.setLocalization("entity." + <entity:mocreatures:wildpolarbear>.name + ".name", "Polar Bear");
@@ -34,3 +36,4 @@ game.setLocalization("entity." + <entity:mocreatures:mantaray>.name + ".name", "
 game.setLocalization("entity." + <entity:mocreatures:stingray>.name + ".name", "Sting Ray");
 game.setLocalization("entity." + <entity:mocreatures:butterfly>.name + ".name", "Butterfly");
 game.setLocalization("entity." + <entity:mocreatures:dragonfly>.name + ".name", "Dragonfly");
+game.setLocalization("entity." + <entity:mocreatures:jellyfish>.name + ".name", "Jellyfish");

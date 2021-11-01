@@ -22,6 +22,33 @@
       },
       {
         "item": "improvedbackpacks:ender_backpack"
+      },
+      {
+        "item": "betteranimalsplus:bear_cape_kermode"
+      },
+      {
+        "item": "betteranimalsplus:bear_cape_black"
+      },
+      {
+        "item": "betteranimalsplus:bear_cape_brown"
+      },
+      {
+        "item": "betteranimalsplus:wolf_cape_red"
+      },
+      {
+        "item": "betteranimalsplus:wolf_cape_brown"
+      },
+      {
+        "item": "betteranimalsplus:wolf_cape_arctic"
+      },
+      {
+        "item": "betteranimalsplus:wolf_cape_black"
+      },
+      {
+        "item": "betteranimalsplus:wolf_cape_timber"
+      },
+      {
+        "item": "betteranimalsplus:wolf_cape_classic"
       }
     ],
     "qualities": [

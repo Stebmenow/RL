@@ -34,7 +34,6 @@ furnace.remove(<minecraft:gold_nugget>);
 furnace.remove(<minecraft:iron_nugget>);
 furnace.remove(<defiledlands:umbrium_nugget>);
 furnace.remove(<iceandfire:silver_ingot>);
-recipes.remove(<wolfarmor:chainmail_wolf_armor>);
 
 furnace.addRecipe(<minecraft:diamond> * 2, <minecraft:diamond_helmet:*>, 0.2);
 furnace.addRecipe(<minecraft:diamond> * 4, <minecraft:diamond_chestplate:*>, 0.2);
@@ -78,10 +77,7 @@ furnace.addRecipe(<defiledlands:umbrium_ingot> * 2, <defiledlands:umbrium_helmet
 furnace.addRecipe(<defiledlands:umbrium_ingot> * 4, <defiledlands:umbrium_chestplate:*>, 0.2);
 furnace.addRecipe(<defiledlands:umbrium_ingot> * 3, <defiledlands:umbrium_leggings:*>, 0.2);
 furnace.addRecipe(<defiledlands:umbrium_ingot> * 2, <defiledlands:umbrium_boots:*>, 0.2);
-furnace.addRecipe(<minecraft:iron_nugget> * 30, <wolfarmor:chainmail_wolf_armor:*>, 0.2);
-furnace.addRecipe(<minecraft:iron_ingot> * 7, <wolfarmor:iron_wolf_armor:*>, 0.2);
-furnace.addRecipe(<minecraft:gold_ingot> * 7, <wolfarmor:gold_wolf_armor:*>, 0.2);
-furnace.addRecipe(<minecraft:diamond> * 7, <wolfarmor:diamond_wolf_armor:*>, 0.2);
+
 
 brewing.addBrew(<minecraft:potion>.withTag({Potion: "minecraft:awkward"}), <waystones:warp_scroll>, <bountifulbaubles:potionrecall>);
 brewing.addBrew(<bountifulbaubles:potionrecall>, <minecraft:ender_eye>, <bountifulbaubles:potionwormhole>);
@@ -112,13 +108,6 @@ recipes.addShaped("lolarecipe27",<bountifulbaubles:crowngold>,
  [[null,<defiledlands:scarlite>,null],
   [<minecraft:gold_ingot>,<minecraft:gold_ingot>,<minecraft:gold_ingot>],
   [<minecraft:gold_ingot>,null,<minecraft:gold_ingot>]]);
-  
-recipes.addShaped("lolarecipe28",<wolfarmor:chainmail_wolf_armor>,
- [[null,<minecraft:chainmail_helmet>,null],
-  [<quark:chain>,<minecraft:chainmail_boots>,<quark:chain>],
-  [null,<minecraft:chainmail_boots>,null]]);
-  
-recipes.addShapeless("lolarecipe28wolfleatherrrr",<minecraft:leather>*7,[<wolfarmor:leather_wolf_armor>]);
   
 recipes.addShaped("lolarecipe29",<scalinghealth:crystalshard>,
  [[<scalinghealth:heartdust>,<scalinghealth:heartdust>,<scalinghealth:heartdust>],

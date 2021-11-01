@@ -81,8 +81,32 @@
     "itemcount": "0-2"
   },
   {
-    "mob": "minecraft:squid",
-    "remove": "foodexpansion:itemsquid:0"
+    "mob": "ebwizardry:spirit_wolf",
+    "remove": "foodexpansion:itemwolfmeat"
+  },
+  {
+    "mob": "betteranimalsplus:feralwolf",
+    "item": "foodexpansion:itemwolfmeat",
+    "itemcount": "0-2"
+  },
+  {
+    "mob": "betteranimalsplus:deer",
+    "remove": "betteranimalsplus:antler"
+  },
+  {
+    "mob": "betteranimalsplus:deer",
+    "item": "mysticalworld:antlers",
+    "itemcount": "0-1"
+  },
+  {
+    "mob": "minecraft:wolf",
+    "item": "betteranimalsplus:wolf_pelt_timber",
+    "itemcount": "0-1"
+  },
+  {
+    "mob": "minecraft:wolf",
+    "item": "foodexpansion:itemwolfmeat",
+    "itemcount": "1-2"
   },
   {
     "mob": "betteranimalsplus:brownbear",
