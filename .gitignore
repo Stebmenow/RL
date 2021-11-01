@@ -3,8 +3,8 @@
 !config
 !config/**
 /config/splash.properties
-/config/CustomSpawner
-/config/CustomSpawner/**
+!config/CustomSpawner
+!config/CustomSpawner/**
 /config/jei
 /config/jei/**
 /config/InvTweaks
