@@ -5,12 +5,11 @@
   "pack": [],
   "wary": [],
   "flee": [
-    "predator",
     "boss"
   ],
   "ignore": [
     "boss"
   ],
-  "default": "wary",
-  "animals": true
+  "animals": true,
+  "default": "retaliate"
 }

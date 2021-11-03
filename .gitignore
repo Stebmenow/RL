@@ -16,4 +16,8 @@
 !mods
 !/mods/**
 !README.md
-config/dimensionalcontrol/documentation/*
+/config/UniqueNames.txt
+/config/globalgamerules.cfg 
+/config/dimensionalcontrol/documentation/*
+/config/CustomSpawner/logs
+/config/CustomSpawner/logs/**
