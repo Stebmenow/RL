@@ -36,7 +36,7 @@ game.setLocalization("entity." + <entity:mocreatures:silverskeleton>.name + ".na
 game.setLocalization("entity." + <entity:mocreatures:angelfish>.name + ".name", "Angelfish");
 game.setLocalization("entity." + <entity:mocreatures:goldfish>.name + ".name", "Goldfish");
 game.setLocalization("entity." + <entity:mocreatures:mantaray>.name + ".name", "Manta Ray");
-game.setLocalization("entity." + <entity:mocreatures:stingray>.name + ".name", "Sting Ray");
+game.setLocalization("entity." + <entity:mocreatures:stingray>.name + ".name", "Stingray");
 game.setLocalization("entity." + <entity:mocreatures:butterfly>.name + ".name", "Butterfly");
 game.setLocalization("entity." + <entity:mocreatures:dragonfly>.name + ".name", "Dragonfly");
 game.setLocalization("entity." + <entity:mocreatures:jellyfish>.name + ".name", "Jellyfish");

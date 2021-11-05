@@ -56,7 +56,7 @@
       {
         "name": "quality.horrible.name",
         "color": "dark_gray",
-        "weight": 10,
+        "weight": 20,
         "attributes": [
           {
             "name": "generic.attackDamage",
@@ -78,7 +78,7 @@
       {
         "name": "quality.clunky.name",
         "color": "dark_gray",
-        "weight": 10,
+        "weight": 20,
         "attributes": [
           {
             "name": "generic.movementSpeed",
@@ -111,7 +111,7 @@
       },
       {
         "name": "normal",
-        "weight": 100
+        "weight": 280
       },
       {
         "name": "quality.lucky.name",

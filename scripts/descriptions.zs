@@ -1,0 +1,1 @@
+<charm:totem_of_returning>.addTooltip("To increase uses, combine with a clock in an anvil");

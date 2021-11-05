@@ -453,7 +453,7 @@
       {
         "name": "Legendary",
         "color": "light_purple",
-        "weight": 5,
+        "weight": 4,
         "attributes": [
           {
             "name": "generic.attackDamage",
@@ -480,7 +480,7 @@
       {
         "name": "Vis-Infused",
         "color": "light_purple",
-        "weight": 5,
+        "weight": 3,
         "attributes": [
           {
             "name": "generic.attackDamage",
@@ -512,7 +512,7 @@
       {
         "name": "Mastercrafted",
         "color": "light_purple",
-        "weight": 5,
+        "weight": 4,
         "attributes": [
           {
             "name": "generic.attackDamage",

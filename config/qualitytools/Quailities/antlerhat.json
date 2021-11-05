@@ -19,12 +19,12 @@
           
           {
             "name": "generic.reachDistance",
-            "amount": 1,
+            "amount": 0.5,
             "operation": 0
           },
           {
             "name": "generic.movementSpeed",
-            "amount": 0.35,
+            "amount": 0.25,
             "operation": 2
           },
           {

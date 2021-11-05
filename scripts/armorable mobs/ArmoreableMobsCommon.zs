@@ -3,8 +3,8 @@ import mods.armoreablemobs.ArmorEntity;
 import mods.armoreablemobs.ArmorSlot;
 import mods.armoreablemobs.ArmorGroup;
 
-var vanillaGroup = ArmorHandler.createArmorGroup("vanilla", 0.5);
-var weaponGroup = ArmorHandler.createArmorGroup("weapon", 0.5);
+var vanillaGroup = ArmorHandler.createArmorGroup("vanilla", 0.35);
+var weaponGroup = ArmorHandler.createArmorGroup("weapon", 0.35);
 
 var zombie = ArmorHandler.createArmorEntity("minecraft:zombie").withNBTCheck("Health", 100.0, "LESS");
 var husk = ArmorHandler.createArmorEntity("minecraft:husk").withNBTCheck("Health", 100.0, "LESS");
