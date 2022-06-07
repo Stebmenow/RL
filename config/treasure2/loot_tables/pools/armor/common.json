@@ -11,7 +11,7 @@
 				{
 					"entryName": "backpack",
 					"type": "item",
-					"name": "wearablebackpacks:backpack",
+					"name": "improvedpacks:backpack",
 					"weight": 10
 				},
 				{

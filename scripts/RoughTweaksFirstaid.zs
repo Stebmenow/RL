@@ -14,7 +14,7 @@ recipes.addShapeless("salve2",<roughtweaks:salve>,[<minecraft:bowl>,<ore:allFlow
 recipes.addShapeless("salvetall",<roughtweaks:salve>,[<minecraft:bowl>,<ore:allTallFlowers>]);
 recipes.addShapeless("salve3",<roughtweaks:salve>,[<minecraft:bowl>,<ore:blockCactus>]);
 recipes.addShapeless("plaster1",<roughtweaks:plaster>,[<roughtweaks:salve>,<ore:string>,<minecraft:paper>]);
-recipes.addShapeless("salve4",<roughtweaks:salve>,[<minecraft:bowl>,<rustic:aloe_vera>|<rustic:ginseng>|<rustic:core_root>|<rustic:blood_orchid>|<rustic:marsh_mallow>]);
+recipes.addShapeless("salve4",<roughtweaks:salve>,[<minecraft:bowl>,<rustic:aloe_vera>|<rustic:ginseng>|<rustic:core_root>|<rustic:blood_orchid>|<rustic:marsh_mallow>,<rustic:aloe_vera>|<rustic:ginseng>|<rustic:core_root>|<rustic:blood_orchid>|<rustic:marsh_mallow>]);
 
 recipes.addShapeless(<firstaid:plaster>,[<ore:string>,<minecraft:paper>]);
 

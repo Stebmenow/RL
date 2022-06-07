@@ -135,7 +135,7 @@
 				{
 					"entryName": "spectre",
 					"type": "item",
-					"name": "minecraft:spectretendril",
+					"name": "lycanitesmobs:spectretendril",
 					"weight": 2,
 					"functions": [
 						{
