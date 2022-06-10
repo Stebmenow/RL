@@ -11,8 +11,10 @@
 /config/InvTweaks/**
 !scripts
 !scripts/**
-!resourcepacks
-!resourcepacks/**
+!resourcepacks/AntiqueAtlasExtra-v1.2
+!resourcepacks/lycanites_redux_6.0.1
+!resourcepacks/Better Vanilla - HardcoreDarkness
+!resourcepacks\Clear+Glass+Pack+1.11+or+1.12.zip
 !mods
 !/mods/**
 !/structures/**
