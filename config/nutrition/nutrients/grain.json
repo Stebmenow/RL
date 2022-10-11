@@ -1,6 +1,6 @@
 {
 	"name": "grain",
-	"icon": "minecraft:bread",
+	"icon": "roots:wildewheet",
 	"color": "f4d92e",
 	"enabled": true,
 	"food": {

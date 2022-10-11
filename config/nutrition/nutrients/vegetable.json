@@ -1,6 +1,6 @@
 {
 	"name": "vegetable",
-	"icon": "aquaculture:food",
+	"icon": "lycanitesmobs:raw_arisaur_meat",
 	"color": "72dd5a",
 	"enabled": true,
 	"food": {

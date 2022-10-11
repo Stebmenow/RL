@@ -31,16 +31,16 @@
     "despawnNatural": true,
     "despawnForced": false
   },
-  "width": 8.9,
-  "height": 8.9,
+  "width": 5,
+  "height": 7.3,
   "experience": 30,
-  "health": 400,
-  "defense": 3,
-  "armor": 0,
-  "speed": 24,
-  "damage": 4,
+  "health": 200,
+  "defense": 0,
+  "armor": 1,
+  "speed": 36,
+  "damage": 6,
   "attackSpeed": 1,
-  "rangedSpeed": 1,
+  "rangedSpeed": 3,
   "effectDuration": 5,
   "effectAmplifier": 0,
   "pierce": 1,
@@ -115,6 +115,7 @@
       "chance": 1
     }
   ],
-  "sizeScale": 1,
-  "hitboxScale": 1
+  "sizeScale": 0.16,
+  "hitboxScale": 0.8
+
 }
