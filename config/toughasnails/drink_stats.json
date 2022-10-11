@@ -5,7 +5,40 @@
       "metadata": 0
     },
     "thirst": 8,
-    "hydration": 0.7,
+    "hydration": 0.5,
+    "poisonChance": 0.0
+  },
+  {
+    "item": {
+      "name": "betteranimalsplus:goatmilk",
+      "metadata": 0
+    },
+    "thirst": 8,
+    "hydration": 0.5,
+    "poisonChance": 0.0
+  }, {
+    "item": {
+      "name": "toughasnails:purified_water_bottle",
+      "metadata": 0
+    },
+    "thirst": 8,
+    "hydration": 1,
+    "poisonChance": 0.0
+  }, {
+    "item": {
+      "name": "toughasnails:canteen",
+      "metadata": 2
+    },
+    "thirst": 8,
+    "hydration": 1,
+    "poisonChance": 0.0
+  }, {
+    "item": {
+      "name": "toughasnails:canteen",
+      "metadata": 6
+    },
+    "thirst": 8,
+    "hydration": 1,
     "poisonChance": 0.0
   }
 ]

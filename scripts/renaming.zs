@@ -7,6 +7,8 @@ import mods.compatskills.Requirement.addRequirement;
 <foodexpansion:itempolarbearmeat>.displayName = "Raw Bear Meat";
 <foodexpansion:itemcookedpolarbearmeat>.displayName = "Cooked Bear Meat";
 <iceandfire:troll_tusk>.displayName = "Large Tusk";
+<foodexpansion:itemwolfmeat>.displayName = "Raw Predator Meat";
+<foodexpansion:itemcookedwolfmeat>.displayName = "Cooked Predator Meat";
 <minecraft:cooked_chicken>.displayName = "Cooked Poultry";
 <mocreatures:bigcatclaw>.displayName = "Sharp Claw";
 <mocreatures:staffteleport>.displayName = "Staff of Teleportation";

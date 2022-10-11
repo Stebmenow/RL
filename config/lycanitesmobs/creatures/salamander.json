@@ -33,13 +33,13 @@
     "despawnForced": false
   },
   "width": 2.5,
-  "height": 0.9,
+  "height": 0.55,
   "experience": 5,
   "health": 15,
   "defense": 1,
   "armor": 0,
   "speed": 22,
-  "damage": 2,
+  "damage": 4,
   "attackSpeed": 1,
   "rangedSpeed": 1,
   "effectDuration": 5,
@@ -100,5 +100,5 @@
     }
   ],
   "sizeScale": 1,
-  "hitboxScale": 1
+  "hitboxScale": 0.9
 }
