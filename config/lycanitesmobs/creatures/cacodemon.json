@@ -35,7 +35,7 @@
     "despawnForced": false
   },
   "width": 2.5,
-  "height": 2.5,
+  "height": 3,
   "experience": 10,
   "health": 20,
   "defense": 1,
@@ -84,7 +84,7 @@
   "summonable": false,
   "tameable": true,
   "mountable": true,
-  "summonCost": 2,
+  "summonCost": 6,
   "dungeonLevel": 3,
   "drops": [
     {
@@ -120,11 +120,11 @@
     }
   ],
   "sizeScale": 1,
-  "hitboxScale": 1,
+  "hitboxScale": 0.8,
   "flags": [
     {
       "name": "griefing",
-      "value": true
+      "value": false
     }
   ]
 }

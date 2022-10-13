@@ -47,7 +47,7 @@
   "defense": 3,
   "armor": 0,
   "speed": 28,
-  "damage": 2,
+  "damage": 4,
   "attackSpeed": 1,
   "rangedSpeed": 0.25,
   "effectDuration": 5,
@@ -80,10 +80,10 @@
     "detritivore"
   ],
   "peaceful": false,
-  "summonable": false,
+  "summonable": true,
   "tameable": false,
   "mountable": false,
-  "summonCost": 6,
+  "summonCost": 7,
   "dungeonLevel": 2,
   "drops": [
     {

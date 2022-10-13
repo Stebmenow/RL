@@ -37,13 +37,13 @@
     "despawnForced": false
   },
   "width": 1.0,
-  "height": 3.5,
+  "height": 3.8,
   "experience": 10,
-  "health": 40,
+  "health": 70,
   "defense": 2,
   "armor": 0,
   "speed": 32,
-  "damage": 1,
+  "damage": 6,
   "attackSpeed": 1,
   "rangedSpeed": 0.75,
   "effectDuration": 5,
@@ -86,10 +86,10 @@
     "insectivore"
   ],
   "peaceful": false,
-  "summonable": true,
-  "tameable": false,
+  "summonable": false,
+  "tameable": true,
   "mountable": false,
-  "summonCost": 6,
+  "summonCost": 7,
   "dungeonLevel": 2,
   "drops": [
     {

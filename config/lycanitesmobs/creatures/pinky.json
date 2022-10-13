@@ -39,13 +39,13 @@
     "despawnNatural": false,
     "despawnForced": false
   },
-  "width": 1.6,
+  "width": 1.9,
   "height": 1.9,
   "experience": 5,
   "health": 30,
   "defense": 1,
   "armor": 0,
-  "speed": 28,
+  "speed": 32,
   "damage": 3,
   "attackSpeed": 2,
   "rangedSpeed": 1,
@@ -137,10 +137,10 @@
     }
   ],
   "sizeScale": 1,
-  "hitboxScale": 1,
+  "hitboxScale": 1.1,
   "mountOffset": [
     0,
-    1.1,
+    0.6,
     0
   ]
 }

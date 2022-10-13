@@ -35,8 +35,8 @@
     "despawnNatural": true,
     "despawnForced": false
   },
-  "width": 1.5,
-  "height": 3.2,
+  "width": 2.1,
+  "height": 3.6,
   "experience": 10,
   "health": 40,
   "defense": 2,
@@ -79,10 +79,10 @@
     "fungivore"
   ],
   "peaceful": false,
-  "summonable": true,
-  "tameable": false,
+  "summonable": false,
+  "tameable": true,
   "mountable": false,
-  "summonCost": 6,
+  "summonCost": 7,
   "dungeonLevel": 1,
   "drops": [
     {
