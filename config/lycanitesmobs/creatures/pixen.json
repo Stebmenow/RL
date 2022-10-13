@@ -33,7 +33,7 @@
     "despawnForced": false
   },
   "width": 0.5,
-  "height": 0.5,
+  "height": 0.9,
   "experience": 5,
   "health": 10,
   "defense": 0,
@@ -75,8 +75,8 @@
     "fungivore"
   ],
   "peaceful": false,
-  "summonable": true,
-  "tameable": false,
+  "summonable": false,
+  "tameable": true,
   "mountable": false,
   "perchable": true,
   "summonCost": 2,

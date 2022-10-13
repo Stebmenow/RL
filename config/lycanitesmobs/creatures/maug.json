@@ -38,8 +38,8 @@
     "despawnNatural": true,
     "despawnForced": false
   },
-  "width": 0.8,
-  "height": 1.5,
+  "width": 2.1,
+  "height": 2,
   "experience": 10,
   "health": 20,
   "defense": 1,

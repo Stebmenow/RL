@@ -81,8 +81,8 @@
     "insectivore"
   ],
   "peaceful": false,
-  "summonable": false,
-  "tameable": true,
+  "summonable": true,
+  "tameable": false,
   "mountable": false,
   "summonCost": 8,
   "dungeonLevel": 3,

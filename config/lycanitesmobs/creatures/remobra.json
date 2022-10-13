@@ -1,6 +1,6 @@
 {
   "name": "remobra",
-  "creatureType": "dragon",
+  "creatureType": "beast",
   "groups": [
     "opportunist"
   ],
@@ -76,8 +76,8 @@
     "insectivore"
   ],
   "peaceful": false,
-  "summonable": true,
-  "tameable": false,
+  "summonable": false,
+  "tameable": true,
   "mountable": false,
   "perchable": true,
   "summonCost": 2,

@@ -64,9 +64,9 @@
   "element": "fire",
   "peaceful": false,
   "summonable": true,
-  "tameable": true,
+  "tameable": false,
   "mountable": false,
-  "summonCost": 3,
+  "summonCost": 4,
   "dungeonLevel": 1,
   "drops": [
     {
@@ -89,5 +89,5 @@
     }
   ],
   "sizeScale": 0.85,
-  "hitboxScale": 0.85
+  "hitboxScale": 1.4
 }

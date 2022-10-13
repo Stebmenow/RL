@@ -32,13 +32,13 @@
     "despawnForced": false
   },
   "width": 6.8,
-  "height": 1.8,
+  "height": 1.62,
   "experience": 10,
   "health": 20,
   "defense": 3,
   "armor": 0,
-  "speed": 24,
-  "damage": 1,
+  "speed": 38,
+  "damage": 3,
   "attackSpeed": 1,
   "rangedSpeed": 0.25,
   "effectDuration": 5,
@@ -77,7 +77,7 @@
   "summonable": false,
   "tameable": true,
   "mountable": false,
-  "summonCost": 6,
+  "summonCost": 4,
   "dungeonLevel": 3,
   "drops": [
     {

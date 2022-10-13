@@ -35,13 +35,13 @@
     "despawnNatural": true,
     "despawnForced": false
   },
-  "width": 2.8,
+  "width": 3.1,
   "height": 0.95,
   "experience": 10,
   "health": 20,
   "defense": 1,
   "armor": 0,
-  "speed": 36,
+  "speed": 24,
   "damage": 2,
   "attackSpeed": 1,
   "rangedSpeed": 2,
@@ -129,5 +129,5 @@
     }
   ],
   "sizeScale": 1,
-  "hitboxScale": 1
+  "hitboxScale": 1.2
 }

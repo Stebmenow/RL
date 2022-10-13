@@ -34,13 +34,13 @@
     "despawnNatural": true,
     "despawnForced": false
   },
-  "width": 2.8,
+  "width": 2.6,
   "height": 1.8,
   "experience": 20,
   "health": 120,
   "defense": 1,
   "armor": 0,
-  "speed": 42,
+  "speed": 70,
   "damage": 3,
   "attackSpeed": 1,
   "rangedSpeed": 1,
@@ -78,7 +78,7 @@
   "summonable": false,
   "tameable": true,
   "mountable": true,
-  "summonCost": 10,
+  "summonCost": 6,
   "dungeonLevel": 2,
   "drops": [
     {

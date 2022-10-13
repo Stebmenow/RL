@@ -38,8 +38,8 @@
   "health": 5,
   "defense": 0,
   "armor": 0,
-  "speed": 32,
-  "damage": 2.5,
+  "speed": 30,
+  "damage": 2,
   "attackSpeed": 1,
   "rangedSpeed": 1,
   "effectDuration": 2,
@@ -76,11 +76,11 @@
     "fungivore"
   ],
   "peaceful": false,
-  "summonable": true,
+  "summonable": false,
   "tameable": true,
   "mountable": false,
   "perchable": true,
-  "summonCost": 3,
+  "summonCost": 1,
   "dungeonLevel": 1,
   "drops": [
     {
@@ -108,6 +108,6 @@
       "chance": 0.5
     }
   ],
-  "sizeScale": 1,
-  "hitboxScale": 1.2
+  "sizeScale": 0.9,
+  "hitboxScale": 1
 }
