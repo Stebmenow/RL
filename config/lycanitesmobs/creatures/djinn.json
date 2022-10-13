@@ -31,7 +31,7 @@
     "despawnForced": false
   },
   "width": 0.8,
-  "height": 1.6,
+  "height": 2.4,
   "experience": 10,
   "health": 10,
   "defense": 0,
@@ -67,9 +67,9 @@
   "element": "air",
   "peaceful": false,
   "summonable": true,
-  "tameable": true,
+  "tameable": false,
   "mountable": false,
-  "summonCost": 2.4,
+  "summonCost": 4,
   "dungeonLevel": 1,
   "drops": [
     {
@@ -103,6 +103,6 @@
       "chance": 1
     }
   ],
-  "sizeScale": 1,
-  "hitboxScale": 1
+  "sizeScale": 1.2,
+  "hitboxScale": 1.2
 }

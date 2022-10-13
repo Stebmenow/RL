@@ -36,8 +36,8 @@
     "despawnNatural": true,
     "despawnForced": false
   },
-  "width": 1.5,
-  "height": 1.6,
+  "width": 2.6,
+  "height": 2.2,
   "experience": 10,
   "health": 20,
   "defense": 1,
@@ -77,8 +77,8 @@
     "insectivore"
   ],
   "peaceful": false,
-  "summonable": true,
-  "tameable": false,
+  "summonable": false,
+  "tameable": true,
   "mountable": false,
   "summonCost": 3,
   "dungeonLevel": 0,

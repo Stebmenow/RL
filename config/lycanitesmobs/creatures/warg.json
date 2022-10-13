@@ -36,7 +36,7 @@
     "despawnNatural": true,
     "despawnForced": false
   },
-  "width": 0.8,
+  "width": 1.5,
   "height": 1.5,
   "experience": 10,
   "health": 23,
@@ -81,7 +81,7 @@
   "summonable": false,
   "tameable": true,
   "mountable": true,
-  "summonCost": 5,
+  "summonCost": 4,
   "dungeonLevel": 2,
   "drops": [
     {

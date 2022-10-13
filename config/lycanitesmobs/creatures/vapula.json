@@ -27,8 +27,8 @@
     "despawnNatural": true,
     "despawnForced": false
   },
-  "width": 0.8,
-  "height": 1.6,
+  "width": 1.6,
+  "height": 2.2,
   "experience": 10,
   "health": 30,
   "defense": 3,
@@ -41,7 +41,7 @@
   "effectAmplifier": 0,
   "pierce": 1,
   "sight": 24,
-  "knockbackResistance": 1,
+  "knockbackResistance": 0.85,
   "eggBackColor": "#7b8d95",
   "eggForeColor": "#9be0ea",
   "subspecies": [

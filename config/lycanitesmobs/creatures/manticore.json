@@ -83,7 +83,7 @@
   ],
   "peaceful": false,
   "summonable": true,
-  "tameable": false,
+  "tameable": true,
   "mountable": false,
   "perchable": true,
   "summonCost": 2,
@@ -109,5 +109,5 @@
     }
   ],
   "sizeScale": 1,
-  "hitboxScale": 1
+  "hitboxScale": 0.7
 }

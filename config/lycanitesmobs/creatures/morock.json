@@ -80,7 +80,7 @@
   "summonable": false,
   "tameable": true,
   "mountable": true,
-  "summonCost": 8,
+  "summonCost": 6,
   "dungeonLevel": 1,
   "drops": [
     {
@@ -115,5 +115,5 @@
     }
   ],
   "sizeScale": 1.2,
-  "hitboxScale": 1.2
+  "hitboxScale": 1.25
 }

@@ -41,7 +41,7 @@
   "health": 100,
   "defense": 2,
   "armor": 0,
-  "speed": 38,
+  "speed": 70,
   "damage": 2,
   "attackSpeed": 1,
   "rangedSpeed": 1,
@@ -84,7 +84,7 @@
   "summonable": false,
   "tameable": true,
   "mountable": true,
-  "summonCost": 8,
+  "summonCost": 6,
   "dungeonLevel": 1,
   "drops": [
     {
@@ -124,6 +124,6 @@
       "chance": 0.1
     }
   ],
-  "sizeScale": 1,
+  "sizeScale": 0.8,
   "hitboxScale": 1
 }

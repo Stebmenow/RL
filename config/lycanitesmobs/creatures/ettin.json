@@ -36,8 +36,8 @@
     "despawnNatural": true,
     "despawnForced": false
   },
-  "width": 1.5,
-  "height": 3.2,
+  "width": 1.7,
+  "height": 3.8,
   "experience": 5,
   "health": 30,
   "defense": 2,
@@ -81,9 +81,9 @@
   ],
   "peaceful": false,
   "summonable": false,
-  "tameable": false,
+  "tameable": true,
   "mountable": false,
-  "summonCost": 2,
+  "summonCost": 5,
   "dungeonLevel": 2,
   "drops": [
     {
@@ -122,7 +122,7 @@
   "flags": [
     {
       "name": "griefing",
-      "value": true
+      "value": false
     }
   ]
 }
