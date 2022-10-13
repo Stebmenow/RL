@@ -36,21 +36,6 @@
 					]							
 				},
 				{
-					"entryName": "bronze",
-					"type": "item",
-					"name": "variedcommodities:ingot_bronze",
-					"weight": 2,
-					"functions": [
-						{
-							"function": "set_count",
-							"count": {
-								"min": 5,
-								"max": 12
-							}
-						}
-					]
-				},
-				{
 					"entryName": "silver",
 					"type": "item",
 					"name": "mysticalworld:silver_ingot",
