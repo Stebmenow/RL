@@ -4,6 +4,18 @@ The goal of this modpack is to keep the spirit of RLCraft alive by keeping most 
 so certain mechanics are more difficult to abuse. Most of the dungeon loot was hot garbage, so we made our own changes to loot tables to make them
 worth it, especially considering the difficulty of the pack. We also found the endgame to be extremely lackluster, and added new content.
 
+# SETUP
+Obviously, Git is required for this installation. We recommend using the Curseforge launcher to make installation easier. There are no plans to publish the modpack.
+1. Install an instance of RLCraft v2.8.2. DO NOT open the game at this time.
+2. Find the installation folder of your game.
+3. Delete the `config`, `mods`, `scripts`, `resourcepacks`, `structures` folders from that directory.
+4. Run the following 
+```git init
+git remote add origin https://github.com/Stebmenow/RL.git
+git checkout main
+git pull origin main```
+5. Run the game! You may need to restart the game to enable the Lycanites Redux texture pack.
+
 ### This is not a superset of RLCraft! We removed some mods and changed existing configs.
 More details will be listed below in the changelog:
 
@@ -15,11 +27,11 @@ More details will be listed below in the changelog:
 5. Kill Lycanites bosses. Loot tables are updated and are slightly nerfed because they lag out computers with all the particles. If you are feeling bold, change the healths back in the config.
 6. This is a good time to min-max your equipment. Apotheosis and Industrial Foregoing exists for this. 
 7. Enter the Twilight Forest. The portal item is the Wraith Sigil dropped from Lycanites bosses. In this dimension, Normal mobs have a global 100% attack and health buff, and move faster. The bosses have been made incredibly difficult. We designed it so unless you have min-maxed your gear, you will not have a fun time.
-8. FUTURE IDEAS: Content for post Twilight Forest (thinking about Tinker's Construct and some more tech), and AbyssalCraft as the final dimension.
+8. FUTURE IDEAS: Content for post Twilight Forest (thinking about Tinker's Construct and some more tech), and Advent of Ascension as the final endgame content. However, currently we are happy with the amount of content there is in the game right now.
 
 ## Changelog (in no order of importance)
 1. New world generation! We didn't like the randomness of normal worldgen, so we created our custom world generation using BoP and Dimension Control with a custom heatmap. Just leaving the preset at default will work. Travelling in the z-direction changes temperature, and travelling in the x-direction changes wetness. Also, spawning is reverted to within 75 blocks of a spawnpoint, so you don't get spawned randomly. Makes it easier for multiplayer without using teleport cheats.
-2. Ice and Fire updated to 1.9.1! Players now have access to dragonsteel, however the dragonforge is gated by completion of Defiled Lands. Additionally, dread mobs exist in this version. They have been buffed a lot too. Custom recipes are added for the new Ice and Fire weapons. 
+2. Ice and Fire updated to 1.9.1! Players now have access to dragonsteel, however the dragonforge is gated by completion of Defiled Lands and a couple other mods. Additionally, dread mobs exist in this version. They have been buffed a lot too. Custom recipes are added for the new Ice and Fire weapons. 
 3. Gave a little bit of stuff for the engineers to do. Immersive Engineering and Industrial Foregoing added. Teslacorelib machine cases (core component for any IF machines) are gated by killing dragons, but you can occasionally find them in dungeons too. Make good food with automated farms and defend your base with Immersive Engineering turrets!
 4. Combat system has been tweaked (see following bullets as well). Two-handers hit like a truck, but you can't block with them. One-handers don't do much damage, but the options of a shield in the off-hand or dual-wielding are opened up. Jump-crits are allowed.
 5. Armoreable mobs added to give vanilla mobs a bit more punch. 
