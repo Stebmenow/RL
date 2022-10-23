@@ -101,6 +101,16 @@
         "damage": 1,
         "count": 1
       }
+    },
+    {
+      "weight": 1.0,
+      "min": 2,
+      "max": 8,
+      "item": {
+        "id": "scalinghealth:crystalshard",
+        "damage": 0,
+        "count": 1
+      }
     }
   ],
   "dependencyExpression": ""

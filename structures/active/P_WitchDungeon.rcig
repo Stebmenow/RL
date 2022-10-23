@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "inventoryGeneratorID": "Dungeon",
+  "inventoryGeneratorID": "Potion Ingredients",
   "items": [
     {
       "weight": 0.35883715748786926,

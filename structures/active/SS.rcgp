@@ -1,0 +1,39 @@
+{
+  "data": {
+    "factors": [
+      {
+        "type": "limit",
+        "factor": {
+          "priority": 1.0,
+          "rays": [
+            {
+              "type": "dynpos",
+              "ray": {
+                "type": "world_height"
+              }
+            },
+            {
+              "type": "move",
+              "ray": {
+                "distance": -44
+              }
+            },
+            {
+              "type": "move",
+              "ray": {
+                "distance": 0,
+                "weight": 0.8448009
+              }
+            }
+          ]
+        }
+      }
+    ]
+  },
+  "metadata": {
+    "title": "Sky Structure",
+    "description": [
+      ""
+    ]
+  }
+}
