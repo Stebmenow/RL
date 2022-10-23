@@ -28,7 +28,7 @@ recipes.addShaped("hopper",<minecraft:hopper>,
  [[<ore:plateIron>,null,<ore:plateIron>],
   [<ore:plateIron>,<ore:chest>,<ore:plateIron>],
   [null,<ore:plateIron>,null]]);
-recipes.addShaped("hopper",<minecraft:hopper>,
+recipes.addShaped("hopper2",<minecraft:hopper>,
  [[<ore:plateIron>,null,<ore:plateIron>],
   [<ore:plateIron>,<ore:chestWood>,<ore:plateIron>],
   [null,<ore:plateIron>,null]]);
