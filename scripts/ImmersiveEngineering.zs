@@ -24,5 +24,5 @@ recipes.addShaped("red_sandstone",<minecraft:red_sandstone>,
   [[<minecraft:sand:1>,<minecraft:sand:1>],
    [<minecraft:sand:1>,<minecraft:sand:1>]]);
 
-recipes.add("ie_name_tag", <minecraft:name_tag>,
-  [[<ore:string>, <ore:plateGold>]]);
+recipes.addShapeless("ie_name_tag", <minecraft:name_tag>,
+  [<ore:string>, <ore:plateGold>]);
