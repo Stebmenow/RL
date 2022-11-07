@@ -1,0 +1,472 @@
+{
+  "version": 2,
+  "inventoryGeneratorID": "Tier 0 Agility Weapons MASTER",
+  "items": [
+    {
+      "weight": 0.2900550961494446,
+      "min": 1,
+      "max": 1,
+      "item": {
+        "id": "spartanweaponry:dagger_stone",
+        "damage": 0,
+        "count": 1
+      }
+    },
+    {
+      "weight": 0.2900550961494446,
+      "min": 1,
+      "max": 1,
+      "item": {
+        "id": "spartanweaponry:katana_stone",
+        "damage": 0,
+        "count": 1
+      }
+    },
+    {
+      "weight": 0.2900550961494446,
+      "min": 1,
+      "max": 1,
+      "item": {
+        "id": "spartanweaponry:rapier_stone",
+        "damage": 0,
+        "count": 1
+      }
+    },
+    {
+      "weight": 0.2900550961494446,
+      "min": 1,
+      "max": 1,
+      "item": {
+        "id": "spartanweaponry:spear_stone",
+        "damage": 0,
+        "count": 1
+      }
+    },
+    {
+      "weight": 0.2900550961494446,
+      "min": 1,
+      "max": 1,
+      "item": {
+        "id": "spartanweaponry:halberd_stone",
+        "damage": 0,
+        "count": 1
+      }
+    },
+    {
+      "weight": 0.2900550961494446,
+      "min": 1,
+      "max": 1,
+      "item": {
+        "id": "spartanweaponry:throwing_knife_stone",
+        "damage": 0,
+        "count": 1
+      }
+    },
+    {
+      "weight": 0.2900550961494446,
+      "min": 1,
+      "max": 1,
+      "item": {
+        "id": "spartanweaponry:throwing_axe_stone",
+        "damage": 0,
+        "count": 1
+      }
+    },
+    {
+      "weight": 0.2900550961494446,
+      "min": 1,
+      "max": 1,
+      "item": {
+        "id": "spartanweaponry:javelin_stone",
+        "damage": 0,
+        "count": 1
+      }
+    },
+    {
+      "weight": 0.2900550961494446,
+      "min": 1,
+      "max": 1,
+      "item": {
+        "id": "spartanweaponry:boomerang_stone",
+        "damage": 0,
+        "count": 1
+      }
+    },
+    {
+      "weight": 0.2900550961494446,
+      "min": 1,
+      "max": 1,
+      "item": {
+        "id": "spartanweaponry:staff_stone",
+        "damage": 0,
+        "count": 1
+      }
+    },
+    {
+      "weight": 1.0,
+      "min": 1,
+      "max": 1,
+      "item": {
+        "id": "spartanweaponry:halberd_copper",
+        "damage": 0,
+        "count": 1,
+        "tag": {
+          "nbtType": "compound",
+          "nbt": {
+            "Quality": {
+              "nbtType": "compound",
+              "nbt": {}
+            }
+          }
+        }
+      }
+    },
+    {
+      "weight": 1.0,
+      "min": 1,
+      "max": 1,
+      "item": {
+        "id": "spartanweaponry:dagger_copper",
+        "damage": 0,
+        "count": 1,
+        "tag": {
+          "nbtType": "compound",
+          "nbt": {
+            "Quality": {
+              "nbtType": "compound",
+              "nbt": {}
+            }
+          }
+        }
+      }
+    },
+    {
+      "weight": 1.0,
+      "min": 1,
+      "max": 1,
+      "item": {
+        "id": "spartanweaponry:katana_copper",
+        "damage": 0,
+        "count": 1,
+        "tag": {
+          "nbtType": "compound",
+          "nbt": {
+            "Quality": {
+              "nbtType": "compound",
+              "nbt": {}
+            }
+          }
+        }
+      }
+    },
+    {
+      "weight": 1.0,
+      "min": 1,
+      "max": 1,
+      "item": {
+        "id": "spartanweaponry:rapier_copper",
+        "damage": 0,
+        "count": 1,
+        "tag": {
+          "nbtType": "compound",
+          "nbt": {
+            "Quality": {
+              "nbtType": "compound",
+              "nbt": {}
+            }
+          }
+        }
+      }
+    },
+    {
+      "weight": 1.0,
+      "min": 1,
+      "max": 1,
+      "item": {
+        "id": "spartanweaponry:spear_copper",
+        "damage": 0,
+        "count": 1,
+        "tag": {
+          "nbtType": "compound",
+          "nbt": {
+            "Quality": {
+              "nbtType": "compound",
+              "nbt": {}
+            }
+          }
+        }
+      }
+    },
+    {
+      "weight": 1.0,
+      "min": 1,
+      "max": 1,
+      "item": {
+        "id": "spartanweaponry:throwing_knife_copper",
+        "damage": 0,
+        "count": 1
+      }
+    },
+    {
+      "weight": 1.0,
+      "min": 1,
+      "max": 1,
+      "item": {
+        "id": "spartanweaponry:throwing_axe_copper",
+        "damage": 0,
+        "count": 1
+      }
+    },
+    {
+      "weight": 1.0,
+      "min": 1,
+      "max": 1,
+      "item": {
+        "id": "spartanweaponry:javelin_copper",
+        "damage": 0,
+        "count": 1
+      }
+    },
+    {
+      "weight": 1.0,
+      "min": 1,
+      "max": 1,
+      "item": {
+        "id": "spartanweaponry:boomerang_copper",
+        "damage": 0,
+        "count": 1
+      }
+    },
+    {
+      "weight": 1.0,
+      "min": 1,
+      "max": 1,
+      "item": {
+        "id": "spartanweaponry:staff_copper",
+        "damage": 0,
+        "count": 1
+      }
+    },
+    {
+      "weight": 1.0,
+      "min": 1,
+      "max": 1,
+      "item": {
+        "id": "spartanweaponry:dagger_tin",
+        "damage": 0,
+        "count": 1
+      }
+    },
+    {
+      "weight": 1.0,
+      "min": 1,
+      "max": 1,
+      "item": {
+        "id": "spartanweaponry:katana_tin",
+        "damage": 0,
+        "count": 1
+      }
+    },
+    {
+      "weight": 1.0,
+      "min": 1,
+      "max": 1,
+      "item": {
+        "id": "spartanweaponry:rapier_tin",
+        "damage": 0,
+        "count": 1
+      }
+    },
+    {
+      "weight": 1.0,
+      "min": 1,
+      "max": 1,
+      "item": {
+        "id": "spartanweaponry:spear_tin",
+        "damage": 0,
+        "count": 1
+      }
+    },
+    {
+      "weight": 1.0,
+      "min": 1,
+      "max": 1,
+      "item": {
+        "id": "spartanweaponry:halberd_tin",
+        "damage": 0,
+        "count": 1
+      }
+    },
+    {
+      "weight": 1.0,
+      "min": 1,
+      "max": 1,
+      "item": {
+        "id": "spartanweaponry:throwing_knife_tin",
+        "damage": 0,
+        "count": 1
+      }
+    },
+    {
+      "weight": 1.0,
+      "min": 1,
+      "max": 1,
+      "item": {
+        "id": "spartanweaponry:throwing_axe_tin",
+        "damage": 0,
+        "count": 1
+      }
+    },
+    {
+      "weight": 1.0,
+      "min": 1,
+      "max": 1,
+      "item": {
+        "id": "spartanweaponry:javelin_tin",
+        "damage": 0,
+        "count": 1
+      }
+    },
+    {
+      "weight": 1.0,
+      "min": 1,
+      "max": 1,
+      "item": {
+        "id": "spartanweaponry:boomerang_tin",
+        "damage": 0,
+        "count": 1
+      }
+    },
+    {
+      "weight": 1.0,
+      "min": 1,
+      "max": 1,
+      "item": {
+        "id": "spartanweaponry:staff_tin",
+        "damage": 0,
+        "count": 1
+      }
+    },
+    {
+      "weight": 2.540874481201172,
+      "min": 14,
+      "max": 22,
+      "item": {
+        "id": "minecraft:arrow",
+        "damage": 0,
+        "count": 1
+      }
+    },
+    {
+      "weight": 2.540874481201172,
+      "min": 20,
+      "max": 38,
+      "item": {
+        "id": "spartanweaponry:arrow_wood",
+        "damage": 0,
+        "count": 1
+      }
+    },
+    {
+      "weight": 2.540874481201172,
+      "min": 13,
+      "max": 25,
+      "item": {
+        "id": "spartanweaponry:bolt",
+        "damage": 0,
+        "count": 1
+      }
+    },
+    {
+      "weight": 1.0,
+      "min": 10,
+      "max": 16,
+      "item": {
+        "id": "immersiveengineering:metal",
+        "damage": 0,
+        "count": 1
+      }
+    },
+    {
+      "weight": 1.763644814491272,
+      "min": 1,
+      "max": 1,
+      "item": {
+        "id": "minecraft:leather_helmet",
+        "damage": 0,
+        "count": 1
+      }
+    },
+    {
+      "weight": 1.763644814491272,
+      "min": 1,
+      "max": 1,
+      "item": {
+        "id": "minecraft:leather_chestplate",
+        "damage": 0,
+        "count": 1
+      }
+    },
+    {
+      "weight": 1.763644814491272,
+      "min": 1,
+      "max": 1,
+      "item": {
+        "id": "minecraft:leather_leggings",
+        "damage": 0,
+        "count": 1
+      }
+    },
+    {
+      "weight": 1.763644814491272,
+      "min": 1,
+      "max": 1,
+      "item": {
+        "id": "minecraft:leather_boots",
+        "damage": 0,
+        "count": 1
+      }
+    },
+    {
+      "weight": 1.0,
+      "min": 1,
+      "max": 1,
+      "item": {
+        "id": "mocreatures:hidechest",
+        "damage": 0,
+        "count": 1
+      }
+    },
+    {
+      "weight": 1.0,
+      "min": 1,
+      "max": 1,
+      "item": {
+        "id": "mocreatures:hidehelmet",
+        "damage": 0,
+        "count": 1
+      }
+    },
+    {
+      "weight": 1.0,
+      "min": 1,
+      "max": 1,
+      "item": {
+        "id": "mocreatures:hidelegs",
+        "damage": 0,
+        "count": 1
+      }
+    },
+    {
+      "weight": 1.0,
+      "min": 1,
+      "max": 1,
+      "item": {
+        "id": "mocreatures:hideboots",
+        "damage": 0,
+        "count": 1
+      }
+    }
+  ],
+  "dependencyExpression": ""
+}

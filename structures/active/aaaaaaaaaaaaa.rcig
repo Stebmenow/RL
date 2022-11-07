@@ -1,0 +1,91 @@
+{
+  "version": 2,
+  "inventoryGeneratorID": "minecraft:chests/simple_dungeon",
+  "items": [
+    {
+      "weight": 99.99998474121094,
+      "min": 1,
+      "max": 64,
+      "item": {
+        "id": "reccomplex:block_selector_floating",
+        "damage": 0,
+        "count": 1,
+        "tag": {
+          "nbtType": "compound",
+          "nbt": {
+            "selectionRange": {
+              "nbtType": "float",
+              "nbt": 2.48
+            }
+          }
+        }
+      }
+    },
+    {
+      "weight": 99.99998474121094,
+      "min": 1,
+      "max": 64,
+      "item": {
+        "id": "reccomplex:block_selector_floating",
+        "damage": 0,
+        "count": 1,
+        "tag": {
+          "nbtType": "compound",
+          "nbt": {
+            "selectionRange": {
+              "nbtType": "float",
+              "nbt": 2.48
+            }
+          }
+        }
+      }
+    },
+    {
+      "weight": 46.52753448486328,
+      "min": 1,
+      "max": 1,
+      "item": {
+        "id": "reccomplex:inventory_generation_tag",
+        "damage": 0,
+        "count": 1,
+        "tag": {
+          "nbtType": "compound",
+          "nbt": {
+            "itemCountMax": {
+              "nbtType": "int",
+              "nbt": 4
+            },
+            "itemCollectionKey": {
+              "nbtType": "string",
+              "nbt": "ebwizardry:subsets/arcane_tomes"
+            },
+            "itemCountMin": {
+              "nbtType": "int",
+              "nbt": 2
+            }
+          }
+        }
+      }
+    },
+    {
+      "weight": 48.38838577270508,
+      "min": 1,
+      "max": 1,
+      "item": {
+        "id": "reccomplex:inventory_generation_tag",
+        "damage": 0,
+        "count": 1,
+        "tag": {
+          "nbtType": "compound",
+          "nbt": {
+            "itemCollectionKey": {
+              "nbtType": "string",
+              "nbt": "ebwizardry:subsets/epic_artefacts"
+            }
+          }
+        }
+      }
+    }
+  ],
+  "dependencyExpression": ""
+}

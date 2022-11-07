@@ -6,15 +6,15 @@
   "skills": [
     {
       "name": "levelup:fishbonus",
-      "level": 2
+      "level": 8
     },
     {
       "name": "levelup:furnacebonus",
-      "level": 2
+      "level": 4
     },
     {
       "name": "levelup:furnacespeed",
-      "level": 1
+      "level": 4
     },
     {
       "name": "levelup:lumbering",

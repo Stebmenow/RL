@@ -11,7 +11,6 @@ recipes.addShaped("claybrickfrommudball",<notreepunching:clay_brick>,
  [[<notreepunching:clay_tool>.anyDamage().transformDamage(),<ore:ballMud>,<ore:ballMud>],
   [null,<ore:ballMud>,<ore:ballMud>]]);
 
-
 recipes.remove(<notreepunching:clay_tool>);
 recipes.addShaped("claytool",<notreepunching:clay_tool>,
 [[null,<ore:string>,<ore:stickWood>],

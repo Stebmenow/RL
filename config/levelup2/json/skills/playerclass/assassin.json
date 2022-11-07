@@ -6,11 +6,11 @@
   "skills": [
     {
       "name": "levelup:stealth",
-      "level": 2
+      "level": 5
     },
     {
       "name": "levelup:stealthdamage",
-      "level": 1
+      "level": 2
     },
     {
       "name": "levelup:sworddamage",
@@ -18,7 +18,7 @@
     },
     {
       "name": "levelup:arrowspeed",
-      "level": 1
+      "level": 2
     }
   ]
 }

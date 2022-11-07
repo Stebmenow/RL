@@ -6,19 +6,15 @@
   "skills": [
     {
       "name": "levelup:furnacespeed",
-      "level": 1
+      "level": 6
     },
     {
       "name": "levelup:furnacebonus",
-      "level": 2
+      "level": 4
     },
     {
       "name": "levelup:brewingspeed",
-      "level": 1
-    },
-    {
-      "name": "levelup:woodcutting",
-      "level": 2
+      "level": 6
     }
   ]
 }

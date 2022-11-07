@@ -6,11 +6,11 @@
   "skills": [
     {
       "name": "levelup:cropgrowth",
-      "level": 2
+      "level": 6
     },
     {
       "name": "levelup:harvestbonus",
-      "level": 2
+      "level": 4
     },
     {
       "name": "levelup:fishbonus",

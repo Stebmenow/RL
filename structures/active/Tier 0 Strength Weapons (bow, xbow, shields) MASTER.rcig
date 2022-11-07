@@ -1,0 +1,708 @@
+{
+  "version": 2,
+  "inventoryGeneratorID": "Tier 0 Strength Weapons (bow, xbow, shields) MASTER",
+  "items": [
+    {
+      "weight": 1.39763605594635,
+      "min": 1,
+      "max": 1,
+      "item": {
+        "id": "spartanshields:shield_abyssalcraft_darkstone",
+        "damage": 0,
+        "count": 1
+      }
+    },
+    {
+      "weight": 0.2900550961494446,
+      "min": 1,
+      "max": 1,
+      "item": {
+        "id": "spartanshields:shield_tower_stone",
+        "damage": 0,
+        "count": 1
+      }
+    },
+    {
+      "weight": 0.2900550961494446,
+      "min": 1,
+      "max": 1,
+      "item": {
+        "id": "spartanweaponry:pike_stone",
+        "damage": 0,
+        "count": 1
+      }
+    },
+    {
+      "weight": 0.2900550961494446,
+      "min": 1,
+      "max": 1,
+      "item": {
+        "id": "spartanweaponry:halberd_stone",
+        "damage": 0,
+        "count": 1
+      }
+    },
+    {
+      "weight": 0.2900550961494446,
+      "min": 1,
+      "max": 1,
+      "item": {
+        "id": "spartanweaponry:battleaxe_stone",
+        "damage": 0,
+        "count": 1
+      }
+    },
+    {
+      "weight": 0.2900550961494446,
+      "min": 1,
+      "max": 1,
+      "item": {
+        "id": "spartanweaponry:hammer_stone",
+        "damage": 0,
+        "count": 1
+      }
+    },
+    {
+      "weight": 0.2900550961494446,
+      "min": 1,
+      "max": 1,
+      "item": {
+        "id": "spartanweaponry:warhammer_stone",
+        "damage": 0,
+        "count": 1
+      }
+    },
+    {
+      "weight": 0.2900550961494446,
+      "min": 1,
+      "max": 1,
+      "item": {
+        "id": "spartanweaponry:mace_stone",
+        "damage": 0,
+        "count": 1
+      }
+    },
+    {
+      "weight": 0.2900550961494446,
+      "min": 1,
+      "max": 1,
+      "item": {
+        "id": "spartanweaponry:lance_stone",
+        "damage": 0,
+        "count": 1
+      }
+    },
+    {
+      "weight": 0.2900550961494446,
+      "min": 1,
+      "max": 1,
+      "item": {
+        "id": "spartanweaponry:glaive_stone",
+        "damage": 0,
+        "count": 1
+      }
+    },
+    {
+      "weight": 0.2900550961494446,
+      "min": 1,
+      "max": 1,
+      "item": {
+        "id": "spartanweaponry:saber_stone",
+        "damage": 0,
+        "count": 1
+      }
+    },
+    {
+      "weight": 0.2900550961494446,
+      "min": 1,
+      "max": 1,
+      "item": {
+        "id": "spartanweaponry:longsword_stone",
+        "damage": 0,
+        "count": 1
+      }
+    },
+    {
+      "weight": 0.2900550961494446,
+      "min": 1,
+      "max": 1,
+      "item": {
+        "id": "spartanweaponry:greatsword_stone",
+        "damage": 0,
+        "count": 1
+      }
+    },
+    {
+      "weight": 1.0,
+      "min": 1,
+      "max": 1,
+      "item": {
+        "id": "spartanshields:shield_basic_copper",
+        "damage": 0,
+        "count": 1
+      }
+    },
+    {
+      "weight": 1.0,
+      "min": 1,
+      "max": 1,
+      "item": {
+        "id": "spartanshields:shield_tower_copper",
+        "damage": 0,
+        "count": 1
+      }
+    },
+    {
+      "weight": 1.0,
+      "min": 1,
+      "max": 1,
+      "item": {
+        "id": "spartanweaponry:longsword_copper",
+        "damage": 0,
+        "count": 1
+      }
+    },
+    {
+      "weight": 1.0,
+      "min": 1,
+      "max": 1,
+      "item": {
+        "id": "spartanweaponry:saber_copper",
+        "damage": 0,
+        "count": 1
+      }
+    },
+    {
+      "weight": 1.0,
+      "min": 1,
+      "max": 1,
+      "item": {
+        "id": "spartanweaponry:greatsword_copper",
+        "damage": 0,
+        "count": 1
+      }
+    },
+    {
+      "weight": 1.0,
+      "min": 1,
+      "max": 1,
+      "item": {
+        "id": "spartanweaponry:hammer_copper",
+        "damage": 0,
+        "count": 1
+      }
+    },
+    {
+      "weight": 1.0,
+      "min": 1,
+      "max": 1,
+      "item": {
+        "id": "spartanweaponry:warhammer_copper",
+        "damage": 0,
+        "count": 1
+      }
+    },
+    {
+      "weight": 1.0,
+      "min": 1,
+      "max": 1,
+      "item": {
+        "id": "spartanweaponry:pike_copper",
+        "damage": 0,
+        "count": 1
+      }
+    },
+    {
+      "weight": 1.0,
+      "min": 1,
+      "max": 1,
+      "item": {
+        "id": "spartanweaponry:lance_copper",
+        "damage": 0,
+        "count": 1
+      }
+    },
+    {
+      "weight": 1.0,
+      "min": 1,
+      "max": 1,
+      "item": {
+        "id": "spartanweaponry:battleaxe_copper",
+        "damage": 0,
+        "count": 1
+      }
+    },
+    {
+      "weight": 1.0,
+      "min": 1,
+      "max": 1,
+      "item": {
+        "id": "spartanweaponry:mace_copper",
+        "damage": 0,
+        "count": 1
+      }
+    },
+    {
+      "weight": 1.0,
+      "min": 1,
+      "max": 1,
+      "item": {
+        "id": "spartanweaponry:glaive_copper",
+        "damage": 0,
+        "count": 1
+      }
+    },
+    {
+      "weight": 1.0,
+      "min": 1,
+      "max": 1,
+      "item": {
+        "id": "spartanweaponry:warhammer_tin",
+        "damage": 0,
+        "count": 1,
+        "tag": {
+          "nbtType": "compound",
+          "nbt": {
+            "Quality": {
+              "nbtType": "compound",
+              "nbt": {}
+            }
+          }
+        }
+      }
+    },
+    {
+      "weight": 1.0,
+      "min": 1,
+      "max": 1,
+      "item": {
+        "id": "spartanweaponry:pike_tin",
+        "damage": 0,
+        "count": 1,
+        "tag": {
+          "nbtType": "compound",
+          "nbt": {
+            "Quality": {
+              "nbtType": "compound",
+              "nbt": {
+                "Slots": {
+                  "nbtType": "list",
+                  "nbt": [
+                    {
+                      "nbtType": "string",
+                      "nbt": "mainhand"
+                    }
+                  ]
+                },
+                "Color": {
+                  "nbtType": "string",
+                  "nbt": "blue"
+                },
+                "AttributeModifiers": {
+                  "nbtType": "list",
+                  "nbt": [
+                    {
+                      "nbtType": "compound",
+                      "nbt": {
+                        "UUIDMost": {
+                          "nbtType": "long",
+                          "nbt": -77746926868476314
+                        },
+                        "UUIDLeast": {
+                          "nbtType": "long",
+                          "nbt": -7204504221705783920
+                        },
+                        "Amount": {
+                          "nbtType": "double",
+                          "nbt": 0.10000000149011612
+                        },
+                        "AttributeName": {
+                          "nbtType": "string",
+                          "nbt": "generic.attackDamage"
+                        },
+                        "Operation": {
+                          "nbtType": "int",
+                          "nbt": 2
+                        },
+                        "Name": {
+                          "nbtType": "string",
+                          "nbt": "qualitytools"
+                        }
+                      }
+                    }
+                  ]
+                },
+                "Name": {
+                  "nbtType": "string",
+                  "nbt": "Sharp"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    {
+      "weight": 1.0,
+      "min": 1,
+      "max": 1,
+      "item": {
+        "id": "spartanweaponry:lance_tin",
+        "damage": 0,
+        "count": 1,
+        "tag": {
+          "nbtType": "compound",
+          "nbt": {
+            "Quality": {
+              "nbtType": "compound",
+              "nbt": {}
+            }
+          }
+        }
+      }
+    },
+    {
+      "weight": 1.0,
+      "min": 1,
+      "max": 1,
+      "item": {
+        "id": "spartanweaponry:longbow_tin",
+        "damage": 0,
+        "count": 1,
+        "tag": {
+          "nbtType": "compound",
+          "nbt": {
+            "Quality": {
+              "nbtType": "compound",
+              "nbt": {}
+            }
+          }
+        }
+      }
+    },
+    {
+      "weight": 1.0,
+      "min": 1,
+      "max": 1,
+      "item": {
+        "id": "spartanweaponry:crossbow_tin",
+        "damage": 0,
+        "count": 1,
+        "tag": {
+          "nbtType": "compound",
+          "nbt": {
+            "Quality": {
+              "nbtType": "compound",
+              "nbt": {
+                "Slots": {
+                  "nbtType": "list",
+                  "nbt": [
+                    {
+                      "nbtType": "string",
+                      "nbt": "mainhand"
+                    },
+                    {
+                      "nbtType": "string",
+                      "nbt": "offhand"
+                    }
+                  ]
+                },
+                "Color": {
+                  "nbtType": "string",
+                  "nbt": "aqua"
+                },
+                "AttributeModifiers": {
+                  "nbtType": "list",
+                  "nbt": [
+                    {
+                      "nbtType": "compound",
+                      "nbt": {
+                        "UUIDMost": {
+                          "nbtType": "long",
+                          "nbt": -4859683070333924307
+                        },
+                        "UUIDLeast": {
+                          "nbtType": "long",
+                          "nbt": -4746862363800054862
+                        },
+                        "Amount": {
+                          "nbtType": "double",
+                          "nbt": 0.10000000149011612
+                        },
+                        "AttributeName": {
+                          "nbtType": "string",
+                          "nbt": "potioncore.projectileDamage"
+                        },
+                        "Operation": {
+                          "nbtType": "int",
+                          "nbt": 2
+                        },
+                        "Name": {
+                          "nbtType": "string",
+                          "nbt": "qualitytools"
+                        }
+                      }
+                    },
+                    {
+                      "nbtType": "compound",
+                      "nbt": {
+                        "UUIDMost": {
+                          "nbtType": "long",
+                          "nbt": 3812179510252552276
+                        },
+                        "UUIDLeast": {
+                          "nbtType": "long",
+                          "nbt": -5274101644830498912
+                        },
+                        "Amount": {
+                          "nbtType": "double",
+                          "nbt": -0.07000000029802322
+                        },
+                        "AttributeName": {
+                          "nbtType": "string",
+                          "nbt": "generic.movementSpeed"
+                        },
+                        "Operation": {
+                          "nbtType": "int",
+                          "nbt": 2
+                        },
+                        "Name": {
+                          "nbtType": "string",
+                          "nbt": "qualitytools"
+                        }
+                      }
+                    }
+                  ]
+                },
+                "Name": {
+                  "nbtType": "string",
+                  "nbt": "Reinforced"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    {
+      "weight": 1.0,
+      "min": 1,
+      "max": 1,
+      "item": {
+        "id": "spartanweaponry:battleaxe_tin",
+        "damage": 0,
+        "count": 1,
+        "tag": {
+          "nbtType": "compound",
+          "nbt": {
+            "Quality": {
+              "nbtType": "compound",
+              "nbt": {}
+            }
+          }
+        }
+      }
+    },
+    {
+      "weight": 1.0,
+      "min": 1,
+      "max": 1,
+      "item": {
+        "id": "spartanweaponry:mace_tin",
+        "damage": 0,
+        "count": 1,
+        "tag": {
+          "nbtType": "compound",
+          "nbt": {
+            "Quality": {
+              "nbtType": "compound",
+              "nbt": {}
+            }
+          }
+        }
+      }
+    },
+    {
+      "weight": 1.0,
+      "min": 1,
+      "max": 1,
+      "item": {
+        "id": "spartanweaponry:glaive_tin",
+        "damage": 0,
+        "count": 1,
+        "tag": {
+          "nbtType": "compound",
+          "nbt": {
+            "Quality": {
+              "nbtType": "compound",
+              "nbt": {}
+            }
+          }
+        }
+      }
+    },
+    {
+      "weight": 1.0,
+      "min": 1,
+      "max": 1,
+      "item": {
+        "id": "spartanweaponry:longbow_copper",
+        "damage": 0,
+        "count": 1,
+        "tag": {
+          "nbtType": "compound",
+          "nbt": {
+            "Quality": {
+              "nbtType": "compound",
+              "nbt": {}
+            }
+          }
+        }
+      }
+    },
+    {
+      "weight": 1.0,
+      "min": 1,
+      "max": 1,
+      "item": {
+        "id": "spartanweaponry:crossbow_copper",
+        "damage": 0,
+        "count": 1,
+        "tag": {
+          "nbtType": "compound",
+          "nbt": {
+            "Quality": {
+              "nbtType": "compound",
+              "nbt": {}
+            }
+          }
+        }
+      }
+    },
+    {
+      "weight": 1.0,
+      "min": 1,
+      "max": 1,
+      "item": {
+        "id": "spartanweaponry:longsword_tin",
+        "damage": 0,
+        "count": 1,
+        "tag": {
+          "nbtType": "compound",
+          "nbt": {
+            "Quality": {
+              "nbtType": "compound",
+              "nbt": {}
+            }
+          }
+        }
+      }
+    },
+    {
+      "weight": 1.0,
+      "min": 1,
+      "max": 1,
+      "item": {
+        "id": "spartanshields:shield_basic_tin",
+        "damage": 0,
+        "count": 1,
+        "tag": {
+          "nbtType": "compound",
+          "nbt": {
+            "Quality": {
+              "nbtType": "compound",
+              "nbt": {}
+            }
+          }
+        }
+      }
+    },
+    {
+      "weight": 1.0,
+      "min": 1,
+      "max": 1,
+      "item": {
+        "id": "spartanshields:shield_tower_tin",
+        "damage": 0,
+        "count": 1,
+        "tag": {
+          "nbtType": "compound",
+          "nbt": {
+            "Quality": {
+              "nbtType": "compound",
+              "nbt": {}
+            }
+          }
+        }
+      }
+    },
+    {
+      "weight": 1.0,
+      "min": 1,
+      "max": 1,
+      "item": {
+        "id": "spartanweaponry:saber_tin",
+        "damage": 0,
+        "count": 1,
+        "tag": {
+          "nbtType": "compound",
+          "nbt": {
+            "Quality": {
+              "nbtType": "compound",
+              "nbt": {}
+            }
+          }
+        }
+      }
+    },
+    {
+      "weight": 1.0,
+      "min": 1,
+      "max": 1,
+      "item": {
+        "id": "spartanweaponry:greatsword_tin",
+        "damage": 0,
+        "count": 1,
+        "tag": {
+          "nbtType": "compound",
+          "nbt": {
+            "Quality": {
+              "nbtType": "compound",
+              "nbt": {}
+            }
+          }
+        }
+      }
+    },
+    {
+      "weight": 1.0,
+      "min": 1,
+      "max": 1,
+      "item": {
+        "id": "spartanweaponry:hammer_tin",
+        "damage": 0,
+        "count": 1,
+        "tag": {
+          "nbtType": "compound",
+          "nbt": {
+            "Quality": {
+              "nbtType": "compound",
+              "nbt": {}
+            }
+          }
+        }
+      }
+    },
+    {
+      "weight": 1.0,
+      "min": 1,
+      "max": 1,
+      "item": {
+        "id": "minecraft:shield",
+        "damage": 0,
+        "count": 1
+      }
+    }
+  ],
+  "dependencyExpression": "$spartanweaponry \u0026 $spartanshields"
+}

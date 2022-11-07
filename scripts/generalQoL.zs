@@ -11,18 +11,23 @@ recipes.addShapedMirrored(<treasure2:ruby_key>, [[null, <treasure2:gold_key>, <t
 recipes.addShaped(<minecraft:tnt>, [[<defiledlands:blastem_fruit>, <ore:sand>, <defiledlands:blastem_fruit>],[<ore:sand>, <defiledlands:blastem_fruit>, <ore:sand>], [<defiledlands:blastem_fruit>, <ore:sand>, <defiledlands:blastem_fruit>]]);
 recipes.addShapeless("rockstoflint",<notreepunching:flint_shard:0>,[<ore:rock>,<ore:rock>,<ore:rock>]);
 recipes.addShapeless("saplingtofibre",<notreepunching:grass_fiber:0>*8,[<ore:treeSapling>,<ore:treeSapling>,<ore:treeSapling>]);
-recipes.addShapeless("cactustofibre",<notreepunching:grass_fiber:0>*3,[<ore:blockCactus>,<ore:blockCactus>,<ore:blockCactus>]);
+recipes.addShapeless("cactustofibre",<notreepunching:grass_fiber:0>*12,[<ore:blockCactus>,<ore:blockCactus>,<ore:blockCactus>]);
 <ore:logWood>.add(<treasure2:wither_log:0>);
 <ore:plankWood>.add(<treasure2:wither_planks:0>);
 <ore:cobblestone>.add(<quark:biome_cobblestone:*>);
 <ore:cobblestone>.add(<quark:slate:0>);
 <ore:cobblestone>.add(<quark:marble:0>);
 <ore:cobblestone>.add(<quark:jasper:0>);
+
 recipes.addShapeless(<minecraft:stick> * 4, [<minecraft:deadbush>,<minecraft:deadbush>]);
 recipes.addShapeless(<notreepunching:grass_fiber> * 2, [<mysticalworld:thatch>]);
 recipes.addShapeless(<minecraft:stick> * 4, [<mysticalworld:thatch>,<mysticalworld:thatch>]);
+
 recipes.addShapeless(<biomesoplenty:gem:6>, [<iceandfire:sapphire_gem>]);
 recipes.addShapeless(<iceandfire:sapphire_gem>, [<biomesoplenty:gem:6>]);
+<iceandfire:sapphire_gem>.addTooltip("Can be crafted into its Biomes O'Plenty equivalent");
+<biomesoplenty:gem:6>.addTooltip("Can be crafted into its Ice and Fire equivalent");
+
 recipes.addShapeless(<minecraft:diamond_horse_armor>, [<iceandfire:diamond_hippogryph_armor>]);
 recipes.addShapeless(<minecraft:golden_horse_armor>, [<iceandfire:gold_hippogryph_armor>]);
 recipes.addShapeless(<minecraft:iron_horse_armor>, [<iceandfire:iron_hippogryph_armor>]);

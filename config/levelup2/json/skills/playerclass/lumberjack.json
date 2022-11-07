@@ -6,19 +6,15 @@
   "skills": [
     {
       "name": "levelup:woodcutting",
-      "level": 2
+      "level": 6
     },
     {
       "name": "levelup:lumbering",
-      "level": 1
+      "level": 2
     },
     {
       "name": "levelup:naturalarmor",
       "level": 2
-    },
-    {
-      "name": "levelup:fallprotect",
-      "level": 1
     }
   ]
 }

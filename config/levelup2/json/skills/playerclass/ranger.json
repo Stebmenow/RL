@@ -6,11 +6,11 @@
   "skills": [
     {
       "name": "levelup:bowdraw",
-      "level": 2
+      "level": 4
     },
     {
       "name": "levelup:arrowspeed",
-      "level": 1
+      "level": 4
     },
     {
       "name": "levelup:stealth",
@@ -18,7 +18,7 @@
     },
     {
       "name": "levelup:fallprotect",
-      "level": 1
+      "level": 2
     }
   ]
 }

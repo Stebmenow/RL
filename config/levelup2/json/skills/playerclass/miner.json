@@ -6,19 +6,15 @@
   "skills": [
     {
       "name": "levelup:stonecutting",
-      "level": 2
+      "level": 7
     },
     {
       "name": "levelup:flintloot",
-      "level": 2
+      "level": 3
     },
     {
       "name": "levelup:prospecting",
-      "level": 1
-    },
-    {
-      "name": "levelup:furnacespeed",
-      "level": 1
+      "level": 2
     }
   ]
 }

@@ -1,0 +1,237 @@
+{
+  "version": 2,
+  "inventoryGeneratorID": "Tier 0 Material Loot MASTER",
+  "items": [
+    {
+      "weight": 0.35883715748786926,
+      "min": 6,
+      "max": 8,
+      "item": {
+        "id": "mysticalworld:silver_ingot",
+        "damage": 0,
+        "count": 1
+      }
+    },
+    {
+      "weight": 0.35883715748786926,
+      "min": 6,
+      "max": 8,
+      "item": {
+        "id": "minecraft:iron_ingot",
+        "damage": 0,
+        "count": 1
+      }
+    },
+    {
+      "weight": 2.540874481201172,
+      "min": 12,
+      "max": 18,
+      "item": {
+        "id": "mysticalworld:copper_ingot",
+        "damage": 0,
+        "count": 1
+      }
+    },
+    {
+      "weight": 1.0,
+      "min": 2,
+      "max": 4,
+      "item": {
+        "id": "minecraft:redstone",
+        "damage": 0,
+        "count": 1
+      }
+    },
+    {
+      "weight": 1.0,
+      "min": 4,
+      "max": 8,
+      "item": {
+        "id": "minecraft:glowstone_dust",
+        "damage": 0,
+        "count": 1
+      }
+    },
+    {
+      "weight": 1.0,
+      "min": 2,
+      "max": 4,
+      "item": {
+        "id": "minecraft:quartz",
+        "damage": 0,
+        "count": 1
+      }
+    },
+    {
+      "weight": 0.05511390045285225,
+      "min": 1,
+      "max": 1,
+      "item": {
+        "id": "iceandfire:sapphire_gem",
+        "damage": 0,
+        "count": 1
+      }
+    },
+    {
+      "weight": 0.35883715748786926,
+      "min": 40,
+      "max": 64,
+      "item": {
+        "id": "minecraft:planks",
+        "damage": 0,
+        "count": 1
+      }
+    },
+    {
+      "weight": 1.0,
+      "min": 20,
+      "max": 28,
+      "item": {
+        "id": "minecraft:iron_nugget",
+        "damage": 0,
+        "count": 1
+      }
+    },
+    {
+      "weight": 1.0,
+      "min": 6,
+      "max": 12,
+      "item": {
+        "id": "minecraft:gold_nugget",
+        "damage": 0,
+        "count": 1
+      }
+    },
+    {
+      "weight": 1.0,
+      "min": 16,
+      "max": 24,
+      "item": {
+        "id": "minecraft:coal",
+        "damage": 0,
+        "count": 1
+      }
+    },
+    {
+      "weight": 1.0,
+      "min": 1,
+      "max": 1,
+      "item": {
+        "id": "minecraft:ender_pearl",
+        "damage": 0,
+        "count": 1
+      }
+    },
+    {
+      "weight": 0.32298368215560913,
+      "min": 1,
+      "max": 1,
+      "item": {
+        "id": "minecraft:iron_horse_armor",
+        "damage": 0,
+        "count": 1
+      }
+    },
+    {
+      "weight": 1.0,
+      "min": 1,
+      "max": 2,
+      "item": {
+        "id": "corpsecomplex:scroll",
+        "damage": 0,
+        "count": 1
+      }
+    },
+    {
+      "weight": 0.5354365706443787,
+      "min": 2,
+      "max": 5,
+      "item": {
+        "id": "defiledlands:hephaestite",
+        "damage": 0,
+        "count": 1
+      }
+    },
+    {
+      "weight": 1.0,
+      "min": 4,
+      "max": 6,
+      "item": {
+        "id": "minecraft:leather",
+        "damage": 0,
+        "count": 1
+      }
+    },
+    {
+      "weight": 1.0,
+      "min": 1,
+      "max": 2,
+      "item": {
+        "id": "mocreatures:fur",
+        "damage": 0,
+        "count": 1
+      }
+    },
+    {
+      "weight": 1.0,
+      "min": 10,
+      "max": 14,
+      "item": {
+        "id": "ebwizardry:magic_crystal",
+        "damage": 0,
+        "count": 1
+      }
+    },
+    {
+      "weight": 0.32298368215560913,
+      "min": 1,
+      "max": 1,
+      "item": {
+        "id": "ebwizardry:arcane_tome",
+        "damage": 1,
+        "count": 1
+      }
+    },
+    {
+      "weight": 0.5354365706443787,
+      "min": 24,
+      "max": 32,
+      "item": {
+        "id": "quark:rope",
+        "damage": 0,
+        "count": 1
+      }
+    },
+    {
+      "weight": 1.0,
+      "min": 1,
+      "max": 1,
+      "item": {
+        "id": "twilightforest:charm_of_keeping_1",
+        "damage": 0,
+        "count": 1
+      }
+    },
+    {
+      "weight": 1.290178656578064,
+      "min": 8,
+      "max": 16,
+      "item": {
+        "id": "realistictorches:torch_lit",
+        "damage": 0,
+        "count": 1
+      }
+    },
+    {
+      "weight": 1.0,
+      "min": 1,
+      "max": 1,
+      "item": {
+        "id": "waystones:return_scroll",
+        "damage": 0,
+        "count": 1
+      }
+    }
+  ],
+  "dependencyExpression": "$mysticalworld \u0026 $iceandfire \u0026 $twilightforest \u0026 $ebwizardry \u0026 $mocreatures \u0026 $quark \u0026 $defiledlands \u0026 $corpsecomplex \u0026 $waystones \u0026 $realistictorches"
+}

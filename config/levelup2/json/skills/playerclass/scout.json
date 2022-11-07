@@ -7,6 +7,10 @@
       {
         "name": "levelup:sprintspeed",
         "level": 4
+      },
+      {
+        "name": "levelup:fallprotect",
+        "level": 3
       }
     ]
   }

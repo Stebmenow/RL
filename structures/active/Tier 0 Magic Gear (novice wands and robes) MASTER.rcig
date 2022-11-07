@@ -1,0 +1,479 @@
+{
+  "version": 2,
+  "inventoryGeneratorID": "Tier 0 Magic Gear (novice wands and robes) MASTER",
+  "items": [
+    {
+      "weight": 2.202605724334717,
+      "min": 1,
+      "max": 1,
+      "item": {
+        "id": "ebwizardry:magic_wand",
+        "damage": 0,
+        "count": 1,
+        "tag": {
+          "nbtType": "compound",
+          "nbt": {
+            "Quality": {
+              "nbtType": "compound",
+              "nbt": {}
+            }
+          }
+        }
+      }
+    },
+    {
+      "weight": 1.0,
+      "min": 1,
+      "max": 1,
+      "item": {
+        "id": "ebwizardry:novice_fire_wand",
+        "damage": 0,
+        "count": 1,
+        "tag": {
+          "nbtType": "compound",
+          "nbt": {
+            "Quality": {
+              "nbtType": "compound",
+              "nbt": {}
+            }
+          }
+        }
+      }
+    },
+    {
+      "weight": 1.0,
+      "min": 1,
+      "max": 1,
+      "item": {
+        "id": "ebwizardry:novice_ice_wand",
+        "damage": 0,
+        "count": 1,
+        "tag": {
+          "nbtType": "compound",
+          "nbt": {
+            "Quality": {
+              "nbtType": "compound",
+              "nbt": {}
+            }
+          }
+        }
+      }
+    },
+    {
+      "weight": 1.0,
+      "min": 1,
+      "max": 1,
+      "item": {
+        "id": "ebwizardry:novice_lightning_wand",
+        "damage": 0,
+        "count": 1,
+        "tag": {
+          "nbtType": "compound",
+          "nbt": {
+            "Quality": {
+              "nbtType": "compound",
+              "nbt": {}
+            }
+          }
+        }
+      }
+    },
+    {
+      "weight": 1.0,
+      "min": 1,
+      "max": 1,
+      "item": {
+        "id": "ebwizardry:novice_necromancy_wand",
+        "damage": 0,
+        "count": 1,
+        "tag": {
+          "nbtType": "compound",
+          "nbt": {
+            "Quality": {
+              "nbtType": "compound",
+              "nbt": {}
+            }
+          }
+        }
+      }
+    },
+    {
+      "weight": 1.0,
+      "min": 1,
+      "max": 1,
+      "item": {
+        "id": "ebwizardry:novice_earth_wand",
+        "damage": 0,
+        "count": 1,
+        "tag": {
+          "nbtType": "compound",
+          "nbt": {
+            "Quality": {
+              "nbtType": "compound",
+              "nbt": {}
+            }
+          }
+        }
+      }
+    },
+    {
+      "weight": 1.0,
+      "min": 1,
+      "max": 1,
+      "item": {
+        "id": "ebwizardry:novice_healing_wand",
+        "damage": 0,
+        "count": 1,
+        "tag": {
+          "nbtType": "compound",
+          "nbt": {
+            "Quality": {
+              "nbtType": "compound",
+              "nbt": {}
+            }
+          }
+        }
+      }
+    },
+    {
+      "weight": 1.0,
+      "min": 1,
+      "max": 1,
+      "item": {
+        "id": "ebwizardry:novice_sorcery_wand",
+        "damage": 0,
+        "count": 1,
+        "tag": {
+          "nbtType": "compound",
+          "nbt": {
+            "Quality": {
+              "nbtType": "compound",
+              "nbt": {}
+            }
+          }
+        }
+      }
+    },
+    {
+      "weight": 1.0,
+      "min": 1,
+      "max": 1,
+      "item": {
+        "id": "ebwizardry:wizard_hat",
+        "damage": 0,
+        "count": 1
+      }
+    },
+    {
+      "weight": 1.0,
+      "min": 1,
+      "max": 1,
+      "item": {
+        "id": "ebwizardry:wizard_robe",
+        "damage": 0,
+        "count": 1
+      }
+    },
+    {
+      "weight": 1.0,
+      "min": 1,
+      "max": 1,
+      "item": {
+        "id": "ebwizardry:wizard_leggings",
+        "damage": 0,
+        "count": 1
+      }
+    },
+    {
+      "weight": 0.2900550961494446,
+      "min": 1,
+      "max": 1,
+      "item": {
+        "id": "ebwizardry:wizard_boots",
+        "damage": 0,
+        "count": 1
+      }
+    },
+    {
+      "weight": 0.2900550961494446,
+      "min": 1,
+      "max": 1,
+      "item": {
+        "id": "ebwizardry:wizard_hat_fire",
+        "damage": 0,
+        "count": 1
+      }
+    },
+    {
+      "weight": 0.2900550961494446,
+      "min": 1,
+      "max": 1,
+      "item": {
+        "id": "ebwizardry:wizard_robe_fire",
+        "damage": 0,
+        "count": 1
+      }
+    },
+    {
+      "weight": 0.2900550961494446,
+      "min": 1,
+      "max": 1,
+      "item": {
+        "id": "ebwizardry:wizard_leggings_fire",
+        "damage": 0,
+        "count": 1
+      }
+    },
+    {
+      "weight": 0.2900550961494446,
+      "min": 1,
+      "max": 1,
+      "item": {
+        "id": "ebwizardry:wizard_boots_fire",
+        "damage": 0,
+        "count": 1
+      }
+    },
+    {
+      "weight": 0.2900550961494446,
+      "min": 1,
+      "max": 1,
+      "item": {
+        "id": "ebwizardry:wizard_hat_ice",
+        "damage": 0,
+        "count": 1
+      }
+    },
+    {
+      "weight": 0.2900550961494446,
+      "min": 1,
+      "max": 1,
+      "item": {
+        "id": "ebwizardry:wizard_robe_ice",
+        "damage": 0,
+        "count": 1
+      }
+    },
+    {
+      "weight": 0.2900550961494446,
+      "min": 1,
+      "max": 1,
+      "item": {
+        "id": "ebwizardry:wizard_leggings_ice",
+        "damage": 0,
+        "count": 1
+      }
+    },
+    {
+      "weight": 0.2900550961494446,
+      "min": 1,
+      "max": 1,
+      "item": {
+        "id": "ebwizardry:wizard_boots_ice",
+        "damage": 0,
+        "count": 1
+      }
+    },
+    {
+      "weight": 0.2900550961494446,
+      "min": 1,
+      "max": 1,
+      "item": {
+        "id": "ebwizardry:wizard_hat_lightning",
+        "damage": 0,
+        "count": 1
+      }
+    },
+    {
+      "weight": 0.2900550961494446,
+      "min": 1,
+      "max": 1,
+      "item": {
+        "id": "ebwizardry:wizard_robe_lightning",
+        "damage": 0,
+        "count": 1
+      }
+    },
+    {
+      "weight": 0.2900550961494446,
+      "min": 1,
+      "max": 1,
+      "item": {
+        "id": "ebwizardry:wizard_leggings_lightning",
+        "damage": 0,
+        "count": 1
+      }
+    },
+    {
+      "weight": 0.2900550961494446,
+      "min": 1,
+      "max": 1,
+      "item": {
+        "id": "ebwizardry:wizard_boots_lightning",
+        "damage": 0,
+        "count": 1
+      }
+    },
+    {
+      "weight": 0.2900550961494446,
+      "min": 1,
+      "max": 1,
+      "item": {
+        "id": "ebwizardry:wizard_hat_necromancy",
+        "damage": 0,
+        "count": 1
+      }
+    },
+    {
+      "weight": 0.2900550961494446,
+      "min": 1,
+      "max": 1,
+      "item": {
+        "id": "ebwizardry:wizard_robe_necromancy",
+        "damage": 0,
+        "count": 1
+      }
+    },
+    {
+      "weight": 0.2900550961494446,
+      "min": 1,
+      "max": 1,
+      "item": {
+        "id": "ebwizardry:wizard_leggings_necromancy",
+        "damage": 0,
+        "count": 1
+      }
+    },
+    {
+      "weight": 0.2900550961494446,
+      "min": 1,
+      "max": 1,
+      "item": {
+        "id": "ebwizardry:wizard_boots_necromancy",
+        "damage": 0,
+        "count": 1
+      }
+    },
+    {
+      "weight": 0.2900550961494446,
+      "min": 1,
+      "max": 1,
+      "item": {
+        "id": "ebwizardry:wizard_hat_earth",
+        "damage": 0,
+        "count": 1
+      }
+    },
+    {
+      "weight": 0.2900550961494446,
+      "min": 1,
+      "max": 1,
+      "item": {
+        "id": "ebwizardry:wizard_robe_earth",
+        "damage": 0,
+        "count": 1
+      }
+    },
+    {
+      "weight": 0.2900550961494446,
+      "min": 1,
+      "max": 1,
+      "item": {
+        "id": "ebwizardry:wizard_leggings_earth",
+        "damage": 0,
+        "count": 1
+      }
+    },
+    {
+      "weight": 0.2900550961494446,
+      "min": 1,
+      "max": 1,
+      "item": {
+        "id": "ebwizardry:wizard_boots_earth",
+        "damage": 0,
+        "count": 1
+      }
+    },
+    {
+      "weight": 0.2900550961494446,
+      "min": 1,
+      "max": 1,
+      "item": {
+        "id": "ebwizardry:wizard_hat_sorcery",
+        "damage": 0,
+        "count": 1
+      }
+    },
+    {
+      "weight": 0.2900550961494446,
+      "min": 1,
+      "max": 1,
+      "item": {
+        "id": "ebwizardry:wizard_robe_sorcery",
+        "damage": 0,
+        "count": 1
+      }
+    },
+    {
+      "weight": 0.2900550961494446,
+      "min": 1,
+      "max": 1,
+      "item": {
+        "id": "ebwizardry:wizard_leggings_sorcery",
+        "damage": 0,
+        "count": 1
+      }
+    },
+    {
+      "weight": 0.2900550961494446,
+      "min": 1,
+      "max": 1,
+      "item": {
+        "id": "ebwizardry:wizard_boots_sorcery",
+        "damage": 0,
+        "count": 1
+      }
+    },
+    {
+      "weight": 0.2900550961494446,
+      "min": 1,
+      "max": 1,
+      "item": {
+        "id": "ebwizardry:wizard_hat_healing",
+        "damage": 0,
+        "count": 1
+      }
+    },
+    {
+      "weight": 0.2900550961494446,
+      "min": 1,
+      "max": 1,
+      "item": {
+        "id": "ebwizardry:wizard_robe_healing",
+        "damage": 0,
+        "count": 1
+      }
+    },
+    {
+      "weight": 0.2900550961494446,
+      "min": 1,
+      "max": 1,
+      "item": {
+        "id": "ebwizardry:wizard_leggings_healing",
+        "damage": 0,
+        "count": 1
+      }
+    },
+    {
+      "weight": 0.2900550961494446,
+      "min": 1,
+      "max": 1,
+      "item": {
+        "id": "ebwizardry:wizard_boots_ice",
+        "damage": 0,
+        "count": 1
+      }
+    }
+  ],
+  "dependencyExpression": "$ebwizardry"
+}

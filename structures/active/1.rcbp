@@ -1,0 +1,47 @@
+{
+  "data": [
+    {
+      "biomes": "$WATER",
+      "weight": 0.0
+    },
+    {
+      "biomes": "$PLAINS"
+    },
+    {
+      "biomes": "$FOREST"
+    },
+    {
+      "biomes": "$MOUNTAIN"
+    },
+    {
+      "biomes": "$HILLS"
+    },
+    {
+      "biomes": "$SWAMP"
+    },
+    {
+      "biomes": "$SAVANNA"
+    },
+    {
+      "biomes": "$WASTELAND"
+    },
+    {
+      "biomes": "$MUSHROOM"
+    },
+    {
+      "biomes": "$JUNGLE"
+    },
+    {
+      "biomes": "$SNOWY"
+    },
+    {
+      "biomes": "$COLD"
+    }
+  ],
+  "metadata": {
+    "title": "Overworld With Cold + Snowy",
+    "description": [
+      ""
+    ]
+  }
+}

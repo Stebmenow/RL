@@ -14,13 +14,13 @@
   "element": "fire",
   "type": "projectile",
   "cost": 15,
-  "chargeup": 0,
+  "chargeup": 10,
   "cooldown": 25,
   "base_properties": {
-    "range": 10,
-    "direct_damage": 5,
-    "splash_damage": 3,
-    "blast_radius": 3,
-    "burn_duration": 7
+    "range": 16,
+    "direct_damage": 8,
+    "splash_damage": 5,
+    "blast_radius": 4,
+    "burn_duration": 12
   }
 }

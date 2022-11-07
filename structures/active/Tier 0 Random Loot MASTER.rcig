@@ -1,0 +1,137 @@
+{
+  "version": 2,
+  "inventoryGeneratorID": "Tier 0 Random Loot MASTER",
+  "items": [
+    {
+      "weight": 1.0,
+      "min": 4,
+      "max": 8,
+      "item": {
+        "id": "aquaculture:loot",
+        "damage": 4,
+        "count": 1
+      }
+    },
+    {
+      "weight": 0.4400899410247803,
+      "min": 2,
+      "max": 4,
+      "item": {
+        "id": "ebwizardry:poison_bomb",
+        "damage": 0,
+        "count": 1
+      }
+    },
+    {
+      "weight": 0.4400899410247803,
+      "min": 2,
+      "max": 4,
+      "item": {
+        "id": "ebwizardry:smoke_bomb",
+        "damage": 0,
+        "count": 1
+      }
+    },
+    {
+      "weight": 0.4400899410247803,
+      "min": 2,
+      "max": 4,
+      "item": {
+        "id": "ebwizardry:spark_bomb",
+        "damage": 0,
+        "count": 1
+      }
+    },
+    {
+      "weight": 1.0,
+      "min": 8,
+      "max": 16,
+      "item": {
+        "id": "aquaculture:loot",
+        "damage": 0,
+        "count": 1
+      }
+    },
+    {
+      "weight": 1.0,
+      "min": 1,
+      "max": 1,
+      "item": {
+        "id": "rustic:apple_seeds",
+        "damage": 0,
+        "count": 1
+      }
+    },
+    {
+      "weight": 1.0,
+      "min": 2,
+      "max": 4,
+      "item": {
+        "id": "ebwizardry:scroll",
+        "damage": 12,
+        "count": 1
+      }
+    },
+    {
+      "weight": 1.0,
+      "min": 24,
+      "max": 36,
+      "item": {
+        "id": "minecraft:brick",
+        "damage": 0,
+        "count": 1
+      }
+    },
+    {
+      "weight": 1.0,
+      "min": 24,
+      "max": 36,
+      "item": {
+        "id": "minecraft:sand",
+        "damage": 0,
+        "count": 1
+      }
+    },
+    {
+      "weight": 0.4400899410247803,
+      "min": 2,
+      "max": 4,
+      "item": {
+        "id": "ebwizardry:firebomb",
+        "damage": 0,
+        "count": 1
+      }
+    },
+    {
+      "weight": 1.0,
+      "min": 2,
+      "max": 5,
+      "item": {
+        "id": "rustic:tomato",
+        "damage": 0,
+        "count": 1
+      }
+    },
+    {
+      "weight": 1.0,
+      "min": 8,
+      "max": 12,
+      "item": {
+        "id": "minecraft:wool",
+        "damage": 0,
+        "count": 1
+      }
+    },
+    {
+      "weight": 1.0,
+      "min": 1,
+      "max": 1,
+      "item": {
+        "id": "notreepunching:ceramic_small_vessel",
+        "damage": 0,
+        "count": 1
+      }
+    }
+  ],
+  "dependencyExpression": "$aquaculture \u0026 $ebwizardry \u0026 $rustic \u0026 $notreepunching"
+}

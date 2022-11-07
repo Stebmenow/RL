@@ -13,6 +13,9 @@
 <ore:listAllseed>.add(<rustic:apple_seeds>);
 <ore:listAllseed>.add(<rustic:tomato_seeds>);
 <ore:listAllseed>.add(<rustic:chili_pepper_seeds>);
+<ore:allFlowers>.add(<betteranimalsplus:trillium>);
+
+<ore:stone>.add(<biomesoplenty:grass:1>);
 
 <ore:listAllchickencooked>.add(<mocreatures:ratcooked>);
 <ore:listAllchickencooked>.add(<mocreatures:ostrichcooked>);

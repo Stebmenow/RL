@@ -1,0 +1,247 @@
+{
+  "version": 2,
+  "inventoryGeneratorID": "WheatFieldMillTools",
+  "items": [
+    {
+      "weight": 0.7755888104438782,
+      "min": 1,
+      "max": 1,
+      "item": {
+        "id": "minecraft:iron_hoe",
+        "damage": 0,
+        "count": 1
+      }
+    },
+    {
+      "weight": 1.66,
+      "min": 1,
+      "max": 1,
+      "item": {
+        "id": "minecraft:iron_shovel",
+        "damage": 0,
+        "count": 1
+      }
+    },
+    {
+      "weight": 0.32298368215560913,
+      "min": 1,
+      "max": 1,
+      "item": {
+        "id": "minecraft:iron_pickaxe",
+        "damage": 0,
+        "count": 1
+      }
+    },
+    {
+      "weight": 0.41,
+      "min": 1,
+      "max": 1,
+      "item": {
+        "id": "minecraft:leather_helmet",
+        "damage": 0,
+        "count": 1
+      }
+    },
+    {
+      "weight": 0.41,
+      "min": 1,
+      "max": 1,
+      "item": {
+        "id": "minecraft:leather_chestplate",
+        "damage": 0,
+        "count": 1
+      }
+    },
+    {
+      "weight": 0.41,
+      "min": 1,
+      "max": 1,
+      "item": {
+        "id": "minecraft:leather_boots",
+        "damage": 0,
+        "count": 1
+      }
+    },
+    {
+      "weight": 0.34,
+      "min": 1,
+      "max": 1,
+      "item": {
+        "id": "minecraft:leather_leggings",
+        "damage": 0,
+        "count": 1
+      }
+    },
+    {
+      "weight": 1.79,
+      "min": 15,
+      "max": 25,
+      "item": {
+        "id": "minecraft:wheat",
+        "damage": 0,
+        "count": 1
+      }
+    },
+    {
+      "weight": 1.9013646841049194,
+      "min": 1,
+      "max": 1,
+      "item": {
+        "id": "mysticalworld:silver_hoe",
+        "damage": 0,
+        "count": 1
+      }
+    },
+    {
+      "weight": 0.5889394283294678,
+      "min": 1,
+      "max": 1,
+      "item": {
+        "id": "roots:iron_knife",
+        "damage": 0,
+        "count": 1
+      }
+    },
+    {
+      "weight": 1.0,
+      "min": 6,
+      "max": 14,
+      "item": {
+        "id": "minecraft:beetroot",
+        "damage": 0,
+        "count": 1
+      }
+    },
+    {
+      "weight": 1.0,
+      "min": 8,
+      "max": 19,
+      "item": {
+        "id": "minecraft:potato",
+        "damage": 0,
+        "count": 1
+      }
+    },
+    {
+      "weight": 1.0,
+      "min": 7,
+      "max": 12,
+      "item": {
+        "id": "minecraft:carrot",
+        "damage": 0,
+        "count": 1
+      }
+    },
+    {
+      "weight": 0.7755888104438782,
+      "min": 6,
+      "max": 15,
+      "item": {
+        "id": "minecraft:beetroot_seeds",
+        "damage": 0,
+        "count": 1
+      }
+    },
+    {
+      "weight": 1.0,
+      "min": 9,
+      "max": 19,
+      "item": {
+        "id": "mysticalworld:aubergine",
+        "damage": 0,
+        "count": 1
+      }
+    },
+    {
+      "weight": 1.0,
+      "min": 1,
+      "max": 1,
+      "item": {
+        "id": "mysticalworld:copper_hoe",
+        "damage": 0,
+        "count": 1
+      }
+    },
+    {
+      "weight": 1.0,
+      "min": 20,
+      "max": 28,
+      "item": {
+        "id": "biomesoplenty:plant_1",
+        "damage": 3,
+        "count": 1
+      }
+    },
+    {
+      "weight": 0.16315889358520508,
+      "min": 1,
+      "max": 1,
+      "item": {
+        "id": "minecraft:saddle",
+        "damage": 0,
+        "count": 1
+      }
+    },
+    {
+      "weight": 0.3978064954280853,
+      "min": 6,
+      "max": 11,
+      "item": {
+        "id": "minecraft:red_mushroom",
+        "damage": 0,
+        "count": 1
+      }
+    },
+    {
+      "weight": 0.4858947992324829,
+      "min": 6,
+      "max": 11,
+      "item": {
+        "id": "minecraft:brown_mushroom",
+        "damage": 0,
+        "count": 1
+      }
+    },
+    {
+      "weight": 1.9013646841049194,
+      "min": 1,
+      "max": 1,
+      "item": {
+        "id": "mysticalworld:copper_shovel",
+        "damage": 0,
+        "count": 1
+      }
+    },
+    {
+      "weight": 1.0,
+      "min": 1,
+      "max": 1,
+      "item": {
+        "id": "mysticalworld:copper_axe",
+        "damage": 0,
+        "count": 1
+      }
+    },
+    {
+      "weight": 1.9013646841049194,
+      "min": 1,
+      "max": 1,
+      "item": {
+        "id": "notreepunching:knife/copper",
+        "damage": 0,
+        "count": 1
+      }
+    },
+    {
+      "weight": 1.0,
+      "min": 1,
+      "max": 1,
+      "item": {
+        "id": "notreepunching:clay_tool",
+        "damage": 0,
+        "count": 1
+      }
+    }
+  ],
+  "dependencyExpression": ""
+}
