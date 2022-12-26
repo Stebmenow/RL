@@ -13,6 +13,7 @@ Obviously, Git is required for this installation. We recommend using the Cursefo
 ```
 git init
 git remote add origin https://github.com/Stebmenow/RL.git
+git fetch
 git checkout main
 git pull origin main
 ```
