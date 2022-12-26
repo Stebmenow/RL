@@ -10,10 +10,12 @@ Obviously, Git is required for this installation. We recommend using the Cursefo
 2. Find the installation folder of your game.
 3. Delete the `config`, `mods`, `scripts`, `resourcepacks`, `structures` folders from that directory.
 4. Run the following 
-```git init
+```
+git init
 git remote add origin https://github.com/Stebmenow/RL.git
 git checkout main
-git pull origin main```
+git pull origin main
+```
 5. Run the game! You may need to restart the game to enable the Lycanites Redux texture pack.
 
 ### This is not a superset of RLCraft! We removed some mods and changed existing configs.
