@@ -7,9 +7,10 @@ worth it, especially considering the difficulty of the pack. We also found the e
 # SETUP
 Obviously, Git is required for this installation. We recommend using the Curseforge launcher to make installation easier. There are no plans to publish the modpack.
 1. Install an instance of RLCraft v2.8.2. DO NOT open the game at this time.
-2. Find the installation folder of your game.
-3. Delete the `config`, `mods`, `scripts`, `resourcepacks`, `structures` folders from that directory.
-4. Run the following 
+2. Update the forge client version to 14.23.5.2855. If you are using the Curseforge client you can change it in the app, otherwise you will need to download the installer here: https://files.minecraftforge.net/net/minecraftforge/forge/index_1.12.2.html.
+3. Find the installation folder of your game.
+4. Delete the `config`, `mods`, `scripts`, `resourcepacks`, `structures` folders from that directory.
+5. Run the following:
 ```
 git init
 git remote add origin https://github.com/Stebmenow/RL.git
