@@ -15,6 +15,18 @@
         "duration": 60,
         "amplifier": 1,
         "chance": 1.0
+      },
+      {
+        "effectId": "minecraft:haste",
+        "duration": 60,
+        "amplifier": 1,
+        "chance": 1.0
+      },
+      {
+        "effectId": "minecraft:resistance",
+        "duration": 60,
+        "amplifier": 1,
+        "chance": 1.0
       }
     ]
   }

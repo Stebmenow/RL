@@ -15,6 +15,12 @@
         "duration": 120,
         "amplifier": 2,
         "chance": 1.0
+      },
+      {
+        "effectId": "minecraft:speed",
+        "duration": 120,
+        "amplifier": 3,
+        "chance": 1.0
       }
     ]
   }

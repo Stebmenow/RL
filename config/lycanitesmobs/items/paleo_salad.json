@@ -4,7 +4,7 @@
   "group": "items",
   "maxStackSize": 16,
   "food": {
-    "hunger": 10,
+    "hunger": 8,
     "saturation": 0.8,
     "alwaysEdible": true,
     "fast": false,
@@ -14,6 +14,12 @@
         "effectId": "lycanitesmobs:rejuvenation",
         "duration": 60,
         "amplifier": 1,
+        "chance": 1.0
+      },
+      {
+        "effectId": "minecraft:regeneration",
+        "duration": 20,
+        "amplifier": 0,
         "chance": 1.0
       }
     ]

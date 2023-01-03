@@ -4,12 +4,18 @@
   "group": "items",
   "maxStackSize": 16,
   "food": {
-    "hunger": 10,
-    "saturation": 0.8,
+    "hunger": 12,
+    "saturation": 1.0,
     "alwaysEdible": true,
     "fast": false,
     "meat": true,
     "effects": [
+      {
+        "effectId": "minecraft:nausea",
+        "duration": 10,
+        "amplifier": 1,
+        "chance": 0.8
+      },
       {
         "effectId": "minecraft:strength",
         "duration": 120,
