@@ -4,7 +4,7 @@
   "group": "items",
   "maxStackSize": 16,
   "food": {
-    "hunger": 8,
+    "hunger": 10,
     "saturation": 0.8,
     "alwaysEdible": true,
     "fast": false,

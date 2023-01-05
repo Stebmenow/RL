@@ -4,7 +4,7 @@
   "group": "items",
   "maxStackSize": 16,
   "food": {
-    "hunger": 8,
+    "hunger": 10,
     "saturation": 0.8,
     "alwaysEdible": true,
     "fast": false,
@@ -12,12 +12,6 @@
     "effects": [
       {
         "effectId": "minecraft:speed",
-        "duration": 60,
-        "amplifier": 3,
-        "chance": 1.0
-      },
-      {
-        "effectId": "minecraft:haste",
         "duration": 60,
         "amplifier": 3,
         "chance": 1.0

@@ -15,7 +15,14 @@
   "elements": [
     "water"
   ],
-  "behaviours": [],
+  "behaviours": [
+    {
+      "type": "placeBlocks",
+      "block": "minecraft:water",
+      "radius": 2,
+      "height": 1
+    }
+  ],
   "waterproof": true,
   "lavaproof": false,
   "cutGrass": false,
