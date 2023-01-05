@@ -1,10 +1,10 @@
 {
   "name": "searing_taco",
-  "loadDefault": true,
+  "loadDefault": false,
   "group": "items",
   "maxStackSize": 16,
   "food": {
-    "hunger": 10,
+    "hunger": 8,
     "saturation": 0.8,
     "alwaysEdible": true,
     "fast": false,
@@ -12,6 +12,12 @@
     "effects": [
       {
         "effectId": "minecraft:fire_resistance",
+        "duration": 60,
+        "amplifier": 0,
+        "chance": 1.0
+      },
+      {
+        "effectId": "minecraft:strength",
         "duration": 60,
         "amplifier": 0,
         "chance": 1.0

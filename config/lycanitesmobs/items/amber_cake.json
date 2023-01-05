@@ -1,6 +1,6 @@
 {
   "name": "amber_cake",
-  "loadDefault": true,
+  "loadDefault": false,
   "group": "items",
   "maxStackSize": 16,
   "food": {
@@ -12,6 +12,12 @@
     "effects": [
       {
         "effectId": "minecraft:speed",
+        "duration": 60,
+        "amplifier": 3,
+        "chance": 1.0
+      },
+      {
+        "effectId": "minecraft:haste",
         "duration": 60,
         "amplifier": 3,
         "chance": 1.0

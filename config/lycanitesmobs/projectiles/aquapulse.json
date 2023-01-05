@@ -1,6 +1,6 @@
 {
   "name": "aquapulse",
-  "loadDefault": true,
+  "loadDefault": false,
   "width": 2.0,
   "height": 2.0,
   "scale": 2.0,
@@ -15,14 +15,7 @@
   "elements": [
     "water"
   ],
-  "behaviours": [
-    {
-      "type": "placeBlocks",
-      "block": "minecraft:water",
-      "radius": 2,
-      "height": 1
-    }
-  ],
+  "behaviours": [],
   "waterproof": true,
   "lavaproof": false,
   "cutGrass": false,

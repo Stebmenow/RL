@@ -1,6 +1,6 @@
 {
   "name": "caecilian_ramen",
-  "loadDefault": true,
+  "loadDefault": false,
   "group": "items",
   "maxStackSize": 16,
   "food": {
@@ -14,6 +14,18 @@
         "effectId": "lycanitesmobs:repulsion",
         "duration": 60,
         "amplifier": 1,
+        "chance": 1.0
+      },
+      {
+        "effectId": "lycanitesmobs:night_vision",
+        "duration": 180,
+        "amplifier": 0,
+        "chance": 1.0
+      },
+      {
+        "effectId": "lycanitesmobs:jump_boost",
+        "duration": 60,
+        "amplifier": 3,
         "chance": 1.0
       }
     ]

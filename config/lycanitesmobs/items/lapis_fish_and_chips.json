@@ -1,6 +1,6 @@
 {
   "name": "lapis_fish_and_chips",
-  "loadDefault": true,
+  "loadDefault": false,
   "group": "items",
   "maxStackSize": 16,
   "food": {
@@ -14,6 +14,12 @@
         "effectId": "minecraft:water_breathing",
         "duration": 120,
         "amplifier": 0,
+        "chance": 1.0
+      },
+      {
+        "effectId": "lycanitesmobs:swiftswimming",
+        "duration": 120,
+        "amplifier": 2,
         "chance": 1.0
       }
     ]
