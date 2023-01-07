@@ -11,7 +11,7 @@ recipes.addShaped("thermoelectric_generator",<immersiveengineering:metal_device1
   [<ore:plateUranium>,<ore:plateConstantan>,<ore:plateUranium>]]);
 
 recipes.remove(<immersiveengineering:metal_device0:2>);
-recipes.addShaped("hv_capacitor",<immersiveengineering:metal_device1:3>,
+recipes.addShaped("hv_capacitor",<immersiveengineering:metal_device0:2>,
  [[<ore:ingotSteel>,<ore:blockUranium>,<ore:ingotSteel>],
   [<ore:ingotAluminum>,<ore:blockLead>,<ore:ingotAluminum>],
   [<ore:plankTreatedWood>,<ore:blockRedstone>,<ore:plankTreatedWood>]]);

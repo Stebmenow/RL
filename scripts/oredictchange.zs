@@ -17,7 +17,4 @@
 
 <ore:stone>.add(<biomesoplenty:grass:1>);
 
-<ore:listAllchickencooked>.add(<mocreatures:ratcooked>);
-<ore:listAllchickencooked>.add(<mocreatures:ostrichcooked>);
-<ore:listAllchickencooked>.add(<mocreatures:turkeycooked>);
 <ore:listAllchickencooked>.add(<betteranimalsplus:pheasantcooked>);

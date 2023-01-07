@@ -40,21 +40,6 @@ vanillaGroup.addArmor(ArmorHandler.createArmorSlot("chest", <minecraft:diamond_c
 vanillaGroup.addArmor(ArmorHandler.createArmorSlot("legs", <minecraft:diamond_leggings>, 1, 0.05));
 vanillaGroup.addArmor(ArmorHandler.createArmorSlot("feet", <minecraft:diamond_boots>, 1, 0.05));
 
-vanillaGroup.addArmor(ArmorHandler.createArmorSlot("head", <mocreatures:hidehelmet>, 2, 0.05));
-vanillaGroup.addArmor(ArmorHandler.createArmorSlot("chest", <mocreatures:hidechest>, 2, 0.05));
-vanillaGroup.addArmor(ArmorHandler.createArmorSlot("legs", <mocreatures:hidelegs>, 2, 0.05));
-vanillaGroup.addArmor(ArmorHandler.createArmorSlot("feet", <mocreatures:hideboots>, 2, 0.05));
-
-vanillaGroup.addArmor(ArmorHandler.createArmorSlot("head", <mocreatures:furhelmet>, 2, 0.05));
-vanillaGroup.addArmor(ArmorHandler.createArmorSlot("chest", <mocreatures:furchest>, 2, 0.05));
-vanillaGroup.addArmor(ArmorHandler.createArmorSlot("legs", <mocreatures:furlegs>, 2, 0.05));
-vanillaGroup.addArmor(ArmorHandler.createArmorSlot("feet", <mocreatures:furboots>, 2, 0.05));
-
-vanillaGroup.addArmor(ArmorHandler.createArmorSlot("head", <mocreatures:reptilehelmet>, 2, 0.05));
-vanillaGroup.addArmor(ArmorHandler.createArmorSlot("chest", <mocreatures:reptileplate>, 2, 0.05));
-vanillaGroup.addArmor(ArmorHandler.createArmorSlot("legs", <mocreatures:reptilelegs>, 2, 0.05));
-vanillaGroup.addArmor(ArmorHandler.createArmorSlot("feet", <mocreatures:reptileboots>, 2, 0.05));
-
 vanillaGroup.addArmor(ArmorHandler.createArmorSlot("head", <iceandfire:armor_silver_metal_helmet>, 2, 0.05));
 vanillaGroup.addArmor(ArmorHandler.createArmorSlot("chest", <iceandfire:armor_silver_metal_chestplate>, 2, 0.05));
 vanillaGroup.addArmor(ArmorHandler.createArmorSlot("legs", <iceandfire:armor_silver_metal_leggings>, 2, 0.05));

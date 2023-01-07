@@ -1,1 +1,14 @@
-[]
+[
+  {
+    "mob": ["defiledlands:scuttler", "defiledlands:book_wyrm", "defiledlands:host", "defiledlands:slime_defiled", "defiledlands:shambler", "defiledlands:shambler_twisted"],
+    "biome": ["Defiled Plains", "Defiled Desert", "Defiled Hills", "Defiled Ice Plains", "Defiled Swamp"],
+    "healthmultiply": 2,
+    "damageadd": 2,
+    "result": "allow"
+  },
+  {
+    "mob": ["minecraft:zombie", "minecraft:slime", "minecraft:enderman", "minecraft:spider"],
+    "biome": ["Defiled Plains", "Defiled Desert", "Defiled Hills", "Defiled Ice Plains", "Defiled Swamp"],
+    "result": "deny"
+  }
+]

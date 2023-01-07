@@ -3,6 +3,6 @@
   "mobs": [
     "minecraft:*",
     "lycanitesmobs:*",
-    "mocreatures:*"
+    "betteranimalsplus:*"
   ]
 }

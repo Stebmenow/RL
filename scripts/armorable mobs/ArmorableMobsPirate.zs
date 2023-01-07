@@ -8,9 +8,9 @@ var weaponGroup = ArmorHandler.createArmorGroup("weapon", 1);
 
 var pirate = ArmorHandler.createArmorEntity("quark:pirate");
 
-vanillaGroup.addArmor(ArmorHandler.createArmorSlot("chest", <mocreatures:hidechest>, 10, 0.2));
-vanillaGroup.addArmor(ArmorHandler.createArmorSlot("legs", <mocreatures:hidelegs>, 10, 0.2));
-vanillaGroup.addArmor(ArmorHandler.createArmorSlot("feet", <mocreatures:hideboots>, 10, 0.2));
+vanillaGroup.addArmor(ArmorHandler.createArmorSlot("chest", <minecraft:chainmail_chestplate>, 10, 0.2));
+vanillaGroup.addArmor(ArmorHandler.createArmorSlot("legs", <minecraft:chainmail_leggings>, 10, 0.2));
+vanillaGroup.addArmor(ArmorHandler.createArmorSlot("feet", <minecraft:chainmail_boots>, 10, 0.2));
 
 weaponGroup.addArmor(ArmorHandler.createArmorSlot("mainhand", <spartanweaponry:rapier_steel>, 1, 0.1));
 weaponGroup.addArmor(ArmorHandler.createArmorSlot("mainhand", <spartanweaponry:rapier_iron>, 2, 0.25));

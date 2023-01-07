@@ -1,1 +1,14 @@
-[]
+[
+  {
+    "mob": "iceandfire:dread_lich",
+    "dimension": 111,
+    "maxcount": {
+      "amount": 1,
+      "mob": "iceandfire:dread_lich",
+      "perplayer": true
+    },
+    "maxlight": 0,
+    "onjoin": true,
+    "result": "allow"
+  }
+]

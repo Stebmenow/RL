@@ -13,19 +13,13 @@
       "toughasnails:wool_helmet",
       "toughasnails:wool_chestplate",
       "toughasnails:wool_leggings",
-      "toughasnails:wool_boots",
-      "mocreatures:furhelmet",
-      "mocreatures:furchest",
-      "mocreatures:furlegs",
-      "mocreatures:furboots"
+      "toughasnails:wool_boots"
     ],
     "modifier": 3
   },
   {
       "names": [
-        "mocreatures:reptilehelmet",
         "minecraft:leather_helmet",
-        "mocreatures:hidehelmet",
         "quark:witch_hat",
         "quark:pirate_hat",
         "quark:archaeologist_hat",

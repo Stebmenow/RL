@@ -108,6 +108,6 @@
       "chance": 0.5
     }
   ],
-  "sizeScale": 0.9,
-  "hitboxScale": 1
+  "sizeScale": 1,
+  "hitboxScale": 1.2
 }

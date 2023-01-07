@@ -9,8 +9,6 @@
           "blocks": [
             "biomesoplenty:dirt:*",
             "defiledlands:dirt_defiled:0",
-            "mocreatures:mocdirt:*",
-            "mocreatures:mocgrass:*",
             "minecraft:grass:*",
             "treasure2:falling_grass:0",
             "biomesoplenty:grass:*",
