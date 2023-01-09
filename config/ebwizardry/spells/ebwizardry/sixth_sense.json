@@ -14,10 +14,10 @@
   "element": "earth",
   "type": "buff",
   "cost": 20,
-  "chargeup": 0,
-  "cooldown": 100,
+  "chargeup": 100,
+  "cooldown": 1200,
   "base_properties": {
-    "effect_duration": 400,
+    "effect_duration": 1800,
     "effect_radius": 20
   }
 }

@@ -13,11 +13,11 @@
   "tier": "novice",
   "element": "sorcery",
   "type": "buff",
-  "cost": 25,
+  "cost": 40,
   "chargeup": 60,
-  "cooldown": 200,
+  "cooldown": 600,
   "base_properties": {
-    "muffle_duration": 600,
+    "muffle_duration": 1200,
     "muffle_strength": 0
   }
 }

@@ -14,10 +14,10 @@
   "element": "earth",
   "type": "buff",
   "cost": 20,
-  "chargeup": 0,
-  "cooldown": 40,
+  "chargeup": 100,
+  "cooldown": 200,
   "base_properties": {
-    "night_vision_duration": 900,
+    "night_vision_duration": 1800,
     "night_vision_strength": 0
   }
 }

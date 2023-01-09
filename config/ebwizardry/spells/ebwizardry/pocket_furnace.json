@@ -13,8 +13,8 @@
   "tier": "apprentice",
   "element": "fire",
   "type": "utility",
-  "cost": 30,
-  "chargeup": 0,
+  "cost": 10,
+  "chargeup": 10,
   "cooldown": 40,
   "base_properties": {
     "items_smelted": 5

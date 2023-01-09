@@ -13,11 +13,11 @@
   "tier": "apprentice",
   "element": "sorcery",
   "type": "utility",
-  "cost": 20,
+  "cost": 5,
   "chargeup": 10,
-  "cooldown": 100,
+  "cooldown": 0,
   "base_properties": {
-    "range": 256,
-    "duration": 1800
+    "range": 1200,
+    "duration": 3600
   }
 }

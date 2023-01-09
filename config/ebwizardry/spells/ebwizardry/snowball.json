@@ -14,7 +14,7 @@
   "element": "ice",
   "type": "projectile",
   "cost": 1,
-  "chargeup": 0,
+  "chargeup": 3,
   "cooldown": 3,
   "base_properties": {
     "range": 20

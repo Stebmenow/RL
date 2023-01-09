@@ -13,13 +13,13 @@
 	"tier": "apprentice",
 	"element": "lightning",
 	"type": "attack",
-	"cost": 20,
-	"chargeup": 0,
-	"cooldown": 50,
+	"cost": 10,
+	"chargeup": 5,
+	"cooldown": 100,
 	"base_properties": {
-		"charge_speed": 2.0,
+		"charge_speed": 2.4,
 		"duration": 10,
-		"damage": 8,
-		"knockback_strength": 1.0
+		"damage": 14,
+		"knockback_strength": 1.5
 	}
 }

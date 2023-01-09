@@ -14,9 +14,9 @@
   "element": "earth",
   "type": "utility",
   "cost": 20,
-  "chargeup": 0,
-  "cooldown": 50,
+  "chargeup": 100,
+  "cooldown": 60,
   "base_properties": {
-    "effect_radius": 2
+    "effect_radius": 15
   }
 }

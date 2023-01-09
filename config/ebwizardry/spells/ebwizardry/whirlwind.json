@@ -14,10 +14,10 @@
   "element": "earth",
   "type": "defence",
   "cost": 10,
-  "chargeup": 0,
-  "cooldown": 15,
+  "chargeup": 10,
+  "cooldown": 50,
   "base_properties": {
-    "range": 10,
-    "repulsion_velocity": 1.5
+    "range": 12,
+    "repulsion_velocity": 2
   }
 }

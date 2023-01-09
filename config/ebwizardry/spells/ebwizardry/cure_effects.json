@@ -13,8 +13,8 @@
   "tier": "apprentice",
   "element": "healing",
   "type": "defence",
-  "cost": 25,
-  "chargeup": 10,
-  "cooldown": 40,
+  "cost": 10,
+  "chargeup": 40,
+  "cooldown": 200,
   "base_properties": {}
 }

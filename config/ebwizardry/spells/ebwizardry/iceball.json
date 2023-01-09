@@ -13,13 +13,13 @@
   "tier": "apprentice",
   "element": "ice",
   "type": "projectile",
-  "cost": 10,
-  "chargeup": 0,
-  "cooldown": 15,
+  "cost": 20,
+  "chargeup": 20,
+  "cooldown": 30,
   "base_properties": {
-    "range": 20,
-    "damage": 5,
-    "effect_duration": 100,
+    "range": 30,
+    "damage": 15,
+    "effect_duration": 160,
     "effect_strength": 0
   }
 }

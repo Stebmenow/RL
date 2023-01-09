@@ -17,8 +17,8 @@
   "chargeup": 0,
   "cooldown": 0,
   "base_properties": {
-    "range": 10,
-    "damage": 2,
+    "range": 12,
+    "damage": 3,
     "heal_factor": 0.35
   }
 }

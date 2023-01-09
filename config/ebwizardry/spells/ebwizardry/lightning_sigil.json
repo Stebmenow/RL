@@ -13,15 +13,15 @@
   "tier": "apprentice",
   "element": "lightning",
   "type": "construct",
-  "cost": 10,
-  "chargeup": 0,
-  "cooldown": 20,
+  "cost": 15,
+  "chargeup": 30,
+  "cooldown": 40,
   "base_properties": {
     "range": 10,
-    "effect_radius": 1,
-    "direct_damage": 6,
-    "secondary_range": 1,
-    "secondary_max_targets": 3,
-    "splash_damage": 4
+    "effect_radius": 3,
+    "direct_damage": 12,
+    "secondary_range": 3,
+    "secondary_max_targets": 6,
+    "splash_damage": 8
   }
 }

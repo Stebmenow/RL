@@ -15,9 +15,9 @@
   "type": "buff",
   "cost": 20,
   "chargeup": 60,
-  "cooldown": 100,
+  "cooldown": 1200,
   "base_properties": {
-    "ward_duration": 600,
+    "ward_duration": 2400,
     "ward_strength": 0
   }
 }

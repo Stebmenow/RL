@@ -14,11 +14,11 @@
   "element": "necromancy",
   "type": "attack",
   "cost": 15,
-  "chargeup": 0,
-  "cooldown": 40,
+  "chargeup": 50,
+  "cooldown": 200,
   "base_properties": {
     "range": 10,
-    "minimum_teleport_distance": 8,
+    "minimum_teleport_distance": 10,
     "maximum_teleport_distance": 16
   }
 }

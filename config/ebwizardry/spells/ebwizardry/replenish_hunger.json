@@ -13,7 +13,7 @@
   "tier": "apprentice",
   "element": "healing",
   "type": "buff",
-  "cost": 10,
+  "cost": 4,
   "chargeup": 0,
   "cooldown": 30,
   "base_properties": {

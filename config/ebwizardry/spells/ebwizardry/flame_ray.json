@@ -13,12 +13,12 @@
   "tier": "apprentice",
   "element": "fire",
   "type": "attack",
-  "cost": 5,
-  "chargeup": 0,
+  "cost": 7,
+  "chargeup": 2,
   "cooldown": 0,
   "base_properties": {
     "range": 10,
-    "damage": 3,
+    "damage": 8,
     "burn_duration": 10
   }
 }

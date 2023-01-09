@@ -13,13 +13,13 @@
   "tier": "novice",
   "element": "earth",
   "type": "attack",
-  "cost": 12,
-  "chargeup": 0,
+  "cost": 8,
+  "chargeup": 10,
   "cooldown": 80,
   "base_properties": {
-    "range": 3,
-    "damage": 8,
-    "effect_duration": 50,
+    "range": 5,
+    "damage": 13,
+    "effect_duration": 70,
     "effect_strength": 3
   }
 }

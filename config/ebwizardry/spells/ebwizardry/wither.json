@@ -18,7 +18,7 @@
   "cooldown": 20,
   "base_properties": {
     "range": 10,
-    "damage": 1,
+    "damage": 2,
     "effect_duration": 200,
     "effect_strength": 1
   }

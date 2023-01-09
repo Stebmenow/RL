@@ -13,11 +13,11 @@
   "tier": "apprentice",
   "element": "sorcery",
   "type": "projectile",
-  "cost": 15,
-  "chargeup": 0,
-  "cooldown": 20,
+  "cost": 8,
+  "chargeup": 2,
+  "cooldown": 2,
   "base_properties": {
     "range": 20,
-    "damage": 7
+    "damage": 10.5
   }
 }

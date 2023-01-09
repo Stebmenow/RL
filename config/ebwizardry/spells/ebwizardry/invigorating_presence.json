@@ -13,12 +13,12 @@
   "tier": "apprentice",
   "element": "healing",
   "type": "buff",
-  "cost": 30,
-  "chargeup": 0,
-  "cooldown": 60,
+  "cost": 60,
+  "chargeup": 100,
+  "cooldown": 900,
   "base_properties": {
-    "effect_radius": 5,
-    "effect_duration": 900,
+    "effect_radius": 7,
+    "effect_duration": 1800,
     "effect_strength": 1
   }
 }
