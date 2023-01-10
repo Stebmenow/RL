@@ -14,13 +14,13 @@
   "element": "lightning",
   "type": "projectile",
   "cost": 15,
-  "chargeup": 10,
+  "chargeup": 5,
   "cooldown": 25,
   "base_properties": {
     "range": 16,
-    "direct_damage": 8,
+    "direct_damage": 12,
     "effect_radius": 4,
     "secondary_max_targets": 5,
-    "splash_damage": 8
+    "splash_damage": 9
   }
 }

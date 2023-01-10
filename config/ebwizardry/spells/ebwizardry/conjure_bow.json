@@ -13,10 +13,10 @@
   "tier": "apprentice",
   "element": "sorcery",
   "type": "utility",
-  "cost": 40,
-  "chargeup": 0,
-  "cooldown": 50,
+  "cost": 35,
+  "chargeup": 5,
+  "cooldown": 0,
   "base_properties": {
-    "item_lifetime": 1200
+    "item_lifetime": 24000
   }
 }

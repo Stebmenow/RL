@@ -13,13 +13,13 @@
   "tier": "apprentice",
   "element": "ice",
   "type": "attack",
-  "cost": 5,
-  "chargeup": 0,
+  "cost": 8,
+  "chargeup": 2,
   "cooldown": 0,
   "base_properties": {
     "range": 10,
-    "damage": 3,
-    "effect_duration": 200,
+    "damage": 5,
+    "effect_duration": 50,
     "effect_strength": 0
   }
 }

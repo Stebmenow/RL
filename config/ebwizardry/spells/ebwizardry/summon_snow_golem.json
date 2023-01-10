@@ -14,9 +14,9 @@
   "element": "ice",
   "type": "minion",
   "cost": 15,
-  "chargeup": 0,
-  "cooldown": 20,
+  "chargeup": 100,
+  "cooldown": 600,
   "base_properties": {
-    "summon_radius": 2
+    "summon_radius": 3
   }
 }

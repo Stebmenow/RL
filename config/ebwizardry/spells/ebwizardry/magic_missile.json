@@ -13,11 +13,11 @@
 	"tier": "novice",
 	"element": "magic",
 	"type": "projectile",
-	"cost": 6,
-	"chargeup": 0,
-	"cooldown": 5,
+	"cost": 4,
+	"chargeup": 2,
+	"cooldown": 7,
 	"base_properties": {
 		"damage": 4.5,
-		"range": 20
+		"range": 12
 	}
 }

@@ -13,11 +13,11 @@
   "tier": "novice",
   "element": "sorcery",
   "type": "utility",
-  "cost": 10,
-  "chargeup": 0,
+  "cost": 5,
+  "chargeup": 5,
   "cooldown": 40,
   "base_properties": {
     "range": 7,
-    "duration": 600
+    "duration": 36000
   }
 }

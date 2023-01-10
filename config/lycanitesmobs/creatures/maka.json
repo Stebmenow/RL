@@ -26,7 +26,7 @@
       "savanna",
       "-snowy"
     ],
-    "spawnWeight": 200,
+    "spawnWeight": 40,
     "dungeonWeight": 0,
     "spawnAreaLimit": 50,
     "spawnGroupMin": 1,

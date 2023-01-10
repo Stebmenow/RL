@@ -13,11 +13,11 @@
   "tier": "apprentice",
   "element": "lightning",
   "type": "attack",
-  "cost": 5,
-  "chargeup": 0,
+  "cost": 7,
+  "chargeup": 2,
   "cooldown": 0,
   "base_properties": {
-    "range": 10,
-    "damage": 3
+    "range": 8,
+    "damage": 12
   }
 }

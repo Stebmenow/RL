@@ -13,13 +13,13 @@
   "tier": "apprentice",
   "element": "sorcery",
   "type": "buff",
-  "cost": 35,
-  "chargeup": 0,
-  "cooldown": 80,
+  "cost": 25,
+  "chargeup": 50,
+  "cooldown": 200,
   "base_properties": {
-    "speed_duration": 600,
+    "speed_duration": 1800,
     "speed_strength": 1,
-    "jump_boost_duration": 600,
+    "jump_boost_duration": 1800,
     "jump_boost_strength": 1
   }
 }

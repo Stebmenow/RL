@@ -17,8 +17,8 @@
 	"chargeup": 0,
 	"cooldown": 0,
 	"base_properties": {
-		"range": 20,
-		"extension_speed": 3.5,
-		"reel_speed": 1
+		"range": 30,
+		"extension_speed": 4.5,
+		"reel_speed": 1.2
 	}
 }

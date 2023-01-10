@@ -13,11 +13,11 @@
   "tier": "novice",
   "element": "earth",
   "type": "utility",
-  "cost": 10,
-  "chargeup": 0,
-  "cooldown": 60,
+  "cost": 5,
+  "chargeup": 3,
+  "cooldown": 5,
   "base_properties": {
     "horizontal_speed": 0.3,
-    "vertical_speed": 0.75
+    "vertical_speed": 1.2
   }
 }

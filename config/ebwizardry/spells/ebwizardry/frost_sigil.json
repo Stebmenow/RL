@@ -13,14 +13,14 @@
   "tier": "apprentice",
   "element": "ice",
   "type": "construct",
-  "cost": 10,
-  "chargeup": 0,
-  "cooldown": 20,
+  "cost": 15,
+  "chargeup": 30,
+  "cooldown": 40,
   "base_properties": {
     "range": 10,
-    "effect_radius": 1,
-    "damage": 8,
-    "effect_duration": 200,
+    "effect_radius": 2.5,
+    "damage": 14,
+    "effect_duration": 100,
     "effect_strength": 1
   }
 }
